@@ -1,0 +1,23 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "command": "version;\n",
+        "type": "script",
+        "response": "0000000c"
+      },
+      {
+        "command": "revision;\n",
+        "type": "script",
+        "response": "00000002"
+      },
+
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

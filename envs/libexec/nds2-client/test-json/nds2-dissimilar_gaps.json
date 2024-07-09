@@ -1,0 +1,99 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+		{
+        "type": "command",
+        "action": "import",
+        "args": ["nds2"]
+      }, 
+            {
+                "command": "authorize\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "server-protocol-version;\n", 
+                "response_hex": "3030303000000001", 
+                "type": "script"
+            }, 
+            {
+                "type": "command",
+		"action": "nds2.revision",
+		"args": []
+            },            {
+                "command": "check-data 1112749800 1112762400 {H1:ASC-INP2_Y_INMON.mean,m-trend L1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend L1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": "000d"
+            }, 
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response_hex": "303030300000001b"
+            },
+            {
+                "command": "",
+                "type": "script",
+                "response": "some channels where missing"
+            },
+            {
+                "command": "get-source-data 1112749800 {H1:ASC-INP2_Y_INMON.mean,m-trend L1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend L1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response_blob": "37117769e3cf547b0e388b2e6dc5d6f54fdb8e81"
+            }, 
+            {
+                "command": "check-data 1112749800 1112752800 {H1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1112749800 1112752800 3000 {H1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": ""
+            },
+	    {
+		    "type": "command",
+		    "action": "nds2.translate_nds2_1_5_get_data_block",
+		    "args": [],
+		    "response_blob": "64ab68c524f0415715cbbf4aebd06af55a0313d7"
+            },
+            {
+                "command": "check-data 1112756400 1112762400 {H1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1112756400 1112762400 6000 {H1:ASC-INP2_Y_INMON.mean,m-trend H1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": ""
+            },
+	    {
+		    "type": "command",
+		    "action": "nds2.translate_nds2_1_5_get_data_block",
+		    "args": [],
+		    "response_blob": "4eee4a19e866ae672903f8300465fd6382f05b86"
+            },
+            {
+                "command": "check-data 1112749800 1112762400 {L1:ASC-INP2_Y_INMON.mean,m-trend L1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1112749800 1112762400 12600 {L1:ASC-INP2_Y_INMON.mean,m-trend L1:ASC-INP2_Y_INMON.n,m-trend};\n", 
+                "type": "script", 
+                "response": ""
+            }, 
+	    {
+		    "type": "command",
+		    "action": "nds2.translate_nds2_1_5_get_data_block",
+		    "args": [],
+		    "response_blob": "b160f57ac2aba7ece2cd1130fe908def2f37f969"
+            },
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

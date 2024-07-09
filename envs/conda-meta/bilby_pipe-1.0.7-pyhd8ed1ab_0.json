@@ -1,0 +1,911 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "astropy >=5",
+    "bilby >=1.3.0",
+    "configargparse",
+    "corner",
+    "dynesty >=1.0.0",
+    "future",
+    "gwosc",
+    "gwpy >=3.0",
+    "jinja2",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy",
+    "pesummary >=0.13.10",
+    "pycondor >=0.6",
+    "pyfftw",
+    "pytables",
+    "python >=3.8",
+    "python-lal",
+    "python-lalsimulation",
+    "python-ldas-tools-framecpp",
+    "python-ligo-lw >=1.8.0",
+    "python-nds2-client",
+    "scipy >=1.2.0",
+    "seaborn",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/bilby_pipe-1.0.7-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/LICENSE",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/METADATA",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/RECORD",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/WHEEL",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/bilby_pipe-1.0.7.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/bilby_pipe/__init__.py",
+    "lib/python3.8/site-packages/bilby_pipe/_version.py",
+    "lib/python3.8/site-packages/bilby_pipe/bilbyargparser.py",
+    "lib/python3.8/site-packages/bilby_pipe/create_injections.py",
+    "lib/python3.8/site-packages/bilby_pipe/data_analysis.py",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal_lowspin.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal_lowspin_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/128s_tidal_lowspin_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/16s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/16s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/16s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/32s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/32s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/32s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/4s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/4s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/4s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/64s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/64s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/64s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/8s.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/8s_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/8s_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/README.md",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/burst.prior.template",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/fast.prior.template",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/generate_distance_lookups.py",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/high_mass.prior",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/high_mass_distance_marginalization_lookup.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/high_mass_distance_marginalization_lookup_phase.npz",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/roq.prior.template",
+    "lib/python3.8/site-packages/bilby_pipe/data_generation.py",
+    "lib/python3.8/site-packages/bilby_pipe/gracedb.py",
+    "lib/python3.8/site-packages/bilby_pipe/htcondor_sync.py",
+    "lib/python3.8/site-packages/bilby_pipe/input.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__init__.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/bilby_pipe_dag_creator.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/dag.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__init__.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/analysis_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/final_result_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/generation_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/merge_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/pe_summary_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/plot_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/post_processing_node.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/overview.py",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/slurm.py",
+    "lib/python3.8/site-packages/bilby_pipe/ligo_skymap.py",
+    "lib/python3.8/site-packages/bilby_pipe/main.py",
+    "lib/python3.8/site-packages/bilby_pipe/parser.py",
+    "lib/python3.8/site-packages/bilby_pipe/plot.py",
+    "lib/python3.8/site-packages/bilby_pipe/plotting_utils.py",
+    "lib/python3.8/site-packages/bilby_pipe/pp_test.py",
+    "lib/python3.8/site-packages/bilby_pipe/process_bilby_mcmc.py",
+    "lib/python3.8/site-packages/bilby_pipe/review.py",
+    "lib/python3.8/site-packages/bilby_pipe/utils.py",
+    "lib/python3.8/site-packages/bilby_pipe/xml_converter.py",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/bilbyargparser.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/create_injections.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/data_analysis.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/data_files/__pycache__/generate_distance_lookups.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/data_generation.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/gracedb.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/htcondor_sync.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/input.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/bilby_pipe_dag_creator.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/dag.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/analysis_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/final_result_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/generation_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/merge_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/pe_summary_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/plot_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/post_processing_node.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/overview.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/slurm.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/ligo_skymap.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/plotting_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/pp_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/process_bilby_mcmc.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/review.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/bilby_pipe/__pycache__/xml_converter.cpython-38.pyc",
+    "bin/bilby_pipe",
+    "bin/bilby_pipe_generation",
+    "bin/bilby_pipe_analysis",
+    "bin/bilby_pipe_create_injection_file",
+    "bin/bilby_pipe_xml_converter",
+    "bin/bilby_pipe_pp_test",
+    "bin/bilby_pipe_review",
+    "bin/bilby_pipe_plot",
+    "bin/bilby_pipe_plot_calibration",
+    "bin/bilby_pipe_plot_corner",
+    "bin/bilby_pipe_plot_marginal",
+    "bin/bilby_pipe_plot_skymap",
+    "bin/bilby_pipe_plot_waveform",
+    "bin/bilby_pipe_gracedb",
+    "bin/bilby_pipe_write_default_ini",
+    "bin/bilby_pipe_process_mcmc",
+    "bin/bilby_pipe_htcondor_sync",
+    "bin/bilby_pipe_to_ligo_skymap_samples"
+  ],
+  "fn": "bilby_pipe-1.0.7-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/bilby_pipe-1.0.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "bf02fb20a8ccc9f19c64516363d33c23",
+  "name": "bilby_pipe",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/bilby_pipe-1.0.7-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "347499eb7ea83fa4341cff756e51923d5faae001a167d59d5affd95edc295b8a",
+        "sha256_in_prefix": "347499eb7ea83fa4341cff756e51923d5faae001a167d59d5affd95edc295b8a",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ddb57593e5dfbd5dd4e7b928278db3104c66b5f8f163b9a9782913a740489a23",
+        "sha256_in_prefix": "ddb57593e5dfbd5dd4e7b928278db3104c66b5f8f163b9a9782913a740489a23",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "00e34243703f23a8b660868e531fafd274d4bedc380e37cf36374b2212212f9b",
+        "sha256_in_prefix": "00e34243703f23a8b660868e531fafd274d4bedc380e37cf36374b2212212f9b",
+        "size_in_bytes": 11100
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "64bd650bf2e23c33518039ce976b5a08c73cdda3c45198071efda1f8b0e07623",
+        "sha256_in_prefix": "64bd650bf2e23c33518039ce976b5a08c73cdda3c45198071efda1f8b0e07623",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6ada306254eacb0688c86d5361ecb6228027accb9fdec2520d84781687fd2288",
+        "sha256_in_prefix": "6ada306254eacb0688c86d5361ecb6228027accb9fdec2520d84781687fd2288",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "38edf937f3fefc53390acb322e656b5ca42570efdf6843c170987f6d573ec826",
+        "sha256_in_prefix": "38edf937f3fefc53390acb322e656b5ca42570efdf6843c170987f6d573ec826",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "site-packages/bilby_pipe-1.0.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a08c145f87206123fa18b953657325d006f040bf5ded29fea476f5c1b0fb2794",
+        "sha256_in_prefix": "a08c145f87206123fa18b953657325d006f040bf5ded29fea476f5c1b0fb2794",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/bilby_pipe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ec846f267e8c2086f6232861ba5ec1b87b7b59b667c5966a2bafa2e9cc8239a",
+        "sha256_in_prefix": "1ec846f267e8c2086f6232861ba5ec1b87b7b59b667c5966a2bafa2e9cc8239a",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/bilby_pipe/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a1c460bfda730e22d07cecada1f396434c0f3bcd16dbe9d0b9411cb336dc3635",
+        "sha256_in_prefix": "a1c460bfda730e22d07cecada1f396434c0f3bcd16dbe9d0b9411cb336dc3635",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "site-packages/bilby_pipe/bilbyargparser.py",
+        "path_type": "hardlink",
+        "sha256": "6957d2b7fa790b1a37b7e7bc71baeea6f2ab789a741daea8971d3e06d85f09b7",
+        "sha256_in_prefix": "6957d2b7fa790b1a37b7e7bc71baeea6f2ab789a741daea8971d3e06d85f09b7",
+        "size_in_bytes": 11766
+      },
+      {
+        "_path": "site-packages/bilby_pipe/create_injections.py",
+        "path_type": "hardlink",
+        "sha256": "192ff2d5ffe75f2acb42916a98176ba0b843c8fef90a1246801459714195ca13",
+        "sha256_in_prefix": "192ff2d5ffe75f2acb42916a98176ba0b843c8fef90a1246801459714195ca13",
+        "size_in_bytes": 11453
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_analysis.py",
+        "path_type": "hardlink",
+        "sha256": "5cd77a56c921bd0078b850b814161591e1d37244d8a8246d6c4dd0390791b28b",
+        "sha256_in_prefix": "5cd77a56c921bd0078b850b814161591e1d37244d8a8246d6c4dd0390791b28b",
+        "size_in_bytes": 8949
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s.prior",
+        "path_type": "hardlink",
+        "sha256": "a71a3933c696163a10f56492e4c5dd74d976fcaed8b4fe01f80c36b2ef869dfa",
+        "sha256_in_prefix": "a71a3933c696163a10f56492e4c5dd74d976fcaed8b4fe01f80c36b2ef869dfa",
+        "size_in_bytes": 1027
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "659b2ed65f13d4e210531bffcb4144e9edd5a9915b0d76d8b46a3cdb6eaccd7b",
+        "sha256_in_prefix": "659b2ed65f13d4e210531bffcb4144e9edd5a9915b0d76d8b46a3cdb6eaccd7b",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "659b2ed65f13d4e210531bffcb4144e9edd5a9915b0d76d8b46a3cdb6eaccd7b",
+        "sha256_in_prefix": "659b2ed65f13d4e210531bffcb4144e9edd5a9915b0d76d8b46a3cdb6eaccd7b",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal.prior",
+        "path_type": "hardlink",
+        "sha256": "0efe809aff00388c42050aa5ea8211bad6b773effa623cd2d9aaa2bfac31317c",
+        "sha256_in_prefix": "0efe809aff00388c42050aa5ea8211bad6b773effa623cd2d9aaa2bfac31317c",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "sha256_in_prefix": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "sha256_in_prefix": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal_lowspin.prior",
+        "path_type": "hardlink",
+        "sha256": "75bef9e72763ef92b0fe9fd088819f00ce90ab09819b02c63c9408be0ab290d2",
+        "sha256_in_prefix": "75bef9e72763ef92b0fe9fd088819f00ce90ab09819b02c63c9408be0ab290d2",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal_lowspin_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "sha256_in_prefix": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/128s_tidal_lowspin_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "sha256_in_prefix": "e9de7cd29eed7b65bbc8a5ff2a6fbf004ff956dd93f3e73d3e7148aea18c3a30",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/16s.prior",
+        "path_type": "hardlink",
+        "sha256": "97fce1f05160340a072343e02f2191c66a3bbd33f1f5ad608a8e038592ade086",
+        "sha256_in_prefix": "97fce1f05160340a072343e02f2191c66a3bbd33f1f5ad608a8e038592ade086",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/16s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "8e1fcc1b377da562396e49b86dda30e6fd3356a7a03f8147c70d8bbc25abcf2b",
+        "sha256_in_prefix": "8e1fcc1b377da562396e49b86dda30e6fd3356a7a03f8147c70d8bbc25abcf2b",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/16s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "8e1fcc1b377da562396e49b86dda30e6fd3356a7a03f8147c70d8bbc25abcf2b",
+        "sha256_in_prefix": "8e1fcc1b377da562396e49b86dda30e6fd3356a7a03f8147c70d8bbc25abcf2b",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/32s.prior",
+        "path_type": "hardlink",
+        "sha256": "78cade82816ee4899750142fe8add1f08587470dc9b9d790e423a493846adf82",
+        "sha256_in_prefix": "78cade82816ee4899750142fe8add1f08587470dc9b9d790e423a493846adf82",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/32s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "c12cf67b924cb65980a60ac9e848bb0063d683a0af34be66f438754a867af98c",
+        "sha256_in_prefix": "c12cf67b924cb65980a60ac9e848bb0063d683a0af34be66f438754a867af98c",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/32s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "c12cf67b924cb65980a60ac9e848bb0063d683a0af34be66f438754a867af98c",
+        "sha256_in_prefix": "c12cf67b924cb65980a60ac9e848bb0063d683a0af34be66f438754a867af98c",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/4s.prior",
+        "path_type": "hardlink",
+        "sha256": "53286e51aac5528e226910ffeb15ecfd4eba16bd0a9c6c4014f10193bf34bfc0",
+        "sha256_in_prefix": "53286e51aac5528e226910ffeb15ecfd4eba16bd0a9c6c4014f10193bf34bfc0",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/4s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "sha256_in_prefix": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/4s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "sha256_in_prefix": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/64s.prior",
+        "path_type": "hardlink",
+        "sha256": "78cfe2936225d0b9120a9b474bb50196bfc2b3aad8c1ecae36a9a5cc25e68720",
+        "sha256_in_prefix": "78cfe2936225d0b9120a9b474bb50196bfc2b3aad8c1ecae36a9a5cc25e68720",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/64s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "eb648b1b55e456c0a2bd994a3a17b8aac0d7f647baac60e7166a3434f6519fb3",
+        "sha256_in_prefix": "eb648b1b55e456c0a2bd994a3a17b8aac0d7f647baac60e7166a3434f6519fb3",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/64s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "eb648b1b55e456c0a2bd994a3a17b8aac0d7f647baac60e7166a3434f6519fb3",
+        "sha256_in_prefix": "eb648b1b55e456c0a2bd994a3a17b8aac0d7f647baac60e7166a3434f6519fb3",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/8s.prior",
+        "path_type": "hardlink",
+        "sha256": "4289117f0c5196b92b0cd756775d0113d44d8b879e862c97fa060a3457cc4e6c",
+        "sha256_in_prefix": "4289117f0c5196b92b0cd756775d0113d44d8b879e862c97fa060a3457cc4e6c",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/8s_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "sha256_in_prefix": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/8s_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "sha256_in_prefix": "fc3114db0b56db028dfea7bc3c4ca2d78f1578c198096fbea6335c0d3df3b367",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/README.md",
+        "path_type": "hardlink",
+        "sha256": "2ed27e8353202d6af3cc40075727b1f8fb9d43be6cb7d7ba21ed35d904b9beb9",
+        "sha256_in_prefix": "2ed27e8353202d6af3cc40075727b1f8fb9d43be6cb7d7ba21ed35d904b9beb9",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/burst.prior.template",
+        "path_type": "hardlink",
+        "sha256": "ce5ff8c04af642dba30be029b21b5e05d8b0fb338f17fbdf3f85c0e3e3e123df",
+        "sha256_in_prefix": "ce5ff8c04af642dba30be029b21b5e05d8b0fb338f17fbdf3f85c0e3e3e123df",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/fast.prior.template",
+        "path_type": "hardlink",
+        "sha256": "cd9a4b3823cfc64c921ef71c40840d83c27283e0dc7b86cf22b1bd7c9e540914",
+        "sha256_in_prefix": "cd9a4b3823cfc64c921ef71c40840d83c27283e0dc7b86cf22b1bd7c9e540914",
+        "size_in_bytes": 807
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/generate_distance_lookups.py",
+        "path_type": "hardlink",
+        "sha256": "e8f201aae2c72a26061220a226c2ced5e76045b55dba08067dc762e2c9bfbd1e",
+        "sha256_in_prefix": "e8f201aae2c72a26061220a226c2ced5e76045b55dba08067dc762e2c9bfbd1e",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/high_mass.prior",
+        "path_type": "hardlink",
+        "sha256": "9a22c5aee719e1578b333c287318668fdf423ce0f756a26f33f009fd66e7776d",
+        "sha256_in_prefix": "9a22c5aee719e1578b333c287318668fdf423ce0f756a26f33f009fd66e7776d",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/high_mass_distance_marginalization_lookup.npz",
+        "path_type": "hardlink",
+        "sha256": "8e45d3464ce2568ed6f53fd2779dc929884c104c4b65d7ea63d63a417afab784",
+        "sha256_in_prefix": "8e45d3464ce2568ed6f53fd2779dc929884c104c4b65d7ea63d63a417afab784",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/high_mass_distance_marginalization_lookup_phase.npz",
+        "path_type": "hardlink",
+        "sha256": "8e45d3464ce2568ed6f53fd2779dc929884c104c4b65d7ea63d63a417afab784",
+        "sha256_in_prefix": "8e45d3464ce2568ed6f53fd2779dc929884c104c4b65d7ea63d63a417afab784",
+        "size_in_bytes": 2721343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_files/roq.prior.template",
+        "path_type": "hardlink",
+        "sha256": "b7fe1b4447ba71789690183632e97186ebc49c1a66f4cead9571be420f708d28",
+        "sha256_in_prefix": "b7fe1b4447ba71789690183632e97186ebc49c1a66f4cead9571be420f708d28",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "site-packages/bilby_pipe/data_generation.py",
+        "path_type": "hardlink",
+        "sha256": "3064544a466dbd4c4355288a8fcf29f271b3a1df2da7ab4d3b01f3ff0277e501",
+        "sha256_in_prefix": "3064544a466dbd4c4355288a8fcf29f271b3a1df2da7ab4d3b01f3ff0277e501",
+        "size_in_bytes": 44778
+      },
+      {
+        "_path": "site-packages/bilby_pipe/gracedb.py",
+        "path_type": "hardlink",
+        "sha256": "74c4de41dbc0e0303adab6327a2ebc63e1ea4c612c4d7ba072c060b51b54b91e",
+        "sha256_in_prefix": "74c4de41dbc0e0303adab6327a2ebc63e1ea4c612c4d7ba072c060b51b54b91e",
+        "size_in_bytes": 27165
+      },
+      {
+        "_path": "site-packages/bilby_pipe/htcondor_sync.py",
+        "path_type": "hardlink",
+        "sha256": "0d22d63393bcc8f2133c7d86e7df2aa9b5a8f56d9c64dc4d63c44ef0cb88abbc",
+        "sha256_in_prefix": "0d22d63393bcc8f2133c7d86e7df2aa9b5a8f56d9c64dc4d63c44ef0cb88abbc",
+        "size_in_bytes": 5819
+      },
+      {
+        "_path": "site-packages/bilby_pipe/input.py",
+        "path_type": "hardlink",
+        "sha256": "a3e5f6cbafb878503cb638959eb8ab21dab9d93ce5c33891715a7ac1d556dff2",
+        "sha256_in_prefix": "a3e5f6cbafb878503cb638959eb8ab21dab9d93ce5c33891715a7ac1d556dff2",
+        "size_in_bytes": 56088
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a4a9645ebf71c666d169f39666272bb7d713d271518837e6504cba8ef0796851",
+        "sha256_in_prefix": "a4a9645ebf71c666d169f39666272bb7d713d271518837e6504cba8ef0796851",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/bilby_pipe_dag_creator.py",
+        "path_type": "hardlink",
+        "sha256": "4ebca49b9107a7cb7a159e1c8f162266dfb28cae147296c4a12ff6252c9fbef8",
+        "sha256_in_prefix": "4ebca49b9107a7cb7a159e1c8f162266dfb28cae147296c4a12ff6252c9fbef8",
+        "size_in_bytes": 4799
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/dag.py",
+        "path_type": "hardlink",
+        "sha256": "e0b97fb9166827add36e072f7f6b9359255b071b6dab2666cbe7e994ebbdac42",
+        "sha256_in_prefix": "e0b97fb9166827add36e072f7f6b9359255b071b6dab2666cbe7e994ebbdac42",
+        "size_in_bytes": 3382
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/node.py",
+        "path_type": "hardlink",
+        "sha256": "a9127a668e0e71eeb38365ffed748561059206da2fcf1b1f3e84d84711550a68",
+        "sha256_in_prefix": "a9127a668e0e71eeb38365ffed748561059206da2fcf1b1f3e84d84711550a68",
+        "size_in_bytes": 8229
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ea027e09bd5c1ffeae660e0e57f987a505a31661d02850588bd30fc955a95557",
+        "sha256_in_prefix": "ea027e09bd5c1ffeae660e0e57f987a505a31661d02850588bd30fc955a95557",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/analysis_node.py",
+        "path_type": "hardlink",
+        "sha256": "22c62f354a004d40ab6c57633ad8df2787c8c7ccf4933a873a29148b8b94c8da",
+        "sha256_in_prefix": "22c62f354a004d40ab6c57633ad8df2787c8c7ccf4933a873a29148b8b94c8da",
+        "size_in_bytes": 3008
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/final_result_node.py",
+        "path_type": "hardlink",
+        "sha256": "8b75db4552ec5b70d592ae2e47c7207e7dd0a6bd862856f65828d2e8d133439c",
+        "sha256_in_prefix": "8b75db4552ec5b70d592ae2e47c7207e7dd0a6bd862856f65828d2e8d133439c",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/generation_node.py",
+        "path_type": "hardlink",
+        "sha256": "453fbdaf37271ebea4abd3c853776d18f7e323a3f25bfca156724c13cd932886",
+        "sha256_in_prefix": "453fbdaf37271ebea4abd3c853776d18f7e323a3f25bfca156724c13cd932886",
+        "size_in_bytes": 2633
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/merge_node.py",
+        "path_type": "hardlink",
+        "sha256": "a76cd13c949e3dca16575c31163c4b80ee80890326069d12edce6e0dc92efc2e",
+        "sha256_in_prefix": "a76cd13c949e3dca16575c31163c4b80ee80890326069d12edce6e0dc92efc2e",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/pe_summary_node.py",
+        "path_type": "hardlink",
+        "sha256": "8d635049c2e3d1957ded7bf51471605b306eac901d271eb2bd8933adac5b6873",
+        "sha256_in_prefix": "8d635049c2e3d1957ded7bf51471605b306eac901d271eb2bd8933adac5b6873",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/plot_node.py",
+        "path_type": "hardlink",
+        "sha256": "b5b29c558793c2687fd0f963da7b48f9427ba771be2e75ccbad863778ce1a74b",
+        "sha256_in_prefix": "b5b29c558793c2687fd0f963da7b48f9427ba771be2e75ccbad863778ce1a74b",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/nodes/post_processing_node.py",
+        "path_type": "hardlink",
+        "sha256": "14a5bf786ba133e817d48cfa74d09fb0a14ab9271ce102d492f2b95cb2bc7903",
+        "sha256_in_prefix": "14a5bf786ba133e817d48cfa74d09fb0a14ab9271ce102d492f2b95cb2bc7903",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/overview.py",
+        "path_type": "hardlink",
+        "sha256": "96935e6907affa6a55485fd82f7e449710296c1dccc57511c2805faa17cb78d8",
+        "sha256_in_prefix": "96935e6907affa6a55485fd82f7e449710296c1dccc57511c2805faa17cb78d8",
+        "size_in_bytes": 8020
+      },
+      {
+        "_path": "site-packages/bilby_pipe/job_creation/slurm.py",
+        "path_type": "hardlink",
+        "sha256": "3602addd15c96fe1b310c57f92c11c68349aced084cf5064784024abfda7fcce",
+        "sha256_in_prefix": "3602addd15c96fe1b310c57f92c11c68349aced084cf5064784024abfda7fcce",
+        "size_in_bytes": 6377
+      },
+      {
+        "_path": "site-packages/bilby_pipe/ligo_skymap.py",
+        "path_type": "hardlink",
+        "sha256": "28c74ff82a2549263302beb11385c38016a538d3433bd0c30fabd6acbec550e1",
+        "sha256_in_prefix": "28c74ff82a2549263302beb11385c38016a538d3433bd0c30fabd6acbec550e1",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "site-packages/bilby_pipe/main.py",
+        "path_type": "hardlink",
+        "sha256": "6f5f806abb1ce89650809e53610f14844fd0b82c49cb920018145f641119a537",
+        "sha256_in_prefix": "6f5f806abb1ce89650809e53610f14844fd0b82c49cb920018145f641119a537",
+        "size_in_bytes": 16279
+      },
+      {
+        "_path": "site-packages/bilby_pipe/parser.py",
+        "path_type": "hardlink",
+        "sha256": "72bdf11e44ca76efffeb538410b74ebccf073973f85b191ab0331b8e491145ed",
+        "sha256_in_prefix": "72bdf11e44ca76efffeb538410b74ebccf073973f85b191ab0331b8e491145ed",
+        "size_in_bytes": 37033
+      },
+      {
+        "_path": "site-packages/bilby_pipe/plot.py",
+        "path_type": "hardlink",
+        "sha256": "ada3657de5f9bf6b829285d36d5f8e919a9b088e7682cecc88419b30ea9ddff6",
+        "sha256_in_prefix": "ada3657de5f9bf6b829285d36d5f8e919a9b088e7682cecc88419b30ea9ddff6",
+        "size_in_bytes": 6100
+      },
+      {
+        "_path": "site-packages/bilby_pipe/plotting_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d18cb94eeebe178ce8083aabab2d6b957f9079f928225f8a9f39d73a8ab423dd",
+        "sha256_in_prefix": "d18cb94eeebe178ce8083aabab2d6b957f9079f928225f8a9f39d73a8ab423dd",
+        "size_in_bytes": 7455
+      },
+      {
+        "_path": "site-packages/bilby_pipe/pp_test.py",
+        "path_type": "hardlink",
+        "sha256": "814e48184aa3b6beaded9378b89c6322198ee8c396ba7472d594f76789849ae4",
+        "sha256_in_prefix": "814e48184aa3b6beaded9378b89c6322198ee8c396ba7472d594f76789849ae4",
+        "size_in_bytes": 5265
+      },
+      {
+        "_path": "site-packages/bilby_pipe/process_bilby_mcmc.py",
+        "path_type": "hardlink",
+        "sha256": "3f550599a2ec1b18260d81163b1dd46a2a00a38e07154ea6394fc80624ef749f",
+        "sha256_in_prefix": "3f550599a2ec1b18260d81163b1dd46a2a00a38e07154ea6394fc80624ef749f",
+        "size_in_bytes": 10838
+      },
+      {
+        "_path": "site-packages/bilby_pipe/review.py",
+        "path_type": "hardlink",
+        "sha256": "03f1300a060717513d1246d2a42a5dc8f83365e8746c82c61034b1325cf3b435",
+        "sha256_in_prefix": "03f1300a060717513d1246d2a42a5dc8f83365e8746c82c61034b1325cf3b435",
+        "size_in_bytes": 13415
+      },
+      {
+        "_path": "site-packages/bilby_pipe/utils.py",
+        "path_type": "hardlink",
+        "sha256": "ebf3075f94441326d0062c1379406bb5a5526aabc2404bec52e268f059713300",
+        "sha256_in_prefix": "ebf3075f94441326d0062c1379406bb5a5526aabc2404bec52e268f059713300",
+        "size_in_bytes": 21884
+      },
+      {
+        "_path": "site-packages/bilby_pipe/xml_converter.py",
+        "path_type": "hardlink",
+        "sha256": "cb35474ec7322b214a21588b227f69127f2b8e519bf0fc1acbca7cedac0cd028",
+        "sha256_in_prefix": "cb35474ec7322b214a21588b227f69127f2b8e519bf0fc1acbca7cedac0cd028",
+        "size_in_bytes": 4182
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/bilbyargparser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/create_injections.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/data_analysis.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/data_files/__pycache__/generate_distance_lookups.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/data_generation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/gracedb.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/htcondor_sync.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/input.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/bilby_pipe_dag_creator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/dag.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/analysis_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/final_result_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/generation_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/merge_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/pe_summary_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/plot_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/nodes/__pycache__/post_processing_node.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/overview.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/job_creation/__pycache__/slurm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/ligo_skymap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/plotting_utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/pp_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/process_bilby_mcmc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/review.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bilby_pipe/__pycache__/xml_converter.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/bilby_pipe",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_generation",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_analysis",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_create_injection_file",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_xml_converter",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_pp_test",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_review",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot_calibration",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot_corner",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot_marginal",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot_skymap",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_plot_waveform",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_gracedb",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_write_default_ini",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_process_mcmc",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_htcondor_sync",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/bilby_pipe_to_ligo_skymap_samples",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bilby_pipe",
+  "sha256": "87c6c5fb3a37d53240feeb837cf75e5aa3893a2004042f010a6649ba28d6fdc0",
+  "size": 45008344,
+  "subdir": "noarch",
+  "timestamp": 1667936975000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bilby_pipe-1.0.7-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.0.7"
+}

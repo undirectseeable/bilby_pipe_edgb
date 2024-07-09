@@ -1,0 +1,141 @@
+{
+  "build": "py38h7f0c24c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "liblalinspiral 5.0.0 h0c602a9_0",
+    "lscsoft-glue",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python-lal >=7.5.0",
+    "python-lalburst >=2.0.0",
+    "python-lalframe >=3.0.0",
+    "python-lalmetaio >=4.0.0",
+    "python-lalsimulation >=5.4.0",
+    "python-ligo-lw",
+    "python_abi 3.8.* *_cp38",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-lalinspiral-5.0.0-py38h7f0c24c_0",
+  "files": [
+    "lib/python3.8/site-packages/lalinspiral/__init__.py",
+    "lib/python3.8/site-packages/lalinspiral/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalinspiral/__pycache__/git_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalinspiral/__pycache__/inspinjfind.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalinspiral/__pycache__/lalinspiral.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalinspiral/__pycache__/thinca.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalinspiral/_lalinspiral.so",
+    "lib/python3.8/site-packages/lalinspiral/_thinca.so",
+    "lib/python3.8/site-packages/lalinspiral/git_version.py",
+    "lib/python3.8/site-packages/lalinspiral/inspinjfind.py",
+    "lib/python3.8/site-packages/lalinspiral/lalinspiral.py",
+    "lib/python3.8/site-packages/lalinspiral/thinca.py"
+  ],
+  "fn": "python-lalinspiral-5.0.0-py38h7f0c24c_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-lalinspiral-5.0.0-py38h7f0c24c_0",
+    "type": 1
+  },
+  "md5": "4befaa4b420028f97082b1a13820af0e",
+  "name": "python-lalinspiral",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-lalinspiral-5.0.0-py38h7f0c24c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "34ef96432d9a7db50aad4db49ecb4ee62ba346ffa7fe7613ecb5284a92d4fe9b",
+        "sha256_in_prefix": "34ef96432d9a7db50aad4db49ecb4ee62ba346ffa7fe7613ecb5284a92d4fe9b",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "131486d706bde76e863accd99f3b3dab4ec7e88747f2da561e8a06ab41aacbcc",
+        "sha256_in_prefix": "131486d706bde76e863accd99f3b3dab4ec7e88747f2da561e8a06ab41aacbcc",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__pycache__/git_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "752e217ee07f7161ce958035346d0bde516d79c15e7089a060c0777d8420e24d",
+        "sha256_in_prefix": "752e217ee07f7161ce958035346d0bde516d79c15e7089a060c0777d8420e24d",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__pycache__/inspinjfind.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d09a092ead67241f76769e46868ff26cb354d8a4aaf75e1509a9b6b75f4f6ee",
+        "sha256_in_prefix": "1d09a092ead67241f76769e46868ff26cb354d8a4aaf75e1509a9b6b75f4f6ee",
+        "size_in_bytes": 12402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__pycache__/lalinspiral.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d50ed3374b9e357c562dbd4bb75d730fc0aa2844fe64e2604b205f00af0bc798",
+        "sha256_in_prefix": "d50ed3374b9e357c562dbd4bb75d730fc0aa2844fe64e2604b205f00af0bc798",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/__pycache__/thinca.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c605df29087569377a857e0f3aef82bd4efe6fcca0f707df23140b502b3c5870",
+        "sha256_in_prefix": "c605df29087569377a857e0f3aef82bd4efe6fcca0f707df23140b502b3c5870",
+        "size_in_bytes": 14963
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/_lalinspiral.so",
+        "path_type": "hardlink",
+        "sha256": "04cc55093aabd8ce4a594ffd4f9b8252825d5d479562f33dfc7b702250f2c2bc",
+        "sha256_in_prefix": "04cc55093aabd8ce4a594ffd4f9b8252825d5d479562f33dfc7b702250f2c2bc",
+        "size_in_bytes": 2092024
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/_thinca.so",
+        "path_type": "hardlink",
+        "sha256": "33fcaa096a7083336c19eb565e935db5fb647a15d91cf24376c34e318e7aac7c",
+        "sha256_in_prefix": "33fcaa096a7083336c19eb565e935db5fb647a15d91cf24376c34e318e7aac7c",
+        "size_in_bytes": 39032
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/git_version.py",
+        "path_type": "hardlink",
+        "sha256": "cfdb1de050d77edcba84cbbcfc0f51b023f53bbbb2f4cfb557101889b555145f",
+        "sha256_in_prefix": "cfdb1de050d77edcba84cbbcfc0f51b023f53bbbb2f4cfb557101889b555145f",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/inspinjfind.py",
+        "path_type": "hardlink",
+        "sha256": "f574d36593cf55f7ea63b7f2c2f96199fc3aa68f524e2546aca373ef6598f627",
+        "sha256_in_prefix": "f574d36593cf55f7ea63b7f2c2f96199fc3aa68f524e2546aca373ef6598f627",
+        "size_in_bytes": 17120
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/lalinspiral.py",
+        "path_type": "hardlink",
+        "sha256": "7ebe66437025e943e8d59dee54d5f8fb7b038e8f2d2bb477cf16222421a08acf",
+        "sha256_in_prefix": "7ebe66437025e943e8d59dee54d5f8fb7b038e8f2d2bb477cf16222421a08acf",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalinspiral/thinca.py",
+        "path_type": "hardlink",
+        "sha256": "86eee7421ad36788714b572a0b1786a3b2f4db3535f8d1267effd1182b6711c9",
+        "sha256_in_prefix": "86eee7421ad36788714b572a0b1786a3b2f4db3535f8d1267effd1182b6711c9",
+        "size_in_bytes": 18566
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e37e3264dbabbf665355319ce800d77dc4265076e94919ea3ba9b6249fd148a1",
+  "size": 61711871,
+  "subdir": "linux-64",
+  "timestamp": 1711787219000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lalinspiral-5.0.0-py38h7f0c24c_0.conda",
+  "version": "5.0.0"
+}

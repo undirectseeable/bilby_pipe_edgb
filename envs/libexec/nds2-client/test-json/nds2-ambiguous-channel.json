@@ -1,0 +1,81 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": [
+          "nds2"
+        ]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [
+          0,
+          "X1:CHAN-1",
+          "raw",
+          256,
+          "real_4"
+        ]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [
+          1,
+          "X1:CHAN-1",
+          "raw",
+          512,
+          "real_4"
+        ]
+      },
+      {
+        "command": "authorize\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "server-protocol-version;\n",
+        "response_hex": "3030303000000001",
+        "type": "script"
+      },
+      {
+        "type": "command",
+        "action": "nds2.revision",
+        "args": []
+      },
+      {
+        "command": "check-data 1107632127 1107633000 {X1:CHAN-1};\n",
+        "response": "000d",
+        "type": "script"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+      {
+        "command": "set-epoch 1107632127-1107633000;\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-channels 0 unknown {X1:CHAN-1};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.get-channels",
+        "args": [0, 1]
+      },
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+.\"Created with GNOME Manpages Editor Wizard
+.\"http://sourceforge.net/projects/gmanedit2
+.TH NDSFrame 1 "November 25, 2013" "" "NDSFrame - output NDS data as a frame file"
+
+.SH NAME
+NDSFrame \- program which creates frame files containing data transfered via NDS2
+
+.SH SYNOPSIS
+.B NDS2Frame [--server <server-ip>] [--port <port>] [--online] [--help]
+  [--start-gps <start-gps>] [--end-gps <end-gps>] [--stride <stride>]
+  [--out-frame <file-name>] [--debug <debug-lvl>] [--compress <c-mode>]
+        <channel-1> [... <channel-n>]
+
+  <server-ip>  Server address:port [localhost:31200]
+  <port>       Server port [0]
+  --online     Get online data
+  --help       Print this message.
+  <start-gps>  Start GPS time (ignored in online requests)
+  <end-gps>    End GPS time (number of data seconds online)
+  <stride>     Number of seconds per request (frame length)
+  <file-name>  Output file name template [NDS2Frame-%s-%1n.gwf]
+  <debug-lvl>  Debug print level
+  <c-mode>     Compression mode: number, "gzip", "gzip-differential",
+       or "gzip-or-zero-suppress"
+       <channel-1> ... <channel-n>  Channels to be written to frame
+
+.br
+
+.SH DESCRIPTION
+This manual page explains the
+.B NDSFrame
+program. NDS2Frame is not installed with the nds2-client package. It is part of the gds-core package but uses the
+NDS2 client to retrieve data from an NDS server and write the results in a frame file. This can be very
+convenient for making local copies of data in the standard LIGO format. The frame contains only channels of
+interest and one frame can cover all data needed for processing.
+
+.PP
+
+
+.SH "SEE ALSO"
+Other programs in the NDS2 package are: nds-client-config, nds2_channel_source, nds_query
+
+

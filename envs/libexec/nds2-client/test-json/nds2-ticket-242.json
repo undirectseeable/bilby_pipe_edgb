@@ -1,0 +1,247 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": ["nds2"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [0, "X1:PEM-1", "raw", 256, "real_4"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [1, "X1:PEM-2", "raw", 256, "real_4"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [2, "X1:PEM-3", "raw", 256, "real_4"]
+      },
+      {
+        "command": "authorize\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "server-protocol-version;\n",
+        "response_hex": "3030303000000001",
+        "type": "script"
+      },
+      {
+        "type": "command",
+        "action": "nds2.revision",
+        "args": []
+      },
+      {
+        "command": "count-channels 0 unknown {*PEM*};\n",
+        "type": "script",
+        "response_hex": "3030303000000003"
+      },
+      {
+        "command": "count-channels 0 unknown {*PEM*};\n",
+        "type": "script",
+        "response_hex": "3030303000000003"
+      },
+      {
+        "command": "get-channels 0 unknown {*PEM*};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.get-channels",
+        "args": [0,1,2]
+      },
+      {
+        "command": "list-epochs;\n",
+        "type": "script",
+        "response_hex": "3030303000000010414c4c3d302d31393939393939393939"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-data 1000000000 1000000001 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-data 1000000000 1000000001 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-data 1000000000 1000000001 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1000000000 1000000001 {X1:PEM-1};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-data 1000000000 1000000001 1 {X1:PEM-1};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "get-source-data 0 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response_hex": "303030300000004f58313a50454d2d31207b582d58315f523a313030303030303030302d313939393939393939397d2058313a50454d2d32207b582d58315f523a313030303030303030302d313939393939393939397d"
+      },
+      {
+        "command": "get-source-data 0 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response_hex": "303030300000004f58313a50454d2d31207b582d58315f523a313030303030303030302d313939393939393939397d2058313a50454d2d32207b582d58315f523a313030303030303030302d313939393939393939397d"
+      },
+      {
+        "command": "get-source-data 0 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response_hex": "303030300000004f58313a50454d2d31207b582d58315f523a313030303030303030302d313939393939393939397d2058313a50454d2d32207b582d58315f523a313030303030303030302d313939393939393939397d"
+      },
+      {
+        "command": "get-source-data 0 {X1:PEM-1};\n",
+        "type": "script",
+        "response_hex": "303030300000002758313a50454d2d31207b582d58315f523a313030303030303030302d313939393939393939397d"
+      },
+
+
+
+      {
+        "command": "get-data 0 1893024016 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+
+      {
+        "command": "get-data 0 1893024016 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+
+      {
+        "command": "get-data 0 1893024016 1 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+
+      {
+        "command": "get-data 0 1893024016 1 {X1:PEM-1};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

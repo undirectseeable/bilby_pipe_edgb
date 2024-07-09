@@ -1,0 +1,369 @@
+{
+  "build": "py38h313c355_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gsl >=2.7,<2.8.0a0",
+    "libgcc-ng >=12",
+    "liblalburst 2.0.4 h0c602a9_0",
+    "ligo-segments",
+    "lscsoft-glue",
+    "matplotlib-base",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python-lal >=7.5.0",
+    "python-lalmetaio >=4.0.0",
+    "python-lalsimulation >=5.4.0",
+    "python-ligo-lw >=1.7.0",
+    "python_abi 3.8.* *_cp38",
+    "scipy",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-lalburst-2.0.4-py38h313c355_0",
+  "files": [
+    "lib/python3.8/site-packages/lalburst/SimBurstUtils.py",
+    "lib/python3.8/site-packages/lalburst/SnglBurstUtils.py",
+    "lib/python3.8/site-packages/lalburst/__init__.py",
+    "lib/python3.8/site-packages/lalburst/__pycache__/SimBurstUtils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/SnglBurstUtils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/binjfind.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/bucluster.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/burca.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/burca_tailor.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/cafe.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/calc_likelihood.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/date.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/git_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/lalburst.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/offsetvector.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/packing.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/power.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/snglcluster.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/snglcoinc.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/stringutils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/__pycache__/timeslides.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalburst/_lalburst.so",
+    "lib/python3.8/site-packages/lalburst/binjfind.py",
+    "lib/python3.8/site-packages/lalburst/bucluster.py",
+    "lib/python3.8/site-packages/lalburst/burca.py",
+    "lib/python3.8/site-packages/lalburst/burca_tailor.py",
+    "lib/python3.8/site-packages/lalburst/cafe.py",
+    "lib/python3.8/site-packages/lalburst/calc_likelihood.py",
+    "lib/python3.8/site-packages/lalburst/cs_gamma.so",
+    "lib/python3.8/site-packages/lalburst/date.py",
+    "lib/python3.8/site-packages/lalburst/git_version.py",
+    "lib/python3.8/site-packages/lalburst/lalburst.py",
+    "lib/python3.8/site-packages/lalburst/offsetvector.py",
+    "lib/python3.8/site-packages/lalburst/packing.py",
+    "lib/python3.8/site-packages/lalburst/power.py",
+    "lib/python3.8/site-packages/lalburst/snglcluster.py",
+    "lib/python3.8/site-packages/lalburst/snglcoinc.py",
+    "lib/python3.8/site-packages/lalburst/stringutils.py",
+    "lib/python3.8/site-packages/lalburst/timeslides.py"
+  ],
+  "fn": "python-lalburst-2.0.4-py38h313c355_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-lalburst-2.0.4-py38h313c355_0",
+    "type": 1
+  },
+  "md5": "25d1ea9689d7ed73e4bb30d73df3cbf7",
+  "name": "python-lalburst",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-lalburst-2.0.4-py38h313c355_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/SimBurstUtils.py",
+        "path_type": "hardlink",
+        "sha256": "6192de8d3fbdce43a3feb5b85ee39e2eec2ad64f1daded52c10094d68631ed2a",
+        "sha256_in_prefix": "6192de8d3fbdce43a3feb5b85ee39e2eec2ad64f1daded52c10094d68631ed2a",
+        "size_in_bytes": 10643
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/SnglBurstUtils.py",
+        "path_type": "hardlink",
+        "sha256": "93cec64156dac0eeb3314aaa9de257d03391080b737327ed56093ff950e12944",
+        "sha256_in_prefix": "93cec64156dac0eeb3314aaa9de257d03391080b737327ed56093ff950e12944",
+        "size_in_bytes": 12060
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f925925d4f488a2cff4dc27283c190e6754317151b5bfaf4dd007fb49f56e082",
+        "sha256_in_prefix": "f925925d4f488a2cff4dc27283c190e6754317151b5bfaf4dd007fb49f56e082",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/SimBurstUtils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe8e9853ad514c3cc8535b57c16b8b8088f9429f74443e61f46f564d2f564c89",
+        "sha256_in_prefix": "fe8e9853ad514c3cc8535b57c16b8b8088f9429f74443e61f46f564d2f564c89",
+        "size_in_bytes": 6564
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/SnglBurstUtils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c90533ab3d25f4dd72b66e64fec91f3d834f5350d575aec864a2b9a7f8f20796",
+        "sha256_in_prefix": "c90533ab3d25f4dd72b66e64fec91f3d834f5350d575aec864a2b9a7f8f20796",
+        "size_in_bytes": 10130
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "87e3b2d0ca49e68d7d7484c670baee46457b788d16c1c24c7631a7a16383ed6c",
+        "sha256_in_prefix": "87e3b2d0ca49e68d7d7484c670baee46457b788d16c1c24c7631a7a16383ed6c",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/binjfind.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "47680a94f8131efd5afe7a33cd0c374c13a60a17d9401d782af0b040da4c6f91",
+        "sha256_in_prefix": "47680a94f8131efd5afe7a33cd0c374c13a60a17d9401d782af0b040da4c6f91",
+        "size_in_bytes": 17854
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/bucluster.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "58ea22be33c7a0455d3151ee0284bab8092b2ae91fbd7af76d7888244829f9c9",
+        "sha256_in_prefix": "58ea22be33c7a0455d3151ee0284bab8092b2ae91fbd7af76d7888244829f9c9",
+        "size_in_bytes": 6316
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/burca.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b76fea2dd438472001f8a1a311b301f82aa6c48a3af4dd82d49b0fc8fcae5120",
+        "sha256_in_prefix": "b76fea2dd438472001f8a1a311b301f82aa6c48a3af4dd82d49b0fc8fcae5120",
+        "size_in_bytes": 8745
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/burca_tailor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2dac7327a85a94ca84cc453da552c4e5525299026253fd60958d4a28f3f75cb6",
+        "sha256_in_prefix": "2dac7327a85a94ca84cc453da552c4e5525299026253fd60958d4a28f3f75cb6",
+        "size_in_bytes": 11712
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/cafe.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae323e68d41e324458a2d196a12d9955a9fa94b6dbbddafb430d935aca5b48ab",
+        "sha256_in_prefix": "ae323e68d41e324458a2d196a12d9955a9fa94b6dbbddafb430d935aca5b48ab",
+        "size_in_bytes": 13891
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/calc_likelihood.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "576798306c4ac18de7435846874309dbbe2fbec4a1af175e5257d6553d3eb556",
+        "sha256_in_prefix": "576798306c4ac18de7435846874309dbbe2fbec4a1af175e5257d6553d3eb556",
+        "size_in_bytes": 2656
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/date.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9030a045d90bb1de9c33751b72febf57e157c4e23d7a3bbf479e2e92302bf1cc",
+        "sha256_in_prefix": "9030a045d90bb1de9c33751b72febf57e157c4e23d7a3bbf479e2e92302bf1cc",
+        "size_in_bytes": 1761
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/git_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42a9a22e5f69f67ed627d8be79b7d173e45443e9132657cc569b2313ecf7a576",
+        "sha256_in_prefix": "42a9a22e5f69f67ed627d8be79b7d173e45443e9132657cc569b2313ecf7a576",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/lalburst.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "511465878a864dca2519267c663e21b99475e0eeb0a8bb2223551e1854ec1deb",
+        "sha256_in_prefix": "511465878a864dca2519267c663e21b99475e0eeb0a8bb2223551e1854ec1deb",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/offsetvector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "64e60566e9fee77dc7c0fef7fd2ebf1adc6d03bf215bee401587e7ccbb0d0023",
+        "sha256_in_prefix": "64e60566e9fee77dc7c0fef7fd2ebf1adc6d03bf215bee401587e7ccbb0d0023",
+        "size_in_bytes": 7894
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/packing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c789ec734e3354afd6de9e921ed08693ffdbed02d24e34252868955ad306a3d0",
+        "sha256_in_prefix": "c789ec734e3354afd6de9e921ed08693ffdbed02d24e34252868955ad306a3d0",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/power.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "16d78425931274dc206cebdf25f56ee113e97e50e064a53aa5344611dab67321",
+        "sha256_in_prefix": "16d78425931274dc206cebdf25f56ee113e97e50e064a53aa5344611dab67321",
+        "size_in_bytes": 45797
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/snglcluster.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "614952027c7cef55732b477159011b269f55a8856d01276c50d947d1cfab6b38",
+        "sha256_in_prefix": "614952027c7cef55732b477159011b269f55a8856d01276c50d947d1cfab6b38",
+        "size_in_bytes": 2825
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/snglcoinc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f8899fa5e398212a550b7df1360463221cd7e75092a930ee4c1c2028802ee21",
+        "sha256_in_prefix": "3f8899fa5e398212a550b7df1360463221cd7e75092a930ee4c1c2028802ee21",
+        "size_in_bytes": 73879
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/stringutils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36fecd4c95d211375c23af197330c74c92e0ca94c179764e1d8f280bb1c2691f",
+        "sha256_in_prefix": "36fecd4c95d211375c23af197330c74c92e0ca94c179764e1d8f280bb1c2691f",
+        "size_in_bytes": 18015
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/__pycache__/timeslides.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88089f51e924bdcd42881adb66c171b42f4ba787715eb20e94b048270d76cc26",
+        "sha256_in_prefix": "88089f51e924bdcd42881adb66c171b42f4ba787715eb20e94b048270d76cc26",
+        "size_in_bytes": 6035
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/_lalburst.so",
+        "path_type": "hardlink",
+        "sha256": "5eaa08eaf91ad0070415ae75d3f7ff18ac6beb33a8e1173ed5413e0983efa533",
+        "sha256_in_prefix": "5eaa08eaf91ad0070415ae75d3f7ff18ac6beb33a8e1173ed5413e0983efa533",
+        "size_in_bytes": 236912
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/binjfind.py",
+        "path_type": "hardlink",
+        "sha256": "fc2d7b6c4e46a69a07b0ffb3044ecf772d9a8e3508a60fe4472b4d0d3caef910",
+        "sha256_in_prefix": "fc2d7b6c4e46a69a07b0ffb3044ecf772d9a8e3508a60fe4472b4d0d3caef910",
+        "size_in_bytes": 31513
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/bucluster.py",
+        "path_type": "hardlink",
+        "sha256": "d55cb67b7eac97cffe84d5eb153dbce22a8de5c41b9386c63078d47939d13ab7",
+        "sha256_in_prefix": "d55cb67b7eac97cffe84d5eb153dbce22a8de5c41b9386c63078d47939d13ab7",
+        "size_in_bytes": 11935
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/burca.py",
+        "path_type": "hardlink",
+        "sha256": "ce990202f6e0d59b935e1a7c78301df6648ba6e9c42b0b116276df68620dfdf1",
+        "sha256_in_prefix": "ce990202f6e0d59b935e1a7c78301df6648ba6e9c42b0b116276df68620dfdf1",
+        "size_in_bytes": 10349
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/burca_tailor.py",
+        "path_type": "hardlink",
+        "sha256": "125a92e85c6a1469d26cc2440efd854c4ede43e72d25e0e038dba9b903dedee3",
+        "sha256_in_prefix": "125a92e85c6a1469d26cc2440efd854c4ede43e72d25e0e038dba9b903dedee3",
+        "size_in_bytes": 12456
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/cafe.py",
+        "path_type": "hardlink",
+        "sha256": "5c2020cd32fb766569ef701b128e8a5f96a4609cd0793e4ad7b256d25271e0b8",
+        "sha256_in_prefix": "5c2020cd32fb766569ef701b128e8a5f96a4609cd0793e4ad7b256d25271e0b8",
+        "size_in_bytes": 16983
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/calc_likelihood.py",
+        "path_type": "hardlink",
+        "sha256": "3614cd01f2f2707594422c9c3c2fb80b223471e237d8941188f056b6e0470c12",
+        "sha256_in_prefix": "3614cd01f2f2707594422c9c3c2fb80b223471e237d8941188f056b6e0470c12",
+        "size_in_bytes": 3886
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/cs_gamma.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalburst-split_1711715251392/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "4c8962570e6a2ebfd65d075095e579dfb62b73821db025ccf8d1eaae818d7127",
+        "sha256_in_prefix": "f7492c14be2094c0f7f377b927cefff4e2b2826b61f79e8f9b5ae550a947e17c",
+        "size_in_bytes": 58888
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/date.py",
+        "path_type": "hardlink",
+        "sha256": "75eaf408ce92781e0fdf813c98b83449e20bb930e4e6a5d02e50dbc257b9ced7",
+        "sha256_in_prefix": "75eaf408ce92781e0fdf813c98b83449e20bb930e4e6a5d02e50dbc257b9ced7",
+        "size_in_bytes": 3149
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/git_version.py",
+        "path_type": "hardlink",
+        "sha256": "66a9bd60dd23a41a496a11acfb9ff0a3e4ffbe1d49e1c171a767ae277512b216",
+        "sha256_in_prefix": "66a9bd60dd23a41a496a11acfb9ff0a3e4ffbe1d49e1c171a767ae277512b216",
+        "size_in_bytes": 2324
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/lalburst.py",
+        "path_type": "hardlink",
+        "sha256": "46fa95b648bc2fa63daf0b21effc81ec05b5e59f040d708be4036c74192a63b1",
+        "sha256_in_prefix": "46fa95b648bc2fa63daf0b21effc81ec05b5e59f040d708be4036c74192a63b1",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/offsetvector.py",
+        "path_type": "hardlink",
+        "sha256": "702ab0b4750d923b1c01925d4251c0539d2cbd6769c4f67e1ad7223d01a8de43",
+        "sha256_in_prefix": "702ab0b4750d923b1c01925d4251c0539d2cbd6769c4f67e1ad7223d01a8de43",
+        "size_in_bytes": 8712
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/packing.py",
+        "path_type": "hardlink",
+        "sha256": "34498cca04b2c1a0e3e9cdc866d225a841a34c4c07561e31e37b2eefdc362a9b",
+        "sha256_in_prefix": "34498cca04b2c1a0e3e9cdc866d225a841a34c4c07561e31e37b2eefdc362a9b",
+        "size_in_bytes": 4106
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/power.py",
+        "path_type": "hardlink",
+        "sha256": "815b43f33ad82de713c05d8b081d405bba414a5cbe4d082aa915c150d127e175",
+        "sha256_in_prefix": "815b43f33ad82de713c05d8b081d405bba414a5cbe4d082aa915c150d127e175",
+        "size_in_bytes": 49403
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/snglcluster.py",
+        "path_type": "hardlink",
+        "sha256": "044a30cd8027c600958020ce0139c283ffd039bece63c640d35d41aa4d52980b",
+        "sha256_in_prefix": "044a30cd8027c600958020ce0139c283ffd039bece63c640d35d41aa4d52980b",
+        "size_in_bytes": 4515
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/snglcoinc.py",
+        "path_type": "hardlink",
+        "sha256": "9597bb9ab34a6a9a1d0fd92b278acccf7aff33d61e333a9199b7c8fbbbda9de0",
+        "sha256_in_prefix": "9597bb9ab34a6a9a1d0fd92b278acccf7aff33d61e333a9199b7c8fbbbda9de0",
+        "size_in_bytes": 108691
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/stringutils.py",
+        "path_type": "hardlink",
+        "sha256": "5de5540a83981ae8741c3755267433cda0802d56e0d5b3ff22c6ef4e5afd8e8a",
+        "sha256_in_prefix": "5de5540a83981ae8741c3755267433cda0802d56e0d5b3ff22c6ef4e5afd8e8a",
+        "size_in_bytes": 20448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalburst/timeslides.py",
+        "path_type": "hardlink",
+        "sha256": "8163462f3a9ae65eb083f0ed89a1135585841bc653efc99717b6089bc98e9fd2",
+        "sha256_in_prefix": "8163462f3a9ae65eb083f0ed89a1135585841bc653efc99717b6089bc98e9fd2",
+        "size_in_bytes": 7141
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "397b51db84dbac3a41a04fc503b32964c0f3079ada62ec0b220ecf9f5056be5c",
+  "size": 297328,
+  "subdir": "linux-64",
+  "timestamp": 1711715697000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lalburst-2.0.4-py38h313c355_0.conda",
+  "version": "2.0.4"
+}

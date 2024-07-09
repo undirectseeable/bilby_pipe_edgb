@@ -1,0 +1,1110 @@
+{
+  "build": "py38h9fcc61b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "astropy",
+    "cfitsio >=4.3.0,<4.3.1.0a0",
+    "libgcc-ng >=12",
+    "libgfortran-ng",
+    "libgfortran5 >=12.3.0",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "matplotlib-base",
+    "numpy >=1.21.6,<2.0a0",
+    "pytest-runner",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "scipy",
+    "six"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/healpy-1.16.5-py38h9fcc61b_1",
+  "files": [
+    "bin/healpy_get_wmap_maps.sh",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/COPYING",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/healpy-0.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/healpy/__init__.py",
+    "lib/python3.8/site-packages/healpy/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/cookbook.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/fitsfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/newvisufunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/pixelfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/projaxes.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/projector.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/rotator.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/sphtfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/visufunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/__pycache__/zoomtool.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/_healpy_pixel_lib.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_healpy_sph_transform_lib.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_hotspots.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_line_integral_convolution.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_masktools.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_pixelfunc.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_query_disc.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/_sphtools.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/healpy/cookbook.py",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0002.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0004.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0008.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0016.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0032.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0064.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0128.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0256.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n0512.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n1024.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n2048.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n4096.fits",
+    "lib/python3.8/site-packages/healpy/data/pixel_window_n8192.fits",
+    "lib/python3.8/site-packages/healpy/data/planck_cmap.dat",
+    "lib/python3.8/site-packages/healpy/data/planck_log_cmap.dat",
+    "lib/python3.8/site-packages/healpy/data/totcls.dat",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00002.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00004.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00008.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00016.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00032.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00064.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00128.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00256.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n00512.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n01024.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n02048.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n04096.fits",
+    "lib/python3.8/site-packages/healpy/data/weight_ring_n08192.fits",
+    "lib/python3.8/site-packages/healpy/data/wmap_cmap.dat",
+    "lib/python3.8/site-packages/healpy/fitsfunc.py",
+    "lib/python3.8/site-packages/healpy/newvisufunc.py",
+    "lib/python3.8/site-packages/healpy/pixelfunc.py",
+    "lib/python3.8/site-packages/healpy/projaxes.py",
+    "lib/python3.8/site-packages/healpy/projector.py",
+    "lib/python3.8/site-packages/healpy/rotator.py",
+    "lib/python3.8/site-packages/healpy/sphtfunc.py",
+    "lib/python3.8/site-packages/healpy/src/_common.pxd",
+    "lib/python3.8/site-packages/healpy/src/_healpy_hotspots_lib.cc",
+    "lib/python3.8/site-packages/healpy/src/_healpy_hotspots_lib.h",
+    "lib/python3.8/site-packages/healpy/src/_healpy_pixel_lib.cc",
+    "lib/python3.8/site-packages/healpy/src/_healpy_sph_transform_lib.cc",
+    "lib/python3.8/site-packages/healpy/src/_healpy_utils.h",
+    "lib/python3.8/site-packages/healpy/src/_hotspots.pyx",
+    "lib/python3.8/site-packages/healpy/src/_line_integral_convolution.pyx",
+    "lib/python3.8/site-packages/healpy/src/_masktools.pyx",
+    "lib/python3.8/site-packages/healpy/src/_pixelfunc.pyx",
+    "lib/python3.8/site-packages/healpy/src/_query_disc.pyx",
+    "lib/python3.8/site-packages/healpy/src/_sphtools.pyx",
+    "lib/python3.8/site-packages/healpy/test/__init__.py",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/conftest.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_cookbook.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_deprecation.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_fitsfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_line_integral_convolution.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_pixelfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_pixelweights.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_query_disc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_rotator.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_sphtfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_spinfunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/__pycache__/test_visufunc.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/test/conftest.py",
+    "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast.par",
+    "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast_nomask.par",
+    "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast_xspectra.par",
+    "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_WVxspec_v4_udgraded32_II_lmax64_rmmono_3iter.fits",
+    "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_II_lmax64_rmmono_3iter.fits",
+    "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_II_lmax64_rmmono_3iter_nomask.fits",
+    "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_IQU_lmax64_rmmono_3iter.fits",
+    "lib/python3.8/site-packages/healpy/test/data/gaussbeam_10arcmin_lmax512_pol.fits",
+    "lib/python3.8/site-packages/healpy/test/data/justq_gal2ecl.fits.gz",
+    "lib/python3.8/site-packages/healpy/test/data/map_synfast_seed12345.fits",
+    "lib/python3.8/site-packages/healpy/test/data/smoothing_3_11_config_test_smoothing_masked.par",
+    "lib/python3.8/site-packages/healpy/test/data/smoothing_3_11_config_test_smoothing_notmasked.par",
+    "lib/python3.8/site-packages/healpy/test/data/synfast_3_11_config_test_synfast.par",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_V_v4_udgraded32.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_V_v4_udgraded32_masked.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked_smoothed10deg_fortran.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_smoothed10deg_fortran.fits",
+    "lib/python3.8/site-packages/healpy/test/data/wmap_temperature_analysis_mask_r9_7yr_v4_udgraded32.fits",
+    "lib/python3.8/site-packages/healpy/test/test_cookbook.py",
+    "lib/python3.8/site-packages/healpy/test/test_deprecation.py",
+    "lib/python3.8/site-packages/healpy/test/test_fitsfunc.py",
+    "lib/python3.8/site-packages/healpy/test/test_line_integral_convolution.py",
+    "lib/python3.8/site-packages/healpy/test/test_pixelfunc.py",
+    "lib/python3.8/site-packages/healpy/test/test_pixelweights.py",
+    "lib/python3.8/site-packages/healpy/test/test_query_disc.py",
+    "lib/python3.8/site-packages/healpy/test/test_rotator.py",
+    "lib/python3.8/site-packages/healpy/test/test_sphtfunc.py",
+    "lib/python3.8/site-packages/healpy/test/test_spinfunc.py",
+    "lib/python3.8/site-packages/healpy/test/test_visufunc.py",
+    "lib/python3.8/site-packages/healpy/utils/__init__.py",
+    "lib/python3.8/site-packages/healpy/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/utils/__pycache__/deprecation.cpython-38.pyc",
+    "lib/python3.8/site-packages/healpy/utils/deprecation.py",
+    "lib/python3.8/site-packages/healpy/version.py",
+    "lib/python3.8/site-packages/healpy/visufunc.py",
+    "lib/python3.8/site-packages/healpy/zoomtool.py"
+  ],
+  "fn": "healpy-1.16.5-py38h9fcc61b_1.conda",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/healpy-1.16.5-py38h9fcc61b_1",
+    "type": 1
+  },
+  "md5": "8fe9b759cee1fb006a83dc113f5e78cc",
+  "name": "healpy",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/healpy-1.16.5-py38h9fcc61b_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/healpy_get_wmap_maps.sh",
+        "path_type": "hardlink",
+        "sha256": "b3184821a8403e2e0b50a5823894a5993b9d777562264110129d91fc5f84b262",
+        "sha256_in_prefix": "b3184821a8403e2e0b50a5823894a5993b9d777562264110129d91fc5f84b262",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4",
+        "sha256_in_prefix": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4",
+        "size_in_bytes": 18011
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "20b2a6918de77c7b141a8700ab6fd30ba6c6a2d179fb958961e5e47a3d0b314e",
+        "sha256_in_prefix": "20b2a6918de77c7b141a8700ab6fd30ba6c6a2d179fb958961e5e47a3d0b314e",
+        "size_in_bytes": 8723
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b75b18287ca7f60c91d4ad4b3c55d603ce6b9685d85d1192c0897979987c5d7d",
+        "sha256_in_prefix": "b75b18287ca7f60c91d4ad4b3c55d603ce6b9685d85d1192c0897979987c5d7d",
+        "size_in_bytes": 11645
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "77f227a3df4ab6534191d0276e38f7f66ab4fb3f98681548f8dce6ab4f5201f8",
+        "sha256_in_prefix": "77f227a3df4ab6534191d0276e38f7f66ab4fb3f98681548f8dce6ab4f5201f8",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "08b96f135eee5855bea762d76384c9cdb51c7c54c0c0a9fb6bbc340a774559bd",
+        "sha256_in_prefix": "08b96f135eee5855bea762d76384c9cdb51c7c54c0c0a9fb6bbc340a774559bd",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy-0.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8b6edbf58a4ec7733ffa5301499096bbf0b9b55b3ac4baab0a0b7c40d7f26c4a",
+        "sha256_in_prefix": "8b6edbf58a4ec7733ffa5301499096bbf0b9b55b3ac4baab0a0b7c40d7f26c4a",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f26c05200cc06cbfaf78f7fe620fa914010b3aa26fcc0dfd9250447afdec17f8",
+        "sha256_in_prefix": "f26c05200cc06cbfaf78f7fe620fa914010b3aa26fcc0dfd9250447afdec17f8",
+        "size_in_bytes": 2967
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "519e9e330d208e6a8c0520e40df784e5e2826b0389a249aca4d748e651cb9518",
+        "sha256_in_prefix": "519e9e330d208e6a8c0520e40df784e5e2826b0389a249aca4d748e651cb9518",
+        "size_in_bytes": 2930
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/cookbook.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0cccb74c81f791dd81af3b66fa84dd41efa57f030a8ebaef14ae644fa77add8b",
+        "sha256_in_prefix": "0cccb74c81f791dd81af3b66fa84dd41efa57f030a8ebaef14ae644fa77add8b",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/fitsfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "490673a86718240d2162c41d79f96a26e383e4061131eaf826bdf99bd94718e9",
+        "sha256_in_prefix": "490673a86718240d2162c41d79f96a26e383e4061131eaf826bdf99bd94718e9",
+        "size_in_bytes": 20388
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/newvisufunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a7c635f654644fa4e1deeab7e9083e9f4b33cc1bdc0c42f04f8c33d7b1e2bcb",
+        "sha256_in_prefix": "9a7c635f654644fa4e1deeab7e9083e9f4b33cc1bdc0c42f04f8c33d7b1e2bcb",
+        "size_in_bytes": 19959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/pixelfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "09ddb08f29f2adf2d8a82024f8ea1f37ff0ac572dbccdd634b20641731a52fa3",
+        "sha256_in_prefix": "09ddb08f29f2adf2d8a82024f8ea1f37ff0ac572dbccdd634b20641731a52fa3",
+        "size_in_bytes": 53992
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/projaxes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "867f48330126ff06aa1b4df720644f746fd10c06eeee9629a593c16609e1ef38",
+        "sha256_in_prefix": "867f48330126ff06aa1b4df720644f746fd10c06eeee9629a593c16609e1ef38",
+        "size_in_bytes": 37191
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/projector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b83a6b058c8da0b4d227745cf4fd94d7854d0929cd03699691fa89a56518fa9",
+        "sha256_in_prefix": "7b83a6b058c8da0b4d227745cf4fd94d7854d0929cd03699691fa89a56518fa9",
+        "size_in_bytes": 33825
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/rotator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "38418c3a7002dbfb9297aaf9e5d4e416e15dba13957181750a532b7f581a5162",
+        "sha256_in_prefix": "38418c3a7002dbfb9297aaf9e5d4e416e15dba13957181750a532b7f581a5162",
+        "size_in_bytes": 33423
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/sphtfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "61069b1f906fd3314240962ed0faef5e496dac1bc6f3217de4525678aab0f75a",
+        "sha256_in_prefix": "61069b1f906fd3314240962ed0faef5e496dac1bc6f3217de4525678aab0f75a",
+        "size_in_bytes": 43250
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "374cdc9a2efb538d26634db4f0447adb0e21709e3200b33a361a27ba80b18307",
+        "sha256_in_prefix": "374cdc9a2efb538d26634db4f0447adb0e21709e3200b33a361a27ba80b18307",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/visufunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "419a6856c5b3ce5d25e3de1497527d89d1ba929b44f076dbb66c98a8609dc4bf",
+        "sha256_in_prefix": "419a6856c5b3ce5d25e3de1497527d89d1ba929b44f076dbb66c98a8609dc4bf",
+        "size_in_bytes": 35597
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/__pycache__/zoomtool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3096fc44e44b8f528d266dcd044a1d2e26413321be7071324948e0be406112c",
+        "sha256_in_prefix": "a3096fc44e44b8f528d266dcd044a1d2e26413321be7071324948e0be406112c",
+        "size_in_bytes": 13627
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_healpy_pixel_lib.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cb90ae6c05f6d8f77e7d21adb3fb187c2074466d38184a183b53817016f932f6",
+        "sha256_in_prefix": "cb90ae6c05f6d8f77e7d21adb3fb187c2074466d38184a183b53817016f932f6",
+        "size_in_bytes": 335000
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_healpy_sph_transform_lib.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5ce44e716b9b58d340b8ba22debb002d5e3f1c2d4647ad9dca39260e97e9c542",
+        "sha256_in_prefix": "5ce44e716b9b58d340b8ba22debb002d5e3f1c2d4647ad9dca39260e97e9c542",
+        "size_in_bytes": 703704
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_hotspots.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4c026e942579713688c651579ac1c5350990473002f1bbdc354baf1afc8a3f9e",
+        "sha256_in_prefix": "4c026e942579713688c651579ac1c5350990473002f1bbdc354baf1afc8a3f9e",
+        "size_in_bytes": 381968
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_line_integral_convolution.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6224495aac060241b959db06dc184c38cb836b965b48e8fff5d687628d9e311a",
+        "sha256_in_prefix": "6224495aac060241b959db06dc184c38cb836b965b48e8fff5d687628d9e311a",
+        "size_in_bytes": 734736
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_masktools.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ba85c51fda9c3d38ec4ccf9a65b992b1004b627973065f35df9b8f3868c00872",
+        "sha256_in_prefix": "ba85c51fda9c3d38ec4ccf9a65b992b1004b627973065f35df9b8f3868c00872",
+        "size_in_bytes": 396576
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_pixelfunc.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "40e02ab44f850fdc7ceb2cced48e7c01584a971899f5b5308c3f5fc1b48ca9a9",
+        "sha256_in_prefix": "40e02ab44f850fdc7ceb2cced48e7c01584a971899f5b5308c3f5fc1b48ca9a9",
+        "size_in_bytes": 401184
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_query_disc.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f864c1320a6d748e77e5bf1b2f76ba8a3fc28bca4d67d8b95a33bf9b29d3ed51",
+        "sha256_in_prefix": "f864c1320a6d748e77e5bf1b2f76ba8a3fc28bca4d67d8b95a33bf9b29d3ed51",
+        "size_in_bytes": 447992
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/_sphtools.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "e83ab6c1ed3052f4aae63f3e2e70f58dcaabc95977d1bc66adacd549e9c87469",
+        "sha256_in_prefix": "e83ab6c1ed3052f4aae63f3e2e70f58dcaabc95977d1bc66adacd549e9c87469",
+        "size_in_bytes": 964528
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/cookbook.py",
+        "path_type": "hardlink",
+        "sha256": "a4c72e5574e19e9daf2575e298adb67ffbff23b45e3f00636acedb2fb490f378",
+        "sha256_in_prefix": "a4c72e5574e19e9daf2575e298adb67ffbff23b45e3f00636acedb2fb490f378",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0002.fits",
+        "path_type": "hardlink",
+        "sha256": "35586160485dbe0b9883306b8b64d3b6a3b6b498afee7fa552f77a4aacf99398",
+        "sha256_in_prefix": "35586160485dbe0b9883306b8b64d3b6a3b6b498afee7fa552f77a4aacf99398",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0004.fits",
+        "path_type": "hardlink",
+        "sha256": "821a6257ae523f874257ed0f03aa82903d7ae260b536865412c5ae57a6e1b211",
+        "sha256_in_prefix": "821a6257ae523f874257ed0f03aa82903d7ae260b536865412c5ae57a6e1b211",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0008.fits",
+        "path_type": "hardlink",
+        "sha256": "09b84c7c95b69b581a7f25830aaf759448886d93ecc51694878947e8900767bd",
+        "sha256_in_prefix": "09b84c7c95b69b581a7f25830aaf759448886d93ecc51694878947e8900767bd",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0016.fits",
+        "path_type": "hardlink",
+        "sha256": "24017a12da632f8c7875e80262af502d015b33934c61cb7f06a534b5dc80d8fb",
+        "sha256_in_prefix": "24017a12da632f8c7875e80262af502d015b33934c61cb7f06a534b5dc80d8fb",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0032.fits",
+        "path_type": "hardlink",
+        "sha256": "90d5ebfba312d6926112ca7aadf8e051795f25a4c2db60af8bb492070db8af07",
+        "sha256_in_prefix": "90d5ebfba312d6926112ca7aadf8e051795f25a4c2db60af8bb492070db8af07",
+        "size_in_bytes": 8640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0064.fits",
+        "path_type": "hardlink",
+        "sha256": "5b4bac84881cb242778ac3ec7d6023eb90a07a9747281ccb4e1cd1ee93f91693",
+        "sha256_in_prefix": "5b4bac84881cb242778ac3ec7d6023eb90a07a9747281ccb4e1cd1ee93f91693",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0128.fits",
+        "path_type": "hardlink",
+        "sha256": "830c1edee68c66f3a0545d1bb0202f1740d0eba1ba51bf8c589470029f8079f6",
+        "sha256_in_prefix": "830c1edee68c66f3a0545d1bb0202f1740d0eba1ba51bf8c589470029f8079f6",
+        "size_in_bytes": 14400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0256.fits",
+        "path_type": "hardlink",
+        "sha256": "cbd4d0af61bf782b8d5959dee53cf62e3f32f289f16049affd8eba87b8ab1270",
+        "sha256_in_prefix": "cbd4d0af61bf782b8d5959dee53cf62e3f32f289f16049affd8eba87b8ab1270",
+        "size_in_bytes": 23040
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n0512.fits",
+        "path_type": "hardlink",
+        "sha256": "e8347684500ea839dac2512b37cc39a5f59bddd41055f42c8efe8260d9d0a4b1",
+        "sha256_in_prefix": "e8347684500ea839dac2512b37cc39a5f59bddd41055f42c8efe8260d9d0a4b1",
+        "size_in_bytes": 40320
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n1024.fits",
+        "path_type": "hardlink",
+        "sha256": "d1d2afc8b0cf662f46664ee680065d703c1082257586c20ace49f8fc672ae8f7",
+        "sha256_in_prefix": "d1d2afc8b0cf662f46664ee680065d703c1082257586c20ace49f8fc672ae8f7",
+        "size_in_bytes": 72000
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n2048.fits",
+        "path_type": "hardlink",
+        "sha256": "15ec2d48a18dd6ef22bc92386c1971a209641b3a087e0b403ee84a47611c0113",
+        "sha256_in_prefix": "15ec2d48a18dd6ef22bc92386c1971a209641b3a087e0b403ee84a47611c0113",
+        "size_in_bytes": 138240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n4096.fits",
+        "path_type": "hardlink",
+        "sha256": "0078edc41305f983c32e0ef5f46560bce887e7a50ec8c071527bbce93d45138a",
+        "sha256_in_prefix": "0078edc41305f983c32e0ef5f46560bce887e7a50ec8c071527bbce93d45138a",
+        "size_in_bytes": 270720
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/pixel_window_n8192.fits",
+        "path_type": "hardlink",
+        "sha256": "9850ebad1824fdcc4179e415bd5040503f34fd483f2c7a60d451bc79cba00130",
+        "sha256_in_prefix": "9850ebad1824fdcc4179e415bd5040503f34fd483f2c7a60d451bc79cba00130",
+        "size_in_bytes": 532800
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/planck_cmap.dat",
+        "path_type": "hardlink",
+        "sha256": "e8e8c4cad6148e92be3352ba7bf8a5709a65b7125571e0ac03f75e0af6d155eb",
+        "sha256_in_prefix": "e8e8c4cad6148e92be3352ba7bf8a5709a65b7125571e0ac03f75e0af6d155eb",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/planck_log_cmap.dat",
+        "path_type": "hardlink",
+        "sha256": "442629640b4faf661c2c7d848644e10c5e147b2004b8969f5d95909cf82adb66",
+        "sha256_in_prefix": "442629640b4faf661c2c7d848644e10c5e147b2004b8969f5d95909cf82adb66",
+        "size_in_bytes": 10240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/totcls.dat",
+        "path_type": "hardlink",
+        "sha256": "c1a4dc676d39ac37659e6faab890ad7ac695a8a013eed47c29980b0eb73833bf",
+        "sha256_in_prefix": "c1a4dc676d39ac37659e6faab890ad7ac695a8a013eed47c29980b0eb73833bf",
+        "size_in_bytes": 134067
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00002.fits",
+        "path_type": "hardlink",
+        "sha256": "b2bf617e95fcf60483cceed7dc5b6faafbeac264906201f547bc2814d99ab6a6",
+        "sha256_in_prefix": "b2bf617e95fcf60483cceed7dc5b6faafbeac264906201f547bc2814d99ab6a6",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00004.fits",
+        "path_type": "hardlink",
+        "sha256": "bc0871d0b964aa564134bed474a57b975112bb143e10bfd03c168bd41599b7d9",
+        "sha256_in_prefix": "bc0871d0b964aa564134bed474a57b975112bb143e10bfd03c168bd41599b7d9",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00008.fits",
+        "path_type": "hardlink",
+        "sha256": "0365224cd6a3aabeb17510f59a9c4eadd3baed64af42bdc386f4427199cd7fde",
+        "sha256_in_prefix": "0365224cd6a3aabeb17510f59a9c4eadd3baed64af42bdc386f4427199cd7fde",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00016.fits",
+        "path_type": "hardlink",
+        "sha256": "8bb0c82bcc6a02a4c22d6a3daae8b9c6b997880d0f2cc89ab222687f2dedcc46",
+        "sha256_in_prefix": "8bb0c82bcc6a02a4c22d6a3daae8b9c6b997880d0f2cc89ab222687f2dedcc46",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00032.fits",
+        "path_type": "hardlink",
+        "sha256": "30968a5b9485e138aefcdf11d71d8f960995e4d8f9914f6580301923a3ee83a8",
+        "sha256_in_prefix": "30968a5b9485e138aefcdf11d71d8f960995e4d8f9914f6580301923a3ee83a8",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00064.fits",
+        "path_type": "hardlink",
+        "sha256": "8a7ac2fdf269ed6b80180f70184e429b326cbbd397f77e5b340e11257ac78f5a",
+        "sha256_in_prefix": "8a7ac2fdf269ed6b80180f70184e429b326cbbd397f77e5b340e11257ac78f5a",
+        "size_in_bytes": 14400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00128.fits",
+        "path_type": "hardlink",
+        "sha256": "a64e951f3d2fe0e96db96007771d00e99549c2d5f00ff84d95412445c5168d29",
+        "sha256_in_prefix": "a64e951f3d2fe0e96db96007771d00e99549c2d5f00ff84d95412445c5168d29",
+        "size_in_bytes": 17280
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00256.fits",
+        "path_type": "hardlink",
+        "sha256": "fa97ad5ff8e9731ea9a2bda7e8677350019d1d00a4227bb2baaf4da2297d66c4",
+        "sha256_in_prefix": "fa97ad5ff8e9731ea9a2bda7e8677350019d1d00a4227bb2baaf4da2297d66c4",
+        "size_in_bytes": 23040
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n00512.fits",
+        "path_type": "hardlink",
+        "sha256": "776676f16e9bf696ccf3bdf705a459bab7cb1ef99908442ee7649529955dffdf",
+        "sha256_in_prefix": "776676f16e9bf696ccf3bdf705a459bab7cb1ef99908442ee7649529955dffdf",
+        "size_in_bytes": 34560
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n01024.fits",
+        "path_type": "hardlink",
+        "sha256": "4fc2427898ab15115cb925c342d4ac08ddfd8dba3583076a00878fe24eab068d",
+        "sha256_in_prefix": "4fc2427898ab15115cb925c342d4ac08ddfd8dba3583076a00878fe24eab068d",
+        "size_in_bytes": 60480
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n02048.fits",
+        "path_type": "hardlink",
+        "sha256": "f26ae3aade50374ffa04231653a46e4b759bba10955e1c9da409f6121681a830",
+        "sha256_in_prefix": "f26ae3aade50374ffa04231653a46e4b759bba10955e1c9da409f6121681a830",
+        "size_in_bytes": 109440
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n04096.fits",
+        "path_type": "hardlink",
+        "sha256": "f2d6bd1b5ca15a13b92714797432921bb4705afb3ea1f73ff23a022db2f90d2a",
+        "sha256_in_prefix": "f2d6bd1b5ca15a13b92714797432921bb4705afb3ea1f73ff23a022db2f90d2a",
+        "size_in_bytes": 207360
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/weight_ring_n08192.fits",
+        "path_type": "hardlink",
+        "sha256": "b69ebe9fbcfb26f0d3a366c4608f7c0e7d79193c65f546810647b02b1814aa03",
+        "sha256_in_prefix": "b69ebe9fbcfb26f0d3a366c4608f7c0e7d79193c65f546810647b02b1814aa03",
+        "size_in_bytes": 403200
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/data/wmap_cmap.dat",
+        "path_type": "hardlink",
+        "sha256": "a59533fb1918d2950cf323e8748b21ddc969312cea5b8832df7cfcf7ddc7983c",
+        "sha256_in_prefix": "a59533fb1918d2950cf323e8748b21ddc969312cea5b8832df7cfcf7ddc7983c",
+        "size_in_bytes": 97875
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/fitsfunc.py",
+        "path_type": "hardlink",
+        "sha256": "d205f660c34675666d35e8c648ea73deb57121b1f20d5992a99d78ffcf7d21cc",
+        "sha256_in_prefix": "d205f660c34675666d35e8c648ea73deb57121b1f20d5992a99d78ffcf7d21cc",
+        "size_in_bytes": 25486
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/newvisufunc.py",
+        "path_type": "hardlink",
+        "sha256": "82f4622df1afb6e90f4e6e9b943dfcbeb2a38137d530e34031f4b7ccb929fa1f",
+        "sha256_in_prefix": "82f4622df1afb6e90f4e6e9b943dfcbeb2a38137d530e34031f4b7ccb929fa1f",
+        "size_in_bytes": 30877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/pixelfunc.py",
+        "path_type": "hardlink",
+        "sha256": "0c6418b7001e02cbc88e3eb92b6264142b444c5d79d6588ea89865a5fab9cdac",
+        "sha256_in_prefix": "0c6418b7001e02cbc88e3eb92b6264142b444c5d79d6588ea89865a5fab9cdac",
+        "size_in_bytes": 57208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/projaxes.py",
+        "path_type": "hardlink",
+        "sha256": "d3edca2fe5b51398b8e5013c3dd130ddfbf21c163ed9c73e870571f853067c68",
+        "sha256_in_prefix": "d3edca2fe5b51398b8e5013c3dd130ddfbf21c163ed9c73e870571f853067c68",
+        "size_in_bytes": 45248
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/projector.py",
+        "path_type": "hardlink",
+        "sha256": "6e3a266822db4e8e7dce8839c4289533c38e826ea849ce2f0f77863eecb6caec",
+        "sha256_in_prefix": "6e3a266822db4e8e7dce8839c4289533c38e826ea849ce2f0f77863eecb6caec",
+        "size_in_bytes": 44508
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/rotator.py",
+        "path_type": "hardlink",
+        "sha256": "7bba7c39f9a66f87fe2bf9d4b56d384f3e6d45fdaf88af20c142301d6a78ae6f",
+        "sha256_in_prefix": "7bba7c39f9a66f87fe2bf9d4b56d384f3e6d45fdaf88af20c142301d6a78ae6f",
+        "size_in_bytes": 41625
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/sphtfunc.py",
+        "path_type": "hardlink",
+        "sha256": "6fa848a4b0d07e23f5c941da41151c58035f747dc80b474792e741b885acaf79",
+        "sha256_in_prefix": "6fa848a4b0d07e23f5c941da41151c58035f747dc80b474792e741b885acaf79",
+        "size_in_bytes": 49397
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_common.pxd",
+        "path_type": "hardlink",
+        "sha256": "b8628a2932552c007af355cf0b28b1c461d7f957455e96a4816e1d059da99167",
+        "sha256_in_prefix": "b8628a2932552c007af355cf0b28b1c461d7f957455e96a4816e1d059da99167",
+        "size_in_bytes": 5181
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_healpy_hotspots_lib.cc",
+        "path_type": "hardlink",
+        "sha256": "dfa3c02675cfdf34ca2be1e8c28b2f7ccd749c48116ae1286202cb6217bb6284",
+        "sha256_in_prefix": "dfa3c02675cfdf34ca2be1e8c28b2f7ccd749c48116ae1286202cb6217bb6284",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_healpy_hotspots_lib.h",
+        "path_type": "hardlink",
+        "sha256": "50f0552d8b458ac995d86cee3072f12b373a94f6a674b0f00d10f6ac97a828a5",
+        "sha256_in_prefix": "50f0552d8b458ac995d86cee3072f12b373a94f6a674b0f00d10f6ac97a828a5",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_healpy_pixel_lib.cc",
+        "path_type": "hardlink",
+        "sha256": "bd04fea3ab8975e88a3c998ad0f923f1254be1ec0a693eb3572a67e60c1dde44",
+        "sha256_in_prefix": "bd04fea3ab8975e88a3c998ad0f923f1254be1ec0a693eb3572a67e60c1dde44",
+        "size_in_bytes": 21118
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_healpy_sph_transform_lib.cc",
+        "path_type": "hardlink",
+        "sha256": "479da414d555010da9b2b62350667675855950be2115f5a0ca368147d024f8d7",
+        "sha256_in_prefix": "479da414d555010da9b2b62350667675855950be2115f5a0ca368147d024f8d7",
+        "size_in_bytes": 30740
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_healpy_utils.h",
+        "path_type": "hardlink",
+        "sha256": "b65011e4946f5e636109724d1588434a08bd52aac894a0dcfac0ed4a72335b2e",
+        "sha256_in_prefix": "b65011e4946f5e636109724d1588434a08bd52aac894a0dcfac0ed4a72335b2e",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_hotspots.pyx",
+        "path_type": "hardlink",
+        "sha256": "a7bf673ec8259f33d9174c25afc7beb0da785e10c9a8a5ea28440fcd4252eb08",
+        "sha256_in_prefix": "a7bf673ec8259f33d9174c25afc7beb0da785e10c9a8a5ea28440fcd4252eb08",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_line_integral_convolution.pyx",
+        "path_type": "hardlink",
+        "sha256": "409462b0238fa64bf13a65e6e3d71f12fbf4024d8c9374f133b090deb2121c29",
+        "sha256_in_prefix": "409462b0238fa64bf13a65e6e3d71f12fbf4024d8c9374f133b090deb2121c29",
+        "size_in_bytes": 4886
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_masktools.pyx",
+        "path_type": "hardlink",
+        "sha256": "cb6e33db6360436260b82e72325f7cf39f608417a11851576de990f942063a3a",
+        "sha256_in_prefix": "cb6e33db6360436260b82e72325f7cf39f608417a11851576de990f942063a3a",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_pixelfunc.pyx",
+        "path_type": "hardlink",
+        "sha256": "263aa42495b1e23c6ccd5d6095dd5056c995255c31a6cbb4c55ea1c1df412618",
+        "sha256_in_prefix": "263aa42495b1e23c6ccd5d6095dd5056c995255c31a6cbb4c55ea1c1df412618",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_query_disc.pyx",
+        "path_type": "hardlink",
+        "sha256": "e20f7b36ea3bd6b914e0311b711055cc2c7d42b5860013f893a9bcbc1c1d9cd9",
+        "sha256_in_prefix": "e20f7b36ea3bd6b914e0311b711055cc2c7d42b5860013f893a9bcbc1c1d9cd9",
+        "size_in_bytes": 12405
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/src/_sphtools.pyx",
+        "path_type": "hardlink",
+        "sha256": "26c79e27bae71454891d8321ad0a71dd5294792a6d59072aafa2715f741c8f56",
+        "sha256_in_prefix": "26c79e27bae71454891d8321ad0a71dd5294792a6d59072aafa2715f741c8f56",
+        "size_in_bytes": 22167
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d45e8d0e3e3709794d570dbf0621da5539849da094a37307b739f469159656d8",
+        "sha256_in_prefix": "d45e8d0e3e3709794d570dbf0621da5539849da094a37307b739f469159656d8",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/conftest.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc5982d3a54c49e84d9faa8788e714fe6630f5b102109a136eaae4579b39c645",
+        "sha256_in_prefix": "bc5982d3a54c49e84d9faa8788e714fe6630f5b102109a136eaae4579b39c645",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_cookbook.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "03ddad1b52afa8496e4f8c41dec7330e9cbbde43b174f745035be70b02472252",
+        "sha256_in_prefix": "03ddad1b52afa8496e4f8c41dec7330e9cbbde43b174f745035be70b02472252",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_deprecation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d376568057d2abf986a7f06c41c6073265cd616e13783c773b220700bbcbc1f3",
+        "sha256_in_prefix": "d376568057d2abf986a7f06c41c6073265cd616e13783c773b220700bbcbc1f3",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_fitsfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42ddeb6f1a80e94aab438feae87f0cdcffefe7457943523f9230f115629422cb",
+        "sha256_in_prefix": "42ddeb6f1a80e94aab438feae87f0cdcffefe7457943523f9230f115629422cb",
+        "size_in_bytes": 13972
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_line_integral_convolution.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b657c0a02f5bc195dd51f1b18ec7aaa02d146918db6488c821bd2a8b858dbf2",
+        "sha256_in_prefix": "8b657c0a02f5bc195dd51f1b18ec7aaa02d146918db6488c821bd2a8b858dbf2",
+        "size_in_bytes": 2377
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_pixelfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c6af50d1ff70a74ab00523b67014be968e9302a59f4f190c65a5ddebc6828d9",
+        "sha256_in_prefix": "4c6af50d1ff70a74ab00523b67014be968e9302a59f4f190c65a5ddebc6828d9",
+        "size_in_bytes": 7300
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_pixelweights.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e45cbc065b18810b0f12d5328da4a1f78a81fa1d8c3eca31492979e3121b900",
+        "sha256_in_prefix": "7e45cbc065b18810b0f12d5328da4a1f78a81fa1d8c3eca31492979e3121b900",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_query_disc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b530e695522eab7d1fd859d670a312b4bb12cb7cc338f0dde4b1d157e5f9764",
+        "sha256_in_prefix": "6b530e695522eab7d1fd859d670a312b4bb12cb7cc338f0dde4b1d157e5f9764",
+        "size_in_bytes": 3914
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_rotator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0782d3bf82d74594e36be17464019009b347699b0bb6061455b4cbbd912ef6bf",
+        "sha256_in_prefix": "0782d3bf82d74594e36be17464019009b347699b0bb6061455b4cbbd912ef6bf",
+        "size_in_bytes": 5406
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_sphtfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cc19e7a4c448cbc7980d55db4c95e3c27b4a495649923110ccb33739fbbe4406",
+        "sha256_in_prefix": "cc19e7a4c448cbc7980d55db4c95e3c27b4a495649923110ccb33739fbbe4406",
+        "size_in_bytes": 18757
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_spinfunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "301fc0bc0e24d26cf7ba6a4555c704b930c9a8b54d00385cecf7f0516dccb55c",
+        "sha256_in_prefix": "301fc0bc0e24d26cf7ba6a4555c704b930c9a8b54d00385cecf7f0516dccb55c",
+        "size_in_bytes": 24629
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/__pycache__/test_visufunc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "55b38aa982eb422e19b9a824332ee56c6ed824af041aa36be835a7f37732f349",
+        "sha256_in_prefix": "55b38aa982eb422e19b9a824332ee56c6ed824af041aa36be835a7f37732f349",
+        "size_in_bytes": 5294
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "9d07ea2f7312c8585e9f83e0f823dfcf4f77f24595ead3a51b84f03373ea25de",
+        "sha256_in_prefix": "9d07ea2f7312c8585e9f83e0f823dfcf4f77f24595ead3a51b84f03373ea25de",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast.par",
+        "path_type": "hardlink",
+        "sha256": "8619e28125112fdf469153fa06318134b59363f3371cdf414059c099068e3366",
+        "sha256_in_prefix": "8619e28125112fdf469153fa06318134b59363f3371cdf414059c099068e3366",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast_nomask.par",
+        "path_type": "hardlink",
+        "sha256": "089baa862a8b97803ff3e37b0a5a93279947b400d0b625084b37ae4887599589",
+        "sha256_in_prefix": "089baa862a8b97803ff3e37b0a5a93279947b400d0b625084b37ae4887599589",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/anafast_3_11_config_test_anafast_xspectra.par",
+        "path_type": "hardlink",
+        "sha256": "fea6e97d7f8bff099dfb8fa03fbfba468a5d0c983aa8f18a65679250eb1dbb52",
+        "sha256_in_prefix": "fea6e97d7f8bff099dfb8fa03fbfba468a5d0c983aa8f18a65679250eb1dbb52",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_WVxspec_v4_udgraded32_II_lmax64_rmmono_3iter.fits",
+        "path_type": "hardlink",
+        "sha256": "70a1dedc25cd440803dc74c45a5da9049c196a2db2b4bafc5a6f0608d273fb30",
+        "sha256_in_prefix": "70a1dedc25cd440803dc74c45a5da9049c196a2db2b4bafc5a6f0608d273fb30",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_II_lmax64_rmmono_3iter.fits",
+        "path_type": "hardlink",
+        "sha256": "c64f5074fc5fcb53ca1034ad79eee7b91af961d27178c705006950e975df9e1d",
+        "sha256_in_prefix": "c64f5074fc5fcb53ca1034ad79eee7b91af961d27178c705006950e975df9e1d",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_II_lmax64_rmmono_3iter_nomask.fits",
+        "path_type": "hardlink",
+        "sha256": "5fe167e49aadaf57c2f540366fbd949df2cd63dab568c9944bd5990144bff6c1",
+        "sha256_in_prefix": "5fe167e49aadaf57c2f540366fbd949df2cd63dab568c9944bd5990144bff6c1",
+        "size_in_bytes": 11520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/cl_wmap_band_iqumap_r9_7yr_W_v4_udgraded32_IQU_lmax64_rmmono_3iter.fits",
+        "path_type": "hardlink",
+        "sha256": "6cf1f30bc9a0038f00f2f590a0ba9d8a47a959309046008196da9a20f5d7f192",
+        "sha256_in_prefix": "6cf1f30bc9a0038f00f2f590a0ba9d8a47a959309046008196da9a20f5d7f192",
+        "size_in_bytes": 17280
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/gaussbeam_10arcmin_lmax512_pol.fits",
+        "path_type": "hardlink",
+        "sha256": "e1608aa3ca5e67b7dd8ab978f2e7ccf18ffa61a650207d80e1c0c4d66d9e4ce4",
+        "sha256_in_prefix": "e1608aa3ca5e67b7dd8ab978f2e7ccf18ffa61a650207d80e1c0c4d66d9e4ce4",
+        "size_in_bytes": 20160
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/justq_gal2ecl.fits.gz",
+        "path_type": "hardlink",
+        "sha256": "2b9583eaefc9831372520b0e83d1a4c999f28bb3a32af7f9d5b34ad691bc069a",
+        "sha256_in_prefix": "2b9583eaefc9831372520b0e83d1a4c999f28bb3a32af7f9d5b34ad691bc069a",
+        "size_in_bytes": 44713
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/map_synfast_seed12345.fits",
+        "path_type": "hardlink",
+        "sha256": "81ba5fcabebced26cd6c31365e9d5f643df244e2d473b095927217c3a2951d87",
+        "sha256_in_prefix": "81ba5fcabebced26cd6c31365e9d5f643df244e2d473b095927217c3a2951d87",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/smoothing_3_11_config_test_smoothing_masked.par",
+        "path_type": "hardlink",
+        "sha256": "847615d45604420129942768876dcf9e2e3285bfbe095dd1589374de951e19b1",
+        "sha256_in_prefix": "847615d45604420129942768876dcf9e2e3285bfbe095dd1589374de951e19b1",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/smoothing_3_11_config_test_smoothing_notmasked.par",
+        "path_type": "hardlink",
+        "sha256": "8113a1edfd508f20be8bc101ccd5e66b4494e5042d5baebac99848447c5a6f73",
+        "sha256_in_prefix": "8113a1edfd508f20be8bc101ccd5e66b4494e5042d5baebac99848447c5a6f73",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/synfast_3_11_config_test_synfast.par",
+        "path_type": "hardlink",
+        "sha256": "23ff1c25160ff9960b0638d0b7661410a4ee7b3a1c41429152e2944d4f2f0e59",
+        "sha256_in_prefix": "23ff1c25160ff9960b0638d0b7661410a4ee7b3a1c41429152e2944d4f2f0e59",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_V_v4_udgraded32.fits",
+        "path_type": "hardlink",
+        "sha256": "554a7b96c3ada58db5af4117dbc21708936f45e757ec15784c43e37b9579e7ce",
+        "sha256_in_prefix": "554a7b96c3ada58db5af4117dbc21708936f45e757ec15784c43e37b9579e7ce",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_V_v4_udgraded32_masked.fits",
+        "path_type": "hardlink",
+        "sha256": "2b6fe91d64ee993f8df7e7f5ee1b9264f11fc4474e642da5914451bda889a95f",
+        "sha256_in_prefix": "2b6fe91d64ee993f8df7e7f5ee1b9264f11fc4474e642da5914451bda889a95f",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32.fits",
+        "path_type": "hardlink",
+        "sha256": "6a048d351b78064e327a05b4fc73c4cfbab159ad8e39cfd21416bb4094ce2152",
+        "sha256_in_prefix": "6a048d351b78064e327a05b4fc73c4cfbab159ad8e39cfd21416bb4094ce2152",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked.fits",
+        "path_type": "hardlink",
+        "sha256": "b4ac95bd65f4fec4eef08266d647fee553191e98319721da152a8df6be863f52",
+        "sha256_in_prefix": "b4ac95bd65f4fec4eef08266d647fee553191e98319721da152a8df6be863f52",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_masked_smoothed10deg_fortran.fits",
+        "path_type": "hardlink",
+        "sha256": "cacf6b596ab8951ef1a61eb2ad69010df77a58a81786ba74fa823ac65392596f",
+        "sha256_in_prefix": "cacf6b596ab8951ef1a61eb2ad69010df77a58a81786ba74fa823ac65392596f",
+        "size_in_bytes": 158400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_band_iqumap_r9_7yr_W_v4_udgraded32_smoothed10deg_fortran.fits",
+        "path_type": "hardlink",
+        "sha256": "85944df152433020da9432bcd2989d10d2683107b627f2aaeebeeecb5112c87d",
+        "sha256_in_prefix": "85944df152433020da9432bcd2989d10d2683107b627f2aaeebeeecb5112c87d",
+        "size_in_bytes": 158400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/data/wmap_temperature_analysis_mask_r9_7yr_v4_udgraded32.fits",
+        "path_type": "hardlink",
+        "sha256": "dc36243f3942cb45f69f8cd5aad2a5015ff4c7170fdf54a253a2f8ec6f1b85a4",
+        "sha256_in_prefix": "dc36243f3942cb45f69f8cd5aad2a5015ff4c7170fdf54a253a2f8ec6f1b85a4",
+        "size_in_bytes": 155520
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_cookbook.py",
+        "path_type": "hardlink",
+        "sha256": "90b7a3c3449ed1d4dfecab4471e3aec350ded70af0c396f9b4cde31d00f97393",
+        "sha256_in_prefix": "90b7a3c3449ed1d4dfecab4471e3aec350ded70af0c396f9b4cde31d00f97393",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "35525c7cc201b6c53c56d40309c471bb7a57e3663bb5aaed18f2ca53661fc13c",
+        "sha256_in_prefix": "35525c7cc201b6c53c56d40309c471bb7a57e3663bb5aaed18f2ca53661fc13c",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_fitsfunc.py",
+        "path_type": "hardlink",
+        "sha256": "865724313a4288dd19314d162ae54f0dcd509bce7183883cd83b65c115f272e0",
+        "sha256_in_prefix": "865724313a4288dd19314d162ae54f0dcd509bce7183883cd83b65c115f272e0",
+        "size_in_bytes": 11706
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_line_integral_convolution.py",
+        "path_type": "hardlink",
+        "sha256": "5a7b3bedf69aab96847d53cb6e5623c99a5da26b0d149ccd8a7403d4ba082c6d",
+        "sha256_in_prefix": "5a7b3bedf69aab96847d53cb6e5623c99a5da26b0d149ccd8a7403d4ba082c6d",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_pixelfunc.py",
+        "path_type": "hardlink",
+        "sha256": "e269595bcd519390d6a5ae154129befbf644bc30c142403c8c00666ecbb7545d",
+        "sha256_in_prefix": "e269595bcd519390d6a5ae154129befbf644bc30c142403c8c00666ecbb7545d",
+        "size_in_bytes": 8263
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_pixelweights.py",
+        "path_type": "hardlink",
+        "sha256": "a0d1ec3a45dd552153de7ccadf72f848e1c29c2e9dbae897b8393384395f64c5",
+        "sha256_in_prefix": "a0d1ec3a45dd552153de7ccadf72f848e1c29c2e9dbae897b8393384395f64c5",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_query_disc.py",
+        "path_type": "hardlink",
+        "sha256": "fd0a9171e679850130059c02068a806e4e79daf18bbcc4b51773a8d608526eb7",
+        "sha256_in_prefix": "fd0a9171e679850130059c02068a806e4e79daf18bbcc4b51773a8d608526eb7",
+        "size_in_bytes": 4769
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_rotator.py",
+        "path_type": "hardlink",
+        "sha256": "5e01bbc1e4d6fa8705fcbac7179d9759a8c8a769f6a1595a1bc4847ff9b33f26",
+        "sha256_in_prefix": "5e01bbc1e4d6fa8705fcbac7179d9759a8c8a769f6a1595a1bc4847ff9b33f26",
+        "size_in_bytes": 4924
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_sphtfunc.py",
+        "path_type": "hardlink",
+        "sha256": "9cd557f442c74545c965da3807d08b3b3fb1e977a40af9c9e7ed8d80c22826da",
+        "sha256_in_prefix": "9cd557f442c74545c965da3807d08b3b3fb1e977a40af9c9e7ed8d80c22826da",
+        "size_in_bytes": 23095
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_spinfunc.py",
+        "path_type": "hardlink",
+        "sha256": "57efd172f4b5b59f6758b022ff48b86ca7dd1e6e93fcc264d2a4d0737bae2585",
+        "sha256_in_prefix": "57efd172f4b5b59f6758b022ff48b86ca7dd1e6e93fcc264d2a4d0737bae2585",
+        "size_in_bytes": 53831
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/test/test_visufunc.py",
+        "path_type": "hardlink",
+        "sha256": "dd1a642e8337413fc8408c3691c14983f5d9709ca07a19e0da5b04096738192a",
+        "sha256_in_prefix": "dd1a642e8337413fc8408c3691c14983f5d9709ca07a19e0da5b04096738192a",
+        "size_in_bytes": 3204
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "74a33826e95c859e343723e10e64817468fc836849f75eae28cf13206c57688f",
+        "sha256_in_prefix": "74a33826e95c859e343723e10e64817468fc836849f75eae28cf13206c57688f",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a972c9249471a9eef13341c41f3ce50ac5a9d332067eed60cb57f43cb465837",
+        "sha256_in_prefix": "4a972c9249471a9eef13341c41f3ce50ac5a9d332067eed60cb57f43cb465837",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/utils/__pycache__/deprecation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5cc37052a0f0ea65cfddec0265acb90b3ba3490c0f6dc96e5ed4b732b931c05e",
+        "sha256_in_prefix": "5cc37052a0f0ea65cfddec0265acb90b3ba3490c0f6dc96e5ed4b732b931c05e",
+        "size_in_bytes": 1617
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/utils/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "eaf01ffec7fe0b6ba702b7e136f4f744e3b7dd1acebc28d03a6b24fbf66fb668",
+        "sha256_in_prefix": "eaf01ffec7fe0b6ba702b7e136f4f744e3b7dd1acebc28d03a6b24fbf66fb668",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/version.py",
+        "path_type": "hardlink",
+        "sha256": "b4e853bd1f92a18257064bad94675d0d882a8acd5eeecf501f3bf53f7fd87de4",
+        "sha256_in_prefix": "b4e853bd1f92a18257064bad94675d0d882a8acd5eeecf501f3bf53f7fd87de4",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/visufunc.py",
+        "path_type": "hardlink",
+        "sha256": "dcb111b47e36424b1c8551d87879447e5378df0765dab03f0c4a596da5fee293",
+        "sha256_in_prefix": "dcb111b47e36424b1c8551d87879447e5378df0765dab03f0c4a596da5fee293",
+        "size_in_bytes": 51545
+      },
+      {
+        "_path": "lib/python3.8/site-packages/healpy/zoomtool.py",
+        "path_type": "hardlink",
+        "sha256": "dc13c980b8e50071e41015db26c8dcb00806a928837e27ac6f48f1824edefbe6",
+        "sha256_in_prefix": "dc13c980b8e50071e41015db26c8dcb00806a928837e27ac6f48f1824edefbe6",
+        "size_in_bytes": 20755
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ea32ca518008d9dd679b5d2a13e42b7fb132c1c0b83a2d72ea4e0d72f4a1778c",
+  "size": 2704090,
+  "subdir": "linux-64",
+  "timestamp": 1692288812000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/healpy-1.16.5-py38h9fcc61b_1.conda",
+  "version": "1.16.5"
+}

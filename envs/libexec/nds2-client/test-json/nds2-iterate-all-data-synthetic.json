@@ -1,0 +1,133 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": ["nds2"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [0, "X1:PEM-1", "raw", 256, "real_4"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [1, "X1:PEM-2", "raw", 512, "real_8"]
+      },
+      {
+        "command": "authorize\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "server-protocol-version;\n",
+        "response_hex": "3030303000000001",
+        "type": "script"
+      },
+      {
+        "type": "command",
+        "action": "nds2.revision",
+        "args": []
+      },
+
+
+
+      {
+        "command": "check-data 1770000000 1770000020 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "check-data 1770000000 1770000020 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+
+
+      {
+        "command": "get-data 1770000000 1770000020 10 {X1:PEM-1 X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.writer-id",
+        "args": [1, "offline"]
+      },
+      {
+        "type": "command",
+        "action": "nds2.reconfigure-block",
+        "args": [[0, 1], 10]
+      },
+      {
+        "type": "command",
+        "action": "nds2.data-header",
+        "args": [[0, 1], 1770000000, 10, 0]
+      },
+      {
+        "type": "command",
+        "action": "nds2.write-data",
+        "args": [0, 2560, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds2.write-data",
+        "args": [1, 5120, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds2.data-header",
+        "args": [[0, 1], 1770000010, 10, 1]
+      },
+      {
+        "type": "command",
+        "action": "nds2.write-data",
+        "args": [0, 2560, 3.5]
+      },
+      {
+        "type": "command",
+        "action": "nds2.write-data",
+        "args": [1, 5120, 4.75]
+      },
+
+
+
+      {
+        "command": "set-epoch 1770000000-1770000020;\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "get-channels 0 unknown {X1:PEM-1};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.get-channels",
+        "args": [0]
+      },
+      {
+        "command": "get-channels 0 unknown {X1:PEM-2};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.get-channels",
+        "args": [1]
+      },
+
+
+
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

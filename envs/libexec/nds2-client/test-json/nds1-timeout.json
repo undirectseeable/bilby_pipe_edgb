@@ -1,0 +1,27 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "command": "version;\n", 
+                "type": "script", 
+                "response": "0000000c"
+            }, 
+            {
+                "command": "revision;\n", 
+                "type": "script", 
+                "response": "00000001"
+            }, 
+            {
+                "command": "status channels 2;\n",
+                "type": "script",
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "sleep",
+                "args": ["30.0"]
+            }
+        ]
+    }
+}

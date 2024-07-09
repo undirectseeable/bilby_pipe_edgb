@@ -1,0 +1,181 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ligo-segments",
+    "numpy",
+    "pyopenssl",
+    "python >=3.6",
+    "six"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/lscsoft-glue-4.0.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.8/site-packages/glue/__init__.py",
+    "lib/python3.8/site-packages/glue/lal.py",
+    "lib/python3.8/site-packages/glue/pidfile.py",
+    "lib/python3.8/site-packages/glue/pipeline.py",
+    "lib/python3.8/site-packages/glue/text_progress_bar.py",
+    "lib/python3.8/site-packages/glue/utils.py",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/lscsoft_glue-4.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/glue/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/glue/__pycache__/lal.cpython-38.pyc",
+    "lib/python3.8/site-packages/glue/__pycache__/pidfile.cpython-38.pyc",
+    "lib/python3.8/site-packages/glue/__pycache__/pipeline.cpython-38.pyc",
+    "lib/python3.8/site-packages/glue/__pycache__/text_progress_bar.cpython-38.pyc",
+    "lib/python3.8/site-packages/glue/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "lscsoft-glue-4.0.0-pyhd8ed1ab_1.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/lscsoft-glue-4.0.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "a6e54b063adbb08f42d6551e62fd86c6",
+  "name": "lscsoft-glue",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/lscsoft-glue-4.0.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/glue/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f8fb0e1de4e45faf82cfdba7a64a7ddcf3ef433afbdad469282d3326012b47d",
+        "sha256_in_prefix": "0f8fb0e1de4e45faf82cfdba7a64a7ddcf3ef433afbdad469282d3326012b47d",
+        "size_in_bytes": 810
+      },
+      {
+        "_path": "site-packages/glue/lal.py",
+        "path_type": "hardlink",
+        "sha256": "50e6ae4d8f7cb3614d66232d2d9418b803c1dbd0aae576cafeeefb501ba1e6b4",
+        "sha256_in_prefix": "50e6ae4d8f7cb3614d66232d2d9418b803c1dbd0aae576cafeeefb501ba1e6b4",
+        "size_in_bytes": 18228
+      },
+      {
+        "_path": "site-packages/glue/pidfile.py",
+        "path_type": "hardlink",
+        "sha256": "603a4268a34fdcdc11a55ff0e6e97f658dafbf1de9f216be378c08c60b1dc728",
+        "sha256_in_prefix": "603a4268a34fdcdc11a55ff0e6e97f658dafbf1de9f216be378c08c60b1dc728",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "site-packages/glue/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "9a85e3b727dd8e384b2351e089c11c0e3b78b414da9abd30f0c7d1dc2f9dd10b",
+        "sha256_in_prefix": "9a85e3b727dd8e384b2351e089c11c0e3b78b414da9abd30f0c7d1dc2f9dd10b",
+        "size_in_bytes": 94765
+      },
+      {
+        "_path": "site-packages/glue/text_progress_bar.py",
+        "path_type": "hardlink",
+        "sha256": "4fcc5a2076f9218e3ce9679b06bd1c8a89e4c34a84397dfa917f4c8e0c2f0e14",
+        "sha256_in_prefix": "4fcc5a2076f9218e3ce9679b06bd1c8a89e4c34a84397dfa917f4c8e0c2f0e14",
+        "size_in_bytes": 9093
+      },
+      {
+        "_path": "site-packages/glue/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0e20f16cfc8a9b63487dfa8759250f3317ffe9f2633fd9316f5aba739a622e65",
+        "sha256_in_prefix": "0e20f16cfc8a9b63487dfa8759250f3317ffe9f2633fd9316f5aba739a622e65",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "14d1422ec0f9635426194c2f5d99a9f6635dad9340d70b0a048af3918d51ed16",
+        "sha256_in_prefix": "14d1422ec0f9635426194c2f5d99a9f6635dad9340d70b0a048af3918d51ed16",
+        "size_in_bytes": 1424
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "455241fa818454abdfa4f5d374017bfd0504e5f7db9403c14482c6dccd6a3e0f",
+        "sha256_in_prefix": "455241fa818454abdfa4f5d374017bfd0504e5f7db9403c14482c6dccd6a3e0f",
+        "size_in_bytes": 1418
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3b17e859dcc9113e7c1a9e65bb2dcdcf41e2c53ec0f54bc832a29c7a809fea17",
+        "sha256_in_prefix": "3b17e859dcc9113e7c1a9e65bb2dcdcf41e2c53ec0f54bc832a29c7a809fea17",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/lscsoft_glue-4.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "90535f32d39c7b9b957d2c271a44385c2dfef034c851d6e35a2588a709311936",
+        "sha256_in_prefix": "90535f32d39c7b9b957d2c271a44385c2dfef034c851d6e35a2588a709311936",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/lal.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/pidfile.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/pipeline.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/text_progress_bar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/glue/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "47d23a509014310509439e542950bc53185d4aa1954df502cf57e50859cd2e95",
+  "size": 50387,
+  "subdir": "noarch",
+  "timestamp": 1709553304000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/lscsoft-glue-4.0.0-pyhd8ed1ab_1.conda",
+  "version": "4.0.0"
+}

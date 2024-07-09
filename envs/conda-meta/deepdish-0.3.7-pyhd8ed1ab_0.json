@@ -1,0 +1,307 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "pytables",
+    "python >=3.6",
+    "scipy"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/deepdish-0.3.7-pyhd8ed1ab_0",
+  "files": [
+    "bin/ddls",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/LICENSE",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/METADATA",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/RECORD",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/WHEEL",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/deepdish-0.3.7.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/deepdish/__init__.py",
+    "lib/python3.8/site-packages/deepdish/conf.py",
+    "lib/python3.8/site-packages/deepdish/core.py",
+    "lib/python3.8/site-packages/deepdish/image.py",
+    "lib/python3.8/site-packages/deepdish/io/__init__.py",
+    "lib/python3.8/site-packages/deepdish/io/hdf5io.py",
+    "lib/python3.8/site-packages/deepdish/io/ls.py",
+    "lib/python3.8/site-packages/deepdish/parallel/__init__.py",
+    "lib/python3.8/site-packages/deepdish/parallel/fallback.py",
+    "lib/python3.8/site-packages/deepdish/parallel/mpi.py",
+    "lib/python3.8/site-packages/deepdish/six.py",
+    "lib/python3.8/site-packages/deepdish/util/__init__.py",
+    "lib/python3.8/site-packages/deepdish/util/padding.py",
+    "lib/python3.8/site-packages/deepdish/util/saveable.py",
+    "lib/python3.8/site-packages/deepdish/util/zca_whitening.py",
+    "lib/python3.8/site-packages/deepdish/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/__pycache__/conf.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/__pycache__/core.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/__pycache__/image.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/io/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/io/__pycache__/hdf5io.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/io/__pycache__/ls.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/parallel/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/parallel/__pycache__/fallback.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/parallel/__pycache__/mpi.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/__pycache__/six.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/util/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/util/__pycache__/padding.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/util/__pycache__/saveable.cpython-38.pyc",
+    "lib/python3.8/site-packages/deepdish/util/__pycache__/zca_whitening.cpython-38.pyc"
+  ],
+  "fn": "deepdish-0.3.7-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/deepdish-0.3.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6ed3e6abc139d61d674b5259be31bfb5",
+  "name": "deepdish",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/deepdish-0.3.7-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/ddls",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/deepdish_1632491157396/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "bc063b6a1814c1a3afa6e2c26246099738b9574dab5d79551be8eeb5499a1d22",
+        "sha256_in_prefix": "d2f7de9fb5e06714ee7effdf223a520cfaf573ab6583962ebcc20e3b39315a29",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4ce47703a07385ab0271541c673da106b504b9f4b6fc46647b93e39d8b2068e3",
+        "sha256_in_prefix": "4ce47703a07385ab0271541c673da106b504b9f4b6fc46647b93e39d8b2068e3",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2832af10ab740f7687c2aefad1f0b9ae835d5c51d27660b72c8de59763d0a4ca",
+        "sha256_in_prefix": "2832af10ab740f7687c2aefad1f0b9ae835d5c51d27660b72c8de59763d0a4ca",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2328d5de96e8a731b2871721d6823096a53a912f3664610220890fb0fbe25df4",
+        "sha256_in_prefix": "2328d5de96e8a731b2871721d6823096a53a912f3664610220890fb0fbe25df4",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fa6462a6aa78813c4ba60018df1ffa51ef18be3bea6957a7c3961b30d9c4f088",
+        "sha256_in_prefix": "fa6462a6aa78813c4ba60018df1ffa51ef18be3bea6957a7c3961b30d9c4f088",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/deepdish-0.3.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d36f0d5c2628b95f860fcf30cbe70d3e4751b81aed844de498385f74741d4712",
+        "sha256_in_prefix": "d36f0d5c2628b95f860fcf30cbe70d3e4751b81aed844de498385f74741d4712",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/deepdish/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7305b870d7c6d1598c0e437f4754235f5e2ce6c8a368c95602f551adf07a03ff",
+        "sha256_in_prefix": "7305b870d7c6d1598c0e437f4754235f5e2ce6c8a368c95602f551adf07a03ff",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/deepdish/conf.py",
+        "path_type": "hardlink",
+        "sha256": "4e9e755a28050fddbd97f68c463afe1a8d3e50833f9dfaeaa9afa7b3778b2097",
+        "sha256_in_prefix": "4e9e755a28050fddbd97f68c463afe1a8d3e50833f9dfaeaa9afa7b3778b2097",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/deepdish/core.py",
+        "path_type": "hardlink",
+        "sha256": "fb599e0bc1df347de69c6bd7849d8938530ea94f8a94c4177ff5ba16ba94d272",
+        "sha256_in_prefix": "fb599e0bc1df347de69c6bd7849d8938530ea94f8a94c4177ff5ba16ba94d272",
+        "size_in_bytes": 7719
+      },
+      {
+        "_path": "site-packages/deepdish/image.py",
+        "path_type": "hardlink",
+        "sha256": "03a6d712b64ebc60e44b74f0e281cec1c31e56ae19a4398d6a32524ad69aa45a",
+        "sha256_in_prefix": "03a6d712b64ebc60e44b74f0e281cec1c31e56ae19a4398d6a32524ad69aa45a",
+        "size_in_bytes": 10111
+      },
+      {
+        "_path": "site-packages/deepdish/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8da058acc281cbb81f237b9a67f54fcca2c04eff1cebce9f787b41879775aa81",
+        "sha256_in_prefix": "8da058acc281cbb81f237b9a67f54fcca2c04eff1cebce9f787b41879775aa81",
+        "size_in_bytes": 431
+      },
+      {
+        "_path": "site-packages/deepdish/io/hdf5io.py",
+        "path_type": "hardlink",
+        "sha256": "72b84ca5b53c133a11ade512a7f1c32becb48972ba0577fcfed66f4bf366b636",
+        "sha256_in_prefix": "72b84ca5b53c133a11ade512a7f1c32becb48972ba0577fcfed66f4bf366b636",
+        "size_in_bytes": 25637
+      },
+      {
+        "_path": "site-packages/deepdish/io/ls.py",
+        "path_type": "hardlink",
+        "sha256": "a15053ffef2289447e65fa978deab73086ac8b9d93ccc2edd34cf45f2426a88f",
+        "sha256_in_prefix": "a15053ffef2289447e65fa978deab73086ac8b9d93ccc2edd34cf45f2426a88f",
+        "size_in_bytes": 26875
+      },
+      {
+        "_path": "site-packages/deepdish/parallel/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9ec866bb17da7a0b587b8d7a12a844a46d9bb574ce98ec438e03f17c1019ec26",
+        "sha256_in_prefix": "9ec866bb17da7a0b587b8d7a12a844a46d9bb574ce98ec438e03f17c1019ec26",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "site-packages/deepdish/parallel/fallback.py",
+        "path_type": "hardlink",
+        "sha256": "b255d696e5831e7b2292801e9f73f39453099e9fe8517762c22338563bea2ae6",
+        "sha256_in_prefix": "b255d696e5831e7b2292801e9f73f39453099e9fe8517762c22338563bea2ae6",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "site-packages/deepdish/parallel/mpi.py",
+        "path_type": "hardlink",
+        "sha256": "3f421f47da0127828ff6f5740cf51ea6b03d518d2456908fe72226fcbb73a760",
+        "sha256_in_prefix": "3f421f47da0127828ff6f5740cf51ea6b03d518d2456908fe72226fcbb73a760",
+        "size_in_bytes": 4505
+      },
+      {
+        "_path": "site-packages/deepdish/six.py",
+        "path_type": "hardlink",
+        "sha256": "48731b6146d97629846fd43b14118c52dc1a2c2442eea6108175d24bf3c742cb",
+        "sha256_in_prefix": "48731b6146d97629846fd43b14118c52dc1a2c2442eea6108175d24bf3c742cb",
+        "size_in_bytes": 26518
+      },
+      {
+        "_path": "site-packages/deepdish/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5cf66a2271fbfe0d7e31f7524828fc3f494fc085b2378e12f9283fd0654fcb39",
+        "sha256_in_prefix": "5cf66a2271fbfe0d7e31f7524828fc3f494fc085b2378e12f9283fd0654fcb39",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "site-packages/deepdish/util/padding.py",
+        "path_type": "hardlink",
+        "sha256": "703ce8023f9219988e4a97695723f5c33cfd5d47d6031ce91d2658fee61e814c",
+        "sha256_in_prefix": "703ce8023f9219988e4a97695723f5c33cfd5d47d6031ce91d2658fee61e814c",
+        "size_in_bytes": 6285
+      },
+      {
+        "_path": "site-packages/deepdish/util/saveable.py",
+        "path_type": "hardlink",
+        "sha256": "2b8d5491f6e4ae17b6baf5f5c09c176384ff7ff9684add4c4818485e17eb4994",
+        "sha256_in_prefix": "2b8d5491f6e4ae17b6baf5f5c09c176384ff7ff9684add4c4818485e17eb4994",
+        "size_in_bytes": 4785
+      },
+      {
+        "_path": "site-packages/deepdish/util/zca_whitening.py",
+        "path_type": "hardlink",
+        "sha256": "34e7bc73aeb73d12e1abd0a443b482a9ca6ded2994de260ef1b9a9758054b325",
+        "sha256_in_prefix": "34e7bc73aeb73d12e1abd0a443b482a9ca6ded2994de260ef1b9a9758054b325",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/__pycache__/conf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/__pycache__/core.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/__pycache__/image.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/io/__pycache__/hdf5io.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/io/__pycache__/ls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/parallel/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/parallel/__pycache__/fallback.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/parallel/__pycache__/mpi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/__pycache__/six.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/util/__pycache__/padding.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/util/__pycache__/saveable.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/deepdish/util/__pycache__/zca_whitening.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "40162de20031ff97a7b370689047447769e710c3b5449bddede9cdf194783f5d",
+  "size": 35440,
+  "subdir": "noarch",
+  "timestamp": 1632491301000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/deepdish-0.3.7-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.3.7"
+}

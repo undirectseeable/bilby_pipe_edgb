@@ -1,0 +1,2927 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "bilby >=1.1.1"
+  ],
+  "depends": [
+    "astropy >=3.2.3",
+    "corner",
+    "deepdish",
+    "gwpy >=2.1.2",
+    "h5py",
+    "ligo-gracedb",
+    "matplotlib-base",
+    "numpy >=1.15.4",
+    "pandas",
+    "plotly",
+    "pygments",
+    "pytables",
+    "python >=3.8",
+    "python-lal",
+    "python-lalinference",
+    "python-lalsimulation >=3.0.0",
+    "scipy >=1.8.0",
+    "seaborn >=0.11.0",
+    "statsmodels",
+    "tqdm >=4.44.0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/pesummary-1.0.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/LICENSE.md",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pesummary-1.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pesummary/.version",
+    "lib/python3.8/site-packages/pesummary/__init__.py",
+    "lib/python3.8/site-packages/pesummary/_version.py",
+    "lib/python3.8/site-packages/pesummary/_version_helper.py",
+    "lib/python3.8/site-packages/pesummary/cli/__init__.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryclassification.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryclean.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarycombine.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarycombine_posteriors.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarycompare.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarydetchar.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryextract.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarygracedb.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryjscompare.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarymodify.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarypages.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarypageslw.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarypipe.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryplots.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarypublication.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryrecreate.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryreview.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarysplit.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarytest.py",
+    "lib/python3.8/site-packages/pesummary/cli/summarytgr.py",
+    "lib/python3.8/site-packages/pesummary/cli/summaryversion.py",
+    "lib/python3.8/site-packages/pesummary/conf/__init__.py",
+    "lib/python3.8/site-packages/pesummary/conf/caption.py",
+    "lib/python3.8/site-packages/pesummary/conf/configuration.py",
+    "lib/python3.8/site-packages/pesummary/conf/matplotlib_rcparams.sty",
+    "lib/python3.8/site-packages/pesummary/core/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/cli/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/cli/actions.py",
+    "lib/python3.8/site-packages/pesummary/core/cli/inputs.py",
+    "lib/python3.8/site-packages/pesummary/core/cli/parser.py",
+    "lib/python3.8/site-packages/pesummary/core/css/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/css/font.css",
+    "lib/python3.8/site-packages/pesummary/core/css/image_styles.css",
+    "lib/python3.8/site-packages/pesummary/core/css/navbar.css",
+    "lib/python3.8/site-packages/pesummary/core/css/side_bar.css",
+    "lib/python3.8/site-packages/pesummary/core/css/table.css",
+    "lib/python3.8/site-packages/pesummary/core/css/toggle.css",
+    "lib/python3.8/site-packages/pesummary/core/css/watermark.css",
+    "lib/python3.8/site-packages/pesummary/core/fetch.py",
+    "lib/python3.8/site-packages/pesummary/core/file/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/base_read.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/bilby.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/csv.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/dat.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/default.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/hdf5.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/ini.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/json.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/numpy.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/pesummary.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/pickle.py",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/sql.py",
+    "lib/python3.8/site-packages/pesummary/core/file/injection.py",
+    "lib/python3.8/site-packages/pesummary/core/file/mcmc.py",
+    "lib/python3.8/site-packages/pesummary/core/file/meta_file.py",
+    "lib/python3.8/site-packages/pesummary/core/file/read.py",
+    "lib/python3.8/site-packages/pesummary/core/finish.py",
+    "lib/python3.8/site-packages/pesummary/core/js/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/js/combine_corner.js",
+    "lib/python3.8/site-packages/pesummary/core/js/expert.js",
+    "lib/python3.8/site-packages/pesummary/core/js/grab.js",
+    "lib/python3.8/site-packages/pesummary/core/js/html_to_csv.js",
+    "lib/python3.8/site-packages/pesummary/core/js/html_to_json.js",
+    "lib/python3.8/site-packages/pesummary/core/js/html_to_shell.js",
+    "lib/python3.8/site-packages/pesummary/core/js/modal.js",
+    "lib/python3.8/site-packages/pesummary/core/js/multi_dropbar.js",
+    "lib/python3.8/site-packages/pesummary/core/js/multiple_posteriors.js",
+    "lib/python3.8/site-packages/pesummary/core/js/search.js",
+    "lib/python3.8/site-packages/pesummary/core/js/side_bar.js",
+    "lib/python3.8/site-packages/pesummary/core/notebook/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/notebook/notebook.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/bounded_1d_kde.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/bounded_2d_kde.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/corner.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/figure.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/interactive.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/interpolate.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/latex_labels.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/main.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/plot.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/population.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/publication.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__init__.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/kde.py",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/violin.py",
+    "lib/python3.8/site-packages/pesummary/core/reweight.py",
+    "lib/python3.8/site-packages/pesummary/core/webpage/base.py",
+    "lib/python3.8/site-packages/pesummary/core/webpage/copyright.txt",
+    "lib/python3.8/site-packages/pesummary/core/webpage/main.py",
+    "lib/python3.8/site-packages/pesummary/core/webpage/tables.py",
+    "lib/python3.8/site-packages/pesummary/core/webpage/webpage.py",
+    "lib/python3.8/site-packages/pesummary/gw/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/classification.py",
+    "lib/python3.8/site-packages/pesummary/gw/cli/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/cli/inputs.py",
+    "lib/python3.8/site-packages/pesummary/gw/cli/parser.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/angles.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/cosmology.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/evolve.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/mass.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/nrutils.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/remnant.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/snr.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/spins.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/tgr.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/tidal.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/time.py",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/utils.py",
+    "lib/python3.8/site-packages/pesummary/gw/cosmology.py",
+    "lib/python3.8/site-packages/pesummary/gw/fetch.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/calibration.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/conversions.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/GWTC1.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/base_read.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/bilby.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/default.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/lalinference.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/pesummary.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/princeton.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/xml.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/injection.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/meta_file.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/psd.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/read.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/skymap.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/standard_names.py",
+    "lib/python3.8/site-packages/pesummary/gw/file/strain.py",
+    "lib/python3.8/site-packages/pesummary/gw/finish.py",
+    "lib/python3.8/site-packages/pesummary/gw/gracedb.py",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/notebook.py",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/public.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/bounds.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/cmap.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/cylon.csv",
+    "lib/python3.8/site-packages/pesummary/gw/plots/detchar.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/latex_labels.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/main.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/plot.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/public.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/publication.py",
+    "lib/python3.8/site-packages/pesummary/gw/plots/tgr.py",
+    "lib/python3.8/site-packages/pesummary/gw/pycbc.py",
+    "lib/python3.8/site-packages/pesummary/gw/reweight.py",
+    "lib/python3.8/site-packages/pesummary/gw/waveform.py",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/__init__.py",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/main.py",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/public.py",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/tgr.py",
+    "lib/python3.8/site-packages/pesummary/io/__init__.py",
+    "lib/python3.8/site-packages/pesummary/io/read.py",
+    "lib/python3.8/site-packages/pesummary/io/write.py",
+    "lib/python3.8/site-packages/pesummary/tests/__init__.py",
+    "lib/python3.8/site-packages/pesummary/tests/_bilby.sh",
+    "lib/python3.8/site-packages/pesummary/tests/action_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/base.py",
+    "lib/python3.8/site-packages/pesummary/tests/bilby.sh",
+    "lib/python3.8/site-packages/pesummary/tests/bilby_mcmc.sh",
+    "lib/python3.8/site-packages/pesummary/tests/bilby_pipe.sh",
+    "lib/python3.8/site-packages/pesummary/tests/bounded_kde_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/calibration_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/classification_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/conversion_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/cosmology_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/example_config.ini",
+    "lib/python3.8/site-packages/pesummary/tests/executable_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/executables.sh",
+    "lib/python3.8/site-packages/pesummary/tests/existing_file.py",
+    "lib/python3.8/site-packages/pesummary/tests/fetch_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/files/.gitattributes",
+    "lib/python3.8/site-packages/pesummary/tests/files/calibration_envelope.txt",
+    "lib/python3.8/site-packages/pesummary/tests/files/config_bilby.ini",
+    "lib/python3.8/site-packages/pesummary/tests/files/config_lalinference.ini",
+    "lib/python3.8/site-packages/pesummary/tests/files/example.ini",
+    "lib/python3.8/site-packages/pesummary/tests/files/lal_pdf_for_summarytgr.dat.gz",
+    "lib/python3.8/site-packages/pesummary/tests/files/psd_file.txt",
+    "lib/python3.8/site-packages/pesummary/tests/finish_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/imports.sh",
+    "lib/python3.8/site-packages/pesummary/tests/injection_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/input_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/lalinference.sh",
+    "lib/python3.8/site-packages/pesummary/tests/ligo_skymap_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/main_injection.xml",
+    "lib/python3.8/site-packages/pesummary/tests/main_input.ini",
+    "lib/python3.8/site-packages/pesummary/tests/main_input_core.ini",
+    "lib/python3.8/site-packages/pesummary/tests/meta_file_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/notebook_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/plot_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/psd_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/pycbc.sh",
+    "lib/python3.8/site-packages/pesummary/tests/pycbc_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/read_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/reweight_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/strain_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/summaryplots_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/utils_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/waveform_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/webpage_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/workflow_test.py",
+    "lib/python3.8/site-packages/pesummary/tests/write_test.py",
+    "lib/python3.8/site-packages/pesummary/utils/__init__.py",
+    "lib/python3.8/site-packages/pesummary/utils/array.py",
+    "lib/python3.8/site-packages/pesummary/utils/decorators.py",
+    "lib/python3.8/site-packages/pesummary/utils/dict.py",
+    "lib/python3.8/site-packages/pesummary/utils/exceptions.py",
+    "lib/python3.8/site-packages/pesummary/utils/list.py",
+    "lib/python3.8/site-packages/pesummary/utils/parameters.py",
+    "lib/python3.8/site-packages/pesummary/utils/pdf.py",
+    "lib/python3.8/site-packages/pesummary/utils/probability_dict.py",
+    "lib/python3.8/site-packages/pesummary/utils/samples_dict.py",
+    "lib/python3.8/site-packages/pesummary/utils/tqdm.py",
+    "lib/python3.8/site-packages/pesummary/utils/utils.py",
+    "lib/python3.8/site-packages/pesummary/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/__pycache__/_version_helper.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryclassification.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryclean.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycombine.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycombine_posteriors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycompare.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarydetchar.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryextract.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarygracedb.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryjscompare.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarymodify.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypages.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypageslw.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypipe.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryplots.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypublication.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryrecreate.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryreview.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarysplit.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarytest.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarytgr.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryversion.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/conf/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/conf/__pycache__/caption.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/conf/__pycache__/configuration.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/actions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/inputs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/css/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/__pycache__/fetch.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/base_read.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/bilby.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/csv.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/dat.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/default.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/hdf5.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/ini.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/json.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/numpy.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/pesummary.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/pickle.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/sql.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/__pycache__/injection.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/__pycache__/mcmc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/__pycache__/meta_file.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/file/__pycache__/read.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/__pycache__/finish.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/js/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/notebook/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/notebook/__pycache__/notebook.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/bounded_1d_kde.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/bounded_2d_kde.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/corner.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/figure.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/interactive.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/interpolate.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/latex_labels.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/population.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/publication.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/kde.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/violin.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/__pycache__/reweight.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/tables.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/webpage.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/classification.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/inputs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/angles.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/cosmology.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/evolve.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/mass.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/nrutils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/remnant.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/snr.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/spins.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/tgr.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/tidal.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/time.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/cosmology.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/fetch.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/calibration.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/conversions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/GWTC1.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/base_read.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/bilby.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/default.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/lalinference.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/pesummary.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/princeton.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/xml.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/injection.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/meta_file.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/psd.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/read.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/skymap.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/standard_names.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/strain.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/finish.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/gracedb.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/notebook.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/public.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/bounds.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/cmap.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/detchar.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/latex_labels.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/plot.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/public.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/publication.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/tgr.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/pycbc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/reweight.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/__pycache__/waveform.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/public.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/tgr.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/io/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/io/__pycache__/read.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/io/__pycache__/write.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/action_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/base.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/bounded_kde_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/calibration_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/classification_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/conversion_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/cosmology_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/executable_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/existing_file.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/fetch_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/finish_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/injection_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/input_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/ligo_skymap_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/meta_file_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/notebook_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/plot_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/psd_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/pycbc_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/read_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/reweight_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/strain_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/summaryplots_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/utils_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/waveform_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/webpage_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/workflow_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/tests/__pycache__/write_test.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/array.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/decorators.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/list.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/parameters.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/pdf.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/probability_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/samples_dict.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/tqdm.cpython-38.pyc",
+    "lib/python3.8/site-packages/pesummary/utils/__pycache__/utils.cpython-38.pyc",
+    "bin/summaryclassification",
+    "bin/summaryclean",
+    "bin/summarycombine",
+    "bin/summarycombine_posteriors",
+    "bin/summarycompare",
+    "bin/summarydetchar",
+    "bin/summaryextract",
+    "bin/summarygracedb",
+    "bin/summaryjscompare",
+    "bin/summarymodify",
+    "bin/summarypages",
+    "bin/summarypageslw",
+    "bin/summarypipe",
+    "bin/summaryplots",
+    "bin/summarypublication",
+    "bin/summaryrecreate",
+    "bin/summaryreview",
+    "bin/summarysplit",
+    "bin/summarytest",
+    "bin/summarytgr",
+    "bin/summaryversion"
+  ],
+  "fn": "pesummary-1.0.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/pesummary-1.0.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "5d9041fc3d20912d133be065bd0c426e",
+  "name": "pesummary",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/pesummary-1.0.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "5dbffe33366650f492d6a43c37c98fe4f11cf444690b36e5f0615a20a4eb2351",
+        "sha256_in_prefix": "5dbffe33366650f492d6a43c37c98fe4f11cf444690b36e5f0615a20a4eb2351",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fa1f45028ca69d724e70c7bf149984c7eb789b29a83ded4a8de12623d829cc7b",
+        "sha256_in_prefix": "fa1f45028ca69d724e70c7bf149984c7eb789b29a83ded4a8de12623d829cc7b",
+        "size_in_bytes": 4651
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1f7d6953183bf78d330885392bed31bc859b051ad5dd13056ded504ff5458854",
+        "sha256_in_prefix": "1f7d6953183bf78d330885392bed31bc859b051ad5dd13056ded504ff5458854",
+        "size_in_bytes": 33227
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a68031dc5e3cbee57856bc487f12e836a675fc5559a1c57c3fa412ef9fb72938",
+        "sha256_in_prefix": "a68031dc5e3cbee57856bc487f12e836a675fc5559a1c57c3fa412ef9fb72938",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3dc6e7d205757022770a17ed4b5a86ea91cf643f142d6317b846b9c54fa6fff5",
+        "sha256_in_prefix": "3dc6e7d205757022770a17ed4b5a86ea91cf643f142d6317b846b9c54fa6fff5",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "site-packages/pesummary-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b90549b844c847f928569b62ad0b00794f425d2435294b15b97d5f8a80c2b833",
+        "sha256_in_prefix": "b90549b844c847f928569b62ad0b00794f425d2435294b15b97d5f8a80c2b833",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pesummary/.version",
+        "path_type": "hardlink",
+        "sha256": "052eb9960df5ba06eefd0e354377f5247e5e6932647150a135fa24522d575692",
+        "sha256_in_prefix": "052eb9960df5ba06eefd0e354377f5247e5e6932647150a135fa24522d575692",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "site-packages/pesummary/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "436b2b15517e1b2dd2d17acf6783f5523853ef184c4ee2c9a3d49839b1c549ba",
+        "sha256_in_prefix": "436b2b15517e1b2dd2d17acf6783f5523853ef184c4ee2c9a3d49839b1c549ba",
+        "size_in_bytes": 1997
+      },
+      {
+        "_path": "site-packages/pesummary/_version.py",
+        "path_type": "hardlink",
+        "sha256": "16bb4e7ec1ad6371cf917c28a554cb9c144faca7b127e5487d7a11cd65f8ecee",
+        "sha256_in_prefix": "16bb4e7ec1ad6371cf917c28a554cb9c144faca7b127e5487d7a11cd65f8ecee",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/pesummary/_version_helper.py",
+        "path_type": "hardlink",
+        "sha256": "6166851b64c59f65139a4d8a1f940535b59738570bc47c27746ce3f082c6e292",
+        "sha256_in_prefix": "6166851b64c59f65139a4d8a1f940535b59738570bc47c27746ce3f082c6e292",
+        "size_in_bytes": 5674
+      },
+      {
+        "_path": "site-packages/pesummary/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c9475b3147b63703579f48e2efef46ee515b9e010735e3efc66527710963bd53",
+        "sha256_in_prefix": "c9475b3147b63703579f48e2efef46ee515b9e010735e3efc66527710963bd53",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryclassification.py",
+        "path_type": "hardlink",
+        "sha256": "66d30b6908e0c18edc2d0b3e9ac6d8b0e73b7cef44de5144d6cb3b978ccdc38d",
+        "sha256_in_prefix": "66d30b6908e0c18edc2d0b3e9ac6d8b0e73b7cef44de5144d6cb3b978ccdc38d",
+        "size_in_bytes": 7226
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryclean.py",
+        "path_type": "hardlink",
+        "sha256": "6c809b9d2a4b90ddfc94c2640c2b5708c4f3db4fdc7fb8d1c78c3595d5b1e05e",
+        "sha256_in_prefix": "6c809b9d2a4b90ddfc94c2640c2b5708c4f3db4fdc7fb8d1c78c3595d5b1e05e",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarycombine.py",
+        "path_type": "hardlink",
+        "sha256": "16cf69a169214f187f00073dc9776f87863d16bec55ea7ae29df11440f395243",
+        "sha256_in_prefix": "16cf69a169214f187f00073dc9776f87863d16bec55ea7ae29df11440f395243",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarycombine_posteriors.py",
+        "path_type": "hardlink",
+        "sha256": "60dd81610b83d1301201caf864c22454e44497891cd7d7cc184e06ffbad3fa9e",
+        "sha256_in_prefix": "60dd81610b83d1301201caf864c22454e44497891cd7d7cc184e06ffbad3fa9e",
+        "size_in_bytes": 8223
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarycompare.py",
+        "path_type": "hardlink",
+        "sha256": "4d43e14ae2ab7afbcf75926c9558e48b303e9b96df234858ed7bbd06c4135032",
+        "sha256_in_prefix": "4d43e14ae2ab7afbcf75926c9558e48b303e9b96df234858ed7bbd06c4135032",
+        "size_in_bytes": 11646
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarydetchar.py",
+        "path_type": "hardlink",
+        "sha256": "cec689659c18bf9b51276fd466c0a6fa7e15b633c3d0b64b4be00ae6ce7f5466",
+        "sha256_in_prefix": "cec689659c18bf9b51276fd466c0a6fa7e15b633c3d0b64b4be00ae6ce7f5466",
+        "size_in_bytes": 3778
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryextract.py",
+        "path_type": "hardlink",
+        "sha256": "a6a241b359ebe81d983eb309a1d63c5660d7150273319a225c805331e6e2c840",
+        "sha256_in_prefix": "a6a241b359ebe81d983eb309a1d63c5660d7150273319a225c805331e6e2c840",
+        "size_in_bytes": 2563
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarygracedb.py",
+        "path_type": "hardlink",
+        "sha256": "beebd38d196b796829e72622248751f3f6a9d7f3323d06be704381b07463ac26",
+        "sha256_in_prefix": "beebd38d196b796829e72622248751f3f6a9d7f3323d06be704381b07463ac26",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryjscompare.py",
+        "path_type": "hardlink",
+        "sha256": "d27466396c57c498b37bc11b7c7edd9978b0fd74e1800fab8983b74a4d96920e",
+        "sha256_in_prefix": "d27466396c57c498b37bc11b7c7edd9978b0fd74e1800fab8983b74a4d96920e",
+        "size_in_bytes": 9668
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarymodify.py",
+        "path_type": "hardlink",
+        "sha256": "61abb67add29da10159f9df48ba9b598a3fbc1e3ca250d6da36e4ef64c1e2454",
+        "sha256_in_prefix": "61abb67add29da10159f9df48ba9b598a3fbc1e3ca250d6da36e4ef64c1e2454",
+        "size_in_bytes": 24057
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarypages.py",
+        "path_type": "hardlink",
+        "sha256": "344004e1ce8a89a371faf1be5f09e7d12cea5f9f5a072af325ee117681ce0e4d",
+        "sha256_in_prefix": "344004e1ce8a89a371faf1be5f09e7d12cea5f9f5a072af325ee117681ce0e4d",
+        "size_in_bytes": 10894
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarypageslw.py",
+        "path_type": "hardlink",
+        "sha256": "8da733cd8546eb3f49a4e07467a52ed67ae943a513c192e261d8a90dcd37cd74",
+        "sha256_in_prefix": "8da733cd8546eb3f49a4e07467a52ed67ae943a513c192e261d8a90dcd37cd74",
+        "size_in_bytes": 4097
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarypipe.py",
+        "path_type": "hardlink",
+        "sha256": "0df2928d9936906282b65e856b54604052df6ad8c5fdf9beae9c4e80da281d83",
+        "sha256_in_prefix": "0df2928d9936906282b65e856b54604052df6ad8c5fdf9beae9c4e80da281d83",
+        "size_in_bytes": 31078
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryplots.py",
+        "path_type": "hardlink",
+        "sha256": "f9bca5e8e13c4639010208db232358c98a0ce0df2bd99b18097edf56f894720b",
+        "sha256_in_prefix": "f9bca5e8e13c4639010208db232358c98a0ce0df2bd99b18097edf56f894720b",
+        "size_in_bytes": 13421
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarypublication.py",
+        "path_type": "hardlink",
+        "sha256": "d7ca4fea1eb743785f83225793e278019fa8a74d4b3296821445fb70de54a5ed",
+        "sha256_in_prefix": "d7ca4fea1eb743785f83225793e278019fa8a74d4b3296821445fb70de54a5ed",
+        "size_in_bytes": 13547
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryrecreate.py",
+        "path_type": "hardlink",
+        "sha256": "c069b445e9bb954665d8c9b8ebe09e26f39ff63f6f4108732e4b4b38de024e3b",
+        "sha256_in_prefix": "c069b445e9bb954665d8c9b8ebe09e26f39ff63f6f4108732e4b4b38de024e3b",
+        "size_in_bytes": 10990
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryreview.py",
+        "path_type": "hardlink",
+        "sha256": "83ed51d3c6b41fbbd7690b1a26264d971a570343a7121193695b110bff711479",
+        "sha256_in_prefix": "83ed51d3c6b41fbbd7690b1a26264d971a570343a7121193695b110bff711479",
+        "size_in_bytes": 31148
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarysplit.py",
+        "path_type": "hardlink",
+        "sha256": "4f1b8e164f50df1ba04834302100c7dc36aab18e555a99502c95462baedd9c5c",
+        "sha256_in_prefix": "4f1b8e164f50df1ba04834302100c7dc36aab18e555a99502c95462baedd9c5c",
+        "size_in_bytes": 6758
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarytest.py",
+        "path_type": "hardlink",
+        "sha256": "d73788a50d3564e985ff71bd0bb945426de0833902f5da86be2271873f62ea94",
+        "sha256_in_prefix": "d73788a50d3564e985ff71bd0bb945426de0833902f5da86be2271873f62ea94",
+        "size_in_bytes": 15327
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summarytgr.py",
+        "path_type": "hardlink",
+        "sha256": "8a6dfcd5a7744a91fd03d430d26defd1139c765701c2a2acbac0f98b6809af6f",
+        "sha256_in_prefix": "8a6dfcd5a7744a91fd03d430d26defd1139c765701c2a2acbac0f98b6809af6f",
+        "size_in_bytes": 9472
+      },
+      {
+        "_path": "site-packages/pesummary/cli/summaryversion.py",
+        "path_type": "hardlink",
+        "sha256": "ebf3cd9b924820d95e574d56977c2e0d28e704c7f0b6141b2c8a1c5e255af34e",
+        "sha256_in_prefix": "ebf3cd9b924820d95e574d56977c2e0d28e704c7f0b6141b2c8a1c5e255af34e",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "site-packages/pesummary/conf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ad9e16619776eea70ad2a9653f776cf7b3bf5fce794f44d0ef84139966d77214",
+        "sha256_in_prefix": "ad9e16619776eea70ad2a9653f776cf7b3bf5fce794f44d0ef84139966d77214",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/pesummary/conf/caption.py",
+        "path_type": "hardlink",
+        "sha256": "b0761a217a86985941f98195dc7d656640e30cde99f9df9657c0ce71e4bd1047",
+        "sha256_in_prefix": "b0761a217a86985941f98195dc7d656640e30cde99f9df9657c0ce71e4bd1047",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "site-packages/pesummary/conf/configuration.py",
+        "path_type": "hardlink",
+        "sha256": "f800e291d1e7222053e874c204499bdfdf8eef4afae772dcc9fece7b7396bc49",
+        "sha256_in_prefix": "f800e291d1e7222053e874c204499bdfdf8eef4afae772dcc9fece7b7396bc49",
+        "size_in_bytes": 4146
+      },
+      {
+        "_path": "site-packages/pesummary/conf/matplotlib_rcparams.sty",
+        "path_type": "hardlink",
+        "sha256": "2d7f41e7e060820233b13d3c674b78dea751b96ac7ef49044040a2af629ff10e",
+        "sha256_in_prefix": "2d7f41e7e060820233b13d3c674b78dea751b96ac7ef49044040a2af629ff10e",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "site-packages/pesummary/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/cli/actions.py",
+        "path_type": "hardlink",
+        "sha256": "dc7a44826374cf03a8e312471b149f4e571aedcdb5d1b4c34a8c673c16036fe6",
+        "sha256_in_prefix": "dc7a44826374cf03a8e312471b149f4e571aedcdb5d1b4c34a8c673c16036fe6",
+        "size_in_bytes": 10430
+      },
+      {
+        "_path": "site-packages/pesummary/core/cli/inputs.py",
+        "path_type": "hardlink",
+        "sha256": "d7988c003cd548a9dd32cec33017d08c3517f8a6fee8d5b31c653d4f960d8aa1",
+        "sha256_in_prefix": "d7988c003cd548a9dd32cec33017d08c3517f8a6fee8d5b31c653d4f960d8aa1",
+        "size_in_bytes": 83845
+      },
+      {
+        "_path": "site-packages/pesummary/core/cli/parser.py",
+        "path_type": "hardlink",
+        "sha256": "01f53e6a50394096b2e58f6e6128710963d8ba62a1186ae9a79e697d6d727344",
+        "sha256_in_prefix": "01f53e6a50394096b2e58f6e6128710963d8ba62a1186ae9a79e697d6d727344",
+        "size_in_bytes": 25330
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/font.css",
+        "path_type": "hardlink",
+        "sha256": "c1d9a14e4ac88957ec66637104cde3892f90025e14c9660e1a3917ef2dfc0ffd",
+        "sha256_in_prefix": "c1d9a14e4ac88957ec66637104cde3892f90025e14c9660e1a3917ef2dfc0ffd",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/image_styles.css",
+        "path_type": "hardlink",
+        "sha256": "29bf893de41fb4ab207a86c880ecfb173352d55d4617ceb04ef5c83fd713ba6d",
+        "sha256_in_prefix": "29bf893de41fb4ab207a86c880ecfb173352d55d4617ceb04ef5c83fd713ba6d",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/navbar.css",
+        "path_type": "hardlink",
+        "sha256": "27e5d291a3d8015a0096803f9f0f5a1d7ab7617030ab61a97a48218147df35cc",
+        "sha256_in_prefix": "27e5d291a3d8015a0096803f9f0f5a1d7ab7617030ab61a97a48218147df35cc",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/side_bar.css",
+        "path_type": "hardlink",
+        "sha256": "4db7b3db1d02b3e3d72f1750d7a8d0e24b1e311eae87523c3d35f5045c51e244",
+        "sha256_in_prefix": "4db7b3db1d02b3e3d72f1750d7a8d0e24b1e311eae87523c3d35f5045c51e244",
+        "size_in_bytes": 1806
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/table.css",
+        "path_type": "hardlink",
+        "sha256": "e02be2d36e2e6eab6342970bb4713f96892d4c73a6433efebfa8fd32d1f65ed8",
+        "sha256_in_prefix": "e02be2d36e2e6eab6342970bb4713f96892d4c73a6433efebfa8fd32d1f65ed8",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/toggle.css",
+        "path_type": "hardlink",
+        "sha256": "9d7b16a8999bc6b78d2f76cee02099215eb123bfe71ee41735bf7230ddabfc24",
+        "sha256_in_prefix": "9d7b16a8999bc6b78d2f76cee02099215eb123bfe71ee41735bf7230ddabfc24",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "site-packages/pesummary/core/css/watermark.css",
+        "path_type": "hardlink",
+        "sha256": "4b1f9ea537f1cc2cdcf513b87c2b4aa15914e7ef6e7bfe1029a0f39f166b2989",
+        "sha256_in_prefix": "4b1f9ea537f1cc2cdcf513b87c2b4aa15914e7ef6e7bfe1029a0f39f166b2989",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/pesummary/core/fetch.py",
+        "path_type": "hardlink",
+        "sha256": "d464c9663f6568b96612163b384b93aae5acfe48b314ae01fa230a2f5440aa21",
+        "sha256_in_prefix": "d464c9663f6568b96612163b384b93aae5acfe48b314ae01fa230a2f5440aa21",
+        "size_in_bytes": 5928
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/base_read.py",
+        "path_type": "hardlink",
+        "sha256": "560690f33efe77d379ed29ac8c65d27d927b16733df70ec7d45034b99c0b45be",
+        "sha256_in_prefix": "560690f33efe77d379ed29ac8c65d27d927b16733df70ec7d45034b99c0b45be",
+        "size_in_bytes": 39308
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/bilby.py",
+        "path_type": "hardlink",
+        "sha256": "5448cb306a2472125861797c7947c5697d462dd517ed73cd401a6646f8080452",
+        "sha256_in_prefix": "5448cb306a2472125861797c7947c5697d462dd517ed73cd401a6646f8080452",
+        "size_in_bytes": 14406
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/csv.py",
+        "path_type": "hardlink",
+        "sha256": "d72a87ef10b810a2720cece317f4e46087c89200ede80e648acecb9abec67818",
+        "sha256_in_prefix": "d72a87ef10b810a2720cece317f4e46087c89200ede80e648acecb9abec67818",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/dat.py",
+        "path_type": "hardlink",
+        "sha256": "5cf9c74d68960cbee207dc3fffc5a20137a935876fb0ea69392ca4aac3ee4556",
+        "sha256_in_prefix": "5cf9c74d68960cbee207dc3fffc5a20137a935876fb0ea69392ca4aac3ee4556",
+        "size_in_bytes": 2717
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/default.py",
+        "path_type": "hardlink",
+        "sha256": "518a0870e8614a2cff88e764a9a79faaa451531bc60b2f0fe9c4612e2472ad64",
+        "sha256_in_prefix": "518a0870e8614a2cff88e764a9a79faaa451531bc60b2f0fe9c4612e2472ad64",
+        "size_in_bytes": 10261
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "b75b530bd0a5fe0895f2c289cea497da03c6729ed6d445641a82fcd4215d4679",
+        "sha256_in_prefix": "b75b530bd0a5fe0895f2c289cea497da03c6729ed6d445641a82fcd4215d4679",
+        "size_in_bytes": 7086
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/ini.py",
+        "path_type": "hardlink",
+        "sha256": "88d6cd098db96c2b11b6dfb3cf95b84a60824f0a359b1b09454a1bb1a97cc886",
+        "sha256_in_prefix": "88d6cd098db96c2b11b6dfb3cf95b84a60824f0a359b1b09454a1bb1a97cc886",
+        "size_in_bytes": 3282
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/json.py",
+        "path_type": "hardlink",
+        "sha256": "8c8e5eaf6e50f4d104d726ec45d9406d994cb6ac30916482e7c79aa94817b396",
+        "sha256_in_prefix": "8c8e5eaf6e50f4d104d726ec45d9406d994cb6ac30916482e7c79aa94817b396",
+        "size_in_bytes": 6841
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/numpy.py",
+        "path_type": "hardlink",
+        "sha256": "87feeb78f0ceba17f978ffc87bdf9ec8995fed48d1f66dfb0bb94edeb476cad5",
+        "sha256_in_prefix": "87feeb78f0ceba17f978ffc87bdf9ec8995fed48d1f66dfb0bb94edeb476cad5",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/pesummary.py",
+        "path_type": "hardlink",
+        "sha256": "c3023e6e6ca7f6f1f7ad1b5afae1ff7bd9d7f330b8176a9dfbec8949f9717f16",
+        "sha256_in_prefix": "c3023e6e6ca7f6f1f7ad1b5afae1ff7bd9d7f330b8176a9dfbec8949f9717f16",
+        "size_in_bytes": 27079
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/pickle.py",
+        "path_type": "hardlink",
+        "sha256": "d363f085b1f6d850b313e366859ef8af88bb696fcd8842e4f9a534b548ec4092",
+        "sha256_in_prefix": "d363f085b1f6d850b313e366859ef8af88bb696fcd8842e4f9a534b548ec4092",
+        "size_in_bytes": 1288
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/formats/sql.py",
+        "path_type": "hardlink",
+        "sha256": "aa1bd93af1d2208223b8ee43987deffdc06fc2290cddad643f0c9858f2386393",
+        "sha256_in_prefix": "aa1bd93af1d2208223b8ee43987deffdc06fc2290cddad643f0c9858f2386393",
+        "size_in_bytes": 6490
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/injection.py",
+        "path_type": "hardlink",
+        "sha256": "eb62278d744bc7be2c1cdc8cc1f0f43d1bc53d72e9a9defa4cdf0edbc03da970",
+        "sha256_in_prefix": "eb62278d744bc7be2c1cdc8cc1f0f43d1bc53d72e9a9defa4cdf0edbc03da970",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/mcmc.py",
+        "path_type": "hardlink",
+        "sha256": "c2899a1ad5569546eebd55537c9eb0ad7e6e7887fc4da348351f112b97db604d",
+        "sha256_in_prefix": "c2899a1ad5569546eebd55537c9eb0ad7e6e7887fc4da348351f112b97db604d",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/meta_file.py",
+        "path_type": "hardlink",
+        "sha256": "bcaa0b9a13c058b36034a092d2f00eb7b3aa5a62fd212052ae465d39828d6e04",
+        "sha256_in_prefix": "bcaa0b9a13c058b36034a092d2f00eb7b3aa5a62fd212052ae465d39828d6e04",
+        "size_in_bytes": 26372
+      },
+      {
+        "_path": "site-packages/pesummary/core/file/read.py",
+        "path_type": "hardlink",
+        "sha256": "36ac29c9e98bb69ad202f56acd2684dc6567b7218e5a04fa485e41827f6cb74b",
+        "sha256_in_prefix": "36ac29c9e98bb69ad202f56acd2684dc6567b7218e5a04fa485e41827f6cb74b",
+        "size_in_bytes": 9039
+      },
+      {
+        "_path": "site-packages/pesummary/core/finish.py",
+        "path_type": "hardlink",
+        "sha256": "d8c89325e1d851c9312df8156a91482a91b0df9fc662eda035efce9fd2a4098a",
+        "sha256_in_prefix": "d8c89325e1d851c9312df8156a91482a91b0df9fc662eda035efce9fd2a4098a",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/combine_corner.js",
+        "path_type": "hardlink",
+        "sha256": "2c7a63773f54589a7925236a74cde69a0f31ebfed45f4eca3c3f0330c44a50ca",
+        "sha256_in_prefix": "2c7a63773f54589a7925236a74cde69a0f31ebfed45f4eca3c3f0330c44a50ca",
+        "size_in_bytes": 6956
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/expert.js",
+        "path_type": "hardlink",
+        "sha256": "c3a6ddb67f86482c799ccb6ff9412101c5ba92e77fdc763d649aa91c60c32e07",
+        "sha256_in_prefix": "c3a6ddb67f86482c799ccb6ff9412101c5ba92e77fdc763d649aa91c60c32e07",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/grab.js",
+        "path_type": "hardlink",
+        "sha256": "56a519787b02864751a86cd7c45ac5342c09f0efbc60a04d51b7b13a13ec6bdf",
+        "sha256_in_prefix": "56a519787b02864751a86cd7c45ac5342c09f0efbc60a04d51b7b13a13ec6bdf",
+        "size_in_bytes": 4825
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/html_to_csv.js",
+        "path_type": "hardlink",
+        "sha256": "aa2e765f2ea29bdf8dc826f456e16f5eababd3bd6528d8192156b2fc34c1cfa5",
+        "sha256_in_prefix": "aa2e765f2ea29bdf8dc826f456e16f5eababd3bd6528d8192156b2fc34c1cfa5",
+        "size_in_bytes": 2272
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/html_to_json.js",
+        "path_type": "hardlink",
+        "sha256": "f54984a984703a40caaf0fa18bb5f2d9cd94936afa3b5bdb549eb940fe4d2509",
+        "sha256_in_prefix": "f54984a984703a40caaf0fa18bb5f2d9cd94936afa3b5bdb549eb940fe4d2509",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/html_to_shell.js",
+        "path_type": "hardlink",
+        "sha256": "13bc51f2b25ec1ddfdbf0be67f9cc1a7fe0c73e5ab0bb871c892e8bfe2f65884",
+        "sha256_in_prefix": "13bc51f2b25ec1ddfdbf0be67f9cc1a7fe0c73e5ab0bb871c892e8bfe2f65884",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/modal.js",
+        "path_type": "hardlink",
+        "sha256": "acc5c5b82199b4f50b3bc6bb13392270efaf765f4e92e6d5b3f2a4c4c4327e45",
+        "sha256_in_prefix": "acc5c5b82199b4f50b3bc6bb13392270efaf765f4e92e6d5b3f2a4c4c4327e45",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/multi_dropbar.js",
+        "path_type": "hardlink",
+        "sha256": "9b2cdb27fcdb7d4d2063ea6cdf81b5ae4da0e563aec4ce2e34a17aa59277cfd1",
+        "sha256_in_prefix": "9b2cdb27fcdb7d4d2063ea6cdf81b5ae4da0e563aec4ce2e34a17aa59277cfd1",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/multiple_posteriors.js",
+        "path_type": "hardlink",
+        "sha256": "6af70fee8a7015cc37b7039c3fdd5d4ddd12fb0dcb5f70928a65e1f0a401b01f",
+        "sha256_in_prefix": "6af70fee8a7015cc37b7039c3fdd5d4ddd12fb0dcb5f70928a65e1f0a401b01f",
+        "size_in_bytes": 7471
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/search.js",
+        "path_type": "hardlink",
+        "sha256": "64cc4a33b561ce5db95b620e811ea0ed82508e96c3e240939d4ae636c47c9591",
+        "sha256_in_prefix": "64cc4a33b561ce5db95b620e811ea0ed82508e96c3e240939d4ae636c47c9591",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "site-packages/pesummary/core/js/side_bar.js",
+        "path_type": "hardlink",
+        "sha256": "32dd18e16a891108d421d186938417ce3e2aa466e673af8035eb907c981772ce",
+        "sha256_in_prefix": "32dd18e16a891108d421d186938417ce3e2aa466e673af8035eb907c981772ce",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "site-packages/pesummary/core/notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "782e930d9cf236b0ee1c697e41e9db16134734209da2ccee8385018c604e749b",
+        "sha256_in_prefix": "782e930d9cf236b0ee1c697e41e9db16134734209da2ccee8385018c604e749b",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/pesummary/core/notebook/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "ef3da42617b688a56776689e0f5f9d81c08182a547bbb0474af8366ac9cbbfac",
+        "sha256_in_prefix": "ef3da42617b688a56776689e0f5f9d81c08182a547bbb0474af8366ac9cbbfac",
+        "size_in_bytes": 6430
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85fe2d72989f224a06b7de27d396787aff64168c7b6f18591a6581efa04ce628",
+        "sha256_in_prefix": "85fe2d72989f224a06b7de27d396787aff64168c7b6f18591a6581efa04ce628",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/bounded_1d_kde.py",
+        "path_type": "hardlink",
+        "sha256": "745e311df277a60754c66f6e83128b674e80147c56f3c9a08d1b97192692e6ee",
+        "sha256_in_prefix": "745e311df277a60754c66f6e83128b674e80147c56f3c9a08d1b97192692e6ee",
+        "size_in_bytes": 8888
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/bounded_2d_kde.py",
+        "path_type": "hardlink",
+        "sha256": "ff30581d38657023d1922353f723dad58ed6b5120dbb92723d968f5da116bf1a",
+        "sha256_in_prefix": "ff30581d38657023d1922353f723dad58ed6b5120dbb92723d968f5da116bf1a",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/corner.py",
+        "path_type": "hardlink",
+        "sha256": "0995fe464f8013f90ace72aa4bdf9d712261138d935a5c6c51f18cc8157a74b8",
+        "sha256_in_prefix": "0995fe464f8013f90ace72aa4bdf9d712261138d935a5c6c51f18cc8157a74b8",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/figure.py",
+        "path_type": "hardlink",
+        "sha256": "db75d271fd498a8208f3316895df6aa5eb3e9a63e0e961f29db031bf7e60d5f9",
+        "sha256_in_prefix": "db75d271fd498a8208f3316895df6aa5eb3e9a63e0e961f29db031bf7e60d5f9",
+        "size_in_bytes": 2094
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/interactive.py",
+        "path_type": "hardlink",
+        "sha256": "f3a2226ddb6a8a9a4b135e09573aae222d625944c5fd193f1ff38636e3507e46",
+        "sha256_in_prefix": "f3a2226ddb6a8a9a4b135e09573aae222d625944c5fd193f1ff38636e3507e46",
+        "size_in_bytes": 7638
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/interpolate.py",
+        "path_type": "hardlink",
+        "sha256": "0a660ac2c13495bc05a95d9b07b4412a0134c370d0b6534a08c50807ef721908",
+        "sha256_in_prefix": "0a660ac2c13495bc05a95d9b07b4412a0134c370d0b6534a08c50807ef721908",
+        "size_in_bytes": 1841
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/latex_labels.py",
+        "path_type": "hardlink",
+        "sha256": "bb83171608c390fdb6a35ad384e66b76e1a281156e5636e434f94871240089be",
+        "sha256_in_prefix": "bb83171608c390fdb6a35ad384e66b76e1a281156e5636e434f94871240089be",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/main.py",
+        "path_type": "hardlink",
+        "sha256": "0b397a0c05f72934886cbcdc1d590b08e14e957f07d9479bfa4ac54e7ade0a95",
+        "sha256_in_prefix": "0b397a0c05f72934886cbcdc1d590b08e14e957f07d9479bfa4ac54e7ade0a95",
+        "size_in_bytes": 52496
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/plot.py",
+        "path_type": "hardlink",
+        "sha256": "0715e3379c07c6e87bedc023299f08b6022936723824f39639ad09d20aa55f61",
+        "sha256_in_prefix": "0715e3379c07c6e87bedc023299f08b6022936723824f39639ad09d20aa55f61",
+        "size_in_bytes": 31427
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/population.py",
+        "path_type": "hardlink",
+        "sha256": "4612d6b34cc65b2cf231cd72000cea235233ad32cdc1edaa362bb26461a71a73",
+        "sha256_in_prefix": "4612d6b34cc65b2cf231cd72000cea235233ad32cdc1edaa362bb26461a71a73",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/publication.py",
+        "path_type": "hardlink",
+        "sha256": "36c23a0695dd63dc5e0410ea4f8f06cd8b4368d407594583406ba21ffef8c485",
+        "sha256_in_prefix": "36c23a0695dd63dc5e0410ea4f8f06cd8b4368d407594583406ba21ffef8c485",
+        "size_in_bytes": 30277
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/seaborn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/seaborn/kde.py",
+        "path_type": "hardlink",
+        "sha256": "282ed97cd2cac175a9c91616a88bd8b6dffab9735d556aae71e8c24a6f21e8fe",
+        "sha256_in_prefix": "282ed97cd2cac175a9c91616a88bd8b6dffab9735d556aae71e8c24a6f21e8fe",
+        "size_in_bytes": 15430
+      },
+      {
+        "_path": "site-packages/pesummary/core/plots/seaborn/violin.py",
+        "path_type": "hardlink",
+        "sha256": "03e2594ff4aa83b286a648e97b8fde183b3c782fa1e2981726e1a0a1273a51e2",
+        "sha256_in_prefix": "03e2594ff4aa83b286a648e97b8fde183b3c782fa1e2981726e1a0a1273a51e2",
+        "size_in_bytes": 33102
+      },
+      {
+        "_path": "site-packages/pesummary/core/reweight.py",
+        "path_type": "hardlink",
+        "sha256": "9f21699501c266dc41d824d9759eaa9196d940428cdd4cb3bb3a4279e3c879ca",
+        "sha256_in_prefix": "9f21699501c266dc41d824d9759eaa9196d940428cdd4cb3bb3a4279e3c879ca",
+        "size_in_bytes": 748
+      },
+      {
+        "_path": "site-packages/pesummary/core/webpage/base.py",
+        "path_type": "hardlink",
+        "sha256": "3a3661110b24b674bc86fba172145cb706dc3d97cbf9a075028dbc0b3dccd061",
+        "sha256_in_prefix": "3a3661110b24b674bc86fba172145cb706dc3d97cbf9a075028dbc0b3dccd061",
+        "size_in_bytes": 3038
+      },
+      {
+        "_path": "site-packages/pesummary/core/webpage/copyright.txt",
+        "path_type": "hardlink",
+        "sha256": "51e24a75364c2ad4083a29c5ce95a7d439d6c2230bdaa57d41f003b0b816004e",
+        "sha256_in_prefix": "51e24a75364c2ad4083a29c5ce95a7d439d6c2230bdaa57d41f003b0b816004e",
+        "size_in_bytes": 825
+      },
+      {
+        "_path": "site-packages/pesummary/core/webpage/main.py",
+        "path_type": "hardlink",
+        "sha256": "958d8018f77930f8f7c3d8f5e546c390d2c3acf71b454745a3d51822f74ec516",
+        "sha256_in_prefix": "958d8018f77930f8f7c3d8f5e546c390d2c3acf71b454745a3d51822f74ec516",
+        "size_in_bytes": 75272
+      },
+      {
+        "_path": "site-packages/pesummary/core/webpage/tables.py",
+        "path_type": "hardlink",
+        "sha256": "78e685bd4c0f12708e863e226f09062d392d44a6e687001a00e5506ca42d2dd7",
+        "sha256_in_prefix": "78e685bd4c0f12708e863e226f09062d392d44a6e687001a00e5506ca42d2dd7",
+        "size_in_bytes": 8151
+      },
+      {
+        "_path": "site-packages/pesummary/core/webpage/webpage.py",
+        "path_type": "hardlink",
+        "sha256": "a9857383619c71c8243f175efc491a9a45004ade94cb63d0d7344c36c0f786dd",
+        "sha256_in_prefix": "a9857383619c71c8243f175efc491a9a45004ade94cb63d0d7344c36c0f786dd",
+        "size_in_bytes": 53226
+      },
+      {
+        "_path": "site-packages/pesummary/gw/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/gw/classification.py",
+        "path_type": "hardlink",
+        "sha256": "d57ece5663adff4e830fe47bcc73e3c8133e449f5b05b855f377114a56a02c1f",
+        "sha256_in_prefix": "d57ece5663adff4e830fe47bcc73e3c8133e449f5b05b855f377114a56a02c1f",
+        "size_in_bytes": 20564
+      },
+      {
+        "_path": "site-packages/pesummary/gw/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/gw/cli/inputs.py",
+        "path_type": "hardlink",
+        "sha256": "e2ddd9028bc4f297a5403453a1b4a5e0bdb9dbdd80bb8b2a6f3d3e89966027ac",
+        "sha256_in_prefix": "e2ddd9028bc4f297a5403453a1b4a5e0bdb9dbdd80bb8b2a6f3d3e89966027ac",
+        "size_in_bytes": 62745
+      },
+      {
+        "_path": "site-packages/pesummary/gw/cli/parser.py",
+        "path_type": "hardlink",
+        "sha256": "514f6da39566d5433e9cdc2f0c9e555fa71ff8283524815513a0f1d8f94739c8",
+        "sha256_in_prefix": "514f6da39566d5433e9cdc2f0c9e555fa71ff8283524815513a0f1d8f94739c8",
+        "size_in_bytes": 21564
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a55763ce08e38ed39366e30952ba34430ff6a413c507580313b6a02be66592cb",
+        "sha256_in_prefix": "a55763ce08e38ed39366e30952ba34430ff6a413c507580313b6a02be66592cb",
+        "size_in_bytes": 94137
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/angles.py",
+        "path_type": "hardlink",
+        "sha256": "416d9b9b994e9739143ab316a8ec5694e3202690585ca9cd294bd16fcb771667",
+        "sha256_in_prefix": "416d9b9b994e9739143ab316a8ec5694e3202690585ca9cd294bd16fcb771667",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/cosmology.py",
+        "path_type": "hardlink",
+        "sha256": "fc794f5f1244863da93899896bfde46d0ab97d6e2c8985c565f2a4f935f9a0b5",
+        "sha256_in_prefix": "fc794f5f1244863da93899896bfde46d0ab97d6e2c8985c565f2a4f935f9a0b5",
+        "size_in_bytes": 5839
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/evolve.py",
+        "path_type": "hardlink",
+        "sha256": "9bfb5fae1303f383b6ecac915d18800f21893476b5c188f2122ffe0358178755",
+        "sha256_in_prefix": "9bfb5fae1303f383b6ecac915d18800f21893476b5c188f2122ffe0358178755",
+        "size_in_bytes": 14219
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/mass.py",
+        "path_type": "hardlink",
+        "sha256": "543624a25f71dc7a64d957050c673ebe9addc0a482720d0ea1f405076497d437",
+        "sha256_in_prefix": "543624a25f71dc7a64d957050c673ebe9addc0a482720d0ea1f405076497d437",
+        "size_in_bytes": 3743
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/nrutils.py",
+        "path_type": "hardlink",
+        "sha256": "1ced8dab20e2755d8b2702167296496085721628330de4d6f04a839d046e2d37",
+        "sha256_in_prefix": "1ced8dab20e2755d8b2702167296496085721628330de4d6f04a839d046e2d37",
+        "size_in_bytes": 31392
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/remnant.py",
+        "path_type": "hardlink",
+        "sha256": "e5fc9fa3276d22323d25e53eca59bcd077baabaa2bee09a87a733dfa3d61d5bd",
+        "sha256_in_prefix": "e5fc9fa3276d22323d25e53eca59bcd077baabaa2bee09a87a733dfa3d61d5bd",
+        "size_in_bytes": 27930
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/snr.py",
+        "path_type": "hardlink",
+        "sha256": "ff91a104b07bcb4e0ff3d81be91738c581ffb81fba7d2fa3b1ad0aeb60cf30b2",
+        "sha256_in_prefix": "ff91a104b07bcb4e0ff3d81be91738c581ffb81fba7d2fa3b1ad0aeb60cf30b2",
+        "size_in_bytes": 38522
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/spins.py",
+        "path_type": "hardlink",
+        "sha256": "fa2b0fce4543af5d5226a8e907f97cb4a238cf0bd036f09e38f02c70a08a7c46",
+        "sha256_in_prefix": "fa2b0fce4543af5d5226a8e907f97cb4a238cf0bd036f09e38f02c70a08a7c46",
+        "size_in_bytes": 7953
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/tgr.py",
+        "path_type": "hardlink",
+        "sha256": "5a8e7f70e9b457fd89abd52de8f2cbc42624c3d612bedabde3dc89a84856d4ff",
+        "sha256_in_prefix": "5a8e7f70e9b457fd89abd52de8f2cbc42624c3d612bedabde3dc89a84856d4ff",
+        "size_in_bytes": 22067
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/tidal.py",
+        "path_type": "hardlink",
+        "sha256": "a8e09de7f8d4e57f06512cf8dd723c32901f94e4c96aa52153bf8d06d6c84364",
+        "sha256_in_prefix": "a8e09de7f8d4e57f06512cf8dd723c32901f94e4c96aa52153bf8d06d6c84364",
+        "size_in_bytes": 13450
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/time.py",
+        "path_type": "hardlink",
+        "sha256": "ac3adcd0284377ecd4e2e8622d189dfff3d9596ee175b509cf94b33623ef653c",
+        "sha256_in_prefix": "ac3adcd0284377ecd4e2e8622d189dfff3d9596ee175b509cf94b33623ef653c",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "site-packages/pesummary/gw/conversions/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1e73222be0f75db1f6967f2be31906aaeb21f164b76b9e6309adc5663e808df0",
+        "sha256_in_prefix": "1e73222be0f75db1f6967f2be31906aaeb21f164b76b9e6309adc5663e808df0",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "site-packages/pesummary/gw/cosmology.py",
+        "path_type": "hardlink",
+        "sha256": "4ef44765d382236c6f8b2a3f3cd55a466c1634fb0e1091df72e100d49670461e",
+        "sha256_in_prefix": "4ef44765d382236c6f8b2a3f3cd55a466c1634fb0e1091df72e100d49670461e",
+        "size_in_bytes": 1991
+      },
+      {
+        "_path": "site-packages/pesummary/gw/fetch.py",
+        "path_type": "hardlink",
+        "sha256": "c90682195b3a9c76b073b28378333fc6df220e9d87c6942e79f0752e16ef8f6a",
+        "sha256_in_prefix": "c90682195b3a9c76b073b28378333fc6df220e9d87c6942e79f0752e16ef8f6a",
+        "size_in_bytes": 5841
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "68617fdcffc75ce0adc900efb32a30ec992d63ef8405bbe3cde624d4c7743626",
+        "sha256_in_prefix": "68617fdcffc75ce0adc900efb32a30ec992d63ef8405bbe3cde624d4c7743626",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/calibration.py",
+        "path_type": "hardlink",
+        "sha256": "e8e1b5ff4dc4eff5ea097f30427b8a315a063b1e60d66cd31066a4f5302953c0",
+        "sha256_in_prefix": "e8e1b5ff4dc4eff5ea097f30427b8a315a063b1e60d66cd31066a4f5302953c0",
+        "size_in_bytes": 7153
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/conversions.py",
+        "path_type": "hardlink",
+        "sha256": "9e1d31454bb0cb6cca79f72d46569ae22fc059c12def58d839c502718d2ec408",
+        "sha256_in_prefix": "9e1d31454bb0cb6cca79f72d46569ae22fc059c12def58d839c502718d2ec408",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/GWTC1.py",
+        "path_type": "hardlink",
+        "sha256": "e2e16560d538d37a9216760b76b34a548324afa06df399183101a4a328b5b758",
+        "sha256_in_prefix": "e2e16560d538d37a9216760b76b34a548324afa06df399183101a4a328b5b758",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/base_read.py",
+        "path_type": "hardlink",
+        "sha256": "9120dd013a4f9167959910ddb1034f9c683dd5df2e57a44554ec1118b697ea79",
+        "sha256_in_prefix": "9120dd013a4f9167959910ddb1034f9c683dd5df2e57a44554ec1118b697ea79",
+        "size_in_bytes": 25811
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/bilby.py",
+        "path_type": "hardlink",
+        "sha256": "1f4da993cca5d8331d52eb01d89aa15f8cdc299563b13c241ec79906922f7681",
+        "sha256_in_prefix": "1f4da993cca5d8331d52eb01d89aa15f8cdc299563b13c241ec79906922f7681",
+        "size_in_bytes": 10739
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/default.py",
+        "path_type": "hardlink",
+        "sha256": "e7b6456b0e199392c2d879deb92295cc182b54a41d9f08f76b9c9d2fa2a419a9",
+        "sha256_in_prefix": "e7b6456b0e199392c2d879deb92295cc182b54a41d9f08f76b9c9d2fa2a419a9",
+        "size_in_bytes": 10090
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/lalinference.py",
+        "path_type": "hardlink",
+        "sha256": "2ed972a5975ba89afd11b2489ce7450bddcf6b62f5e8f377ad2420c08cd670fd",
+        "sha256_in_prefix": "2ed972a5975ba89afd11b2489ce7450bddcf6b62f5e8f377ad2420c08cd670fd",
+        "size_in_bytes": 20402
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/pesummary.py",
+        "path_type": "hardlink",
+        "sha256": "3cadbaf42544da994266daddecb76f3e598002f44c0c61234637a01b8c652e36",
+        "sha256_in_prefix": "3cadbaf42544da994266daddecb76f3e598002f44c0c61234637a01b8c652e36",
+        "size_in_bytes": 14349
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/princeton.py",
+        "path_type": "hardlink",
+        "sha256": "16b06505359514ce858a7a0bd35947ad4cee1930459d73160688836612a668c8",
+        "sha256_in_prefix": "16b06505359514ce858a7a0bd35947ad4cee1930459d73160688836612a668c8",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/formats/xml.py",
+        "path_type": "hardlink",
+        "sha256": "739368e09424f133adbf8899e83e9eee0dc97fcc5f35427f1c25c1d3eb307d83",
+        "sha256_in_prefix": "739368e09424f133adbf8899e83e9eee0dc97fcc5f35427f1c25c1d3eb307d83",
+        "size_in_bytes": 1672
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/injection.py",
+        "path_type": "hardlink",
+        "sha256": "1189ed248ca53003dbb4203e8e6d970fa5b71678d2941c27cb5e93a0e66d479d",
+        "sha256_in_prefix": "1189ed248ca53003dbb4203e8e6d970fa5b71678d2941c27cb5e93a0e66d479d",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/meta_file.py",
+        "path_type": "hardlink",
+        "sha256": "0152537f5e94f3a0e1b7fd8c14c59e7af0a36c9d39eaad9439228ecd687ba277",
+        "sha256_in_prefix": "0152537f5e94f3a0e1b7fd8c14c59e7af0a36c9d39eaad9439228ecd687ba277",
+        "size_in_bytes": 14137
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/psd.py",
+        "path_type": "hardlink",
+        "sha256": "874a62507e609216eac33f8b68b8f8cb97d3ec57122934b34838e7c03fdbe1d5",
+        "sha256_in_prefix": "874a62507e609216eac33f8b68b8f8cb97d3ec57122934b34838e7c03fdbe1d5",
+        "size_in_bytes": 10521
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/read.py",
+        "path_type": "hardlink",
+        "sha256": "b067ce9e99b769f34101d3442b2d35b3ba6619fbcdf2b2899eb526aaf23a1175",
+        "sha256_in_prefix": "b067ce9e99b769f34101d3442b2d35b3ba6619fbcdf2b2899eb526aaf23a1175",
+        "size_in_bytes": 4126
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/skymap.py",
+        "path_type": "hardlink",
+        "sha256": "8e62bc6117176bf5fe883497c0671e4f1f22ab3bf562b815eb8cb78c41baf7dd",
+        "sha256_in_prefix": "8e62bc6117176bf5fe883497c0671e4f1f22ab3bf562b815eb8cb78c41baf7dd",
+        "size_in_bytes": 4998
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/standard_names.py",
+        "path_type": "hardlink",
+        "sha256": "41a9530f377a7cad4540473e86727ec4b0b929869d4cd1a3d784dbfd9f55b6b8",
+        "sha256_in_prefix": "41a9530f377a7cad4540473e86727ec4b0b929869d4cd1a3d784dbfd9f55b6b8",
+        "size_in_bytes": 26901
+      },
+      {
+        "_path": "site-packages/pesummary/gw/file/strain.py",
+        "path_type": "hardlink",
+        "sha256": "13a759179966f77878308cf26ef8dfe3358a4e2b52599e630b95c0a4ad0858e9",
+        "sha256_in_prefix": "13a759179966f77878308cf26ef8dfe3358a4e2b52599e630b95c0a4ad0858e9",
+        "size_in_bytes": 8572
+      },
+      {
+        "_path": "site-packages/pesummary/gw/finish.py",
+        "path_type": "hardlink",
+        "sha256": "e4373ee433b87cc90d0fbbbed50829368d650fefbd199d0807166afec0a018f0",
+        "sha256_in_prefix": "e4373ee433b87cc90d0fbbbed50829368d650fefbd199d0807166afec0a018f0",
+        "size_in_bytes": 4556
+      },
+      {
+        "_path": "site-packages/pesummary/gw/gracedb.py",
+        "path_type": "hardlink",
+        "sha256": "38f8f1e57bbe83b90b2047a0de49bbc824479c3daca29e07d0a4b23fb44780b6",
+        "sha256_in_prefix": "38f8f1e57bbe83b90b2047a0de49bbc824479c3daca29e07d0a4b23fb44780b6",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "site-packages/pesummary/gw/notebook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3925fdcfd7c762079eac67e1650c86de39e639124b36161bd3d18b97a03d4833",
+        "sha256_in_prefix": "3925fdcfd7c762079eac67e1650c86de39e639124b36161bd3d18b97a03d4833",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "site-packages/pesummary/gw/notebook/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "fd8b50d3986a683a57ca23b426bab37e72d5d00696128aa4adc887dae4b3a790",
+        "sha256_in_prefix": "fd8b50d3986a683a57ca23b426bab37e72d5d00696128aa4adc887dae4b3a790",
+        "size_in_bytes": 1188
+      },
+      {
+        "_path": "site-packages/pesummary/gw/notebook/public.py",
+        "path_type": "hardlink",
+        "sha256": "9cf470ca82034bfbcb11ad51009cfde70eae75d51c0c0bef664b87b9e9e38899",
+        "sha256_in_prefix": "9cf470ca82034bfbcb11ad51009cfde70eae75d51c0c0bef664b87b9e9e38899",
+        "size_in_bytes": 7067
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/bounds.py",
+        "path_type": "hardlink",
+        "sha256": "410f7718b9f26f8268b3ad88bcd64b4def5b7a898bc1c86b38df057621739b8c",
+        "sha256_in_prefix": "410f7718b9f26f8268b3ad88bcd64b4def5b7a898bc1c86b38df057621739b8c",
+        "size_in_bytes": 2666
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/cmap.py",
+        "path_type": "hardlink",
+        "sha256": "56824d5092299b6e3b9544eaa22f7dc3c29ca17407699d99b38b454932bb4b86",
+        "sha256_in_prefix": "56824d5092299b6e3b9544eaa22f7dc3c29ca17407699d99b38b454932bb4b86",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/cylon.csv",
+        "path_type": "hardlink",
+        "sha256": "c2f19d1430ff13c024138a05575d153e7244ca80f7f22659ca9e16ab1bddaf23",
+        "sha256_in_prefix": "c2f19d1430ff13c024138a05575d153e7244ca80f7f22659ca9e16ab1bddaf23",
+        "size_in_bytes": 8714
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/detchar.py",
+        "path_type": "hardlink",
+        "sha256": "0b18819e308dfc329a7496b89505f91c9fc98404e87d23f0dec69183618b5738",
+        "sha256_in_prefix": "0b18819e308dfc329a7496b89505f91c9fc98404e87d23f0dec69183618b5738",
+        "size_in_bytes": 9876
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/latex_labels.py",
+        "path_type": "hardlink",
+        "sha256": "85a236515e6123cdf5c85a1f5a7cbb15cc8b638fa9175a395df70da86348a174",
+        "sha256_in_prefix": "85a236515e6123cdf5c85a1f5a7cbb15cc8b638fa9175a395df70da86348a174",
+        "size_in_bytes": 7431
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/main.py",
+        "path_type": "hardlink",
+        "sha256": "b7b31015426ef3c0d009e5f26832337a7b1ba0ec5ae0802bb86290ed52691459",
+        "sha256_in_prefix": "b7b31015426ef3c0d009e5f26832337a7b1ba0ec5ae0802bb86290ed52691459",
+        "size_in_bytes": 46366
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/plot.py",
+        "path_type": "hardlink",
+        "sha256": "93820091d1974ab64a4a66282d381d4ec09061dc30409f3ee5de94bec7ed4f9c",
+        "sha256_in_prefix": "93820091d1974ab64a4a66282d381d4ec09061dc30409f3ee5de94bec7ed4f9c",
+        "size_in_bytes": 54314
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/public.py",
+        "path_type": "hardlink",
+        "sha256": "92b45491893409263f490b1342d5c3e34aa3c9a2c5f8b13156133343c3a83ee9",
+        "sha256_in_prefix": "92b45491893409263f490b1342d5c3e34aa3c9a2c5f8b13156133343c3a83ee9",
+        "size_in_bytes": 3204
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/publication.py",
+        "path_type": "hardlink",
+        "sha256": "2a95fac534f422e9c4ade6f857348d408410807c65c16fb55a34d8198f7760c5",
+        "sha256_in_prefix": "2a95fac534f422e9c4ade6f857348d408410807c65c16fb55a34d8198f7760c5",
+        "size_in_bytes": 17321
+      },
+      {
+        "_path": "site-packages/pesummary/gw/plots/tgr.py",
+        "path_type": "hardlink",
+        "sha256": "f5c0d8960ed27c310e5d19593a944a739a0ef72cc4711fd6528eaa8c2ed1e517",
+        "sha256_in_prefix": "f5c0d8960ed27c310e5d19593a944a739a0ef72cc4711fd6528eaa8c2ed1e517",
+        "size_in_bytes": 6012
+      },
+      {
+        "_path": "site-packages/pesummary/gw/pycbc.py",
+        "path_type": "hardlink",
+        "sha256": "1458c5a43169940044fea4298cbb759e34e5719c46b53166c989b94a07cc452b",
+        "sha256_in_prefix": "1458c5a43169940044fea4298cbb759e34e5719c46b53166c989b94a07cc452b",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "site-packages/pesummary/gw/reweight.py",
+        "path_type": "hardlink",
+        "sha256": "e5c4d412fd5e59356a9de28ec65c8d47be2d870c32d66aa0f36e404cf6ab8206",
+        "sha256_in_prefix": "e5c4d412fd5e59356a9de28ec65c8d47be2d870c32d66aa0f36e404cf6ab8206",
+        "size_in_bytes": 3553
+      },
+      {
+        "_path": "site-packages/pesummary/gw/waveform.py",
+        "path_type": "hardlink",
+        "sha256": "a8d89f3fbf572df9f48ef4ebaa4fd472cc84b6b33d044da9f875b6140e002049",
+        "sha256_in_prefix": "a8d89f3fbf572df9f48ef4ebaa4fd472cc84b6b33d044da9f875b6140e002049",
+        "size_in_bytes": 15728
+      },
+      {
+        "_path": "site-packages/pesummary/gw/webpage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/gw/webpage/main.py",
+        "path_type": "hardlink",
+        "sha256": "7abe6a3bf6d0c1776cced7f4fe8325b7826bb485daa2aba1584289f7c292deb3",
+        "sha256_in_prefix": "7abe6a3bf6d0c1776cced7f4fe8325b7826bb485daa2aba1584289f7c292deb3",
+        "size_in_bytes": 35253
+      },
+      {
+        "_path": "site-packages/pesummary/gw/webpage/public.py",
+        "path_type": "hardlink",
+        "sha256": "f25415852c9fd8920b27cf5af89c60d17c6fe5fdd792fd6e8a2f0849424e3a74",
+        "sha256_in_prefix": "f25415852c9fd8920b27cf5af89c60d17c6fe5fdd792fd6e8a2f0849424e3a74",
+        "size_in_bytes": 7405
+      },
+      {
+        "_path": "site-packages/pesummary/gw/webpage/tgr.py",
+        "path_type": "hardlink",
+        "sha256": "84222d608237ddbdf05271bcd461faa28ac0ffefaecaff0dd1beb9cb06c60d7f",
+        "sha256_in_prefix": "84222d608237ddbdf05271bcd461faa28ac0ffefaecaff0dd1beb9cb06c60d7f",
+        "size_in_bytes": 12756
+      },
+      {
+        "_path": "site-packages/pesummary/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "69fe31c7b68c7632154a242e46869205e1d2bde6fcf5f9be8ad981a2bb5edc86",
+        "sha256_in_prefix": "69fe31c7b68c7632154a242e46869205e1d2bde6fcf5f9be8ad981a2bb5edc86",
+        "size_in_bytes": 1244
+      },
+      {
+        "_path": "site-packages/pesummary/io/read.py",
+        "path_type": "hardlink",
+        "sha256": "a67face839c73ce370713ba7e069e86912746729ae016810fa088b9c42f3aa6d",
+        "sha256_in_prefix": "a67face839c73ce370713ba7e069e86912746729ae016810fa088b9c42f3aa6d",
+        "size_in_bytes": 3562
+      },
+      {
+        "_path": "site-packages/pesummary/io/write.py",
+        "path_type": "hardlink",
+        "sha256": "37425ecf64c18b2a38ec1a22a18530a4f81999070c873a3fac98dc2b4d42de0e",
+        "sha256_in_prefix": "37425ecf64c18b2a38ec1a22a18530a4f81999070c873a3fac98dc2b4d42de0e",
+        "size_in_bytes": 4510
+      },
+      {
+        "_path": "site-packages/pesummary/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "sha256_in_prefix": "ce0c4768e08e68bf95a9b731748dd1a73445f2a385c99ded974a2e9fc904532f",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/pesummary/tests/_bilby.sh",
+        "path_type": "hardlink",
+        "sha256": "0055d351bd7dcef29b0c5af70563f925c138dd101d5bd6ce8d01772c213651f2",
+        "sha256_in_prefix": "0055d351bd7dcef29b0c5af70563f925c138dd101d5bd6ce8d01772c213651f2",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/pesummary/tests/action_test.py",
+        "path_type": "hardlink",
+        "sha256": "554cf3e78152afbcbff7c9a89bc8e894ff703c49ed4c6d2517725887726c5a23",
+        "sha256_in_prefix": "554cf3e78152afbcbff7c9a89bc8e894ff703c49ed4c6d2517725887726c5a23",
+        "size_in_bytes": 1949
+      },
+      {
+        "_path": "site-packages/pesummary/tests/base.py",
+        "path_type": "hardlink",
+        "sha256": "415127ebba452c09a39e7b6f8dbf22fb958c74a49756deec432e87b07561a170",
+        "sha256_in_prefix": "415127ebba452c09a39e7b6f8dbf22fb958c74a49756deec432e87b07561a170",
+        "size_in_bytes": 17771
+      },
+      {
+        "_path": "site-packages/pesummary/tests/bilby.sh",
+        "path_type": "hardlink",
+        "sha256": "6341940ec256eca5b57bb7c6bdf9da5feb9e8c29940c39c7cba3c6a65ec08977",
+        "sha256_in_prefix": "6341940ec256eca5b57bb7c6bdf9da5feb9e8c29940c39c7cba3c6a65ec08977",
+        "size_in_bytes": 514
+      },
+      {
+        "_path": "site-packages/pesummary/tests/bilby_mcmc.sh",
+        "path_type": "hardlink",
+        "sha256": "5be7f27464b701ee71059ca2a3e78f72a38fc270b86c34f3964a38aaaa2dfe08",
+        "sha256_in_prefix": "5be7f27464b701ee71059ca2a3e78f72a38fc270b86c34f3964a38aaaa2dfe08",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "site-packages/pesummary/tests/bilby_pipe.sh",
+        "path_type": "hardlink",
+        "sha256": "4ffb486e16f47e258e4e4facf3e5faab32c973f47420d0cd828fa0a9bc3c6b94",
+        "sha256_in_prefix": "4ffb486e16f47e258e4e4facf3e5faab32c973f47420d0cd828fa0a9bc3c6b94",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "site-packages/pesummary/tests/bounded_kde_test.py",
+        "path_type": "hardlink",
+        "sha256": "f92094a6a68bc2fb1582c7dee0f00203e6cfdcb77fedca94801cbb4ca2e276be",
+        "sha256_in_prefix": "f92094a6a68bc2fb1582c7dee0f00203e6cfdcb77fedca94801cbb4ca2e276be",
+        "size_in_bytes": 1917
+      },
+      {
+        "_path": "site-packages/pesummary/tests/calibration_test.py",
+        "path_type": "hardlink",
+        "sha256": "6e69b2bc41adb99d01398caa8ca8160accac63fef0e82d94c544bd40ec0d9487",
+        "sha256_in_prefix": "6e69b2bc41adb99d01398caa8ca8160accac63fef0e82d94c544bd40ec0d9487",
+        "size_in_bytes": 2682
+      },
+      {
+        "_path": "site-packages/pesummary/tests/classification_test.py",
+        "path_type": "hardlink",
+        "sha256": "7bb7496e57db7477c0e4eb6746ee9e7daaa33d5bf021d637876aad446c84180a",
+        "sha256_in_prefix": "7bb7496e57db7477c0e4eb6746ee9e7daaa33d5bf021d637876aad446c84180a",
+        "size_in_bytes": 7459
+      },
+      {
+        "_path": "site-packages/pesummary/tests/conversion_test.py",
+        "path_type": "hardlink",
+        "sha256": "e773b5856239bf0884d06015d12f3f47a26f13c0f1301579687a550288397220",
+        "sha256_in_prefix": "e773b5856239bf0884d06015d12f3f47a26f13c0f1301579687a550288397220",
+        "size_in_bytes": 47589
+      },
+      {
+        "_path": "site-packages/pesummary/tests/cosmology_test.py",
+        "path_type": "hardlink",
+        "sha256": "dda46a4266bad9a4de13e93963f43701a99c28af652dc46e29954882dc6e2b37",
+        "sha256_in_prefix": "dda46a4266bad9a4de13e93963f43701a99c28af652dc46e29954882dc6e2b37",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "site-packages/pesummary/tests/example_config.ini",
+        "path_type": "hardlink",
+        "sha256": "803665046af8e6541e15de100cf319a5dd4ea747a7fbddb59ee08a80f45b57db",
+        "sha256_in_prefix": "803665046af8e6541e15de100cf319a5dd4ea747a7fbddb59ee08a80f45b57db",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/pesummary/tests/executable_test.py",
+        "path_type": "hardlink",
+        "sha256": "3c10c7ab0aee6e5efae6c694644a67e5cc07629d38228e38d75445ba2dc69a39",
+        "sha256_in_prefix": "3c10c7ab0aee6e5efae6c694644a67e5cc07629d38228e38d75445ba2dc69a39",
+        "size_in_bytes": 89588
+      },
+      {
+        "_path": "site-packages/pesummary/tests/executables.sh",
+        "path_type": "hardlink",
+        "sha256": "1c8d3f742ed91be34baf164420307fd52755cb9eeb825428f81147efb0cab1de",
+        "sha256_in_prefix": "1c8d3f742ed91be34baf164420307fd52755cb9eeb825428f81147efb0cab1de",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/pesummary/tests/existing_file.py",
+        "path_type": "hardlink",
+        "sha256": "86f931f858521347df387fa84be89db8de3096bab71028d3144f6cbeaf1eeda4",
+        "sha256_in_prefix": "86f931f858521347df387fa84be89db8de3096bab71028d3144f6cbeaf1eeda4",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "site-packages/pesummary/tests/fetch_test.py",
+        "path_type": "hardlink",
+        "sha256": "0f1c2c25268060cb85a6076f6cbbac42efa268d9cf6d21c5105cfb0fbd06462f",
+        "sha256_in_prefix": "0f1c2c25268060cb85a6076f6cbbac42efa268d9cf6d21c5105cfb0fbd06462f",
+        "size_in_bytes": 4231
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/.gitattributes",
+        "path_type": "hardlink",
+        "sha256": "399028483edd11262a8b27f15fdd5c21b2cca1d41bb984468d2bc0e406290937",
+        "sha256_in_prefix": "399028483edd11262a8b27f15fdd5c21b2cca1d41bb984468d2bc0e406290937",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/calibration_envelope.txt",
+        "path_type": "hardlink",
+        "sha256": "55728e808dcfd71c86775727b0bcdac7ee92991a81b11771418eecf141c8b7bd",
+        "sha256_in_prefix": "55728e808dcfd71c86775727b0bcdac7ee92991a81b11771418eecf141c8b7bd",
+        "size_in_bytes": 843570
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/config_bilby.ini",
+        "path_type": "hardlink",
+        "sha256": "7559a06209832d186506c8905c8922aa23924fe4c108e25a64a37faf88696760",
+        "sha256_in_prefix": "7559a06209832d186506c8905c8922aa23924fe4c108e25a64a37faf88696760",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/config_lalinference.ini",
+        "path_type": "hardlink",
+        "sha256": "7ca49d4355041f704e6f6b6850a0cc41cc077bb890b691ba1d09d32aa6051edc",
+        "sha256_in_prefix": "7ca49d4355041f704e6f6b6850a0cc41cc077bb890b691ba1d09d32aa6051edc",
+        "size_in_bytes": 3576
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/example.ini",
+        "path_type": "hardlink",
+        "sha256": "af7353b89d0bd9d002519cd9c197bea0574da2499c9834b92677f6cd979ae100",
+        "sha256_in_prefix": "af7353b89d0bd9d002519cd9c197bea0574da2499c9834b92677f6cd979ae100",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/lal_pdf_for_summarytgr.dat.gz",
+        "path_type": "hardlink",
+        "sha256": "7096cac60e88eadf5b8a566a922cddd036181a01a3874ab4d9d3362a1c8b647a",
+        "sha256_in_prefix": "7096cac60e88eadf5b8a566a922cddd036181a01a3874ab4d9d3362a1c8b647a",
+        "size_in_bytes": 264597
+      },
+      {
+        "_path": "site-packages/pesummary/tests/files/psd_file.txt",
+        "path_type": "hardlink",
+        "sha256": "bce34246a1357356d8f7980c3432b5ffb065f8eea62247f7ed3247b10592113d",
+        "sha256_in_prefix": "bce34246a1357356d8f7980c3432b5ffb065f8eea62247f7ed3247b10592113d",
+        "size_in_bytes": 96127
+      },
+      {
+        "_path": "site-packages/pesummary/tests/finish_test.py",
+        "path_type": "hardlink",
+        "sha256": "49445abfed0329a3d8c0c6a31d177f6ed6fa872c160c23456f0ad071b3bac08b",
+        "sha256_in_prefix": "49445abfed0329a3d8c0c6a31d177f6ed6fa872c160c23456f0ad071b3bac08b",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "site-packages/pesummary/tests/imports.sh",
+        "path_type": "hardlink",
+        "sha256": "fa7f89c666bda4879da3b290340edec6f321ff6cf767ac2cce188f2a9610707a",
+        "sha256_in_prefix": "fa7f89c666bda4879da3b290340edec6f321ff6cf767ac2cce188f2a9610707a",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/pesummary/tests/injection_test.py",
+        "path_type": "hardlink",
+        "sha256": "0edcd1f0f4ed44afb75b7f1b996a038dfa9269c70ec18c52774eb4a3cbc95f9a",
+        "sha256_in_prefix": "0edcd1f0f4ed44afb75b7f1b996a038dfa9269c70ec18c52774eb4a3cbc95f9a",
+        "size_in_bytes": 2456
+      },
+      {
+        "_path": "site-packages/pesummary/tests/input_test.py",
+        "path_type": "hardlink",
+        "sha256": "b260d363976d2b8202ff55f593a36600730672f653fdad2617c7b00fc4467634",
+        "sha256_in_prefix": "b260d363976d2b8202ff55f593a36600730672f653fdad2617c7b00fc4467634",
+        "size_in_bytes": 29221
+      },
+      {
+        "_path": "site-packages/pesummary/tests/lalinference.sh",
+        "path_type": "hardlink",
+        "sha256": "f23abb8d65193a1739e30da84c4329c2b5c60ce5948e01a473cbac6ff9b5a5e8",
+        "sha256_in_prefix": "f23abb8d65193a1739e30da84c4329c2b5c60ce5948e01a473cbac6ff9b5a5e8",
+        "size_in_bytes": 1875
+      },
+      {
+        "_path": "site-packages/pesummary/tests/ligo_skymap_test.py",
+        "path_type": "hardlink",
+        "sha256": "d1fe0de56be13549d88c39c0038859a00dd4ac9bc3c0076d66b1b09a37334139",
+        "sha256_in_prefix": "d1fe0de56be13549d88c39c0038859a00dd4ac9bc3c0076d66b1b09a37334139",
+        "size_in_bytes": 2461
+      },
+      {
+        "_path": "site-packages/pesummary/tests/main_injection.xml",
+        "path_type": "hardlink",
+        "sha256": "6ba0883d41104bb2ee8f42bec24fe158b4db579c59b8c662c25c141ef4849dd3",
+        "sha256_in_prefix": "6ba0883d41104bb2ee8f42bec24fe158b4db579c59b8c662c25c141ef4849dd3",
+        "size_in_bytes": 12707
+      },
+      {
+        "_path": "site-packages/pesummary/tests/main_input.ini",
+        "path_type": "hardlink",
+        "sha256": "ff40f861d6dc09eb802b2d22f5729c04d0523afbe8d77ef4adcf8f755d6678c7",
+        "sha256_in_prefix": "ff40f861d6dc09eb802b2d22f5729c04d0523afbe8d77ef4adcf8f755d6678c7",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "site-packages/pesummary/tests/main_input_core.ini",
+        "path_type": "hardlink",
+        "sha256": "e81fe5fa394e629832e66e8aa7e253a28cc0115191c05f1f8fc74e099df35408",
+        "sha256_in_prefix": "e81fe5fa394e629832e66e8aa7e253a28cc0115191c05f1f8fc74e099df35408",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/pesummary/tests/meta_file_test.py",
+        "path_type": "hardlink",
+        "sha256": "82d447ad05cb75fbae9c551b1ed51336fe91182d3d35bc3e17a438e4b2607247",
+        "sha256_in_prefix": "82d447ad05cb75fbae9c551b1ed51336fe91182d3d35bc3e17a438e4b2607247",
+        "size_in_bytes": 19872
+      },
+      {
+        "_path": "site-packages/pesummary/tests/notebook_test.py",
+        "path_type": "hardlink",
+        "sha256": "8f57c0db572392550c3bf2ae86401a0a5a9547e74cdb1c3808d449451e9d9bc1",
+        "sha256_in_prefix": "8f57c0db572392550c3bf2ae86401a0a5a9547e74cdb1c3808d449451e9d9bc1",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "site-packages/pesummary/tests/plot_test.py",
+        "path_type": "hardlink",
+        "sha256": "4c41a648bb4f44869d421ad65ee07a3ccfd5125beb107106cf9b4ba455315c4d",
+        "sha256_in_prefix": "4c41a648bb4f44869d421ad65ee07a3ccfd5125beb107106cf9b4ba455315c4d",
+        "size_in_bytes": 20218
+      },
+      {
+        "_path": "site-packages/pesummary/tests/psd_test.py",
+        "path_type": "hardlink",
+        "sha256": "6fefc9bb9f1d7fc8dc231da424289cb26cd277a930efd5117c1c9a658c9f2d62",
+        "sha256_in_prefix": "6fefc9bb9f1d7fc8dc231da424289cb26cd277a930efd5117c1c9a658c9f2d62",
+        "size_in_bytes": 3994
+      },
+      {
+        "_path": "site-packages/pesummary/tests/pycbc.sh",
+        "path_type": "hardlink",
+        "sha256": "3098ad2bb763387510bd4cdfbde7548535bfcc184db2606f0569f5d4fb7d24db",
+        "sha256_in_prefix": "3098ad2bb763387510bd4cdfbde7548535bfcc184db2606f0569f5d4fb7d24db",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "site-packages/pesummary/tests/pycbc_test.py",
+        "path_type": "hardlink",
+        "sha256": "a32c6e6021fc51c71d1562998ac53d819152c1374c6a38041e8a14859c1ca659",
+        "sha256_in_prefix": "a32c6e6021fc51c71d1562998ac53d819152c1374c6a38041e8a14859c1ca659",
+        "size_in_bytes": 4930
+      },
+      {
+        "_path": "site-packages/pesummary/tests/read_test.py",
+        "path_type": "hardlink",
+        "sha256": "cc09aff384c1647bfd137df07eab5a4a853add761676e8f83b9a47f2ee59c093",
+        "sha256_in_prefix": "cc09aff384c1647bfd137df07eab5a4a853add761676e8f83b9a47f2ee59c093",
+        "size_in_bytes": 75493
+      },
+      {
+        "_path": "site-packages/pesummary/tests/reweight_test.py",
+        "path_type": "hardlink",
+        "sha256": "7b428c4bf486a0c7132305b8002951ca98a837688774b430edd915e717a96a90",
+        "sha256_in_prefix": "7b428c4bf486a0c7132305b8002951ca98a837688774b430edd915e717a96a90",
+        "size_in_bytes": 3482
+      },
+      {
+        "_path": "site-packages/pesummary/tests/strain_test.py",
+        "path_type": "hardlink",
+        "sha256": "9b79ebc63220c90526ff7912ae34320a712f549f9192454ca92cfd3ec7b0dd00",
+        "sha256_in_prefix": "9b79ebc63220c90526ff7912ae34320a712f549f9192454ca92cfd3ec7b0dd00",
+        "size_in_bytes": 3242
+      },
+      {
+        "_path": "site-packages/pesummary/tests/summaryplots_test.py",
+        "path_type": "hardlink",
+        "sha256": "d78fe5c14a21ee08b34d1df517ec60d1223033615c34d05a3cd7967301425754",
+        "sha256_in_prefix": "d78fe5c14a21ee08b34d1df517ec60d1223033615c34d05a3cd7967301425754",
+        "size_in_bytes": 11818
+      },
+      {
+        "_path": "site-packages/pesummary/tests/utils_test.py",
+        "path_type": "hardlink",
+        "sha256": "fae56f2195f2102453496b3c69067d1051aa5107f87c32347984a7ad905cb329",
+        "sha256_in_prefix": "fae56f2195f2102453496b3c69067d1051aa5107f87c32347984a7ad905cb329",
+        "size_in_bytes": 49822
+      },
+      {
+        "_path": "site-packages/pesummary/tests/waveform_test.py",
+        "path_type": "hardlink",
+        "sha256": "27f1d362b26678d1bf64dd9c78a55636a0b9e0a2e945f513b68a06af0a6149d1",
+        "sha256_in_prefix": "27f1d362b26678d1bf64dd9c78a55636a0b9e0a2e945f513b68a06af0a6149d1",
+        "size_in_bytes": 8479
+      },
+      {
+        "_path": "site-packages/pesummary/tests/webpage_test.py",
+        "path_type": "hardlink",
+        "sha256": "249a6966f5d01335149a3365511b176fbddb0d34771b543332642ebb4a68420b",
+        "sha256_in_prefix": "249a6966f5d01335149a3365511b176fbddb0d34771b543332642ebb4a68420b",
+        "size_in_bytes": 11475
+      },
+      {
+        "_path": "site-packages/pesummary/tests/workflow_test.py",
+        "path_type": "hardlink",
+        "sha256": "efe6efa59861813d348b239757f2d970ce58af016bab73483af0ec7e7ca2e662",
+        "sha256_in_prefix": "efe6efa59861813d348b239757f2d970ce58af016bab73483af0ec7e7ca2e662",
+        "size_in_bytes": 21449
+      },
+      {
+        "_path": "site-packages/pesummary/tests/write_test.py",
+        "path_type": "hardlink",
+        "sha256": "f9eb980b1c1cb8bc2d72cc8d8f3854e4837f97c2cc89c9a2c102cc71d7b40473",
+        "sha256_in_prefix": "f9eb980b1c1cb8bc2d72cc8d8f3854e4837f97c2cc89c9a2c102cc71d7b40473",
+        "size_in_bytes": 7496
+      },
+      {
+        "_path": "site-packages/pesummary/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e98c21c71206a4fbfaf5bb0febcd4c210b628f89604b8decc0ecbf9299c1a2f",
+        "sha256_in_prefix": "3e98c21c71206a4fbfaf5bb0febcd4c210b628f89604b8decc0ecbf9299c1a2f",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/pesummary/utils/array.py",
+        "path_type": "hardlink",
+        "sha256": "5d0609e9c033f356e15b2d7ae07d12ef03c2d4ab6ff1f6546370bae927fb6b3b",
+        "sha256_in_prefix": "5d0609e9c033f356e15b2d7ae07d12ef03c2d4ab6ff1f6546370bae927fb6b3b",
+        "size_in_bytes": 11023
+      },
+      {
+        "_path": "site-packages/pesummary/utils/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "93764a41cc9bdf36a90f24d8349b336ce0f81ea041c39a99b88afb3ea0e245a5",
+        "sha256_in_prefix": "93764a41cc9bdf36a90f24d8349b336ce0f81ea041c39a99b88afb3ea0e245a5",
+        "size_in_bytes": 9559
+      },
+      {
+        "_path": "site-packages/pesummary/utils/dict.py",
+        "path_type": "hardlink",
+        "sha256": "7e04d0f94b248a0285e7371f6b629b9809e3ecf992ec7936997e2edc2c3d6f02",
+        "sha256_in_prefix": "7e04d0f94b248a0285e7371f6b629b9809e3ecf992ec7936997e2edc2c3d6f02",
+        "size_in_bytes": 8392
+      },
+      {
+        "_path": "site-packages/pesummary/utils/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "56b0d90971d219da3dcb15f245801c1f761b4c896a9adf5d343208d97af59d5f",
+        "sha256_in_prefix": "56b0d90971d219da3dcb15f245801c1f761b4c896a9adf5d343208d97af59d5f",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "site-packages/pesummary/utils/list.py",
+        "path_type": "hardlink",
+        "sha256": "7c2724a6368e762065211d3d0f0fe0924d0048d87e65cd8d22043c2d04765ed5",
+        "sha256_in_prefix": "7c2724a6368e762065211d3d0f0fe0924d0048d87e65cd8d22043c2d04765ed5",
+        "size_in_bytes": 2993
+      },
+      {
+        "_path": "site-packages/pesummary/utils/parameters.py",
+        "path_type": "hardlink",
+        "sha256": "a57917d467ec27ef787765d7d3b47ea6dc7a560287f4c04cff76756e484b491a",
+        "sha256_in_prefix": "a57917d467ec27ef787765d7d3b47ea6dc7a560287f4c04cff76756e484b491a",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "site-packages/pesummary/utils/pdf.py",
+        "path_type": "hardlink",
+        "sha256": "5117d7f6f9d6ec2f6d86647b9d846b1f6f21331e136cba5390f754c3f3de6675",
+        "sha256_in_prefix": "5117d7f6f9d6ec2f6d86647b9d846b1f6f21331e136cba5390f754c3f3de6675",
+        "size_in_bytes": 16624
+      },
+      {
+        "_path": "site-packages/pesummary/utils/probability_dict.py",
+        "path_type": "hardlink",
+        "sha256": "6b586c1397bdd0025ec1c4b23050d783ce647f60964db8ed7d50299551882a84",
+        "sha256_in_prefix": "6b586c1397bdd0025ec1c4b23050d783ce647f60964db8ed7d50299551882a84",
+        "size_in_bytes": 9255
+      },
+      {
+        "_path": "site-packages/pesummary/utils/samples_dict.py",
+        "path_type": "hardlink",
+        "sha256": "b4127b5a8e1fab05674d298d04eae8064418c17f2f1f115c10a4bb4dff778836",
+        "sha256_in_prefix": "b4127b5a8e1fab05674d298d04eae8064418c17f2f1f115c10a4bb4dff778836",
+        "size_in_bytes": 75613
+      },
+      {
+        "_path": "site-packages/pesummary/utils/tqdm.py",
+        "path_type": "hardlink",
+        "sha256": "1ac1f76997dd94bc6cc6bc146bfa99e93213fba3f68739911c6fb23c2dd3fcbb",
+        "sha256_in_prefix": "1ac1f76997dd94bc6cc6bc146bfa99e93213fba3f68739911c6fb23c2dd3fcbb",
+        "size_in_bytes": 2991
+      },
+      {
+        "_path": "site-packages/pesummary/utils/utils.py",
+        "path_type": "hardlink",
+        "sha256": "87a0b97c6c0ba25c9d156ddc1fa97e4366e9fbc6ebc45e03cccf7fe78c51a411",
+        "sha256_in_prefix": "87a0b97c6c0ba25c9d156ddc1fa97e4366e9fbc6ebc45e03cccf7fe78c51a411",
+        "size_in_bytes": 35483
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/__pycache__/_version_helper.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryclassification.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryclean.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycombine.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycombine_posteriors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarycompare.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarydetchar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryextract.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarygracedb.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryjscompare.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarymodify.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypages.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypageslw.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypipe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryplots.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarypublication.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryrecreate.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryreview.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarysplit.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarytest.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summarytgr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/cli/__pycache__/summaryversion.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/conf/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/conf/__pycache__/caption.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/conf/__pycache__/configuration.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/actions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/inputs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/cli/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/css/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/__pycache__/fetch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/base_read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/bilby.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/csv.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/dat.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/default.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/hdf5.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/ini.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/numpy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/pesummary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/pickle.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/formats/__pycache__/sql.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/__pycache__/injection.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/__pycache__/mcmc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/__pycache__/meta_file.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/file/__pycache__/read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/__pycache__/finish.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/js/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/notebook/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/notebook/__pycache__/notebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/bounded_1d_kde.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/bounded_2d_kde.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/corner.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/figure.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/interactive.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/interpolate.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/latex_labels.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/population.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/__pycache__/publication.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/kde.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/plots/seaborn/__pycache__/violin.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/__pycache__/reweight.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/tables.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/core/webpage/__pycache__/webpage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/classification.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/inputs.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/cli/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/angles.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/cosmology.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/evolve.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/mass.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/nrutils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/remnant.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/snr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/spins.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/tgr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/tidal.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/time.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/conversions/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/cosmology.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/fetch.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/calibration.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/conversions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/GWTC1.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/base_read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/bilby.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/default.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/lalinference.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/pesummary.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/princeton.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/formats/__pycache__/xml.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/injection.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/meta_file.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/psd.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/skymap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/standard_names.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/file/__pycache__/strain.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/finish.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/gracedb.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/notebook.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/notebook/__pycache__/public.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/bounds.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/cmap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/detchar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/latex_labels.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/plot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/public.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/publication.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/plots/__pycache__/tgr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/pycbc.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/reweight.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/__pycache__/waveform.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/main.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/public.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/gw/webpage/__pycache__/tgr.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/io/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/io/__pycache__/read.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/io/__pycache__/write.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/action_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/base.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/bounded_kde_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/calibration_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/classification_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/conversion_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/cosmology_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/executable_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/existing_file.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/fetch_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/finish_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/injection_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/input_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/ligo_skymap_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/meta_file_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/notebook_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/plot_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/psd_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/pycbc_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/read_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/reweight_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/strain_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/summaryplots_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/utils_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/waveform_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/webpage_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/workflow_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/tests/__pycache__/write_test.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/array.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/decorators.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/parameters.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/pdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/probability_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/samples_dict.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/tqdm.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pesummary/utils/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/summaryclassification",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryclean",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarycombine",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarycombine_posteriors",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarycompare",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarydetchar",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryextract",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarygracedb",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryjscompare",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarymodify",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarypages",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarypageslw",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarypipe",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryplots",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarypublication",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryrecreate",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryreview",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarysplit",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarytest",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summarytgr",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/summaryversion",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d6d8798d351c951959b87d6465e5cee825d1daaeb4429c6a607548ddf0c643d9",
+  "size": 788312,
+  "subdir": "noarch",
+  "timestamp": 1683546559000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pesummary-1.0.0-pyhd8ed1ab_0.conda",
+  "version": "1.0.0"
+}

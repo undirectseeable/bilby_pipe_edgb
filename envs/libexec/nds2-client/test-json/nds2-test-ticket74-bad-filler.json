@@ -1,0 +1,86 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": [
+          "nds2"
+        ]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [
+          0,
+          "H1:LSC-SRCL_OUT_DQ.mean",
+          "m-trend",
+          0.166667,
+          "real_8"
+        ]
+      },
+      {
+        "type": "command",
+        "action": "nds2.register_chan",
+        "args": [
+          1,
+          "H1:LSC-SRCL_OUT_DQ.mean",
+          "s-trend",
+          1,
+          "real_8"
+        ]
+      },
+      {
+        "command": "authorize\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "server-protocol-version;\n",
+        "response_hex": "3030303000000001",
+        "type": "script"
+      },
+      {
+        "type": "command",
+        "action": "nds2.revision",
+        "args": []
+      },
+      {
+        "command": "check-data 1218564060 1218564120 {H1:LSC-SRCL_OUT_DQ.mean,m-trend};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0017"
+      },
+      {
+        "command": "get-source-data 1218564060 {H1:LSC-SRCL_OUT_DQ.mean,m-trend};\n",
+        "type": "script",
+        "response_hex": "3030303000000053"
+      },
+      {
+        "command": "",
+        "type": "script",
+        "response": "H1:LSC-SRCL_OUT_DQ.mean {H-H1_M:1218560000-1218564000 H-H1_M:1218565000-1218566000}"
+      },
+      {
+        "command": "get-channels 0 unknown {H1:LSC-SRCL_OUT_DQ.mean};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds2.get-channels",
+        "args": [0, 1]
+      },
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "build": "py38h7f0c24c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "liblalframe 3.0.4 h8fba346_1",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python-lal >=7.5.0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-lalframe-3.0.4-py38h7f0c24c_1",
+  "files": [
+    "lib/python3.8/site-packages/lalframe/__init__.py",
+    "lib/python3.8/site-packages/lalframe/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/__pycache__/frread.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/__pycache__/git_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/__pycache__/lalframe.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/_lalframe.so",
+    "lib/python3.8/site-packages/lalframe/frread.py",
+    "lib/python3.8/site-packages/lalframe/git_version.py",
+    "lib/python3.8/site-packages/lalframe/lalframe.py",
+    "lib/python3.8/site-packages/lalframe/utils/__init__.py",
+    "lib/python3.8/site-packages/lalframe/utils/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/utils/__pycache__/frtools.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalframe/utils/frtools.py"
+  ],
+  "fn": "python-lalframe-3.0.4-py38h7f0c24c_1.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-lalframe-3.0.4-py38h7f0c24c_1",
+    "type": 1
+  },
+  "md5": "4e816c7a69703b6fa8a46ac1a2992c74",
+  "name": "python-lalframe",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-lalframe-3.0.4-py38h7f0c24c_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9fc2f8daa331040a123efba2f5cee40a78707a8e6f48c4bfcc4209a18a3578f4",
+        "sha256_in_prefix": "9fc2f8daa331040a123efba2f5cee40a78707a8e6f48c4bfcc4209a18a3578f4",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "83ab6b563aa1462db702f4437757abe8b7d14d48f4815c0c71eecdf1f42aefa4",
+        "sha256_in_prefix": "83ab6b563aa1462db702f4437757abe8b7d14d48f4815c0c71eecdf1f42aefa4",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/__pycache__/frread.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "790ca3411f3fa82e237198d9ba8c48ece517f13e037e00e10be51979f183de71",
+        "sha256_in_prefix": "790ca3411f3fa82e237198d9ba8c48ece517f13e037e00e10be51979f183de71",
+        "size_in_bytes": 8679
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/__pycache__/git_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f85d22fbafdfe550264b2e3bc54262870c7fba2dcaeafb3bbf8c60ebb5f2c116",
+        "sha256_in_prefix": "f85d22fbafdfe550264b2e3bc54262870c7fba2dcaeafb3bbf8c60ebb5f2c116",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/__pycache__/lalframe.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3d1ebac667ad41bb99051bbf607d527243b8ce185ca2fd079ff279df45fae10",
+        "sha256_in_prefix": "f3d1ebac667ad41bb99051bbf607d527243b8ce185ca2fd079ff279df45fae10",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/_lalframe.so",
+        "path_type": "hardlink",
+        "sha256": "eb916974e8257f9f171716ccabe4de1c82657acef716f3bec7689251b08c8efc",
+        "sha256_in_prefix": "eb916974e8257f9f171716ccabe4de1c82657acef716f3bec7689251b08c8efc",
+        "size_in_bytes": 581904
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/frread.py",
+        "path_type": "hardlink",
+        "sha256": "5170fd8b5bc93617af5dfa85d7f020a0394904c120d9e598fe0fecab2818009d",
+        "sha256_in_prefix": "5170fd8b5bc93617af5dfa85d7f020a0394904c120d9e598fe0fecab2818009d",
+        "size_in_bytes": 11374
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/git_version.py",
+        "path_type": "hardlink",
+        "sha256": "7a2578d4aee31771c3acaefdd20f9fbcef4467338d3a289f54fc42ae5560d788",
+        "sha256_in_prefix": "7a2578d4aee31771c3acaefdd20f9fbcef4467338d3a289f54fc42ae5560d788",
+        "size_in_bytes": 2324
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/lalframe.py",
+        "path_type": "hardlink",
+        "sha256": "81d0e5a5b253613353394fae46b88f1f758d0d21fe3cb7c1b3570b0318b2b36f",
+        "sha256_in_prefix": "81d0e5a5b253613353394fae46b88f1f758d0d21fe3cb7c1b3570b0318b2b36f",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "07af5edac99de3975185190c8919be7fc4c220d2f4454e10554409afd8894a21",
+        "sha256_in_prefix": "07af5edac99de3975185190c8919be7fc4c220d2f4454e10554409afd8894a21",
+        "size_in_bytes": 937
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/utils/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "beb82638ff2ad6f09f3baec7b900c23127bcf45cd1359a9829bd9ff3db58eef4",
+        "sha256_in_prefix": "beb82638ff2ad6f09f3baec7b900c23127bcf45cd1359a9829bd9ff3db58eef4",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/utils/__pycache__/frtools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b84f5746ed46a8930cfc63857fe234c81d7d1fa4f2b4bb424c87ace0d5fcadea",
+        "sha256_in_prefix": "b84f5746ed46a8930cfc63857fe234c81d7d1fa4f2b4bb424c87ace0d5fcadea",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalframe/utils/frtools.py",
+        "path_type": "hardlink",
+        "sha256": "a843951fa97490085933fd819e38686a72a75812c941854e7566a726e79043c5",
+        "sha256_in_prefix": "a843951fa97490085933fd819e38686a72a75812c941854e7566a726e79043c5",
+        "size_in_bytes": 2120
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "32988c511eb3d1218901bbbfb04d9dfe7fdf3cf54b1f227707e251ca64709258",
+  "size": 751413,
+  "subdir": "linux-64",
+  "timestamp": 1711652947000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lalframe-3.0.4-py38h7f0c24c_1.conda",
+  "version": "3.0.4"
+}

@@ -1,0 +1,57 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "type": "command",
+                "action": "import",
+                "args": ["nds1"]
+            },
+            {
+                "type": "command",
+                "action": "nds1.register_chan",
+                "args": ["X1:PEM-1", 256,    5, 0, 0,   "Undef", 1, 1, 0]
+            },
+			{
+                "type": "command",
+                "action": "nds1.register_chan",
+                "args": ["X1:PEM-2", 256,    5, 0, 0,   "Undef", 1, 1, 0]
+            },
+            {
+                "type": "command",
+                "action": "nds1.register_chan",
+                "args": ["X1:PEM-3", 256,    5, 0, 0,   "Undef", 1, 1, 0]
+            },
+            {
+                "type": "command",
+                "action": "nds1.register_chan",
+                "args": ["X1:PEM-4", 256,    5, 0, 0,   "Undef", 1, 1, 0]
+            },
+            {
+                "command": "version;\n", 
+                "type": "script", 
+                "response": "0000000c"
+            }, 
+            {
+                "command": "revision;\n", 
+                "type": "script", 
+                "response": "00000001"
+            }, 
+			{
+                "command": "status channels 2;\n", 
+                "type": "script", 
+                "response": "000000000004"
+            }, 
+            {
+                "type": "command",
+                "action": "nds1.gen_sc2_12_1",
+                "args": ["X1:PEM-1", "X1:PEM-2", "X1:PEM-3", "X1:PEM-4"]
+            },
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

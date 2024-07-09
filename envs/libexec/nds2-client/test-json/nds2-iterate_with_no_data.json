@@ -1,0 +1,135 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": ["nds2"]
+      },
+      {
+        "command": "authorize\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "command": "server-protocol-version;\n",
+        "response_hex": "3030303000000001",
+        "type": "script"
+      },
+      {
+        "type": "command",
+        "action": "nds2.revision",
+        "args": []
+      },
+
+
+
+      {
+        "command": "check-data 1169928640 1169928642 {H1:DAQ-DC0_GPS};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "set-epoch 1169928640-1169928642;\n",
+        "type": "script",
+        "response": "0000"
+      },
+
+      {
+        "command": "get-channels 0 unknown {H1:DAQ-DC0_GPS};\n",
+        "response_hex": "30303030000000010000001d48313a4441512d4443305f47505320726177203136207265616c5f3400",
+        "type": "script"
+      },
+      {
+        "command": "get-source-data 1169928640 {H1:DAQ-DC0_GPS,raw};\n",
+        "response_hex": "303030300000001248313a4441512d4443305f475053207b207d",
+        "type": "comment"
+      },
+
+      {
+        "command": "check-data 1169928640 1169928642 {H1:DAQ-DC0_GPS};\n",
+        "type": "comment",
+        "response": "000d"
+      },
+      {
+        "command": "check-data 1169928640 1169928641 {H1:DAQ-DC0_GPS,raw};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "get-source-data 1169928640 {H1:DAQ-DC0_GPS,raw};\n",
+        "response_hex": "303030300000001248313a4441512d4443305f475053207b207d",
+        "type": "script"
+      },
+
+      {
+        "command": "check-data 1169928641 1169928642 {H1:DAQ-DC0_GPS,raw};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "get-source-data 1169928641 {H1:DAQ-DC0_GPS,raw};\n",
+        "response_hex": "303030300000001248313a4441512d4443305f475053207b207d",
+        "type": "script"
+      },
+
+      {
+        "command": "set-epoch 0-1999999999;\n",
+        "type": "script",
+        "response": "0000"
+      },
+
+      {
+        "command": "check-data 1169928640 1169928642 {H1:DAQ-DC0_GPS};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+
+      {
+        "command": "check-data 1169928640 1169928642 {H1:DAQ-DC0_GPS};\n",
+        "type": "script",
+        "response": "000d"
+      },
+      {
+        "command": "get-last-message;\n",
+        "type": "script",
+        "response": "0019"
+      },
+      {
+        "command": "get-source-data 1169928640 {H1:DAQ-DC0_GPS};\n",
+        "response_hex": "303030300000001248313a4441512d4443305f475053207b207d",
+        "type": "script"
+      },
+
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

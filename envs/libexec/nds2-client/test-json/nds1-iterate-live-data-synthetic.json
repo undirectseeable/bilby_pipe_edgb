@@ -1,0 +1,171 @@
+{
+  "recorded_script": {
+    "type": "compound",
+    "scripts": [
+      {
+        "type": "command",
+        "action": "import",
+        "args": ["nds1"]
+      },
+      {
+        "type": "command",
+        "action": "nds1.register_chan",
+        "args": ["X1:PEM-1", 256, 4, 0, 0, "Undef", 1, 1, 0]
+      },
+      {
+        "type": "command",
+        "action": "nds1.register_chan",
+        "args": ["X1:PEM-2", 512, 5, 0, 0, "Undef", 1, 1, 0]
+      },
+
+
+
+      {
+        "command": "version;\n",
+        "type": "script",
+        "response": "0000000c"
+      },
+      {
+        "command": "revision;\n",
+        "type": "script",
+        "response": "00000001"
+      },
+
+      {
+        "command": "status channels 3 {\"X1:PEM-1\"};\n",
+        "type": "script",
+        "response": ""
+      },
+      {
+        "type": "command",
+        "action": "nds1.gen_sc3_12_1",
+        "args": ["X1:PEM-1"]
+      },
+      {
+        "command": "status channels 3 {\"X1:PEM-2\"};\n",
+        "type": "script",
+        "response": ""
+      },
+      {
+        "type": "command",
+        "action": "nds1.gen_sc3_12_1",
+        "args": ["X1:PEM-2"]
+      },
+
+
+
+      {
+        "command": "start net-writer {\"X1:PEM-1\" \"X1:PEM-2\"};\n",
+        "type": "script",
+        "response": "0000"
+      },
+      {
+        "type": "command",
+        "action": "nds1.writer-id",
+        "args": [0, "online"]
+      },
+      {
+        "type": "command",
+        "action": "nds1.reconfigure-block",
+        "args": [["X1:PEM-1", "X1:PEM-2"]]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000000, 1, 0]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000001, 1, 1]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000002, 1, 2]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000003, 1, 3]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000004, 1, 4]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+      {
+        "type": "command",
+        "action": "nds1.data-header",
+        "args": [["X1:PEM-1", "X1:PEM-2"], 1770000005, 1, 5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-1", 256, 1.5]
+      },
+      {
+        "type": "command",
+        "action": "nds1.write-data",
+        "args": ["X1:PEM-2", 512, 2.75]
+      },
+
+
+      {
+        "command": "quit;\n",
+        "type": "script",
+        "response": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "type": "command",
+                "action": "import",
+                "args": ["nds2"]
+            },
+            {
+                "command": "authorize\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "server-protocol-version;\n", 
+                "response_hex": "3030303000000001", 
+                "type": "script"
+            },
+            {
+                "type": "command",
+                "action": "nds2.revision",
+                "args": []
+            },
+
+            {
+                "command": "check-data 1116286100 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "response": "000d",
+                "type": "script"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response": "0019"
+            },
+
+
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "response_hex": "303030300000005248313a4953492d42535f5354315f53454e53434f525f474e445f5354535f585f424c524d535f33304d5f3130304d2e6d65616e207b482d48315f523a313131363238363130302d313131363238363131307d",
+                "type": "comment"
+            },
+            {
+                "command": "check-data 1116286100 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "000d"
+            }, 
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response_hex": "303030300000001b"
+            },
+            {
+                "command": "",
+                "type": "script",
+                "response": "some channels where missing"
+            },
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script",
+                "response_blob": "fc0657eb0687de677b90c7019739c8c3643b8153"
+            }, 
+            {
+                "command": "check-data 1116286200 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "get-data 1116286200 1116286300 100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "nds2.translate_nds2_1_5_get_data_block",
+                "args": [],
+                "response_blob": "db3803296b458ad53e44328214220736f9267f3e"
+            },
+
+            {
+                "command": "check-data 1116286100 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response": "000d"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response": "0019"
+            },
+
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "response_hex": "303030300000005248313a4953492d42535f5354315f53454e53434f525f474e445f5354535f585f424c524d535f33304d5f3130304d2e6d65616e207b482d48315f523a313131363238363130302d313131363238363131307d",
+                "type": "comment"
+            },
+            {
+                "command": "check-data 1116286100 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response": "000d"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response_hex": "303030300000001b"
+            },
+            {
+                "command": "",
+                "type": "script",
+                "response": "some channels where missing"
+            },
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response_blob": "fc0657eb0687de677b90c7019739c8c3643b8153"
+            },
+            {
+                "command": "check-data 1116286200 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1116286200 1116286300 100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "nds2.translate_nds2_1_5_get_data_block",
+                "args": [],
+                "response_blob": "db3803296b458ad53e44328214220736f9267f3e"
+            },
+
+
+            {
+                "command": "check-data 1116286100 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script",
+                "response": "000d"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response": "0019"
+            },
+
+
+            {
+                "command": "set-epoch 1116286100-1116286300;\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "get-channels 0 unknown {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean};\n", 
+                "type": "script", 
+                "response_blob": "63358acddafe77d1c5aef22dafcd4a4b39459aaa"
+            },
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "response_hex": "303030300000005248313a4953492d42535f5354315f53454e53434f525f474e445f5354535f585f424c524d535f33304d5f3130304d2e6d65616e207b482d48315f523a313131363238363130302d313131363238363131307d",
+                "type": "comment"
+            },
+            {
+                "command": "check-data 1116286100 1116286150 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "000d"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response_hex": "303030300000001b"
+            },
+            {
+                "command": "",
+                "type": "script",
+                "response": "some channels where missing"
+            },
+            {
+                "command": "get-source-data 1116286100 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response_blob": "dd24da8965d9b8ac387213f14d002f8a7868cf49"
+            }, 
+            {
+                "command": "check-data 1116286150 1116286200 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n",
+                "type": "script", 
+                "response": "000d"
+            },
+            {
+                "command": "get-last-message;\n",
+                "type": "script",
+                "response_hex": "303030300000001b"
+            },
+            {
+                "command": "",
+                "type": "script",
+                "response": "some channels where missing"
+            },
+            {
+                "command": "get-source-data 1116286150 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response_blob": "dd24da8965d9b8ac387213f14d002f8a7868cf49"
+            }, 
+            {
+                "command": "check-data 1116286200 1116286250 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "check-data 1116286200 1116286250 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1116286200 1116286250 50 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "nds2.translate_nds2_1_5_get_data_block",
+                "args": [],
+                "response_blob": "ad7935335ecb506cc5aa58517e58c423b6a60e71"
+            },
+            {
+                "command": "check-data 1116286250 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "check-data 1116286250 1116286300 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "command": "get-data 1116286250 1116286300 50 {H1:ISI-BS_ST1_SENSCOR_GND_STS_X_BLRMS_30M_100M.mean,s-trend};\n", 
+                "type": "script", 
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "nds2.translate_nds2_1_5_get_data_block",
+                "args": [],
+                "response_blob": "fff8669d3eccac10631c92ea75487f2474e690a2"
+            },
+            {
+                "command": "set-epoch 0-1999999999;\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

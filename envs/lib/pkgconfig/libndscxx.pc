@@ -1,0 +1,14 @@
+#------------------------------------------------------------------------
+# Global variables
+#------------------------------------------------------------------------
+libdir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib
+includedir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include/nds2-client
+#------------------------------------------------------------------------
+# Description of the package
+#------------------------------------------------------------------------
+Name: libndscxx
+Description: C++ nds/nds2 client API 
+Version: 0.16.8
+Requires: nds2-client >= 0.15.3
+Libs: -L${libdir} -lndscxx
+Cflags: -I${includedir} -std=c++11

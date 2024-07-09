@@ -1,0 +1,3405 @@
+{
+  "build": "h97420db_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ldas-tools-al >=2.6.7",
+    "ldas-tools-al >=2.6.7,<2.7.0a0",
+    "libboost >=1.84.0,<1.85.0a0",
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "openssl >=3.2.1,<4.0a0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/ldas-tools-framecpp-2.9.3-h97420db_2",
+  "files": [
+    "bin/framecpp_checksum",
+    "bin/framecpp_compare",
+    "bin/framecpp_compressor",
+    "bin/framecpp_dump_channel",
+    "bin/framecpp_dump_objects",
+    "bin/framecpp_dump_toc",
+    "bin/framecpp_fix_metadata",
+    "bin/framecpp_fracfg",
+    "bin/framecpp_sample",
+    "bin/framecpp_transform",
+    "bin/framecpp_verify",
+    "include/framecpp/Common/Array.hh",
+    "include/framecpp/Common/BaseMemoryBuffer.hh",
+    "include/framecpp/Common/BufferSpecialization.hh",
+    "include/framecpp/Common/CheckSum.hh",
+    "include/framecpp/Common/CheckSumFilter.hh",
+    "include/framecpp/Common/Compression.hh",
+    "include/framecpp/Common/CompressionDifferential.hh",
+    "include/framecpp/Common/CompressionException.hh",
+    "include/framecpp/Common/CompressionGZip.hh",
+    "include/framecpp/Common/CompressionZeroSuppress.hh",
+    "include/framecpp/Common/Container.hh",
+    "include/framecpp/Common/Description.hh",
+    "include/framecpp/Common/DetectorNames.hh",
+    "include/framecpp/Common/Dictionary.hh",
+    "include/framecpp/Common/DynamicMemoryBuffer.hh",
+    "include/framecpp/Common/FrDataObject.hh",
+    "include/framecpp/Common/FrDetector.hh",
+    "include/framecpp/Common/FrEndOfFile.hh",
+    "include/framecpp/Common/FrHeader.hh",
+    "include/framecpp/Common/FrSH.hh",
+    "include/framecpp/Common/FrStatData.hh",
+    "include/framecpp/Common/FrTOC.hh",
+    "include/framecpp/Common/FrVect.hh",
+    "include/framecpp/Common/FrameBuffer.hh",
+    "include/framecpp/Common/FrameBuffer.icc",
+    "include/framecpp/Common/FrameBufferInterface.hh",
+    "include/framecpp/Common/FrameFilename.hh",
+    "include/framecpp/Common/FrameH.hh",
+    "include/framecpp/Common/FrameSpec.hh",
+    "include/framecpp/Common/FrameSpec.tcc",
+    "include/framecpp/Common/FrameStream.hh",
+    "include/framecpp/Common/FrameStream.tcc",
+    "include/framecpp/Common/FrameStreamBase.hh",
+    "include/framecpp/Common/FrameStreamPlanWrapper.hh",
+    "include/framecpp/Common/FrameStreamWrapper.hh",
+    "include/framecpp/Common/FrameStructCheckSum.hh",
+    "include/framecpp/Common/FrameStructCheckSum.tcc",
+    "include/framecpp/Common/IOStream.hh",
+    "include/framecpp/Common/IOStream.icc",
+    "include/framecpp/Common/MD5Sum.hh",
+    "include/framecpp/Common/MD5SumFilter.hh",
+    "include/framecpp/Common/MemoryBuffer.hh",
+    "include/framecpp/Common/PTR_STRUCT.hh",
+    "include/framecpp/Common/PTR_STRUCT_BASE.hh",
+    "include/framecpp/Common/Promotion.hh",
+    "include/framecpp/Common/STRING.hh",
+    "include/framecpp/Common/SearchContainer.hh",
+    "include/framecpp/Common/SearchContainer.tcc",
+    "include/framecpp/Common/StreamFilter.hh",
+    "include/framecpp/Common/StreamRef.hh",
+    "include/framecpp/Common/StreamRefInterface.hh",
+    "include/framecpp/Common/StringStream.hh",
+    "include/framecpp/Common/TOCInfo.hh",
+    "include/framecpp/Common/Verify.hh",
+    "include/framecpp/Common/cksum.hh",
+    "include/framecpp/Common/cksum_boost.hh",
+    "include/framecpp/Common/cksum_ldas.hh",
+    "include/framecpp/Detectors.hh",
+    "include/framecpp/Dimension.hh",
+    "include/framecpp/FrAdcData.hh",
+    "include/framecpp/FrDetector.hh",
+    "include/framecpp/FrEndOfFileBase.hh",
+    "include/framecpp/FrEvent.hh",
+    "include/framecpp/FrHistory.hh",
+    "include/framecpp/FrMsg.hh",
+    "include/framecpp/FrProcData.hh",
+    "include/framecpp/FrRawData.hh",
+    "include/framecpp/FrSE.hh",
+    "include/framecpp/FrSH.hh",
+    "include/framecpp/FrSerData.hh",
+    "include/framecpp/FrSimData.hh",
+    "include/framecpp/FrSimEvent.hh",
+    "include/framecpp/FrStatData.hh",
+    "include/framecpp/FrSummary.hh",
+    "include/framecpp/FrTOC.hh",
+    "include/framecpp/FrTable.hh",
+    "include/framecpp/FrVect.hh",
+    "include/framecpp/FrameCPP.hh",
+    "include/framecpp/FrameH.hh",
+    "include/framecpp/FrameStream.hh",
+    "include/framecpp/GPSTime.hh",
+    "include/framecpp/IFrameStream.hh",
+    "include/framecpp/IFrameStreamPlan.hh",
+    "include/framecpp/OFrameStream.hh",
+    "include/framecpp/STRING.hh",
+    "include/framecpp/Time.hh",
+    "include/framecpp/Types.hh",
+    "include/framecpp/Version3/Dimension.hh",
+    "include/framecpp/Version3/FrAdcData.hh",
+    "include/framecpp/Version3/FrAdcDataNPS.hh",
+    "include/framecpp/Version3/FrAdcDataPST.hh",
+    "include/framecpp/Version3/FrDetector.hh",
+    "include/framecpp/Version3/FrEndOfFile.hh",
+    "include/framecpp/Version3/FrEndOfFrame.hh",
+    "include/framecpp/Version3/FrHeader.hh",
+    "include/framecpp/Version3/FrHistory.hh",
+    "include/framecpp/Version3/FrMsg.hh",
+    "include/framecpp/Version3/FrProcData.hh",
+    "include/framecpp/Version3/FrRawData.hh",
+    "include/framecpp/Version3/FrSE.hh",
+    "include/framecpp/Version3/FrSH.hh",
+    "include/framecpp/Version3/FrSerData.hh",
+    "include/framecpp/Version3/FrSimData.hh",
+    "include/framecpp/Version3/FrStatData.hh",
+    "include/framecpp/Version3/FrSummary.hh",
+    "include/framecpp/Version3/FrTrigData.hh",
+    "include/framecpp/Version3/FrVect.hh",
+    "include/framecpp/Version3/FrVect.tcc",
+    "include/framecpp/Version3/FrameH.hh",
+    "include/framecpp/Version3/FrameSpec.hh",
+    "include/framecpp/Version3/GPSTime.hh",
+    "include/framecpp/Version3/PTR_STRUCT.hh",
+    "include/framecpp/Version3/STRING.hh",
+    "include/framecpp/Version3/StreamRef.hh",
+    "include/framecpp/Version3/TypeInstantiation.tcc",
+    "include/framecpp/Version4/Dimension.hh",
+    "include/framecpp/Version4/FrAdcData.hh",
+    "include/framecpp/Version4/FrAdcDataNPS.hh",
+    "include/framecpp/Version4/FrDetector.hh",
+    "include/framecpp/Version4/FrEndOfFile.hh",
+    "include/framecpp/Version4/FrEndOfFrame.hh",
+    "include/framecpp/Version4/FrHeader.hh",
+    "include/framecpp/Version4/FrHistory.hh",
+    "include/framecpp/Version4/FrMsg.hh",
+    "include/framecpp/Version4/FrProcData.hh",
+    "include/framecpp/Version4/FrRawData.hh",
+    "include/framecpp/Version4/FrSE.hh",
+    "include/framecpp/Version4/FrSH.hh",
+    "include/framecpp/Version4/FrSerData.hh",
+    "include/framecpp/Version4/FrSimData.hh",
+    "include/framecpp/Version4/FrSimEvent.hh",
+    "include/framecpp/Version4/FrStatData.hh",
+    "include/framecpp/Version4/FrSummary.hh",
+    "include/framecpp/Version4/FrTOC.hh",
+    "include/framecpp/Version4/FrTOCAdcData.hh",
+    "include/framecpp/Version4/FrTOCData.hh",
+    "include/framecpp/Version4/FrTOCPosition.hh",
+    "include/framecpp/Version4/FrTOCProcData.hh",
+    "include/framecpp/Version4/FrTOCSerData.hh",
+    "include/framecpp/Version4/FrTOCSimData.hh",
+    "include/framecpp/Version4/FrTOCSimEvent.hh",
+    "include/framecpp/Version4/FrTOCStatData.hh",
+    "include/framecpp/Version4/FrTOCSummary.hh",
+    "include/framecpp/Version4/FrTOCTable.hh",
+    "include/framecpp/Version4/FrTOCTrigData.hh",
+    "include/framecpp/Version4/FrTOCTypes.hh",
+    "include/framecpp/Version4/FrTable.hh",
+    "include/framecpp/Version4/FrTrigData.hh",
+    "include/framecpp/Version4/FrVect.hh",
+    "include/framecpp/Version4/FrVect.tcc",
+    "include/framecpp/Version4/FrameH.hh",
+    "include/framecpp/Version4/FrameSpec.hh",
+    "include/framecpp/Version4/GPSTime.hh",
+    "include/framecpp/Version4/PTR_STRUCT.hh",
+    "include/framecpp/Version4/STRING.hh",
+    "include/framecpp/Version4/StreamRef.hh",
+    "include/framecpp/Version4/TypeInstantiation.tcc",
+    "include/framecpp/Version6/Dimension.hh",
+    "include/framecpp/Version6/FrAdcData.hh",
+    "include/framecpp/Version6/FrAdcDataNPS.hh",
+    "include/framecpp/Version6/FrDetector.hh",
+    "include/framecpp/Version6/FrEndOfFile.hh",
+    "include/framecpp/Version6/FrEndOfFrame.hh",
+    "include/framecpp/Version6/FrEvent.hh",
+    "include/framecpp/Version6/FrHeader.hh",
+    "include/framecpp/Version6/FrHistory.hh",
+    "include/framecpp/Version6/FrMsg.hh",
+    "include/framecpp/Version6/FrProcData.hh",
+    "include/framecpp/Version6/FrProcDataNPS.hh",
+    "include/framecpp/Version6/FrProcDataPST.hh",
+    "include/framecpp/Version6/FrRawData.hh",
+    "include/framecpp/Version6/FrSE.hh",
+    "include/framecpp/Version6/FrSH.hh",
+    "include/framecpp/Version6/FrSerData.hh",
+    "include/framecpp/Version6/FrSimData.hh",
+    "include/framecpp/Version6/FrSimEvent.hh",
+    "include/framecpp/Version6/FrStatData.hh",
+    "include/framecpp/Version6/FrSummary.hh",
+    "include/framecpp/Version6/FrTOC.hh",
+    "include/framecpp/Version6/FrTOCAdcData.hh",
+    "include/framecpp/Version6/FrTOCData.hh",
+    "include/framecpp/Version6/FrTOCEvent.hh",
+    "include/framecpp/Version6/FrTOCProcData.hh",
+    "include/framecpp/Version6/FrTOCSerData.hh",
+    "include/framecpp/Version6/FrTOCSimData.hh",
+    "include/framecpp/Version6/FrTOCSimEvent.hh",
+    "include/framecpp/Version6/FrTOCStatData.hh",
+    "include/framecpp/Version6/FrTOCSummary.hh",
+    "include/framecpp/Version6/FrTOCTypes.hh",
+    "include/framecpp/Version6/FrTable.hh",
+    "include/framecpp/Version6/FrVect.hh",
+    "include/framecpp/Version6/FrVect.tcc",
+    "include/framecpp/Version6/FrameH.hh",
+    "include/framecpp/Version6/FrameSpec.hh",
+    "include/framecpp/Version6/FrameStream.hh",
+    "include/framecpp/Version6/FrameStreamPlan.hh",
+    "include/framecpp/Version6/GPSTime.hh",
+    "include/framecpp/Version6/PTR_STRUCT.hh",
+    "include/framecpp/Version6/STRING.hh",
+    "include/framecpp/Version6/StreamRef.hh",
+    "include/framecpp/Version6/Types.hh",
+    "include/framecpp/Version7/Description.hh",
+    "include/framecpp/Version7/Dimension.hh",
+    "include/framecpp/Version7/FrAdcData.hh",
+    "include/framecpp/Version7/FrDetector.hh",
+    "include/framecpp/Version7/FrEndOfFile.hh",
+    "include/framecpp/Version7/FrEndOfFrame.hh",
+    "include/framecpp/Version7/FrEvent.hh",
+    "include/framecpp/Version7/FrHeader.hh",
+    "include/framecpp/Version7/FrHistory.hh",
+    "include/framecpp/Version7/FrMsg.hh",
+    "include/framecpp/Version7/FrProcData.hh",
+    "include/framecpp/Version7/FrProcDataNPS.hh",
+    "include/framecpp/Version7/FrProcDataPST.hh",
+    "include/framecpp/Version7/FrRawData.hh",
+    "include/framecpp/Version7/FrSE.hh",
+    "include/framecpp/Version7/FrSH.hh",
+    "include/framecpp/Version7/FrSerData.hh",
+    "include/framecpp/Version7/FrSimData.hh",
+    "include/framecpp/Version7/FrSimEvent.hh",
+    "include/framecpp/Version7/FrStatData.hh",
+    "include/framecpp/Version7/FrSummary.hh",
+    "include/framecpp/Version7/FrTOC.hh",
+    "include/framecpp/Version7/FrTOCAdcData.hh",
+    "include/framecpp/Version7/FrTOCData.hh",
+    "include/framecpp/Version7/FrTOCEvent.hh",
+    "include/framecpp/Version7/FrTOCProcData.hh",
+    "include/framecpp/Version7/FrTOCSerData.hh",
+    "include/framecpp/Version7/FrTOCSimData.hh",
+    "include/framecpp/Version7/FrTOCSimEvent.hh",
+    "include/framecpp/Version7/FrTOCStatData.hh",
+    "include/framecpp/Version7/FrTOCSummary.hh",
+    "include/framecpp/Version7/FrTable.hh",
+    "include/framecpp/Version7/FrVect.hh",
+    "include/framecpp/Version7/FrameH.hh",
+    "include/framecpp/Version7/FrameSpec.hh",
+    "include/framecpp/Version7/FrameStream.hh",
+    "include/framecpp/Version7/FrameStreamPlan.hh",
+    "include/framecpp/Version7/GPSTime.hh",
+    "include/framecpp/Version7/PTR_STRUCT.hh",
+    "include/framecpp/Version7/STRING.hh",
+    "include/framecpp/Version7/StreamRef.hh",
+    "include/framecpp/Version7/Types.hh",
+    "include/framecpp/Version8/Dimension.hh",
+    "include/framecpp/Version8/FrAdcData.hh",
+    "include/framecpp/Version8/FrDetector.hh",
+    "include/framecpp/Version8/FrEndOfFile.hh",
+    "include/framecpp/Version8/FrEndOfFrame.hh",
+    "include/framecpp/Version8/FrEvent.hh",
+    "include/framecpp/Version8/FrHeader.hh",
+    "include/framecpp/Version8/FrHistory.hh",
+    "include/framecpp/Version8/FrMsg.hh",
+    "include/framecpp/Version8/FrProcData.hh",
+    "include/framecpp/Version8/FrProcDataNPS.hh",
+    "include/framecpp/Version8/FrProcDataPST.hh",
+    "include/framecpp/Version8/FrRawData.hh",
+    "include/framecpp/Version8/FrSE.hh",
+    "include/framecpp/Version8/FrSH.hh",
+    "include/framecpp/Version8/FrSerData.hh",
+    "include/framecpp/Version8/FrSimData.hh",
+    "include/framecpp/Version8/FrSimEvent.hh",
+    "include/framecpp/Version8/FrStatData.hh",
+    "include/framecpp/Version8/FrSummary.hh",
+    "include/framecpp/Version8/FrTOC.hh",
+    "include/framecpp/Version8/FrTOCTypes.hh",
+    "include/framecpp/Version8/FrTable.hh",
+    "include/framecpp/Version8/FrVect.hh",
+    "include/framecpp/Version8/FrVect.tcc",
+    "include/framecpp/Version8/FrameH.hh",
+    "include/framecpp/Version8/FrameSpec.hh",
+    "include/framecpp/Version8/FrameStream.hh",
+    "include/framecpp/Version8/FrameStreamPlan.hh",
+    "include/framecpp/Version8/GPSTime.hh",
+    "include/framecpp/Version8/PTR_STRUCT.hh",
+    "include/framecpp/Version8/STRING.hh",
+    "include/framecpp/Version8/StreamRef.hh",
+    "include/framecpp/Version8/Types.hh",
+    "include/framecpp/Version8/impl/DimensionSerialIO.hh",
+    "include/framecpp/Version8/impl/FrAdcDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrAdcDataData.hh",
+    "include/framecpp/Version8/impl/FrDetectorClassicIO.hh",
+    "include/framecpp/Version8/impl/FrDetectorData.hh",
+    "include/framecpp/Version8/impl/FrDetectorSerialIO.hh",
+    "include/framecpp/Version8/impl/FrEndOfFileClassicIO.hh",
+    "include/framecpp/Version8/impl/FrEndOfFileData.hh",
+    "include/framecpp/Version8/impl/FrEndOfFileSerialIO.hh",
+    "include/framecpp/Version8/impl/FrEndOfFrameClassicIO.hh",
+    "include/framecpp/Version8/impl/FrEndOfFrameData.hh",
+    "include/framecpp/Version8/impl/FrEndOfFrameSerialIO.hh",
+    "include/framecpp/Version8/impl/FrEventClassicIO.hh",
+    "include/framecpp/Version8/impl/FrEventData.hh",
+    "include/framecpp/Version8/impl/FrEventSerialIO.hh",
+    "include/framecpp/Version8/impl/FrHistoryClassicIO.hh",
+    "include/framecpp/Version8/impl/FrHistoryData.hh",
+    "include/framecpp/Version8/impl/FrHistorySerialIO.hh",
+    "include/framecpp/Version8/impl/FrMsgClassicIO.hh",
+    "include/framecpp/Version8/impl/FrMsgData.hh",
+    "include/framecpp/Version8/impl/FrMsgSerialIO.hh",
+    "include/framecpp/Version8/impl/FrObjectMetaData.hh",
+    "include/framecpp/Version8/impl/FrProcDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrProcDataData.hh",
+    "include/framecpp/Version8/impl/FrRawDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrRawDataData.hh",
+    "include/framecpp/Version8/impl/FrSEClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSEData.hh",
+    "include/framecpp/Version8/impl/FrSESerialIO.hh",
+    "include/framecpp/Version8/impl/FrSHClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSHData.hh",
+    "include/framecpp/Version8/impl/FrSHSerialIO.hh",
+    "include/framecpp/Version8/impl/FrSerDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSerDataData.hh",
+    "include/framecpp/Version8/impl/FrSimDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSimDataData.hh",
+    "include/framecpp/Version8/impl/FrSimEventClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSimEventData.hh",
+    "include/framecpp/Version8/impl/FrStatDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrStatDataData.hh",
+    "include/framecpp/Version8/impl/FrSummaryClassicIO.hh",
+    "include/framecpp/Version8/impl/FrSummaryData.hh",
+    "include/framecpp/Version8/impl/FrTOCAdcDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCAdcDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCConstants.hh",
+    "include/framecpp/Version8/impl/FrTOCData.hh",
+    "include/framecpp/Version8/impl/FrTOCDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCEventClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCEventData.hh",
+    "include/framecpp/Version8/impl/FrTOCProcDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCProcDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCSerDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCSerDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCSimDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCSimDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCSimEventClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCSimEventData.hh",
+    "include/framecpp/Version8/impl/FrTOCStatDataClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCStatDataData.hh",
+    "include/framecpp/Version8/impl/FrTOCSummaryClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTOCSummaryData.hh",
+    "include/framecpp/Version8/impl/FrTableClassicIO.hh",
+    "include/framecpp/Version8/impl/FrTableData.hh",
+    "include/framecpp/Version8/impl/FrTableSerialIO.hh",
+    "include/framecpp/Version8/impl/FrVectClassicIO.hh",
+    "include/framecpp/Version8/impl/FrVectData.hh",
+    "include/framecpp/Version8/impl/FrVectSerialIO.hh",
+    "include/framecpp/Version8/impl/FrameHClassicIO.hh",
+    "include/framecpp/Version8/impl/FrameHData.hh",
+    "include/framecpp/Version8/impl/HelperSerialIO.hh",
+    "include/framecpp/storage/data/FrAdcData.hh",
+    "include/framecpp/storage/data/FrMsg.hh",
+    "include/framecpp/storage/data/FrObjectMetaData.hh",
+    "include/framecpp/storage/data/FrSEData.hh",
+    "include/framecpp/storage/data/FrSHData.hh",
+    "include/framecpp/storage/data/FrameH.hh",
+    "include/framecpp/storage/data/v3/FrAdcData.hh",
+    "include/framecpp/storage/data/v3/FrHeader.hh",
+    "include/framecpp/storage/data/v3/FrMsg.hh",
+    "include/framecpp/storage/data/v3/FrObjectMetaData.hh",
+    "include/framecpp/storage/data/v3/FrSEData.hh",
+    "include/framecpp/storage/data/v3/FrSHData.hh",
+    "include/framecpp/storage/data/v3/FrameH.hh",
+    "include/framecpp/storage/data/v4/FrAdcData.hh",
+    "include/framecpp/storage/data/v4/FrameH.hh",
+    "include/framecpp/storage/data/v5/FrAdcData.hh",
+    "include/framecpp/storage/data/v5/FrMsg.hh",
+    "include/framecpp/storage/data/v5/FrameH.hh",
+    "include/framecpp/storage/data/v8/FrHeader.hh",
+    "include/framecppc/FrChan.h",
+    "include/framecppc/FrDetector.h",
+    "include/framecppc/FrEvent.h",
+    "include/framecppc/FrHistory.h",
+    "include/framecppc/FrTOC.h",
+    "include/framecppc/FrVect.h",
+    "include/framecppc/FrameC.h",
+    "include/framecppc/FrameH.h",
+    "include/framecppc/Stream.h",
+    "lib/libframecpp.so",
+    "lib/libframecpp.so.15",
+    "lib/libframecpp.so.15.0.0",
+    "lib/libframecpp3.so",
+    "lib/libframecpp3.so.8",
+    "lib/libframecpp3.so.8.1.0",
+    "lib/libframecpp4.so",
+    "lib/libframecpp4.so.10",
+    "lib/libframecpp4.so.10.1.0",
+    "lib/libframecpp6.so",
+    "lib/libframecpp6.so.10",
+    "lib/libframecpp6.so.10.0.1",
+    "lib/libframecpp7.so",
+    "lib/libframecpp7.so.6",
+    "lib/libframecpp7.so.6.0.0",
+    "lib/libframecpp8.so",
+    "lib/libframecpp8.so.11",
+    "lib/libframecpp8.so.11.0.1",
+    "lib/libframecppc.so",
+    "lib/libframecppc.so.3",
+    "lib/libframecppc.so.3.0.5",
+    "lib/libframecppcmn.so",
+    "lib/libframecppcmn.so.12",
+    "lib/libframecppcmn.so.12.1.0",
+    "lib/pkgconfig/framecpp.pc",
+    "lib/pkgconfig/framecpp3.pc",
+    "lib/pkgconfig/framecpp4.pc",
+    "lib/pkgconfig/framecpp6.pc",
+    "lib/pkgconfig/framecpp7.pc",
+    "lib/pkgconfig/framecpp8.pc",
+    "lib/pkgconfig/framecpp_common.pc",
+    "lib/pkgconfig/framecppc.pc"
+  ],
+  "fn": "ldas-tools-framecpp-2.9.3-h97420db_2.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/ldas-tools-framecpp-2.9.3-h97420db_2",
+    "type": 1
+  },
+  "md5": "41566316129a1d755163e45a5dd86757",
+  "name": "ldas-tools-framecpp",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/ldas-tools-framecpp-2.9.3-h97420db_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/framecpp_checksum",
+        "path_type": "hardlink",
+        "sha256": "40491534b93c6402414acb7d6961d35d633ec35fea2425ffd9310da18fb20b94",
+        "sha256_in_prefix": "40491534b93c6402414acb7d6961d35d633ec35fea2425ffd9310da18fb20b94",
+        "size_in_bytes": 4130144
+      },
+      {
+        "_path": "bin/framecpp_compare",
+        "path_type": "hardlink",
+        "sha256": "c32ef5ed0edca3d48c1d4d41a831de4f60a5aec4d5ec3b72ccdc8e87afd500d8",
+        "sha256_in_prefix": "c32ef5ed0edca3d48c1d4d41a831de4f60a5aec4d5ec3b72ccdc8e87afd500d8",
+        "size_in_bytes": 5238608
+      },
+      {
+        "_path": "bin/framecpp_compressor",
+        "path_type": "hardlink",
+        "sha256": "3d44179a3515b9d1c60b448a9b7ec4b4fb4a587797a7e37fd96326026ae6cf5b",
+        "sha256_in_prefix": "3d44179a3515b9d1c60b448a9b7ec4b4fb4a587797a7e37fd96326026ae6cf5b",
+        "size_in_bytes": 1982032
+      },
+      {
+        "_path": "bin/framecpp_dump_channel",
+        "path_type": "hardlink",
+        "sha256": "fdf50547354916fffe2de590f6539d9c0fad7bc2830ed6bf7e15cb6f344a1560",
+        "sha256_in_prefix": "fdf50547354916fffe2de590f6539d9c0fad7bc2830ed6bf7e15cb6f344a1560",
+        "size_in_bytes": 5154344
+      },
+      {
+        "_path": "bin/framecpp_dump_objects",
+        "path_type": "hardlink",
+        "sha256": "b444f7f19834c403f4601457ad465ae1e726f0a9d4acac7592a9511cdb26cb04",
+        "sha256_in_prefix": "b444f7f19834c403f4601457ad465ae1e726f0a9d4acac7592a9511cdb26cb04",
+        "size_in_bytes": 1608656
+      },
+      {
+        "_path": "bin/framecpp_dump_toc",
+        "path_type": "hardlink",
+        "sha256": "cf78366729df9703d08a413d7a473bf46c7b87fe0d17b20f451c69b83dec830f",
+        "sha256_in_prefix": "cf78366729df9703d08a413d7a473bf46c7b87fe0d17b20f451c69b83dec830f",
+        "size_in_bytes": 3019448
+      },
+      {
+        "_path": "bin/framecpp_fix_metadata",
+        "path_type": "hardlink",
+        "sha256": "e7142eb445ef134f32ed0bea62f98b1eb34aad270451df88b48a7b4c87c7828c",
+        "sha256_in_prefix": "e7142eb445ef134f32ed0bea62f98b1eb34aad270451df88b48a7b4c87c7828c",
+        "size_in_bytes": 4087744
+      },
+      {
+        "_path": "bin/framecpp_fracfg",
+        "path_type": "hardlink",
+        "sha256": "b5546fbe95f492b2e055a80f0cb351de9067eb269f86c870915bced807264523",
+        "sha256_in_prefix": "b5546fbe95f492b2e055a80f0cb351de9067eb269f86c870915bced807264523",
+        "size_in_bytes": 5827600
+      },
+      {
+        "_path": "bin/framecpp_sample",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "3d34d4c553e13e005313602b6c5a7deeae34c7bba0f9c93ba1d00c0eac3818a7",
+        "sha256_in_prefix": "8186659cef58a0dc0033cf275545bb5e62c6d532e1e822738767f9b0c6c9d479",
+        "size_in_bytes": 24291384
+      },
+      {
+        "_path": "bin/framecpp_transform",
+        "path_type": "hardlink",
+        "sha256": "3408af9455e29657370f3ba35b934f72222730a033f1b9c511fb7893b009a8bc",
+        "sha256_in_prefix": "3408af9455e29657370f3ba35b934f72222730a033f1b9c511fb7893b009a8bc",
+        "size_in_bytes": 6896968
+      },
+      {
+        "_path": "bin/framecpp_verify",
+        "path_type": "hardlink",
+        "sha256": "c7b60604b273c75faad62abef749b3f20f2d363378fcc24ec0291dbb1e41eb79",
+        "sha256_in_prefix": "c7b60604b273c75faad62abef749b3f20f2d363378fcc24ec0291dbb1e41eb79",
+        "size_in_bytes": 971624
+      },
+      {
+        "_path": "include/framecpp/Common/Array.hh",
+        "path_type": "hardlink",
+        "sha256": "7772829205d95b90ff7888ee6c0d2bdb2f4d64974fab6611cdca9bf7f95d97f3",
+        "sha256_in_prefix": "7772829205d95b90ff7888ee6c0d2bdb2f4d64974fab6611cdca9bf7f95d97f3",
+        "size_in_bytes": 6044
+      },
+      {
+        "_path": "include/framecpp/Common/BaseMemoryBuffer.hh",
+        "path_type": "hardlink",
+        "sha256": "3c0515e206dcb4d384247f77774a456e50d3832ed0ca5e654c1eb33c6dd36da4",
+        "sha256_in_prefix": "3c0515e206dcb4d384247f77774a456e50d3832ed0ca5e654c1eb33c6dd36da4",
+        "size_in_bytes": 10817
+      },
+      {
+        "_path": "include/framecpp/Common/BufferSpecialization.hh",
+        "path_type": "hardlink",
+        "sha256": "588872ed2878729f0bc53e99df19a11a99ea3828217ca21d7f0c18a7ce8960ad",
+        "sha256_in_prefix": "588872ed2878729f0bc53e99df19a11a99ea3828217ca21d7f0c18a7ce8960ad",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "include/framecpp/Common/CheckSum.hh",
+        "path_type": "hardlink",
+        "sha256": "d00200773a660aad76e701fba1c49ade6fbdab6131c71ed17226e3c5b9844995",
+        "sha256_in_prefix": "d00200773a660aad76e701fba1c49ade6fbdab6131c71ed17226e3c5b9844995",
+        "size_in_bytes": 4253
+      },
+      {
+        "_path": "include/framecpp/Common/CheckSumFilter.hh",
+        "path_type": "hardlink",
+        "sha256": "2d363d53053ec7ba9327f17989edcf9177ef0e7aea653788a9859a10eb1b0c43",
+        "sha256_in_prefix": "2d363d53053ec7ba9327f17989edcf9177ef0e7aea653788a9859a10eb1b0c43",
+        "size_in_bytes": 3878
+      },
+      {
+        "_path": "include/framecpp/Common/Compression.hh",
+        "path_type": "hardlink",
+        "sha256": "23b2a762b5fafb556ca42f4a29dd4504d42c95e28673c3f36d6937890b9f60a0",
+        "sha256_in_prefix": "23b2a762b5fafb556ca42f4a29dd4504d42c95e28673c3f36d6937890b9f60a0",
+        "size_in_bytes": 14279
+      },
+      {
+        "_path": "include/framecpp/Common/CompressionDifferential.hh",
+        "path_type": "hardlink",
+        "sha256": "cf844d358d3386ae09af4654d667c63fdac98f41376c93550785b76e0e82ce78",
+        "sha256_in_prefix": "cf844d358d3386ae09af4654d667c63fdac98f41376c93550785b76e0e82ce78",
+        "size_in_bytes": 12532
+      },
+      {
+        "_path": "include/framecpp/Common/CompressionException.hh",
+        "path_type": "hardlink",
+        "sha256": "c07d3fcd57733c7b977814107bcfc9d2b064c7d29950c3d908783bd185d25b4f",
+        "sha256_in_prefix": "c07d3fcd57733c7b977814107bcfc9d2b064c7d29950c3d908783bd185d25b4f",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "include/framecpp/Common/CompressionGZip.hh",
+        "path_type": "hardlink",
+        "sha256": "0621a60c910c3454f8cf340e0702ea86fbd592bb53fddae587449ad336c66033",
+        "sha256_in_prefix": "0621a60c910c3454f8cf340e0702ea86fbd592bb53fddae587449ad336c66033",
+        "size_in_bytes": 3943
+      },
+      {
+        "_path": "include/framecpp/Common/CompressionZeroSuppress.hh",
+        "path_type": "hardlink",
+        "sha256": "f4db9dc7c55ba3d66f6d34e88f8b03e951723f7464be96881f838ad901e1db7f",
+        "sha256_in_prefix": "f4db9dc7c55ba3d66f6d34e88f8b03e951723f7464be96881f838ad901e1db7f",
+        "size_in_bytes": 9894
+      },
+      {
+        "_path": "include/framecpp/Common/Container.hh",
+        "path_type": "hardlink",
+        "sha256": "f398551c72238412ae059ed8b9dc5d95601327143fb5e973226692a7dde7a1a3",
+        "sha256_in_prefix": "f398551c72238412ae059ed8b9dc5d95601327143fb5e973226692a7dde7a1a3",
+        "size_in_bytes": 26085
+      },
+      {
+        "_path": "include/framecpp/Common/Description.hh",
+        "path_type": "hardlink",
+        "sha256": "7da26906140851cdc9e3d43326ccae25b1e149ce1acb08b125775c395b1ab238",
+        "sha256_in_prefix": "7da26906140851cdc9e3d43326ccae25b1e149ce1acb08b125775c395b1ab238",
+        "size_in_bytes": 3985
+      },
+      {
+        "_path": "include/framecpp/Common/DetectorNames.hh",
+        "path_type": "hardlink",
+        "sha256": "8c4cc31da753fca4d7b09c9266a8c687b659a2928d26dc63ba75a6f93b0e6870",
+        "sha256_in_prefix": "8c4cc31da753fca4d7b09c9266a8c687b659a2928d26dc63ba75a6f93b0e6870",
+        "size_in_bytes": 4706
+      },
+      {
+        "_path": "include/framecpp/Common/Dictionary.hh",
+        "path_type": "hardlink",
+        "sha256": "0b6898f1ba62a6a9528781d8d554c21eb291b91c629efd349c3240c3643083e0",
+        "sha256_in_prefix": "0b6898f1ba62a6a9528781d8d554c21eb291b91c629efd349c3240c3643083e0",
+        "size_in_bytes": 13311
+      },
+      {
+        "_path": "include/framecpp/Common/DynamicMemoryBuffer.hh",
+        "path_type": "hardlink",
+        "sha256": "2e23a08f9be0ca03486f6864f68a76800510d872a6d35ff2b384ee2cdd72dc76",
+        "sha256_in_prefix": "2e23a08f9be0ca03486f6864f68a76800510d872a6d35ff2b384ee2cdd72dc76",
+        "size_in_bytes": 7040
+      },
+      {
+        "_path": "include/framecpp/Common/FrDataObject.hh",
+        "path_type": "hardlink",
+        "sha256": "f6fdc1f8d85d8512ffd014cdd42ba2d87ae8840e53b7447b01c734989cf322a9",
+        "sha256_in_prefix": "f6fdc1f8d85d8512ffd014cdd42ba2d87ae8840e53b7447b01c734989cf322a9",
+        "size_in_bytes": 1754
+      },
+      {
+        "_path": "include/framecpp/Common/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "c61263621f2fb7340178826fe2e2bd5754d93a4cab6900371b4d346f2acbf93f",
+        "sha256_in_prefix": "c61263621f2fb7340178826fe2e2bd5754d93a4cab6900371b4d346f2acbf93f",
+        "size_in_bytes": 2090
+      },
+      {
+        "_path": "include/framecpp/Common/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "35d655837c05f77f6bff7fef807ce1b2f26f849fdd74e2438434341e2ed3931b",
+        "sha256_in_prefix": "35d655837c05f77f6bff7fef807ce1b2f26f849fdd74e2438434341e2ed3931b",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "include/framecpp/Common/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "a3fe1a71b6249a023d39430ab9878e008668fbe4b679d44a938679870b39a800",
+        "sha256_in_prefix": "a3fe1a71b6249a023d39430ab9878e008668fbe4b679d44a938679870b39a800",
+        "size_in_bytes": 8529
+      },
+      {
+        "_path": "include/framecpp/Common/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "554e57b89f044f6ce05083287d92135f7f05786320211859c0b73ef762ecddd0",
+        "sha256_in_prefix": "554e57b89f044f6ce05083287d92135f7f05786320211859c0b73ef762ecddd0",
+        "size_in_bytes": 3028
+      },
+      {
+        "_path": "include/framecpp/Common/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "7ae74cd311ed67e986d4aaf505902974766b4e6cf482dea48fdfea536788ba4d",
+        "sha256_in_prefix": "7ae74cd311ed67e986d4aaf505902974766b4e6cf482dea48fdfea536788ba4d",
+        "size_in_bytes": 6609
+      },
+      {
+        "_path": "include/framecpp/Common/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "f2c03c46fb7495e378a72997e68a786f4507a4d6f098c26804812ba91f9e4c0c",
+        "sha256_in_prefix": "f2c03c46fb7495e378a72997e68a786f4507a4d6f098c26804812ba91f9e4c0c",
+        "size_in_bytes": 22160
+      },
+      {
+        "_path": "include/framecpp/Common/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "1545bd90e9f9e2d18673e003d0825dcf2b3e8b102d6a9089bf16a699442bb610",
+        "sha256_in_prefix": "1545bd90e9f9e2d18673e003d0825dcf2b3e8b102d6a9089bf16a699442bb610",
+        "size_in_bytes": 4013
+      },
+      {
+        "_path": "include/framecpp/Common/FrameBuffer.hh",
+        "path_type": "hardlink",
+        "sha256": "af35b4d5665d73906f122bc0a322dbc6e84f05ef2aeb09f1d585dff28d589de3",
+        "sha256_in_prefix": "af35b4d5665d73906f122bc0a322dbc6e84f05ef2aeb09f1d585dff28d589de3",
+        "size_in_bytes": 12718
+      },
+      {
+        "_path": "include/framecpp/Common/FrameBuffer.icc",
+        "path_type": "hardlink",
+        "sha256": "02ecc81b9f90b41c11fcd15b150a60168066d4c08fa021ddcab0b221d5b1a00c",
+        "sha256_in_prefix": "02ecc81b9f90b41c11fcd15b150a60168066d4c08fa021ddcab0b221d5b1a00c",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "include/framecpp/Common/FrameBufferInterface.hh",
+        "path_type": "hardlink",
+        "sha256": "15a8c086f8949dcf38bcbd6f1124b7e44b30c99c0691b4d654928302039d714f",
+        "sha256_in_prefix": "15a8c086f8949dcf38bcbd6f1124b7e44b30c99c0691b4d654928302039d714f",
+        "size_in_bytes": 13449
+      },
+      {
+        "_path": "include/framecpp/Common/FrameFilename.hh",
+        "path_type": "hardlink",
+        "sha256": "5b88f8b5a4e97f350cde3c89fda65cf8ec2ed655b22b90527bb3a6fd025cb5d6",
+        "sha256_in_prefix": "5b88f8b5a4e97f350cde3c89fda65cf8ec2ed655b22b90527bb3a6fd025cb5d6",
+        "size_in_bytes": 6305
+      },
+      {
+        "_path": "include/framecpp/Common/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "81f4aa127cb767a4d80acce8021e61307b1a87cda307e76f6e5b9fa9bee717f2",
+        "sha256_in_prefix": "81f4aa127cb767a4d80acce8021e61307b1a87cda307e76f6e5b9fa9bee717f2",
+        "size_in_bytes": 3154
+      },
+      {
+        "_path": "include/framecpp/Common/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "f5160dc3f3c05eaf11ff9fe9179e748163ac873870509808c9ff77a0ef4b0a0a",
+        "sha256_in_prefix": "f5160dc3f3c05eaf11ff9fe9179e748163ac873870509808c9ff77a0ef4b0a0a",
+        "size_in_bytes": 34383
+      },
+      {
+        "_path": "include/framecpp/Common/FrameSpec.tcc",
+        "path_type": "hardlink",
+        "sha256": "3f3d5e19dce937327cc5b8c84ef8af6df9a38f0f9cda9cd410a854d30ef03799",
+        "sha256_in_prefix": "3f3d5e19dce937327cc5b8c84ef8af6df9a38f0f9cda9cd410a854d30ef03799",
+        "size_in_bytes": 10685
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "94d5d61eee45c29c22cbd7ebc4ec9f3a4874287592d2a0ec5349143f0b89c5a1",
+        "sha256_in_prefix": "94d5d61eee45c29c22cbd7ebc4ec9f3a4874287592d2a0ec5349143f0b89c5a1",
+        "size_in_bytes": 27619
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStream.tcc",
+        "path_type": "hardlink",
+        "sha256": "cf33b8c45107a71345fe3e457507caf85bb3e2cb2db7b4f4a4cf9a492b8b4ef7",
+        "sha256_in_prefix": "cf33b8c45107a71345fe3e457507caf85bb3e2cb2db7b4f4a4cf9a492b8b4ef7",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStreamBase.hh",
+        "path_type": "hardlink",
+        "sha256": "ce7527790d92821d219960893132daff2e65525c0d96f2bdeb67777bab616ec3",
+        "sha256_in_prefix": "ce7527790d92821d219960893132daff2e65525c0d96f2bdeb67777bab616ec3",
+        "size_in_bytes": 6967
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStreamPlanWrapper.hh",
+        "path_type": "hardlink",
+        "sha256": "99239350199180a042b3c3f0ad839da229cc2409b83e64ce4d78395803244981",
+        "sha256_in_prefix": "99239350199180a042b3c3f0ad839da229cc2409b83e64ce4d78395803244981",
+        "size_in_bytes": 19102
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStreamWrapper.hh",
+        "path_type": "hardlink",
+        "sha256": "187b9fba27716d75d9088a70d3b425cf5943cf1cbdfb2f2d9e1e2e9510177080",
+        "sha256_in_prefix": "187b9fba27716d75d9088a70d3b425cf5943cf1cbdfb2f2d9e1e2e9510177080",
+        "size_in_bytes": 31771
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStructCheckSum.hh",
+        "path_type": "hardlink",
+        "sha256": "8bb2d7436da74c7711db23e7573b640563cb1879a3608a0a564c73b6f9efbd21",
+        "sha256_in_prefix": "8bb2d7436da74c7711db23e7573b640563cb1879a3608a0a564c73b6f9efbd21",
+        "size_in_bytes": 2607
+      },
+      {
+        "_path": "include/framecpp/Common/FrameStructCheckSum.tcc",
+        "path_type": "hardlink",
+        "sha256": "7636837ca82e842dd0fbc66e8033a01c98e0aa877797a8874a6cbc5a0716e45a",
+        "sha256_in_prefix": "7636837ca82e842dd0fbc66e8033a01c98e0aa877797a8874a6cbc5a0716e45a",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "include/framecpp/Common/IOStream.hh",
+        "path_type": "hardlink",
+        "sha256": "fb35c63f1fca9ed1fdc218f94b8be6bffadfb9c8dc3a0d3f997572754702d672",
+        "sha256_in_prefix": "fb35c63f1fca9ed1fdc218f94b8be6bffadfb9c8dc3a0d3f997572754702d672",
+        "size_in_bytes": 55423
+      },
+      {
+        "_path": "include/framecpp/Common/IOStream.icc",
+        "path_type": "hardlink",
+        "sha256": "64d777b10f3bab49c6b9ba3fc679e831e916a190ff8025a836840428ae547232",
+        "sha256_in_prefix": "64d777b10f3bab49c6b9ba3fc679e831e916a190ff8025a836840428ae547232",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "include/framecpp/Common/MD5Sum.hh",
+        "path_type": "hardlink",
+        "sha256": "1ed1f621c0db204e7700114f6e9635dea354df32fd333169c151e37267441ef4",
+        "sha256_in_prefix": "1ed1f621c0db204e7700114f6e9635dea354df32fd333169c151e37267441ef4",
+        "size_in_bytes": 3111
+      },
+      {
+        "_path": "include/framecpp/Common/MD5SumFilter.hh",
+        "path_type": "hardlink",
+        "sha256": "43c2541ef00c13af6428560956699009c669f6ff8276a51194053cec543767b0",
+        "sha256_in_prefix": "43c2541ef00c13af6428560956699009c669f6ff8276a51194053cec543767b0",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "include/framecpp/Common/MemoryBuffer.hh",
+        "path_type": "hardlink",
+        "sha256": "dadfeeac30c2efdaeb57132996fafc49d6e12cda39f4fdd7dd9038b7ab9c4c5f",
+        "sha256_in_prefix": "dadfeeac30c2efdaeb57132996fafc49d6e12cda39f4fdd7dd9038b7ab9c4c5f",
+        "size_in_bytes": 8036
+      },
+      {
+        "_path": "include/framecpp/Common/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "8f8015682f9952588df9f656b45ccb5dd23d9bfa4be636d4f5a4f7d0c57ad230",
+        "sha256_in_prefix": "8f8015682f9952588df9f656b45ccb5dd23d9bfa4be636d4f5a4f7d0c57ad230",
+        "size_in_bytes": 22150
+      },
+      {
+        "_path": "include/framecpp/Common/PTR_STRUCT_BASE.hh",
+        "path_type": "hardlink",
+        "sha256": "ce8662e9d7d14a6857127a81eef930bae7773b40b5bb69919b2e3c62cdaa8acc",
+        "sha256_in_prefix": "ce8662e9d7d14a6857127a81eef930bae7773b40b5bb69919b2e3c62cdaa8acc",
+        "size_in_bytes": 7049
+      },
+      {
+        "_path": "include/framecpp/Common/Promotion.hh",
+        "path_type": "hardlink",
+        "sha256": "c67fab693f8c8c55679ae89092cd87ff90823855582c85110432dfeaaeac5bac",
+        "sha256_in_prefix": "c67fab693f8c8c55679ae89092cd87ff90823855582c85110432dfeaaeac5bac",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "include/framecpp/Common/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "bb4023a245b29aeceb151dc1ecb4b71e44e565ebcafbe64f7d1e892e743d561e",
+        "sha256_in_prefix": "bb4023a245b29aeceb151dc1ecb4b71e44e565ebcafbe64f7d1e892e743d561e",
+        "size_in_bytes": 10889
+      },
+      {
+        "_path": "include/framecpp/Common/SearchContainer.hh",
+        "path_type": "hardlink",
+        "sha256": "24ca89e0a572b90bbd0c2fc8eb752000645d0d6ea5966c8e8d315e7dd4303719",
+        "sha256_in_prefix": "24ca89e0a572b90bbd0c2fc8eb752000645d0d6ea5966c8e8d315e7dd4303719",
+        "size_in_bytes": 18840
+      },
+      {
+        "_path": "include/framecpp/Common/SearchContainer.tcc",
+        "path_type": "hardlink",
+        "sha256": "f04eba530c808afec5380276b664550319a7e513b665b3e3323ea701d96513cd",
+        "sha256_in_prefix": "f04eba530c808afec5380276b664550319a7e513b665b3e3323ea701d96513cd",
+        "size_in_bytes": 15680
+      },
+      {
+        "_path": "include/framecpp/Common/StreamFilter.hh",
+        "path_type": "hardlink",
+        "sha256": "e6f7a659da0df608def331b0b0bababf90ef253472fa3c7cf72c3b1c77a477e3",
+        "sha256_in_prefix": "e6f7a659da0df608def331b0b0bababf90ef253472fa3c7cf72c3b1c77a477e3",
+        "size_in_bytes": 2470
+      },
+      {
+        "_path": "include/framecpp/Common/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "bbc5dd7f68a8dec3c0849746d10bb660b9bdc488c01bd29dc1e8dd40f59167d4",
+        "sha256_in_prefix": "bbc5dd7f68a8dec3c0849746d10bb660b9bdc488c01bd29dc1e8dd40f59167d4",
+        "size_in_bytes": 24160
+      },
+      {
+        "_path": "include/framecpp/Common/StreamRefInterface.hh",
+        "path_type": "hardlink",
+        "sha256": "9612abf147870c50d6913541bbeed011de57ba36bf9e614249bcbf5c451b5ea0",
+        "sha256_in_prefix": "9612abf147870c50d6913541bbeed011de57ba36bf9e614249bcbf5c451b5ea0",
+        "size_in_bytes": 2518
+      },
+      {
+        "_path": "include/framecpp/Common/StringStream.hh",
+        "path_type": "hardlink",
+        "sha256": "e3a2d11ff7669aaa219b1693dfa30a47cb87499adf295c25288798d839875622",
+        "sha256_in_prefix": "e3a2d11ff7669aaa219b1693dfa30a47cb87499adf295c25288798d839875622",
+        "size_in_bytes": 5854
+      },
+      {
+        "_path": "include/framecpp/Common/TOCInfo.hh",
+        "path_type": "hardlink",
+        "sha256": "6580fc44c11c01bef0f909ee122abbfc539ee597cb2c3a070c368f658e4c1316",
+        "sha256_in_prefix": "6580fc44c11c01bef0f909ee122abbfc539ee597cb2c3a070c368f658e4c1316",
+        "size_in_bytes": 5769
+      },
+      {
+        "_path": "include/framecpp/Common/Verify.hh",
+        "path_type": "hardlink",
+        "sha256": "1264b17c83876038ad8bed43e9dcbf92b441792fff18cee3b11d41b22ab28e4f",
+        "sha256_in_prefix": "1264b17c83876038ad8bed43e9dcbf92b441792fff18cee3b11d41b22ab28e4f",
+        "size_in_bytes": 38262
+      },
+      {
+        "_path": "include/framecpp/Common/cksum.hh",
+        "path_type": "hardlink",
+        "sha256": "eea0d6799fa88e87af050b95d589e402b036d35bf57b93e9af188ed0429a8c51",
+        "sha256_in_prefix": "eea0d6799fa88e87af050b95d589e402b036d35bf57b93e9af188ed0429a8c51",
+        "size_in_bytes": 5096
+      },
+      {
+        "_path": "include/framecpp/Common/cksum_boost.hh",
+        "path_type": "hardlink",
+        "sha256": "e0c3a8f606731885181f743cdb57d6237c843fb88a0d1b43d81b6e6c0371b20e",
+        "sha256_in_prefix": "e0c3a8f606731885181f743cdb57d6237c843fb88a0d1b43d81b6e6c0371b20e",
+        "size_in_bytes": 2330
+      },
+      {
+        "_path": "include/framecpp/Common/cksum_ldas.hh",
+        "path_type": "hardlink",
+        "sha256": "dcda4bbe2f386712af166438c82980b9fb94a49f6cc9c9584d865a1e25e0d5f8",
+        "sha256_in_prefix": "dcda4bbe2f386712af166438c82980b9fb94a49f6cc9c9584d865a1e25e0d5f8",
+        "size_in_bytes": 6647
+      },
+      {
+        "_path": "include/framecpp/Detectors.hh",
+        "path_type": "hardlink",
+        "sha256": "a04595547719886f0592a92e4a72860ff0ffcfe5532bc322775746c1b18f0836",
+        "sha256_in_prefix": "a04595547719886f0592a92e4a72860ff0ffcfe5532bc322775746c1b18f0836",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "include/framecpp/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "648c0b36826bab99d5aeb572985dcb38c4fb9a244380954683a2f4915ea88110",
+        "sha256_in_prefix": "648c0b36826bab99d5aeb572985dcb38c4fb9a244380954683a2f4915ea88110",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "5aa028315a123cf35f8751657dbd1fbc1eca9631c281cf974b07e4d2a5cf27d4",
+        "sha256_in_prefix": "5aa028315a123cf35f8751657dbd1fbc1eca9631c281cf974b07e4d2a5cf27d4",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "e46ad2b1817be84b9e212fa071c188afcb69cc33f180407e740ead2b5cfd3826",
+        "sha256_in_prefix": "e46ad2b1817be84b9e212fa071c188afcb69cc33f180407e740ead2b5cfd3826",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "include/framecpp/FrEndOfFileBase.hh",
+        "path_type": "hardlink",
+        "sha256": "459ad6570ceb847cf7284fb969267a4995a0c6b6171fa07a8ecafc1581d59b4c",
+        "sha256_in_prefix": "459ad6570ceb847cf7284fb969267a4995a0c6b6171fa07a8ecafc1581d59b4c",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "include/framecpp/FrEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "530568f12aa348ecdad97f5def94a01fdc1eae31f4456888a5d784ce2e4468b8",
+        "sha256_in_prefix": "530568f12aa348ecdad97f5def94a01fdc1eae31f4456888a5d784ce2e4468b8",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "include/framecpp/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "904c8df85545c51c2004712641d26a11e1133461df158524085bddf1eacbb862",
+        "sha256_in_prefix": "904c8df85545c51c2004712641d26a11e1133461df158524085bddf1eacbb862",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "0ed74a5ea692cb3fc68ce67064799e76510668382ff55a68b037fa7d4baaa8ec",
+        "sha256_in_prefix": "0ed74a5ea692cb3fc68ce67064799e76510668382ff55a68b037fa7d4baaa8ec",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "include/framecpp/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "962179dde037f0afabb0bc212c2f8306649061c96a10e424117c9fb09854f627",
+        "sha256_in_prefix": "962179dde037f0afabb0bc212c2f8306649061c96a10e424117c9fb09854f627",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "include/framecpp/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "5124d0d022ef38e54e5b702455742b122e7d3f33c3f81136c48f396d4f06e1d5",
+        "sha256_in_prefix": "5124d0d022ef38e54e5b702455742b122e7d3f33c3f81136c48f396d4f06e1d5",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "98a79b1656d89d56749b867ccac5d6f875f084dcc0fde9e553d9e2cb8f9de5e7",
+        "sha256_in_prefix": "98a79b1656d89d56749b867ccac5d6f875f084dcc0fde9e553d9e2cb8f9de5e7",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "include/framecpp/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "60dc2c50f65ecb5a17cc5419dba92ee4a342400ebef16edcd61b014e4a3c81f7",
+        "sha256_in_prefix": "60dc2c50f65ecb5a17cc5419dba92ee4a342400ebef16edcd61b014e4a3c81f7",
+        "size_in_bytes": 377
+      },
+      {
+        "_path": "include/framecpp/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "5f9cacb2451e23f61c0be393316f329d4db5b86c81e40534ace6d4b57d78cf94",
+        "sha256_in_prefix": "5f9cacb2451e23f61c0be393316f329d4db5b86c81e40534ace6d4b57d78cf94",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "fd41279fd8313874d6a4e6ba9840e766b63d1d48e78bf1875489391c0fd4f186",
+        "sha256_in_prefix": "fd41279fd8313874d6a4e6ba9840e766b63d1d48e78bf1875489391c0fd4f186",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "02857b54a1417b794d481c65a6f95df73eeeeba8800b17c6ab4a255c30a729e6",
+        "sha256_in_prefix": "02857b54a1417b794d481c65a6f95df73eeeeba8800b17c6ab4a255c30a729e6",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "include/framecpp/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "49b9fdcb82278b0cc25c02d782442a22f4eb7b8e7b8ab5ae2d968aad975014ac",
+        "sha256_in_prefix": "49b9fdcb82278b0cc25c02d782442a22f4eb7b8e7b8ab5ae2d968aad975014ac",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "include/framecpp/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "92c410d0bcae98f0ddd552f64b9444c9af7ba80eb66298c5c5ce02bbb7391f57",
+        "sha256_in_prefix": "92c410d0bcae98f0ddd552f64b9444c9af7ba80eb66298c5c5ce02bbb7391f57",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/framecpp/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "71741e56a77933d108238cb7018737fbcf058ca8872243902efd4fa1a2449c60",
+        "sha256_in_prefix": "71741e56a77933d108238cb7018737fbcf058ca8872243902efd4fa1a2449c60",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "include/framecpp/FrTable.hh",
+        "path_type": "hardlink",
+        "sha256": "e06e0b5c12a35f7856e444e9d8e7d111872831001f33105f4703e7dd5efcca1f",
+        "sha256_in_prefix": "e06e0b5c12a35f7856e444e9d8e7d111872831001f33105f4703e7dd5efcca1f",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "include/framecpp/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "7e4e23c6b341cfca12579d0b742d30f126b456d5bd914711d2ca5dc66f787bcc",
+        "sha256_in_prefix": "7e4e23c6b341cfca12579d0b742d30f126b456d5bd914711d2ca5dc66f787bcc",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "include/framecpp/FrameCPP.hh",
+        "path_type": "hardlink",
+        "sha256": "5dcaf4434de9ddc1657fdc79be67f28472720f5d4f344ce3716b74c3e813104c",
+        "sha256_in_prefix": "5dcaf4434de9ddc1657fdc79be67f28472720f5d4f344ce3716b74c3e813104c",
+        "size_in_bytes": 3608
+      },
+      {
+        "_path": "include/framecpp/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "8e18e045ead458d5525087fdb192e74ff9a0734075df11e56e004bb6ffd192e1",
+        "sha256_in_prefix": "8e18e045ead458d5525087fdb192e74ff9a0734075df11e56e004bb6ffd192e1",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "include/framecpp/FrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "52a798a9cd1cfce0fa39bce8bc58ac15ac7896a4075670e97992d6afa69b05c9",
+        "sha256_in_prefix": "52a798a9cd1cfce0fa39bce8bc58ac15ac7896a4075670e97992d6afa69b05c9",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "include/framecpp/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "2f8e2131a35e24a77314bda1d44fdbae536816e02f9f25dc1cca6ecf3d0536da",
+        "sha256_in_prefix": "2f8e2131a35e24a77314bda1d44fdbae536816e02f9f25dc1cca6ecf3d0536da",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "include/framecpp/IFrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "3c7a0b8d5a24b180ca84c6700c5f04928d9372fba01ebf24ff95c3915cd37f94",
+        "sha256_in_prefix": "3c7a0b8d5a24b180ca84c6700c5f04928d9372fba01ebf24ff95c3915cd37f94",
+        "size_in_bytes": 15807
+      },
+      {
+        "_path": "include/framecpp/IFrameStreamPlan.hh",
+        "path_type": "hardlink",
+        "sha256": "910abd0997d5eafeb1ad5c7f972a4cbd1cc366ac1e9efdc353ad8fc07365ca2b",
+        "sha256_in_prefix": "910abd0997d5eafeb1ad5c7f972a4cbd1cc366ac1e9efdc353ad8fc07365ca2b",
+        "size_in_bytes": 7060
+      },
+      {
+        "_path": "include/framecpp/OFrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "bd2cfd28fe2da7bf4c460094ed5189299d8e797a0aac93e245a6a05d8a0051d3",
+        "sha256_in_prefix": "bd2cfd28fe2da7bf4c460094ed5189299d8e797a0aac93e245a6a05d8a0051d3",
+        "size_in_bytes": 4011
+      },
+      {
+        "_path": "include/framecpp/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "7366b98667e3bb2b2eed58110d8f2d6348d838b0ca72defb83beefcb20a6209d",
+        "sha256_in_prefix": "7366b98667e3bb2b2eed58110d8f2d6348d838b0ca72defb83beefcb20a6209d",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "include/framecpp/Time.hh",
+        "path_type": "hardlink",
+        "sha256": "8a92dceb8c0ab46102f58e7ce42f4963f48e9a4ee621b7eedaedad6361928ad7",
+        "sha256_in_prefix": "8a92dceb8c0ab46102f58e7ce42f4963f48e9a4ee621b7eedaedad6361928ad7",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "include/framecpp/Types.hh",
+        "path_type": "hardlink",
+        "sha256": "256ebb946b3c15509ada846952a5d4a4e44c4a39444e2aa21fb6f48383d59271",
+        "sha256_in_prefix": "256ebb946b3c15509ada846952a5d4a4e44c4a39444e2aa21fb6f48383d59271",
+        "size_in_bytes": 1771
+      },
+      {
+        "_path": "include/framecpp/Version3/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "66c1201cf8b0333c9145edd9a23b3a15179e382c7c44716db2d091a9af724290",
+        "sha256_in_prefix": "66c1201cf8b0333c9145edd9a23b3a15179e382c7c44716db2d091a9af724290",
+        "size_in_bytes": 9334
+      },
+      {
+        "_path": "include/framecpp/Version3/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "a1f88be02d64441eecc4ffa16a693abfd178e57b86a83a15870fadb732059a80",
+        "sha256_in_prefix": "a1f88be02d64441eecc4ffa16a693abfd178e57b86a83a15870fadb732059a80",
+        "size_in_bytes": 6727
+      },
+      {
+        "_path": "include/framecpp/Version3/FrAdcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "5677bfb79258fe2790e6ecfed1ba320557f71ce83a35ca22e6324ece305ec051",
+        "sha256_in_prefix": "5677bfb79258fe2790e6ecfed1ba320557f71ce83a35ca22e6324ece305ec051",
+        "size_in_bytes": 20450
+      },
+      {
+        "_path": "include/framecpp/Version3/FrAdcDataPST.hh",
+        "path_type": "hardlink",
+        "sha256": "3c1a88eb5b11c996d3d400d1d7808a1a1c2d36af0eca7787902d6d482a36d70c",
+        "sha256_in_prefix": "3c1a88eb5b11c996d3d400d1d7808a1a1c2d36af0eca7787902d6d482a36d70c",
+        "size_in_bytes": 10026
+      },
+      {
+        "_path": "include/framecpp/Version3/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "f676614b634f9325340033b03a3a438fc0b823d5b415d76d326fd3f96eb05cc2",
+        "sha256_in_prefix": "f676614b634f9325340033b03a3a438fc0b823d5b415d76d326fd3f96eb05cc2",
+        "size_in_bytes": 8316
+      },
+      {
+        "_path": "include/framecpp/Version3/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "a6db515f1fe7e070f884858d85aff2e2c705b362289a1e1a44ac5db8653a74ee",
+        "sha256_in_prefix": "a6db515f1fe7e070f884858d85aff2e2c705b362289a1e1a44ac5db8653a74ee",
+        "size_in_bytes": 5138
+      },
+      {
+        "_path": "include/framecpp/Version3/FrEndOfFrame.hh",
+        "path_type": "hardlink",
+        "sha256": "9f7e6fbc7f2d580372cea50352c3f67d496b61afff5145a87e6b378d14f3e183",
+        "sha256_in_prefix": "9f7e6fbc7f2d580372cea50352c3f67d496b61afff5145a87e6b378d14f3e183",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "include/framecpp/Version3/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "cfd34ea12911acf22725045d278b30c858c5827317576436adfe3206153454a0",
+        "sha256_in_prefix": "cfd34ea12911acf22725045d278b30c858c5827317576436adfe3206153454a0",
+        "size_in_bytes": 5969
+      },
+      {
+        "_path": "include/framecpp/Version3/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "d3bf965aba26e2e059f17372c0e8d7b21de49ba8b83b289e2e30920159ed7f5b",
+        "sha256_in_prefix": "d3bf965aba26e2e059f17372c0e8d7b21de49ba8b83b289e2e30920159ed7f5b",
+        "size_in_bytes": 4974
+      },
+      {
+        "_path": "include/framecpp/Version3/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "3a9409948b69a9c2e47c13aa9676198f15cf31c23e3817345e8a32dc29f87bb5",
+        "sha256_in_prefix": "3a9409948b69a9c2e47c13aa9676198f15cf31c23e3817345e8a32dc29f87bb5",
+        "size_in_bytes": 5337
+      },
+      {
+        "_path": "include/framecpp/Version3/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "ed22352bf86525e3a350448f40afa358ba5c4273d2d597b03adc48f140f20ee9",
+        "sha256_in_prefix": "ed22352bf86525e3a350448f40afa358ba5c4273d2d597b03adc48f140f20ee9",
+        "size_in_bytes": 12577
+      },
+      {
+        "_path": "include/framecpp/Version3/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "4db8ba6b71b798cd0f3577785ab8d75ed0956f5792dc6d55216f6e6bcd8b7916",
+        "sha256_in_prefix": "4db8ba6b71b798cd0f3577785ab8d75ed0956f5792dc6d55216f6e6bcd8b7916",
+        "size_in_bytes": 8653
+      },
+      {
+        "_path": "include/framecpp/Version3/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "fe1541c3145a0176bee443adaed20d23cc788f6f27974f7ea82a4f76cbcfe6d1",
+        "sha256_in_prefix": "fe1541c3145a0176bee443adaed20d23cc788f6f27974f7ea82a4f76cbcfe6d1",
+        "size_in_bytes": 4504
+      },
+      {
+        "_path": "include/framecpp/Version3/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "c219b421db148ba967ce83ef7c940a28d767893b1543e83ab4094426c4d67ef7",
+        "sha256_in_prefix": "c219b421db148ba967ce83ef7c940a28d767893b1543e83ab4094426c4d67ef7",
+        "size_in_bytes": 5912
+      },
+      {
+        "_path": "include/framecpp/Version3/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "d49237e1d9095d8798b84b3597f9f4c8892a7dd21f2f1b9b341fb95b7d4cd574",
+        "sha256_in_prefix": "d49237e1d9095d8798b84b3597f9f4c8892a7dd21f2f1b9b341fb95b7d4cd574",
+        "size_in_bytes": 6831
+      },
+      {
+        "_path": "include/framecpp/Version3/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "f7e7afad2b287e86b509c61d2b3d4c79f0ec8ba2b08b06f4bee072c242d53b1d",
+        "sha256_in_prefix": "f7e7afad2b287e86b509c61d2b3d4c79f0ec8ba2b08b06f4bee072c242d53b1d",
+        "size_in_bytes": 9569
+      },
+      {
+        "_path": "include/framecpp/Version3/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "51e514dd73e6ec2ba8267cb2f72504fd46087d9f5df203b2f4b58043bebdcad2",
+        "sha256_in_prefix": "51e514dd73e6ec2ba8267cb2f72504fd46087d9f5df203b2f4b58043bebdcad2",
+        "size_in_bytes": 14329
+      },
+      {
+        "_path": "include/framecpp/Version3/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "5d54a6db59c71a5ec632eb7a90b9c0a86cee40f4a8ba0512fdc9b426917b60c0",
+        "sha256_in_prefix": "5d54a6db59c71a5ec632eb7a90b9c0a86cee40f4a8ba0512fdc9b426917b60c0",
+        "size_in_bytes": 5677
+      },
+      {
+        "_path": "include/framecpp/Version3/FrTrigData.hh",
+        "path_type": "hardlink",
+        "sha256": "d4dfc4f58c12dda9c08f84c4018dc8f5824404a09a69993c33ea0d101baa80a5",
+        "sha256_in_prefix": "d4dfc4f58c12dda9c08f84c4018dc8f5824404a09a69993c33ea0d101baa80a5",
+        "size_in_bytes": 10918
+      },
+      {
+        "_path": "include/framecpp/Version3/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "1e0815c90eda30cf9860d35a6a2b44bbe004531964f3e346a166afcb509ee149",
+        "sha256_in_prefix": "1e0815c90eda30cf9860d35a6a2b44bbe004531964f3e346a166afcb509ee149",
+        "size_in_bytes": 25804
+      },
+      {
+        "_path": "include/framecpp/Version3/FrVect.tcc",
+        "path_type": "hardlink",
+        "sha256": "27dd588839436fe2d742436c9cfa52cee2a5587e16920078f9b16d2850cd0302",
+        "sha256_in_prefix": "27dd588839436fe2d742436c9cfa52cee2a5587e16920078f9b16d2850cd0302",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "include/framecpp/Version3/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "4f251739f798723a89f70bf324b4b7057917594ac659f22dd604834ceddfa408",
+        "sha256_in_prefix": "4f251739f798723a89f70bf324b4b7057917594ac659f22dd604834ceddfa408",
+        "size_in_bytes": 38415
+      },
+      {
+        "_path": "include/framecpp/Version3/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "9a430a7ecb4c1b41c1d5f1e064804cfe525768e8dd9a3489c7fe720814b391bb",
+        "sha256_in_prefix": "9a430a7ecb4c1b41c1d5f1e064804cfe525768e8dd9a3489c7fe720814b391bb",
+        "size_in_bytes": 2171
+      },
+      {
+        "_path": "include/framecpp/Version3/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "9f449d3223f7b0f3a092dbdf4315524c7670d101ded7eec9e2aa96b8139973c1",
+        "sha256_in_prefix": "9f449d3223f7b0f3a092dbdf4315524c7670d101ded7eec9e2aa96b8139973c1",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "include/framecpp/Version3/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "ac71866e90f2d2849676fda72ac75b9a0189e5893ba3f45c3a2dda327012dd45",
+        "sha256_in_prefix": "ac71866e90f2d2849676fda72ac75b9a0189e5893ba3f45c3a2dda327012dd45",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "include/framecpp/Version3/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "fc7f42e8da727fbeb2cbb499761b0d641c25fdfd5d5630705434276873556e8f",
+        "sha256_in_prefix": "fc7f42e8da727fbeb2cbb499761b0d641c25fdfd5d5630705434276873556e8f",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "include/framecpp/Version3/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "4d542ea8bf3064c54d10625c3847be8a65c26e8bdeb204c0cfbf588ce1af2a96",
+        "sha256_in_prefix": "4d542ea8bf3064c54d10625c3847be8a65c26e8bdeb204c0cfbf588ce1af2a96",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "include/framecpp/Version3/TypeInstantiation.tcc",
+        "path_type": "hardlink",
+        "sha256": "47cd5102bdc8b7449ee18707e30900eb557e9fab4c6f4d28580968cc8afaf601",
+        "sha256_in_prefix": "47cd5102bdc8b7449ee18707e30900eb557e9fab4c6f4d28580968cc8afaf601",
+        "size_in_bytes": 1717
+      },
+      {
+        "_path": "include/framecpp/Version4/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "61d9976eee839bfde7e202dc1528d308b3eaa6d261c3ec97f4d0c4f81b69b00d",
+        "sha256_in_prefix": "61d9976eee839bfde7e202dc1528d308b3eaa6d261c3ec97f4d0c4f81b69b00d",
+        "size_in_bytes": 10333
+      },
+      {
+        "_path": "include/framecpp/Version4/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "e9a61a3aff6b42b795eec5e3206b090b9afd14f593dba9170a7a5c3cf4353202",
+        "sha256_in_prefix": "e9a61a3aff6b42b795eec5e3206b090b9afd14f593dba9170a7a5c3cf4353202",
+        "size_in_bytes": 7059
+      },
+      {
+        "_path": "include/framecpp/Version4/FrAdcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "60a6bc2480f36515e978e22ddd1a2aa9465bb361fce22c83c7fe674544d62a7b",
+        "sha256_in_prefix": "60a6bc2480f36515e978e22ddd1a2aa9465bb361fce22c83c7fe674544d62a7b",
+        "size_in_bytes": 19400
+      },
+      {
+        "_path": "include/framecpp/Version4/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "689eb626c4276272fe68994ef3aec8b9f37cac772f3591011b3b5d8c3903c10f",
+        "sha256_in_prefix": "689eb626c4276272fe68994ef3aec8b9f37cac772f3591011b3b5d8c3903c10f",
+        "size_in_bytes": 9055
+      },
+      {
+        "_path": "include/framecpp/Version4/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "465ec017067140c4811e9b3aa21db783e4bcffd954927bfa2593769eaf884582",
+        "sha256_in_prefix": "465ec017067140c4811e9b3aa21db783e4bcffd954927bfa2593769eaf884582",
+        "size_in_bytes": 5368
+      },
+      {
+        "_path": "include/framecpp/Version4/FrEndOfFrame.hh",
+        "path_type": "hardlink",
+        "sha256": "82c62485726b36218c17629533cee1dced9f9ce98db3e1d7fd4babc16055878c",
+        "sha256_in_prefix": "82c62485726b36218c17629533cee1dced9f9ce98db3e1d7fd4babc16055878c",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "include/framecpp/Version4/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "4433777764b2d410d59d3b366f6ac5d48c133565c4385da3fbd36750b7ab8e34",
+        "sha256_in_prefix": "4433777764b2d410d59d3b366f6ac5d48c133565c4385da3fbd36750b7ab8e34",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "include/framecpp/Version4/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "4e19e173daf08728e1e4c7cf3eaff57b88c3935eead327ee8aad14323feb4107",
+        "sha256_in_prefix": "4e19e173daf08728e1e4c7cf3eaff57b88c3935eead327ee8aad14323feb4107",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version4/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "6b0a6bd7daafa95e2c1bc12f360a40048d03b0e135a98ff47823f5b44ac493c1",
+        "sha256_in_prefix": "6b0a6bd7daafa95e2c1bc12f360a40048d03b0e135a98ff47823f5b44ac493c1",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "include/framecpp/Version4/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "a3e25bc9554b70168aa7e106af1a01a139681b372b98988422f7a1d96c60a67d",
+        "sha256_in_prefix": "a3e25bc9554b70168aa7e106af1a01a139681b372b98988422f7a1d96c60a67d",
+        "size_in_bytes": 9253
+      },
+      {
+        "_path": "include/framecpp/Version4/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "2eb14c2d387bb7b82fd564544c7cea457d20afc9a1f9dcc79f652bb6548b8628",
+        "sha256_in_prefix": "2eb14c2d387bb7b82fd564544c7cea457d20afc9a1f9dcc79f652bb6548b8628",
+        "size_in_bytes": 9835
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "bb38345e160162bb24b7b3c77f7173a542e222cc87a09e3cd3565082c2b77649",
+        "sha256_in_prefix": "bb38345e160162bb24b7b3c77f7173a542e222cc87a09e3cd3565082c2b77649",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "704a4160e4650b631da1557af29bed3384998cb0b0a3ca4b09bff6c036f81125",
+        "sha256_in_prefix": "704a4160e4650b631da1557af29bed3384998cb0b0a3ca4b09bff6c036f81125",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "aef577eb65930c5aaaa46454d8ae22efa2552b2ea67a36106e09e78a6fd54353",
+        "sha256_in_prefix": "aef577eb65930c5aaaa46454d8ae22efa2552b2ea67a36106e09e78a6fd54353",
+        "size_in_bytes": 7403
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "7c6f62949ce8a7044869513e0d4a35e6d9266310453cfc9385a89e608ded4373",
+        "sha256_in_prefix": "7c6f62949ce8a7044869513e0d4a35e6d9266310453cfc9385a89e608ded4373",
+        "size_in_bytes": 9469
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "5d8f22a1b5b9ae14db2b028a74cc55a1000e11d5025afe439f8f96a119f20f8b",
+        "sha256_in_prefix": "5d8f22a1b5b9ae14db2b028a74cc55a1000e11d5025afe439f8f96a119f20f8b",
+        "size_in_bytes": 16518
+      },
+      {
+        "_path": "include/framecpp/Version4/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "2195bbaf436cce7beb562e029d99a8a68ca15608ab50f945de602ab871025dfd",
+        "sha256_in_prefix": "2195bbaf436cce7beb562e029d99a8a68ca15608ab50f945de602ab871025dfd",
+        "size_in_bytes": 30947
+      },
+      {
+        "_path": "include/framecpp/Version4/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "d722d7d0c7b680f080c31f13f064c2c8c9b326e66234d2a31aea7e6f06fb450e",
+        "sha256_in_prefix": "d722d7d0c7b680f080c31f13f064c2c8c9b326e66234d2a31aea7e6f06fb450e",
+        "size_in_bytes": 6909
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "1c77167e73922cc8b4dbed921f404107af94125636c5a3519a345a30bdb771b0",
+        "sha256_in_prefix": "1c77167e73922cc8b4dbed921f404107af94125636c5a3519a345a30bdb771b0",
+        "size_in_bytes": 12920
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "ab09e1b518cf9462968c60e3a2cde627405d2b6afe90705747480024f8fff595",
+        "sha256_in_prefix": "ab09e1b518cf9462968c60e3a2cde627405d2b6afe90705747480024f8fff595",
+        "size_in_bytes": 15393
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCData.hh",
+        "path_type": "hardlink",
+        "sha256": "2941037e8947d0fb7db34caf8d3fd54afbe858723d549a5d618ad6c0c5b04fad",
+        "sha256_in_prefix": "2941037e8947d0fb7db34caf8d3fd54afbe858723d549a5d618ad6c0c5b04fad",
+        "size_in_bytes": 10733
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCPosition.hh",
+        "path_type": "hardlink",
+        "sha256": "ed0ae9d5d8283e721bf6853fd0384073635f2576da67a0a061aa3ee2dd9be0b6",
+        "sha256_in_prefix": "ed0ae9d5d8283e721bf6853fd0384073635f2576da67a0a061aa3ee2dd9be0b6",
+        "size_in_bytes": 9057
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "cdc90fc5669194b299f4ad259cd7f31aeee0859438c54f6872323b960213b12b",
+        "sha256_in_prefix": "cdc90fc5669194b299f4ad259cd7f31aeee0859438c54f6872323b960213b12b",
+        "size_in_bytes": 4807
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "e68dd9d821edb942946c88ce1865aa8bb4a2543d481ccabae78c9a4d4bb20b07",
+        "sha256_in_prefix": "e68dd9d821edb942946c88ce1865aa8bb4a2543d481ccabae78c9a4d4bb20b07",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "0b86a63ba2c387c626ad1819b3b8efcb5ef6b32d52608aa45c9494293aa6ff81",
+        "sha256_in_prefix": "0b86a63ba2c387c626ad1819b3b8efcb5ef6b32d52608aa45c9494293aa6ff81",
+        "size_in_bytes": 4376
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "fd30a18f3cf8acf71876eb252cd5e813b2f5dc02701b9b2a52b73295691f8b21",
+        "sha256_in_prefix": "fd30a18f3cf8acf71876eb252cd5e813b2f5dc02701b9b2a52b73295691f8b21",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "6bd8ba9d34c6d2a60bb3305d7ee5795a66bc6c5666b39e1af0e684ef00f65e28",
+        "sha256_in_prefix": "6bd8ba9d34c6d2a60bb3305d7ee5795a66bc6c5666b39e1af0e684ef00f65e28",
+        "size_in_bytes": 4551
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "9d0b1d0849f63432f916011ecd885ff249ac77b08a4854c895d2ef513b8544eb",
+        "sha256_in_prefix": "9d0b1d0849f63432f916011ecd885ff249ac77b08a4854c895d2ef513b8544eb",
+        "size_in_bytes": 4428
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCTable.hh",
+        "path_type": "hardlink",
+        "sha256": "cd13cebe425dca80516c76f24965c5dbc9553a3da56963c148db2dfc190aa87d",
+        "sha256_in_prefix": "cd13cebe425dca80516c76f24965c5dbc9553a3da56963c148db2dfc190aa87d",
+        "size_in_bytes": 3931
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCTrigData.hh",
+        "path_type": "hardlink",
+        "sha256": "ceadd42328d2a6f308b4894ab1c391b4d98c6303a5c86ce6f9769c7c5465f0a2",
+        "sha256_in_prefix": "ceadd42328d2a6f308b4894ab1c391b4d98c6303a5c86ce6f9769c7c5465f0a2",
+        "size_in_bytes": 4428
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTOCTypes.hh",
+        "path_type": "hardlink",
+        "sha256": "93e7e23c528b18d293ccd6fda9e9a6f8646bd50fd0edceb784ad571e3c2396ca",
+        "sha256_in_prefix": "93e7e23c528b18d293ccd6fda9e9a6f8646bd50fd0edceb784ad571e3c2396ca",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTable.hh",
+        "path_type": "hardlink",
+        "sha256": "dbabac22288d181f4f0bd91dc6a33a20b52848e31cd736af31c3735bb0e4585a",
+        "sha256_in_prefix": "dbabac22288d181f4f0bd91dc6a33a20b52848e31cd736af31c3735bb0e4585a",
+        "size_in_bytes": 26032
+      },
+      {
+        "_path": "include/framecpp/Version4/FrTrigData.hh",
+        "path_type": "hardlink",
+        "sha256": "05d070bcbc9b4fd14d0ec863ebff7437aa392822091af95e0630c3d4e82dffd1",
+        "sha256_in_prefix": "05d070bcbc9b4fd14d0ec863ebff7437aa392822091af95e0630c3d4e82dffd1",
+        "size_in_bytes": 14043
+      },
+      {
+        "_path": "include/framecpp/Version4/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "3f58b2b16e52e4cd22d0b9522650357b26021da41a7186782f17ab6dd906df62",
+        "sha256_in_prefix": "3f58b2b16e52e4cd22d0b9522650357b26021da41a7186782f17ab6dd906df62",
+        "size_in_bytes": 18546
+      },
+      {
+        "_path": "include/framecpp/Version4/FrVect.tcc",
+        "path_type": "hardlink",
+        "sha256": "dd37d0c164625273db3c1b2cdeab5c71345f6fabd68f5708186b86d92c34cd85",
+        "sha256_in_prefix": "dd37d0c164625273db3c1b2cdeab5c71345f6fabd68f5708186b86d92c34cd85",
+        "size_in_bytes": 3742
+      },
+      {
+        "_path": "include/framecpp/Version4/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "96e025f0e7fb3bf6eb54b331623b3646d2c9dab5be59a2c7297d93d037be11cc",
+        "sha256_in_prefix": "96e025f0e7fb3bf6eb54b331623b3646d2c9dab5be59a2c7297d93d037be11cc",
+        "size_in_bytes": 42360
+      },
+      {
+        "_path": "include/framecpp/Version4/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "9faf25b1c7db0af87e0764fc23f9f5eae99fdf8c9a21e5571e4336549991e1d5",
+        "sha256_in_prefix": "9faf25b1c7db0af87e0764fc23f9f5eae99fdf8c9a21e5571e4336549991e1d5",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "include/framecpp/Version4/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "8dded3ad467418986f8e1eeeeb127ae35705c7cd3d45d3dcebd761c8914d2852",
+        "sha256_in_prefix": "8dded3ad467418986f8e1eeeeb127ae35705c7cd3d45d3dcebd761c8914d2852",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "include/framecpp/Version4/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "8998339e195c0d829ef22833b6f55ce90e4a6bb3c1fbf0e2bb8f60c8b102cd3b",
+        "sha256_in_prefix": "8998339e195c0d829ef22833b6f55ce90e4a6bb3c1fbf0e2bb8f60c8b102cd3b",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version4/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "6de4e60e3d5d4da3adad3e9b9377781d2bfac2c3b3078fa8853dddb8566afa94",
+        "sha256_in_prefix": "6de4e60e3d5d4da3adad3e9b9377781d2bfac2c3b3078fa8853dddb8566afa94",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version4/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "fec87e1336189bc16bd73e3a1857aa3820210022b8584fb2eb89cf70ffdef6cc",
+        "sha256_in_prefix": "fec87e1336189bc16bd73e3a1857aa3820210022b8584fb2eb89cf70ffdef6cc",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version4/TypeInstantiation.tcc",
+        "path_type": "hardlink",
+        "sha256": "47cd5102bdc8b7449ee18707e30900eb557e9fab4c6f4d28580968cc8afaf601",
+        "sha256_in_prefix": "47cd5102bdc8b7449ee18707e30900eb557e9fab4c6f4d28580968cc8afaf601",
+        "size_in_bytes": 1717
+      },
+      {
+        "_path": "include/framecpp/Version6/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "8f731a6f4746e47052e822fdc5af0e9a1f228dc4367f1c50870f6cfbc04db072",
+        "sha256_in_prefix": "8f731a6f4746e47052e822fdc5af0e9a1f228dc4367f1c50870f6cfbc04db072",
+        "size_in_bytes": 9302
+      },
+      {
+        "_path": "include/framecpp/Version6/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "1a5eedbdef380d8767f778ced803ed308ad609b21223fedb19afbbbed498facf",
+        "sha256_in_prefix": "1a5eedbdef380d8767f778ced803ed308ad609b21223fedb19afbbbed498facf",
+        "size_in_bytes": 7149
+      },
+      {
+        "_path": "include/framecpp/Version6/FrAdcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "59edd52d641470f0ed0482ccd74ea321bf993e615141a8da67b7b9d54ee70e8f",
+        "sha256_in_prefix": "59edd52d641470f0ed0482ccd74ea321bf993e615141a8da67b7b9d54ee70e8f",
+        "size_in_bytes": 27359
+      },
+      {
+        "_path": "include/framecpp/Version6/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "b0d905a42b325f44aec5388889688328eb45d79786297a09cac592c8f1a236b5",
+        "sha256_in_prefix": "b0d905a42b325f44aec5388889688328eb45d79786297a09cac592c8f1a236b5",
+        "size_in_bytes": 8687
+      },
+      {
+        "_path": "include/framecpp/Version6/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "08def70f93c0ef1d9b82fb5fa0e679e159ac17d3ef36ffb0eeec627de2175961",
+        "sha256_in_prefix": "08def70f93c0ef1d9b82fb5fa0e679e159ac17d3ef36ffb0eeec627de2175961",
+        "size_in_bytes": 6701
+      },
+      {
+        "_path": "include/framecpp/Version6/FrEndOfFrame.hh",
+        "path_type": "hardlink",
+        "sha256": "3b9fa3e5a405be844d28d6c9b176d2728e132bb0ddd327ec3ecfabbfd7f8fa61",
+        "sha256_in_prefix": "3b9fa3e5a405be844d28d6c9b176d2728e132bb0ddd327ec3ecfabbfd7f8fa61",
+        "size_in_bytes": 4836
+      },
+      {
+        "_path": "include/framecpp/Version6/FrEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "254f69297603e607bdaeb520159b530e819326cf5c6a68dbf042041bb7be8c58",
+        "sha256_in_prefix": "254f69297603e607bdaeb520159b530e819326cf5c6a68dbf042041bb7be8c58",
+        "size_in_bytes": 19782
+      },
+      {
+        "_path": "include/framecpp/Version6/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "068ad69219409aff119672de2878c9937d005a9ee9c77bb2fe4ef94759f98e59",
+        "sha256_in_prefix": "068ad69219409aff119672de2878c9937d005a9ee9c77bb2fe4ef94759f98e59",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "include/framecpp/Version6/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "512cf2402f7d64d70054db44dca26fca61dfcacc29be930717dafc7b6ad4bc6c",
+        "sha256_in_prefix": "512cf2402f7d64d70054db44dca26fca61dfcacc29be930717dafc7b6ad4bc6c",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version6/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "f946449fbebc52a4a251eed5d71c2373e8a4bb36ca00905c2cb3006b9c854f03",
+        "sha256_in_prefix": "f946449fbebc52a4a251eed5d71c2373e8a4bb36ca00905c2cb3006b9c854f03",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "include/framecpp/Version6/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "2b2ba39ca58341fa234d81b88287985a0924931f7f6de7e313f47727ca5c2272",
+        "sha256_in_prefix": "2b2ba39ca58341fa234d81b88287985a0924931f7f6de7e313f47727ca5c2272",
+        "size_in_bytes": 21810
+      },
+      {
+        "_path": "include/framecpp/Version6/FrProcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "3cbe72df4f219072cfbc48cb7f5bc5120f3fef2638b505f11dc4db0d09eee51b",
+        "sha256_in_prefix": "3cbe72df4f219072cfbc48cb7f5bc5120f3fef2638b505f11dc4db0d09eee51b",
+        "size_in_bytes": 19701
+      },
+      {
+        "_path": "include/framecpp/Version6/FrProcDataPST.hh",
+        "path_type": "hardlink",
+        "sha256": "e8c55b43b16bf3ef1e9586be13a110abcbd464ee7a11792ce45d29bca218a1da",
+        "sha256_in_prefix": "e8c55b43b16bf3ef1e9586be13a110abcbd464ee7a11792ce45d29bca218a1da",
+        "size_in_bytes": 17504
+      },
+      {
+        "_path": "include/framecpp/Version6/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "253a71dceda2f710b29df3d1a3dabae7de498d1ead3fbefddaf96d775faee2a4",
+        "sha256_in_prefix": "253a71dceda2f710b29df3d1a3dabae7de498d1ead3fbefddaf96d775faee2a4",
+        "size_in_bytes": 9821
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "8b873677fdea2c07b1586cec8e3b647427a3e6dc22052690653808bd5790db51",
+        "sha256_in_prefix": "8b873677fdea2c07b1586cec8e3b647427a3e6dc22052690653808bd5790db51",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "7459fcc5cf1c3e0d5a9a1c19ed8e4d90e31cb5b928cd555a1e9a31dfb72f6897",
+        "sha256_in_prefix": "7459fcc5cf1c3e0d5a9a1c19ed8e4d90e31cb5b928cd555a1e9a31dfb72f6897",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "5fff6c8ac3fef4ca0f7c26656d3e9d7755e45a655bc2a928a88e1655e9e9c085",
+        "sha256_in_prefix": "5fff6c8ac3fef4ca0f7c26656d3e9d7755e45a655bc2a928a88e1655e9e9c085",
+        "size_in_bytes": 7465
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "1f1a8d94f3741fc5e7b18fbd13f039724b5e84f8c047413d1cd4b1d2fcda7e98",
+        "sha256_in_prefix": "1f1a8d94f3741fc5e7b18fbd13f039724b5e84f8c047413d1cd4b1d2fcda7e98",
+        "size_in_bytes": 9388
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "2a45a81d21225e4a301902c14222d3011ed8613a00abb40b198f8f82fb1ffca9",
+        "sha256_in_prefix": "2a45a81d21225e4a301902c14222d3011ed8613a00abb40b198f8f82fb1ffca9",
+        "size_in_bytes": 15624
+      },
+      {
+        "_path": "include/framecpp/Version6/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "74292bdbeaa7f42b8a4802e99d5fc4dda239e11c99c91bcf4c76419c5016502b",
+        "sha256_in_prefix": "74292bdbeaa7f42b8a4802e99d5fc4dda239e11c99c91bcf4c76419c5016502b",
+        "size_in_bytes": 6993
+      },
+      {
+        "_path": "include/framecpp/Version6/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "baf5b5d29cfdd006675940210c9abfc4189dcc17985f518d5e99e2f1ff2b3239",
+        "sha256_in_prefix": "baf5b5d29cfdd006675940210c9abfc4189dcc17985f518d5e99e2f1ff2b3239",
+        "size_in_bytes": 7141
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "fe70f75aed59c7247c9d4a3dbbfcdded4d6ff9c66bc9c658d7b35fad54bbf05b",
+        "sha256_in_prefix": "fe70f75aed59c7247c9d4a3dbbfcdded4d6ff9c66bc9c658d7b35fad54bbf05b",
+        "size_in_bytes": 13185
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "85c33630b0ac06bc90659fca5ba11ab11ec9b0c8a3816280df13761b3677f28e",
+        "sha256_in_prefix": "85c33630b0ac06bc90659fca5ba11ab11ec9b0c8a3816280df13761b3677f28e",
+        "size_in_bytes": 14572
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCData.hh",
+        "path_type": "hardlink",
+        "sha256": "e17c271b77dfd3f1ed4e7aa335c4e8a98122da6f8190c6ccfc2d034cb9c777b5",
+        "sha256_in_prefix": "e17c271b77dfd3f1ed4e7aa335c4e8a98122da6f8190c6ccfc2d034cb9c777b5",
+        "size_in_bytes": 16114
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "7475cb939c554fdd627bd70292a3b5f3c66811df4457d9c50d23aecc0c8fc23b",
+        "sha256_in_prefix": "7475cb939c554fdd627bd70292a3b5f3c66811df4457d9c50d23aecc0c8fc23b",
+        "size_in_bytes": 6684
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "a38ab1f7d50b3c04514a1e14b6ccda5932b5e0efa9c93b297fd15c0100b456b0",
+        "sha256_in_prefix": "a38ab1f7d50b3c04514a1e14b6ccda5932b5e0efa9c93b297fd15c0100b456b0",
+        "size_in_bytes": 5706
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "42f5a9e5ee1ab96c9c0554829b295980a5445744264f04094875a17989b9b428",
+        "sha256_in_prefix": "42f5a9e5ee1ab96c9c0554829b295980a5445744264f04094875a17989b9b428",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "67be5cf39523b524f4a3ba6adfccb37503a628039102e61d03be38101668550f",
+        "sha256_in_prefix": "67be5cf39523b524f4a3ba6adfccb37503a628039102e61d03be38101668550f",
+        "size_in_bytes": 5116
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "98bcd704138004f7d48c46e6b8a2a28d48f5edce4684dbc63a574a7b49ef2044",
+        "sha256_in_prefix": "98bcd704138004f7d48c46e6b8a2a28d48f5edce4684dbc63a574a7b49ef2044",
+        "size_in_bytes": 6739
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "57a41a0fad8b24d69d47241cbc7e8c6f4966507b87f5d439afb3a48eb72c4267",
+        "sha256_in_prefix": "57a41a0fad8b24d69d47241cbc7e8c6f4966507b87f5d439afb3a48eb72c4267",
+        "size_in_bytes": 5761
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "1d4bc9cccd692326b498cad0b12b9b0c3eee2bfe9944ef0ea370ded3b676f34e",
+        "sha256_in_prefix": "1d4bc9cccd692326b498cad0b12b9b0c3eee2bfe9944ef0ea370ded3b676f34e",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTOCTypes.hh",
+        "path_type": "hardlink",
+        "sha256": "dc1ae5425b0cceacfbdcc70d9457c5706e3d23e01fee0f1e229b6a768d3a99eb",
+        "sha256_in_prefix": "dc1ae5425b0cceacfbdcc70d9457c5706e3d23e01fee0f1e229b6a768d3a99eb",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "include/framecpp/Version6/FrTable.hh",
+        "path_type": "hardlink",
+        "sha256": "ebdf807f6efbf4f186a32edc35e6f09603f0a4ecdef89e40056bc7a08591e827",
+        "sha256_in_prefix": "ebdf807f6efbf4f186a32edc35e6f09603f0a4ecdef89e40056bc7a08591e827",
+        "size_in_bytes": 8515
+      },
+      {
+        "_path": "include/framecpp/Version6/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "b80cdb7c45a14e7e2ef1a0d34211bc8c6b4ba973ec91ea52f6ca67c376c9c2dd",
+        "sha256_in_prefix": "b80cdb7c45a14e7e2ef1a0d34211bc8c6b4ba973ec91ea52f6ca67c376c9c2dd",
+        "size_in_bytes": 18619
+      },
+      {
+        "_path": "include/framecpp/Version6/FrVect.tcc",
+        "path_type": "hardlink",
+        "sha256": "bb8cd301057828b842a81652837cef6fedeb58442a1e36f30ace03aabd9380c3",
+        "sha256_in_prefix": "bb8cd301057828b842a81652837cef6fedeb58442a1e36f30ace03aabd9380c3",
+        "size_in_bytes": 4047
+      },
+      {
+        "_path": "include/framecpp/Version6/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "d49704c933683529091a2022fe9c7efb10c7cf4c2df874617597dd8727e35b87",
+        "sha256_in_prefix": "d49704c933683529091a2022fe9c7efb10c7cf4c2df874617597dd8727e35b87",
+        "size_in_bytes": 55063
+      },
+      {
+        "_path": "include/framecpp/Version6/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "e81a33546fce0397ebb42cab1453aa06f0455a4f389f3183c3111786f7397d20",
+        "sha256_in_prefix": "e81a33546fce0397ebb42cab1453aa06f0455a4f389f3183c3111786f7397d20",
+        "size_in_bytes": 2774
+      },
+      {
+        "_path": "include/framecpp/Version6/FrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "f5b79dafbe3a62ee49bf7c073ab63b3a706c7c981e5bad5ca5b246a0c9446967",
+        "sha256_in_prefix": "f5b79dafbe3a62ee49bf7c073ab63b3a706c7c981e5bad5ca5b246a0c9446967",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "include/framecpp/Version6/FrameStreamPlan.hh",
+        "path_type": "hardlink",
+        "sha256": "031b647b5e246281b234fab9e86adfc6e2832a90f4d7d25a8f82dfe56309053e",
+        "sha256_in_prefix": "031b647b5e246281b234fab9e86adfc6e2832a90f4d7d25a8f82dfe56309053e",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "include/framecpp/Version6/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "544103ab2a52bc2fa914ced428adad8cf441a027692e11ddfae65713a822ddd2",
+        "sha256_in_prefix": "544103ab2a52bc2fa914ced428adad8cf441a027692e11ddfae65713a822ddd2",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "include/framecpp/Version6/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "197ba97d75646f0559bfd9989faf2db4823df9b21984d4eb97e68fe622c05aaa",
+        "sha256_in_prefix": "197ba97d75646f0559bfd9989faf2db4823df9b21984d4eb97e68fe622c05aaa",
+        "size_in_bytes": 1648
+      },
+      {
+        "_path": "include/framecpp/Version6/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "2c75202da490e15f1f9af32c6e2f3938f09ec9fb98a1e1e7b5910d6925b9168a",
+        "sha256_in_prefix": "2c75202da490e15f1f9af32c6e2f3938f09ec9fb98a1e1e7b5910d6925b9168a",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version6/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "d0cc2be968b72c3b3a7bc6b97c012b52a5afc7b89ac531b8714cb918f3d6a2f7",
+        "sha256_in_prefix": "d0cc2be968b72c3b3a7bc6b97c012b52a5afc7b89ac531b8714cb918f3d6a2f7",
+        "size_in_bytes": 1823
+      },
+      {
+        "_path": "include/framecpp/Version6/Types.hh",
+        "path_type": "hardlink",
+        "sha256": "c34aec6e53f801d08da693ac998e1d83f76263b783256981e9355b045f5ec121",
+        "sha256_in_prefix": "c34aec6e53f801d08da693ac998e1d83f76263b783256981e9355b045f5ec121",
+        "size_in_bytes": 3086
+      },
+      {
+        "_path": "include/framecpp/Version7/Description.hh",
+        "path_type": "hardlink",
+        "sha256": "04050cd7c18e7cb9b6801bbe0dca9c5ee5a196052e41d66ae15421c2f666bc48",
+        "sha256_in_prefix": "04050cd7c18e7cb9b6801bbe0dca9c5ee5a196052e41d66ae15421c2f666bc48",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "include/framecpp/Version7/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "ae3ed077f43ed88d669a487c2390f8abe6442dc3d91a5a6290f601df533f24fb",
+        "sha256_in_prefix": "ae3ed077f43ed88d669a487c2390f8abe6442dc3d91a5a6290f601df533f24fb",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "b5c3f513895f77ee3977022ff33df4fde5b3f29e2d338f6851348d41b42edf70",
+        "sha256_in_prefix": "b5c3f513895f77ee3977022ff33df4fde5b3f29e2d338f6851348d41b42edf70",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "08891ae36ed794d74d5feb90fbbf039971f904bd20d9506079092b10451722de",
+        "sha256_in_prefix": "08891ae36ed794d74d5feb90fbbf039971f904bd20d9506079092b10451722de",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "ac4a1875e80617a2eccab2f2aa9da8699809689ccfe877f39e36fe286d481997",
+        "sha256_in_prefix": "ac4a1875e80617a2eccab2f2aa9da8699809689ccfe877f39e36fe286d481997",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "include/framecpp/Version7/FrEndOfFrame.hh",
+        "path_type": "hardlink",
+        "sha256": "a9aa4bdad072c2df5d14fb03e181dc4ab0c5097ad689dadd262e5c6b058bc976",
+        "sha256_in_prefix": "a9aa4bdad072c2df5d14fb03e181dc4ab0c5097ad689dadd262e5c6b058bc976",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version7/FrEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "9cbabfbc98ccf7c18dd9d10233e9401d463b03aada5672b60ffe6db16af7821b",
+        "sha256_in_prefix": "9cbabfbc98ccf7c18dd9d10233e9401d463b03aada5672b60ffe6db16af7821b",
+        "size_in_bytes": 15437
+      },
+      {
+        "_path": "include/framecpp/Version7/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "f63af9b94efaa5f0d7b155a3da2f7254c16f569b73ce44d24b5bb4e4ba3810d7",
+        "sha256_in_prefix": "f63af9b94efaa5f0d7b155a3da2f7254c16f569b73ce44d24b5bb4e4ba3810d7",
+        "size_in_bytes": 464
+      },
+      {
+        "_path": "include/framecpp/Version7/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "08dc7f59dcf1bf6b7b266c570dd8a32ba9bf73592afd7632dfbd6d2d10a77308",
+        "sha256_in_prefix": "08dc7f59dcf1bf6b7b266c570dd8a32ba9bf73592afd7632dfbd6d2d10a77308",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "780026d3c7fdc2ca50080270269cbbbfbdcfe89674eb8e6dbcf3d63b605e6655",
+        "sha256_in_prefix": "780026d3c7fdc2ca50080270269cbbbfbdcfe89674eb8e6dbcf3d63b605e6655",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "include/framecpp/Version7/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "a9ebe7dd63ccbea80345bf2397e82bbc16780073e32b680425425c74455cebde",
+        "sha256_in_prefix": "a9ebe7dd63ccbea80345bf2397e82bbc16780073e32b680425425c74455cebde",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/FrProcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "de711f753e3578577322b441197ef5e5bd30f5741e44af803bdb3e35e0bb93d4",
+        "sha256_in_prefix": "de711f753e3578577322b441197ef5e5bd30f5741e44af803bdb3e35e0bb93d4",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/FrProcDataPST.hh",
+        "path_type": "hardlink",
+        "sha256": "c06f6075f0ee938a2f6eedd2fe00caf2e5e50bb805216ca5c0fc5d2aa7d02ca3",
+        "sha256_in_prefix": "c06f6075f0ee938a2f6eedd2fe00caf2e5e50bb805216ca5c0fc5d2aa7d02ca3",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "9abe61841f4cf156b1c7f8e34373ba4da3f287b68ba0675501e461f27870dcde",
+        "sha256_in_prefix": "9abe61841f4cf156b1c7f8e34373ba4da3f287b68ba0675501e461f27870dcde",
+        "size_in_bytes": 9895
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "011e5b28eabc2a514c6b173b24cf7193e164f050b63b2f51ad363869ca7e97a8",
+        "sha256_in_prefix": "011e5b28eabc2a514c6b173b24cf7193e164f050b63b2f51ad363869ca7e97a8",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "35515a78884d02164657aea13f43f100ddd0b2ca8d69d292b530b2de444d0f5b",
+        "sha256_in_prefix": "35515a78884d02164657aea13f43f100ddd0b2ca8d69d292b530b2de444d0f5b",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "fea84e7be4e9b8e0da2e54d70d98a3a8d850552ccd47e2bd8b0bcb511cb48f0f",
+        "sha256_in_prefix": "fea84e7be4e9b8e0da2e54d70d98a3a8d850552ccd47e2bd8b0bcb511cb48f0f",
+        "size_in_bytes": 7575
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "b2ed27c214749eaa38b37e1bd087114e8b5611e863e0110a17252be8b24fcc3d",
+        "sha256_in_prefix": "b2ed27c214749eaa38b37e1bd087114e8b5611e863e0110a17252be8b24fcc3d",
+        "size_in_bytes": 10114
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "a942115c89cc83d194c75b76aa5f543f8b939cf388068e497ded33494afb1506",
+        "sha256_in_prefix": "a942115c89cc83d194c75b76aa5f543f8b939cf388068e497ded33494afb1506",
+        "size_in_bytes": 16281
+      },
+      {
+        "_path": "include/framecpp/Version7/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "45332315d872ea1e7e5496d63c7694be89e6886153ab663d0fce904404be91fc",
+        "sha256_in_prefix": "45332315d872ea1e7e5496d63c7694be89e6886153ab663d0fce904404be91fc",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "9c4af82300c5c3566980e00104bef9a4926a489f62189f4ae5df296b00151ab2",
+        "sha256_in_prefix": "9c4af82300c5c3566980e00104bef9a4926a489f62189f4ae5df296b00151ab2",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "a24763048c49745970cde4c4d7de58c87a5a3815ca1ed236d4a8e3290be1231a",
+        "sha256_in_prefix": "a24763048c49745970cde4c4d7de58c87a5a3815ca1ed236d4a8e3290be1231a",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "7e27b05887c7b389081594d804682c025e0777324d0b1659466b8c8faf48370a",
+        "sha256_in_prefix": "7e27b05887c7b389081594d804682c025e0777324d0b1659466b8c8faf48370a",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCData.hh",
+        "path_type": "hardlink",
+        "sha256": "1720981094c2fe59c90bd2c4b33147bc338c74169cdc5a6b75ade727304b5819",
+        "sha256_in_prefix": "1720981094c2fe59c90bd2c4b33147bc338c74169cdc5a6b75ade727304b5819",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "160063bb06258cf640f8c435d6f7df557c2dda12bc5e99acbe515affa874de55",
+        "sha256_in_prefix": "160063bb06258cf640f8c435d6f7df557c2dda12bc5e99acbe515affa874de55",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "4961e86d40f1703b96ecdb3f4f09c0bc7cbf8193cdfdcf4dbd25ddc0e1fd8f9e",
+        "sha256_in_prefix": "4961e86d40f1703b96ecdb3f4f09c0bc7cbf8193cdfdcf4dbd25ddc0e1fd8f9e",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "f68e6ddcceeab2a6ff83e62db60c0a4b65546e60265b1011e6fa0877d6a80b57",
+        "sha256_in_prefix": "f68e6ddcceeab2a6ff83e62db60c0a4b65546e60265b1011e6fa0877d6a80b57",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "d748b4e06359e5897d6c6870f1a2544185d46502431124137373f9c13f293a7a",
+        "sha256_in_prefix": "d748b4e06359e5897d6c6870f1a2544185d46502431124137373f9c13f293a7a",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "63da3ad2ca659c6321c269a3c541b8b1865e9bb3809a19679d7693ee1c06289b",
+        "sha256_in_prefix": "63da3ad2ca659c6321c269a3c541b8b1865e9bb3809a19679d7693ee1c06289b",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "a0b5f80c695a83e942d2f88769af852fe51f13b1143cc5c1daca4f38c5ca8176",
+        "sha256_in_prefix": "a0b5f80c695a83e942d2f88769af852fe51f13b1143cc5c1daca4f38c5ca8176",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTOCSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "273e76b25b04a64d6206b7ef5321fa000441fa3629dc12ac3bf9a0e88448e15a",
+        "sha256_in_prefix": "273e76b25b04a64d6206b7ef5321fa000441fa3629dc12ac3bf9a0e88448e15a",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "include/framecpp/Version7/FrTable.hh",
+        "path_type": "hardlink",
+        "sha256": "3fef3e56cbc1360663d954cdeac8c5cc6233b901bd27cc214d4c1b21364500d8",
+        "sha256_in_prefix": "3fef3e56cbc1360663d954cdeac8c5cc6233b901bd27cc214d4c1b21364500d8",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "include/framecpp/Version7/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "c9dccf36f25d4087abefed7569c32452fcd98f5b1df003078462a395f19e0414",
+        "sha256_in_prefix": "c9dccf36f25d4087abefed7569c32452fcd98f5b1df003078462a395f19e0414",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "8f083c7a4a78530aa035fae21df189da10c61d43141db496e5a308fc4022a7c7",
+        "sha256_in_prefix": "8f083c7a4a78530aa035fae21df189da10c61d43141db496e5a308fc4022a7c7",
+        "size_in_bytes": 11850
+      },
+      {
+        "_path": "include/framecpp/Version7/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "9ca90863e8373fcb6dc6829a2ed26f9e653e7c576d10f6dfea8cf577cacae6aa",
+        "sha256_in_prefix": "9ca90863e8373fcb6dc6829a2ed26f9e653e7c576d10f6dfea8cf577cacae6aa",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "include/framecpp/Version7/FrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "555f73a689825c68712a14ea845c7f07d600f200c2a44b9bc2e367b7468043c1",
+        "sha256_in_prefix": "555f73a689825c68712a14ea845c7f07d600f200c2a44b9bc2e367b7468043c1",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "include/framecpp/Version7/FrameStreamPlan.hh",
+        "path_type": "hardlink",
+        "sha256": "a46ce44d34b469344de8cf0d62d13d2a4b9180be19958a8d46c579a4d4d871e1",
+        "sha256_in_prefix": "a46ce44d34b469344de8cf0d62d13d2a4b9180be19958a8d46c579a4d4d871e1",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "include/framecpp/Version7/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "99bda6deafb4e92500022f807972884d535579d4cec037465d394fd86046011b",
+        "sha256_in_prefix": "99bda6deafb4e92500022f807972884d535579d4cec037465d394fd86046011b",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "include/framecpp/Version7/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "feaee8167a588f22172fd6696626c29eba5390a25053d54f641ffb172e9a774b",
+        "sha256_in_prefix": "feaee8167a588f22172fd6696626c29eba5390a25053d54f641ffb172e9a774b",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version7/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "91162e35a08b1f476b0e9e0c5211a60b70f46777c3c18f95c404cbd0a612ab15",
+        "sha256_in_prefix": "91162e35a08b1f476b0e9e0c5211a60b70f46777c3c18f95c404cbd0a612ab15",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version7/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "2d67a4d46d0fcafef2cbbee55e18bf27b0329ef4ca7cb148851213fd894fcc02",
+        "sha256_in_prefix": "2d67a4d46d0fcafef2cbbee55e18bf27b0329ef4ca7cb148851213fd894fcc02",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "include/framecpp/Version7/Types.hh",
+        "path_type": "hardlink",
+        "sha256": "cc455061e02b2c2e99a65c11b0167303dd335d514c07722e87049759f75e2f76",
+        "sha256_in_prefix": "cc455061e02b2c2e99a65c11b0167303dd335d514c07722e87049759f75e2f76",
+        "size_in_bytes": 3012
+      },
+      {
+        "_path": "include/framecpp/Version8/Dimension.hh",
+        "path_type": "hardlink",
+        "sha256": "c603a6207e3459c36f47d4574b6183c313d13a02b4dabd7ad59966e0211339e8",
+        "sha256_in_prefix": "c603a6207e3459c36f47d4574b6183c313d13a02b4dabd7ad59966e0211339e8",
+        "size_in_bytes": 13262
+      },
+      {
+        "_path": "include/framecpp/Version8/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "e64f3e2264ba67190981add250faeaa0a0983e875f136bd8ea9b6ea92c40e947",
+        "sha256_in_prefix": "e64f3e2264ba67190981add250faeaa0a0983e875f136bd8ea9b6ea92c40e947",
+        "size_in_bytes": 7212
+      },
+      {
+        "_path": "include/framecpp/Version8/FrDetector.hh",
+        "path_type": "hardlink",
+        "sha256": "2cfaf62fe23989d98d449119dc5a6f419b87b3af9d35e65dcd10f7ee5a83cbb3",
+        "sha256_in_prefix": "2cfaf62fe23989d98d449119dc5a6f419b87b3af9d35e65dcd10f7ee5a83cbb3",
+        "size_in_bytes": 7946
+      },
+      {
+        "_path": "include/framecpp/Version8/FrEndOfFile.hh",
+        "path_type": "hardlink",
+        "sha256": "39aa83fdc0b63237b54845cc26bd9010d8a445382d2a320f06135246085cbec8",
+        "sha256_in_prefix": "39aa83fdc0b63237b54845cc26bd9010d8a445382d2a320f06135246085cbec8",
+        "size_in_bytes": 10781
+      },
+      {
+        "_path": "include/framecpp/Version8/FrEndOfFrame.hh",
+        "path_type": "hardlink",
+        "sha256": "c82694916c139a56bdb22cf4d0e565950999861c42d00a1cad8c562582e9f6a6",
+        "sha256_in_prefix": "c82694916c139a56bdb22cf4d0e565950999861c42d00a1cad8c562582e9f6a6",
+        "size_in_bytes": 3916
+      },
+      {
+        "_path": "include/framecpp/Version8/FrEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "3cbf24a63a8d9b72978477bb85b7a74ef16c126c2d013bafd10d2e5b7b2ce415",
+        "sha256_in_prefix": "3cbf24a63a8d9b72978477bb85b7a74ef16c126c2d013bafd10d2e5b7b2ce415",
+        "size_in_bytes": 6363
+      },
+      {
+        "_path": "include/framecpp/Version8/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "38ee504b3f00c26c2528478616f83dec74388e83b8359e7adcb19366e73d2fd7",
+        "sha256_in_prefix": "38ee504b3f00c26c2528478616f83dec74388e83b8359e7adcb19366e73d2fd7",
+        "size_in_bytes": 15649
+      },
+      {
+        "_path": "include/framecpp/Version8/FrHistory.hh",
+        "path_type": "hardlink",
+        "sha256": "878a03c0082cb0846f858becfb7d2261710b52e79298367bfcde94099beb0983",
+        "sha256_in_prefix": "878a03c0082cb0846f858becfb7d2261710b52e79298367bfcde94099beb0983",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "include/framecpp/Version8/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "25a0cf7700a5b4ffd88c21a1c21a299e23cd51938f3efefda59a17c18705cfbc",
+        "sha256_in_prefix": "25a0cf7700a5b4ffd88c21a1c21a299e23cd51938f3efefda59a17c18705cfbc",
+        "size_in_bytes": 6282
+      },
+      {
+        "_path": "include/framecpp/Version8/FrProcData.hh",
+        "path_type": "hardlink",
+        "sha256": "f1772b4285d273c987566a135f480663e6cbed7ea8a2ca367e106b1c3db8d406",
+        "sha256_in_prefix": "f1772b4285d273c987566a135f480663e6cbed7ea8a2ca367e106b1c3db8d406",
+        "size_in_bytes": 7564
+      },
+      {
+        "_path": "include/framecpp/Version8/FrProcDataNPS.hh",
+        "path_type": "hardlink",
+        "sha256": "20102b42ff8c768639e51c3cbf1671bbff891369bfeb2a0ae6a39541a4b53fb4",
+        "sha256_in_prefix": "20102b42ff8c768639e51c3cbf1671bbff891369bfeb2a0ae6a39541a4b53fb4",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version8/FrProcDataPST.hh",
+        "path_type": "hardlink",
+        "sha256": "8a68306ecde32267ca6b7382491d6836508d015a7f0c8a45c1f7d13ff2196a9a",
+        "sha256_in_prefix": "8a68306ecde32267ca6b7382491d6836508d015a7f0c8a45c1f7d13ff2196a9a",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version8/FrRawData.hh",
+        "path_type": "hardlink",
+        "sha256": "887b0f1bc808a2a585494af8fdb56a20fafdb76bd85b8fd67f1de26c16abdb0b",
+        "sha256_in_prefix": "887b0f1bc808a2a585494af8fdb56a20fafdb76bd85b8fd67f1de26c16abdb0b",
+        "size_in_bytes": 5512
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSE.hh",
+        "path_type": "hardlink",
+        "sha256": "dfebf161bcd1cc943330fabe99a6ef5fefe4c51379b4abab53fba59b4e9a3ffd",
+        "sha256_in_prefix": "dfebf161bcd1cc943330fabe99a6ef5fefe4c51379b4abab53fba59b4e9a3ffd",
+        "size_in_bytes": 3963
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSH.hh",
+        "path_type": "hardlink",
+        "sha256": "cd351171f63924de902b257add7112c118faa7ce88c71fa021ac0d12a123869f",
+        "sha256_in_prefix": "cd351171f63924de902b257add7112c118faa7ce88c71fa021ac0d12a123869f",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSerData.hh",
+        "path_type": "hardlink",
+        "sha256": "394cd94594af439adb004b836e082725f81e9365286677cc57b42d546aeb86f8",
+        "sha256_in_prefix": "394cd94594af439adb004b836e082725f81e9365286677cc57b42d546aeb86f8",
+        "size_in_bytes": 6705
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSimData.hh",
+        "path_type": "hardlink",
+        "sha256": "114e6a15fca0c69765419b215c558f2789cf3b18b80364f3e7f49868c625b6ca",
+        "sha256_in_prefix": "114e6a15fca0c69765419b215c558f2789cf3b18b80364f3e7f49868c625b6ca",
+        "size_in_bytes": 6923
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSimEvent.hh",
+        "path_type": "hardlink",
+        "sha256": "c65476c33284e605f1901a5093704a1939d938272a2e2aadac99083e1d3eb46e",
+        "sha256_in_prefix": "c65476c33284e605f1901a5093704a1939d938272a2e2aadac99083e1d3eb46e",
+        "size_in_bytes": 7133
+      },
+      {
+        "_path": "include/framecpp/Version8/FrStatData.hh",
+        "path_type": "hardlink",
+        "sha256": "63e4a279c9e44e8304e83bb155ead450bd5ea567c0de690c25366e6a2cc0a643",
+        "sha256_in_prefix": "63e4a279c9e44e8304e83bb155ead450bd5ea567c0de690c25366e6a2cc0a643",
+        "size_in_bytes": 6366
+      },
+      {
+        "_path": "include/framecpp/Version8/FrSummary.hh",
+        "path_type": "hardlink",
+        "sha256": "4dafd1a53e8051195b09c0d2fe52d001419622a907a946e3b4aeec82bdbf7986",
+        "sha256_in_prefix": "4dafd1a53e8051195b09c0d2fe52d001419622a907a946e3b4aeec82bdbf7986",
+        "size_in_bytes": 6660
+      },
+      {
+        "_path": "include/framecpp/Version8/FrTOC.hh",
+        "path_type": "hardlink",
+        "sha256": "b7ac023de9ab701b3fae6aa93cabb1f36c43df82c0f76ab04fb283c5f97aa9f6",
+        "sha256_in_prefix": "b7ac023de9ab701b3fae6aa93cabb1f36c43df82c0f76ab04fb283c5f97aa9f6",
+        "size_in_bytes": 15559
+      },
+      {
+        "_path": "include/framecpp/Version8/FrTOCTypes.hh",
+        "path_type": "hardlink",
+        "sha256": "de50d1821e36c48421dee2720a22379defe2764c16e5d2adbd27fed2f8ce6c91",
+        "sha256_in_prefix": "de50d1821e36c48421dee2720a22379defe2764c16e5d2adbd27fed2f8ce6c91",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "include/framecpp/Version8/FrTable.hh",
+        "path_type": "hardlink",
+        "sha256": "7dc88e554d2a2f69568b801c7afdff180d635f4dd568851da18231f53dc1d4bd",
+        "sha256_in_prefix": "7dc88e554d2a2f69568b801c7afdff180d635f4dd568851da18231f53dc1d4bd",
+        "size_in_bytes": 7809
+      },
+      {
+        "_path": "include/framecpp/Version8/FrVect.hh",
+        "path_type": "hardlink",
+        "sha256": "3c4d5e9ec463a64115fcfac56c1727c646b9e01ed77fd48f73512c1f4c270157",
+        "sha256_in_prefix": "3c4d5e9ec463a64115fcfac56c1727c646b9e01ed77fd48f73512c1f4c270157",
+        "size_in_bytes": 10444
+      },
+      {
+        "_path": "include/framecpp/Version8/FrVect.tcc",
+        "path_type": "hardlink",
+        "sha256": "578ae8fd59586bc62be6d508a1b52f086c97ebe7cd6833e129ad444c7de911a1",
+        "sha256_in_prefix": "578ae8fd59586bc62be6d508a1b52f086c97ebe7cd6833e129ad444c7de911a1",
+        "size_in_bytes": 4041
+      },
+      {
+        "_path": "include/framecpp/Version8/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "0f677ff3eaa3ce669aed9aa1f78b37371881dca34f7d14c8f9bbc9239e8d1b24",
+        "sha256_in_prefix": "0f677ff3eaa3ce669aed9aa1f78b37371881dca34f7d14c8f9bbc9239e8d1b24",
+        "size_in_bytes": 14438
+      },
+      {
+        "_path": "include/framecpp/Version8/FrameSpec.hh",
+        "path_type": "hardlink",
+        "sha256": "215c0e6946cc8a12f4e08a248cae4534b4d831bad887def74e381dea60164a23",
+        "sha256_in_prefix": "215c0e6946cc8a12f4e08a248cae4534b4d831bad887def74e381dea60164a23",
+        "size_in_bytes": 4151
+      },
+      {
+        "_path": "include/framecpp/Version8/FrameStream.hh",
+        "path_type": "hardlink",
+        "sha256": "fd19f28245d2fb85d19710cc930742c4d34f624556de344c27654ea8eb16c1fd",
+        "sha256_in_prefix": "fd19f28245d2fb85d19710cc930742c4d34f624556de344c27654ea8eb16c1fd",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "include/framecpp/Version8/FrameStreamPlan.hh",
+        "path_type": "hardlink",
+        "sha256": "9b7ecce8817fcb930cd2fd8b1769b2e85c0383452910ec86c762882a3ef73a49",
+        "sha256_in_prefix": "9b7ecce8817fcb930cd2fd8b1769b2e85c0383452910ec86c762882a3ef73a49",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "include/framecpp/Version8/GPSTime.hh",
+        "path_type": "hardlink",
+        "sha256": "562913d306be1342b89f5fc637e86e1b5738d15318c7fc66125f276b7c39f0fb",
+        "sha256_in_prefix": "562913d306be1342b89f5fc637e86e1b5738d15318c7fc66125f276b7c39f0fb",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "include/framecpp/Version8/PTR_STRUCT.hh",
+        "path_type": "hardlink",
+        "sha256": "f479f2fd6910b4af67a42c23081764f28d5c21db5d40342392613bd9c607b3b6",
+        "sha256_in_prefix": "f479f2fd6910b4af67a42c23081764f28d5c21db5d40342392613bd9c607b3b6",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "include/framecpp/Version8/STRING.hh",
+        "path_type": "hardlink",
+        "sha256": "0a79461711d960600f81da67faa1a41b9b8a35037421fc9bcba0ef361f7cc82a",
+        "sha256_in_prefix": "0a79461711d960600f81da67faa1a41b9b8a35037421fc9bcba0ef361f7cc82a",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "include/framecpp/Version8/StreamRef.hh",
+        "path_type": "hardlink",
+        "sha256": "a1875cc7caf4ae7ef5d959d8b9b272b3ceee10d12a1b25b1f643210e6a02a9af",
+        "sha256_in_prefix": "a1875cc7caf4ae7ef5d959d8b9b272b3ceee10d12a1b25b1f643210e6a02a9af",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "include/framecpp/Version8/Types.hh",
+        "path_type": "hardlink",
+        "sha256": "67329c7fc32cb2fcd215037d0a6cd26db1eda5dcc101924b7ee0579255ab865f",
+        "sha256_in_prefix": "67329c7fc32cb2fcd215037d0a6cd26db1eda5dcc101924b7ee0579255ab865f",
+        "size_in_bytes": 3086
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/DimensionSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "dc8fa0490f9e57ef8b92a43f4455faac2a859a03a5c43be80739c791386a0cf8",
+        "sha256_in_prefix": "dc8fa0490f9e57ef8b92a43f4455faac2a859a03a5c43be80739c791386a0cf8",
+        "size_in_bytes": 3436
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrAdcDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "141ada827911458b318fc1cd5fcabdb8a4e9abc72d6d669b3c982b496f0debd4",
+        "sha256_in_prefix": "141ada827911458b318fc1cd5fcabdb8a4e9abc72d6d669b3c982b496f0debd4",
+        "size_in_bytes": 24733
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrAdcDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "c539a8a076c5d78f783e8def3c1f167d3f8dce127756f5bf636a27f3e5f01ad2",
+        "sha256_in_prefix": "c539a8a076c5d78f783e8def3c1f167d3f8dce127756f5bf636a27f3e5f01ad2",
+        "size_in_bytes": 22506
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrDetectorClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "1bedc5ee472f7796183d7e2356f87e83c143878ebce48d2f714485c2b3096f0a",
+        "sha256_in_prefix": "1bedc5ee472f7796183d7e2356f87e83c143878ebce48d2f714485c2b3096f0a",
+        "size_in_bytes": 18746
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrDetectorData.hh",
+        "path_type": "hardlink",
+        "sha256": "a77c5403ed8fbd7fdcf16646f12aa58fc3a628b8bbdaebf919086e270275f2c1",
+        "sha256_in_prefix": "a77c5403ed8fbd7fdcf16646f12aa58fc3a628b8bbdaebf919086e270275f2c1",
+        "size_in_bytes": 18962
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrDetectorSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "6cb1eba44e10645ec12f399d0cae7aa5c892bd00a81896533a0f6ee4b0a5b1f0",
+        "sha256_in_prefix": "6cb1eba44e10645ec12f399d0cae7aa5c892bd00a81896533a0f6ee4b0a5b1f0",
+        "size_in_bytes": 5068
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFileClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "5ef8602801f0d18960c31299dc2293a3de8e7c20bb36c1554512adfaf5490110",
+        "sha256_in_prefix": "5ef8602801f0d18960c31299dc2293a3de8e7c20bb36c1554512adfaf5490110",
+        "size_in_bytes": 18279
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFileData.hh",
+        "path_type": "hardlink",
+        "sha256": "bd201ba8801c1602bef1e5862b93f73452a7c31a34d188f162895f6dab04e2d5",
+        "sha256_in_prefix": "bd201ba8801c1602bef1e5862b93f73452a7c31a34d188f162895f6dab04e2d5",
+        "size_in_bytes": 7834
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFileSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "e942f7976f94ab0e5a91b5ea380d689fcdfac9f1f5e8532976b5fd71338d5ccb",
+        "sha256_in_prefix": "e942f7976f94ab0e5a91b5ea380d689fcdfac9f1f5e8532976b5fd71338d5ccb",
+        "size_in_bytes": 4126
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFrameClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "0ba145f45657428884fc9f61589d75fd4d72921fc971e96a190697c63f8fd541",
+        "sha256_in_prefix": "0ba145f45657428884fc9f61589d75fd4d72921fc971e96a190697c63f8fd541",
+        "size_in_bytes": 10904
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFrameData.hh",
+        "path_type": "hardlink",
+        "sha256": "0b75a5af0f36399d99a1afe83d0dca8b45652c7a48f5f2e869841e78f7e7ef85",
+        "sha256_in_prefix": "0b75a5af0f36399d99a1afe83d0dca8b45652c7a48f5f2e869841e78f7e7ef85",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEndOfFrameSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "922a892e17e60829eab061cc9b19f106de9836067b7418b83da108ae052aea40",
+        "sha256_in_prefix": "922a892e17e60829eab061cc9b19f106de9836067b7418b83da108ae052aea40",
+        "size_in_bytes": 3750
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEventClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "41102a04c5f99f31d1ab5e86e9344f0148f62647313c1e7f455e72e4fbd0f140",
+        "sha256_in_prefix": "41102a04c5f99f31d1ab5e86e9344f0148f62647313c1e7f455e72e4fbd0f140",
+        "size_in_bytes": 23592
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEventData.hh",
+        "path_type": "hardlink",
+        "sha256": "8a231d7d6ba2cc0419053817179bdbb4c3f70662e588e95ac13397216c98b1d9",
+        "sha256_in_prefix": "8a231d7d6ba2cc0419053817179bdbb4c3f70662e588e95ac13397216c98b1d9",
+        "size_in_bytes": 10333
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrEventSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "b6721598920383e6f61be2087a1348e8ca64c716ea26e6e8427b08d1e734e68e",
+        "sha256_in_prefix": "b6721598920383e6f61be2087a1348e8ca64c716ea26e6e8427b08d1e734e68e",
+        "size_in_bytes": 5128
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrHistoryClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "94224e95f201bdcdf5f7c0324fb0bc5e051c00a121f7b5315470b21d37bbf18e",
+        "sha256_in_prefix": "94224e95f201bdcdf5f7c0324fb0bc5e051c00a121f7b5315470b21d37bbf18e",
+        "size_in_bytes": 12935
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrHistoryData.hh",
+        "path_type": "hardlink",
+        "sha256": "9b9f750b20bbeda49e096019a8e8bca810a1276c84d72a7e36b81493cdc71a14",
+        "sha256_in_prefix": "9b9f750b20bbeda49e096019a8e8bca810a1276c84d72a7e36b81493cdc71a14",
+        "size_in_bytes": 6195
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrHistorySerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "502a6eec4a2128152d64a2918a2c8ad81f202f16ea9ccee235d3b9a5254d07df",
+        "sha256_in_prefix": "502a6eec4a2128152d64a2918a2c8ad81f202f16ea9ccee235d3b9a5254d07df",
+        "size_in_bytes": 3218
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrMsgClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "e2e37fd686e088802d1c653f2702aeb2ae5aafe9adfa76df79c833347faf0bce",
+        "sha256_in_prefix": "e2e37fd686e088802d1c653f2702aeb2ae5aafe9adfa76df79c833347faf0bce",
+        "size_in_bytes": 16142
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrMsgData.hh",
+        "path_type": "hardlink",
+        "sha256": "175c0b8a0bf5bf1825f8168ee917a1c9a36a1f905371d89d2ad4f288bd66d9ae",
+        "sha256_in_prefix": "175c0b8a0bf5bf1825f8168ee917a1c9a36a1f905371d89d2ad4f288bd66d9ae",
+        "size_in_bytes": 2116
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrMsgSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "dd5368326645f72fdc280ff80dd8d3c794b601eff9307f0810a05c4492252b76",
+        "sha256_in_prefix": "dd5368326645f72fdc280ff80dd8d3c794b601eff9307f0810a05c4492252b76",
+        "size_in_bytes": 3320
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrObjectMetaData.hh",
+        "path_type": "hardlink",
+        "sha256": "cd9c8a7240ed6eff0013fe4c2aa39cc383fc5c6596167f63968e8536ebdb9d7f",
+        "sha256_in_prefix": "cd9c8a7240ed6eff0013fe4c2aa39cc383fc5c6596167f63968e8536ebdb9d7f",
+        "size_in_bytes": 4465
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrProcDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "2a081a5e655562284e350ce456c722824b4fa5a4aff53fe81765e055845ce9ce",
+        "sha256_in_prefix": "2a081a5e655562284e350ce456c722824b4fa5a4aff53fe81765e055845ce9ce",
+        "size_in_bytes": 23198
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrProcDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "6b14dd2edb34bf0596468f2cb5f2b78a3b208b82a4f03cec1373c3a29296ccc4",
+        "sha256_in_prefix": "6b14dd2edb34bf0596468f2cb5f2b78a3b208b82a4f03cec1373c3a29296ccc4",
+        "size_in_bytes": 23136
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrRawDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "12fefd390ea23abb2d430e37ae689cd9dece1202ae7999450a9cd2d7199f4da6",
+        "sha256_in_prefix": "12fefd390ea23abb2d430e37ae689cd9dece1202ae7999450a9cd2d7199f4da6",
+        "size_in_bytes": 14448
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrRawDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "f6702b38b2bfb06e86b13edb8fadee597e85ad58ca85bc5c8dd6fbf30ec0a5ea",
+        "sha256_in_prefix": "f6702b38b2bfb06e86b13edb8fadee597e85ad58ca85bc5c8dd6fbf30ec0a5ea",
+        "size_in_bytes": 13150
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSEClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "5e899528bf38a53be1c013004d9921e883b331e34bb71392a434141ccf7045fd",
+        "sha256_in_prefix": "5e899528bf38a53be1c013004d9921e883b331e34bb71392a434141ccf7045fd",
+        "size_in_bytes": 6917
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSEData.hh",
+        "path_type": "hardlink",
+        "sha256": "a209db40693c78bc144a489bf1672ece7e3cda29ac09efa0603583411406fc9f",
+        "sha256_in_prefix": "a209db40693c78bc144a489bf1672ece7e3cda29ac09efa0603583411406fc9f",
+        "size_in_bytes": 1863
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSESerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "7b94daf1efcfbc6016a4d5fc321ef9caea58d4f3f6fb415e1f2ed836dd32379c",
+        "sha256_in_prefix": "7b94daf1efcfbc6016a4d5fc321ef9caea58d4f3f6fb415e1f2ed836dd32379c",
+        "size_in_bytes": 3221
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSHClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "6be7cfe27390951cfb62dd53e5def568f5f3c473ce58c0cc9b9cb59731265a33",
+        "sha256_in_prefix": "6be7cfe27390951cfb62dd53e5def568f5f3c473ce58c0cc9b9cb59731265a33",
+        "size_in_bytes": 11664
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSHData.hh",
+        "path_type": "hardlink",
+        "sha256": "3484f0119a5487c6bf5d76499d03e34ab1f4a5e89492cf66d08f0d3e750cde86",
+        "sha256_in_prefix": "3484f0119a5487c6bf5d76499d03e34ab1f4a5e89492cf66d08f0d3e750cde86",
+        "size_in_bytes": 2222
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSHSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "b864f5080f5bad040f4f57a303e135d5247363abd561426e76d733da9c7e4652",
+        "sha256_in_prefix": "b864f5080f5bad040f4f57a303e135d5247363abd561426e76d733da9c7e4652",
+        "size_in_bytes": 3419
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSerDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "b17f8e032f479ba3091a368945654fdb1b7de605657c6633084cb08e19b35c96",
+        "sha256_in_prefix": "b17f8e032f479ba3091a368945654fdb1b7de605657c6633084cb08e19b35c96",
+        "size_in_bytes": 16339
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSerDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "7d2ad4443546848781bbdd6143e85c5d18afd4035b1ad311633d2baef99f1f89",
+        "sha256_in_prefix": "7d2ad4443546848781bbdd6143e85c5d18afd4035b1ad311633d2baef99f1f89",
+        "size_in_bytes": 10426
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSimDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "e5a08858e5ae50b7189d132eae74483580530888081ea927aae3eca2966e7570",
+        "sha256_in_prefix": "e5a08858e5ae50b7189d132eae74483580530888081ea927aae3eca2966e7570",
+        "size_in_bytes": 18396
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSimDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "b7ec6f2cdac6b4165777736ca1ebdd82db3d689a716ac68d365cfcc4ffcf2e32",
+        "sha256_in_prefix": "b7ec6f2cdac6b4165777736ca1ebdd82db3d689a716ac68d365cfcc4ffcf2e32",
+        "size_in_bytes": 10636
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSimEventClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "f3545063614be75154a791e052f74117b46a1dd520e84982ac81b160d58e7dca",
+        "sha256_in_prefix": "f3545063614be75154a791e052f74117b46a1dd520e84982ac81b160d58e7dca",
+        "size_in_bytes": 22345
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSimEventData.hh",
+        "path_type": "hardlink",
+        "sha256": "a5e64b3b8082092aa54a5ddf0d7072801522d5fb3557a8ccc28c06e21c5a6144",
+        "sha256_in_prefix": "a5e64b3b8082092aa54a5ddf0d7072801522d5fb3557a8ccc28c06e21c5a6144",
+        "size_in_bytes": 9755
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrStatDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "42bbd70d0df32b2d9a847727a7a3f78deedef0bc09152d5da285592f6a4ec3c4",
+        "sha256_in_prefix": "42bbd70d0df32b2d9a847727a7a3f78deedef0bc09152d5da285592f6a4ec3c4",
+        "size_in_bytes": 32462
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrStatDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "3242c921cbc875606f2db91fde04911274fc952e8e0afedac4d56ce8f473742c",
+        "sha256_in_prefix": "3242c921cbc875606f2db91fde04911274fc952e8e0afedac4d56ce8f473742c",
+        "size_in_bytes": 10698
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSummaryClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "95a75ffa3be7984f08b0b512c4f56d53048587a913923a3059ac94266efb3d02",
+        "sha256_in_prefix": "95a75ffa3be7984f08b0b512c4f56d53048587a913923a3059ac94266efb3d02",
+        "size_in_bytes": 16643
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrSummaryData.hh",
+        "path_type": "hardlink",
+        "sha256": "c5a3763307575dae99fe4fa8566d1742e183501de2366d8466ae64d3aba4f2e1",
+        "sha256_in_prefix": "c5a3763307575dae99fe4fa8566d1742e183501de2366d8466ae64d3aba4f2e1",
+        "size_in_bytes": 9565
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCAdcDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "a7a16311f4bb1340d1bef48e41771747b7725e0370090b4af8fd0e3e8f9dd6e7",
+        "sha256_in_prefix": "a7a16311f4bb1340d1bef48e41771747b7725e0370090b4af8fd0e3e8f9dd6e7",
+        "size_in_bytes": 21802
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCAdcDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "e663251f8aefe9afc89fb1b3325758ba401fae4fb63f3741331a32caea69d28e",
+        "sha256_in_prefix": "e663251f8aefe9afc89fb1b3325758ba401fae4fb63f3741331a32caea69d28e",
+        "size_in_bytes": 9899
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "8ef2784884a3d1d550ef9378f61679b98d3896a9e87909cc3a5eee068a80ea07",
+        "sha256_in_prefix": "8ef2784884a3d1d550ef9378f61679b98d3896a9e87909cc3a5eee068a80ea07",
+        "size_in_bytes": 11962
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCConstants.hh",
+        "path_type": "hardlink",
+        "sha256": "b1e33e6e9d7b4fcaf62d158c00280bd651a2c1f64ed562a479836bb368d95269",
+        "sha256_in_prefix": "b1e33e6e9d7b4fcaf62d158c00280bd651a2c1f64ed562a479836bb368d95269",
+        "size_in_bytes": 2367
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCData.hh",
+        "path_type": "hardlink",
+        "sha256": "a496e2376d05e96678f45a71b3c2cad8ab4a50fb2a754c263447ba4d58103574",
+        "sha256_in_prefix": "a496e2376d05e96678f45a71b3c2cad8ab4a50fb2a754c263447ba4d58103574",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "692f620de05a578ad500c711af90c1f551bc9fc639804fd97305b60249bd8b1a",
+        "sha256_in_prefix": "692f620de05a578ad500c711af90c1f551bc9fc639804fd97305b60249bd8b1a",
+        "size_in_bytes": 20376
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "db5d9ecf87b31b68ecbd7ec68463081edb8af7ecf5ced0f4ac02b6cf2f1e3a97",
+        "sha256_in_prefix": "db5d9ecf87b31b68ecbd7ec68463081edb8af7ecf5ced0f4ac02b6cf2f1e3a97",
+        "size_in_bytes": 22268
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCEventClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "2b5b24fa5c845994dec0c505163cf2c45ae389bd07ec1c4e21aa9c4397a0b7ef",
+        "sha256_in_prefix": "2b5b24fa5c845994dec0c505163cf2c45ae389bd07ec1c4e21aa9c4397a0b7ef",
+        "size_in_bytes": 17673
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCEventData.hh",
+        "path_type": "hardlink",
+        "sha256": "9b183a768ff8b7425768ca2c18191671b21ffae026682882d0bf5376e4d33122",
+        "sha256_in_prefix": "9b183a768ff8b7425768ca2c18191671b21ffae026682882d0bf5376e4d33122",
+        "size_in_bytes": 9751
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCProcDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "97e0349e70e6abc00785b43281f3efa05a4fd0fde6095462eccd2c11e5ab7392",
+        "sha256_in_prefix": "97e0349e70e6abc00785b43281f3efa05a4fd0fde6095462eccd2c11e5ab7392",
+        "size_in_bytes": 17728
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCProcDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "3ec510f2fd2e24d1f23b617ab6cdc43c95912c451ab67409ea0b52bc6a696f26",
+        "sha256_in_prefix": "3ec510f2fd2e24d1f23b617ab6cdc43c95912c451ab67409ea0b52bc6a696f26",
+        "size_in_bytes": 4629
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSerDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "5d3cf5f17cbf984287170c87fda95291ec0c3944b25bf1f8badc0e707c1e9cf6",
+        "sha256_in_prefix": "5d3cf5f17cbf984287170c87fda95291ec0c3944b25bf1f8badc0e707c1e9cf6",
+        "size_in_bytes": 13322
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSerDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "c9e1c7b3dd032bf2da567f302c4c3cb67ee96d18a4826b5fdf25260b50f1a0de",
+        "sha256_in_prefix": "c9e1c7b3dd032bf2da567f302c4c3cb67ee96d18a4826b5fdf25260b50f1a0de",
+        "size_in_bytes": 4805
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSimDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "224507320620bd0981b884d2cc029847af3d5b903ffba21ab215356f187f93a9",
+        "sha256_in_prefix": "224507320620bd0981b884d2cc029847af3d5b903ffba21ab215356f187f93a9",
+        "size_in_bytes": 13483
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSimDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "b5650b246f93d51fb9930873030a9e48a99b453ac89997e84288d99394bc7cc5",
+        "sha256_in_prefix": "b5650b246f93d51fb9930873030a9e48a99b453ac89997e84288d99394bc7cc5",
+        "size_in_bytes": 4173
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSimEventClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "daebec488bb915b46eca7befb485494ce4cc12b209a4ce1cdd75e3208c44914e",
+        "sha256_in_prefix": "daebec488bb915b46eca7befb485494ce4cc12b209a4ce1cdd75e3208c44914e",
+        "size_in_bytes": 17965
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSimEventData.hh",
+        "path_type": "hardlink",
+        "sha256": "d8a90a54e1decea06c68092d33d57c9c74cf521bfc4592c802cf86204a10ce6e",
+        "sha256_in_prefix": "d8a90a54e1decea06c68092d33d57c9c74cf521bfc4592c802cf86204a10ce6e",
+        "size_in_bytes": 9897
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCStatDataClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "1c64ecb52b727d42822ed56576f5b14e643eabaf2b0506db45a10561b4c1a988",
+        "sha256_in_prefix": "1c64ecb52b727d42822ed56576f5b14e643eabaf2b0506db45a10561b4c1a988",
+        "size_in_bytes": 18692
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCStatDataData.hh",
+        "path_type": "hardlink",
+        "sha256": "41fe273609ad7ec85144072e732ab52b26591ab671ce2de8a630b63d35676b8f",
+        "sha256_in_prefix": "41fe273609ad7ec85144072e732ab52b26591ab671ce2de8a630b63d35676b8f",
+        "size_in_bytes": 6319
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSummaryClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "5cd1fbb592621d92e1c32900710474cfa1435c5923a800e45a01cc792e5d37e0",
+        "sha256_in_prefix": "5cd1fbb592621d92e1c32900710474cfa1435c5923a800e45a01cc792e5d37e0",
+        "size_in_bytes": 13320
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTOCSummaryData.hh",
+        "path_type": "hardlink",
+        "sha256": "4659b77d243876572307df81bf5e03cab82ce2096d28df4cd957295af6307e1e",
+        "sha256_in_prefix": "4659b77d243876572307df81bf5e03cab82ce2096d28df4cd957295af6307e1e",
+        "size_in_bytes": 4837
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTableClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "534e5c1df223d5c3b90902c05cb95cdee146c1fb49c0624d20a2efd1471c4fc0",
+        "sha256_in_prefix": "534e5c1df223d5c3b90902c05cb95cdee146c1fb49c0624d20a2efd1471c4fc0",
+        "size_in_bytes": 13258
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTableData.hh",
+        "path_type": "hardlink",
+        "sha256": "ff3b144b17996d2e71aedecbc5e6d6c247d332a3ba2dec6cb6d44db50863d5e3",
+        "sha256_in_prefix": "ff3b144b17996d2e71aedecbc5e6d6c247d332a3ba2dec6cb6d44db50863d5e3",
+        "size_in_bytes": 2900
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrTableSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "5d011989fd052b2434eb2d2369bead08bc850a5c6e52eaf5770ff0c5fa8fa091",
+        "sha256_in_prefix": "5d011989fd052b2434eb2d2369bead08bc850a5c6e52eaf5770ff0c5fa8fa091",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrVectClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "03deae17947a0680fee7fe210fb56b41cd922b47c635cdfdf365afdf8c43b2d1",
+        "sha256_in_prefix": "03deae17947a0680fee7fe210fb56b41cd922b47c635cdfdf365afdf8c43b2d1",
+        "size_in_bytes": 24623
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrVectData.hh",
+        "path_type": "hardlink",
+        "sha256": "f5c739fccb6b71b37abd65f0df0fb9d675fad2b8b4e115e3f9fa20be2e9465b5",
+        "sha256_in_prefix": "f5c739fccb6b71b37abd65f0df0fb9d675fad2b8b4e115e3f9fa20be2e9465b5",
+        "size_in_bytes": 43223
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrVectSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "8c3b3631fc94e27f3fbc204be90cf049313ce18ecbf1441056bbc93f5ed6d17c",
+        "sha256_in_prefix": "8c3b3631fc94e27f3fbc204be90cf049313ce18ecbf1441056bbc93f5ed6d17c",
+        "size_in_bytes": 5016
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrameHClassicIO.hh",
+        "path_type": "hardlink",
+        "sha256": "2c9c19859f55b4292ebcbb9b168f5a5046cae0a95628cfff144ef0689e7d2941",
+        "sha256_in_prefix": "2c9c19859f55b4292ebcbb9b168f5a5046cae0a95628cfff144ef0689e7d2941",
+        "size_in_bytes": 32196
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/FrameHData.hh",
+        "path_type": "hardlink",
+        "sha256": "bb3aec8726a051bdd6fc8d2392878053346aa72156f7554b49e971783d8a04f5",
+        "sha256_in_prefix": "bb3aec8726a051bdd6fc8d2392878053346aa72156f7554b49e971783d8a04f5",
+        "size_in_bytes": 3589
+      },
+      {
+        "_path": "include/framecpp/Version8/impl/HelperSerialIO.hh",
+        "path_type": "hardlink",
+        "sha256": "94f268a3a2b12bdaaf40c3eed3d43b82fdcd49064fc5e38242c42761dc4fc5c9",
+        "sha256_in_prefix": "94f268a3a2b12bdaaf40c3eed3d43b82fdcd49064fc5e38242c42761dc4fc5c9",
+        "size_in_bytes": 2569
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "481c4ff7e3b14a4e26ffd8c18198a34065232a63ce48fabf2fa39df557ec44e0",
+        "sha256_in_prefix": "481c4ff7e3b14a4e26ffd8c18198a34065232a63ce48fabf2fa39df557ec44e0",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "536292c6fe1f8fde7d5ad35fcf20bbd6324530d047a5fee43e79b4e14db50abf",
+        "sha256_in_prefix": "536292c6fe1f8fde7d5ad35fcf20bbd6324530d047a5fee43e79b4e14db50abf",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrObjectMetaData.hh",
+        "path_type": "hardlink",
+        "sha256": "3fb431d7d6e3bf16918f17f85419f689c37b178ad0df8825fabc21696d99902d",
+        "sha256_in_prefix": "3fb431d7d6e3bf16918f17f85419f689c37b178ad0df8825fabc21696d99902d",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrSEData.hh",
+        "path_type": "hardlink",
+        "sha256": "f41ac56781b86b3ba7327a86165193dbea61f2dde6a272d1be77d5b331d12a96",
+        "sha256_in_prefix": "f41ac56781b86b3ba7327a86165193dbea61f2dde6a272d1be77d5b331d12a96",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrSHData.hh",
+        "path_type": "hardlink",
+        "sha256": "a5be48398697fbb970c0e50b69445bd97e426091c89dd5e16c85cc7ef2e67202",
+        "sha256_in_prefix": "a5be48398697fbb970c0e50b69445bd97e426091c89dd5e16c85cc7ef2e67202",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "include/framecpp/storage/data/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "091d83bd733dc45ac85d53e991410dc3ee350285ca9e1975d1a84ec56e036922",
+        "sha256_in_prefix": "091d83bd733dc45ac85d53e991410dc3ee350285ca9e1975d1a84ec56e036922",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "63933bfedfaf791d286b1f681dfc5927678e797d04152f9624aca75520818736",
+        "sha256_in_prefix": "63933bfedfaf791d286b1f681dfc5927678e797d04152f9624aca75520818736",
+        "size_in_bytes": 18759
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "0ae3593b12eabdf69fc88203a1c3aaeb0af3da42c54e2e1777cff41aceee35b7",
+        "sha256_in_prefix": "0ae3593b12eabdf69fc88203a1c3aaeb0af3da42c54e2e1777cff41aceee35b7",
+        "size_in_bytes": 3778
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "321194f331e79e31fd151174246854fe47c67cac2eb3cc89079569667871efeb",
+        "sha256_in_prefix": "321194f331e79e31fd151174246854fe47c67cac2eb3cc89079569667871efeb",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrObjectMetaData.hh",
+        "path_type": "hardlink",
+        "sha256": "d66f9b167904eb3807f49b9e7f724b24e89c619797a85d5be52ae4a783802166",
+        "sha256_in_prefix": "d66f9b167904eb3807f49b9e7f724b24e89c619797a85d5be52ae4a783802166",
+        "size_in_bytes": 2999
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrSEData.hh",
+        "path_type": "hardlink",
+        "sha256": "a51aaa4a9a4c89e240a2278d4cd14d334069acdca3671ce9a646a36d90257ec7",
+        "sha256_in_prefix": "a51aaa4a9a4c89e240a2278d4cd14d334069acdca3671ce9a646a36d90257ec7",
+        "size_in_bytes": 4085
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrSHData.hh",
+        "path_type": "hardlink",
+        "sha256": "fafdfae6332552e28ecfb0a21ccfc42ea71757693f2472d0d8e89f7a61fabeb3",
+        "sha256_in_prefix": "fafdfae6332552e28ecfb0a21ccfc42ea71757693f2472d0d8e89f7a61fabeb3",
+        "size_in_bytes": 3955
+      },
+      {
+        "_path": "include/framecpp/storage/data/v3/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "7fd30e9255a31a3af664da16d739201adaea7ee25c632551e180e3949d87a933",
+        "sha256_in_prefix": "7fd30e9255a31a3af664da16d739201adaea7ee25c632551e180e3949d87a933",
+        "size_in_bytes": 22484
+      },
+      {
+        "_path": "include/framecpp/storage/data/v4/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "f43eee98cf69c017264d67c708b3517a9a40e0b19c976118711ced183f251c5c",
+        "sha256_in_prefix": "f43eee98cf69c017264d67c708b3517a9a40e0b19c976118711ced183f251c5c",
+        "size_in_bytes": 18416
+      },
+      {
+        "_path": "include/framecpp/storage/data/v4/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "dd07aab33cd80e4771fa65cbc2894fb29f6693caea4bc2719e75f1945048b7aa",
+        "sha256_in_prefix": "dd07aab33cd80e4771fa65cbc2894fb29f6693caea4bc2719e75f1945048b7aa",
+        "size_in_bytes": 23943
+      },
+      {
+        "_path": "include/framecpp/storage/data/v5/FrAdcData.hh",
+        "path_type": "hardlink",
+        "sha256": "b65e60c492cbcef33833222ea80aba88e18ad6f22b7f011f5a5197b6a2099c8d",
+        "sha256_in_prefix": "b65e60c492cbcef33833222ea80aba88e18ad6f22b7f011f5a5197b6a2099c8d",
+        "size_in_bytes": 17797
+      },
+      {
+        "_path": "include/framecpp/storage/data/v5/FrMsg.hh",
+        "path_type": "hardlink",
+        "sha256": "42ab01b6049cbb84b3e3a0f472f61ab4fa7d6608ef359f1133b198c4ef9d62f3",
+        "sha256_in_prefix": "42ab01b6049cbb84b3e3a0f472f61ab4fa7d6608ef359f1133b198c4ef9d62f3",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "include/framecpp/storage/data/v5/FrameH.hh",
+        "path_type": "hardlink",
+        "sha256": "cf2eb5229679457dbdf1a16f22b0bad124e64ac7452c983d8173fa21bbb86550",
+        "sha256_in_prefix": "cf2eb5229679457dbdf1a16f22b0bad124e64ac7452c983d8173fa21bbb86550",
+        "size_in_bytes": 23264
+      },
+      {
+        "_path": "include/framecpp/storage/data/v8/FrHeader.hh",
+        "path_type": "hardlink",
+        "sha256": "157d3f74c4125ea87ba89e64b38f3392fd6f41ac9e686d47b51764d33ba8efa3",
+        "sha256_in_prefix": "157d3f74c4125ea87ba89e64b38f3392fd6f41ac9e686d47b51764d33ba8efa3",
+        "size_in_bytes": 3047
+      },
+      {
+        "_path": "include/framecppc/FrChan.h",
+        "path_type": "hardlink",
+        "sha256": "d08cfcb33198ed0ec038605e59634a6c4d9a0ca919180ab0e8c8944014e6065c",
+        "sha256_in_prefix": "d08cfcb33198ed0ec038605e59634a6c4d9a0ca919180ab0e8c8944014e6065c",
+        "size_in_bytes": 14099
+      },
+      {
+        "_path": "include/framecppc/FrDetector.h",
+        "path_type": "hardlink",
+        "sha256": "2abe1c2d91259991ff200ed963067d1dc6086fcff988585e0ebd3d22c03cc555",
+        "sha256_in_prefix": "2abe1c2d91259991ff200ed963067d1dc6086fcff988585e0ebd3d22c03cc555",
+        "size_in_bytes": 11141
+      },
+      {
+        "_path": "include/framecppc/FrEvent.h",
+        "path_type": "hardlink",
+        "sha256": "b40431dbabe92ee0cb8e8a73e80e7ac89e2615028870811157031e742399c316",
+        "sha256_in_prefix": "b40431dbabe92ee0cb8e8a73e80e7ac89e2615028870811157031e742399c316",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "include/framecppc/FrHistory.h",
+        "path_type": "hardlink",
+        "sha256": "5d0cb8533ceeebe8edd4e1609cb279ac9872312aed0293607bc649f5ec94a5ee",
+        "sha256_in_prefix": "5d0cb8533ceeebe8edd4e1609cb279ac9872312aed0293607bc649f5ec94a5ee",
+        "size_in_bytes": 2701
+      },
+      {
+        "_path": "include/framecppc/FrTOC.h",
+        "path_type": "hardlink",
+        "sha256": "b0b6c979e1108f51426d5e4e6eca04edfb870fdc55ce399fdc420b9a1f7d62eb",
+        "sha256_in_prefix": "b0b6c979e1108f51426d5e4e6eca04edfb870fdc55ce399fdc420b9a1f7d62eb",
+        "size_in_bytes": 5359
+      },
+      {
+        "_path": "include/framecppc/FrVect.h",
+        "path_type": "hardlink",
+        "sha256": "4fca23250cd29dd1f40a66621db535313f30a1d154ef620c469117ff83aa6880",
+        "sha256_in_prefix": "4fca23250cd29dd1f40a66621db535313f30a1d154ef620c469117ff83aa6880",
+        "size_in_bytes": 2983
+      },
+      {
+        "_path": "include/framecppc/FrameC.h",
+        "path_type": "hardlink",
+        "sha256": "3073ca46d0367b0f289160854a41e4ce962369a9042b83c71d9fd98837e1610d",
+        "sha256_in_prefix": "3073ca46d0367b0f289160854a41e4ce962369a9042b83c71d9fd98837e1610d",
+        "size_in_bytes": 7329
+      },
+      {
+        "_path": "include/framecppc/FrameH.h",
+        "path_type": "hardlink",
+        "sha256": "7ebc45d72fd317740546b03b7b0667004bf998b03dcc39cf8ecf7d7790f1d130",
+        "sha256_in_prefix": "7ebc45d72fd317740546b03b7b0667004bf998b03dcc39cf8ecf7d7790f1d130",
+        "size_in_bytes": 9558
+      },
+      {
+        "_path": "include/framecppc/Stream.h",
+        "path_type": "hardlink",
+        "sha256": "625ff5a750cfa04c952adbe1793e125301127499afcbf756a3ac29701098e855",
+        "sha256_in_prefix": "625ff5a750cfa04c952adbe1793e125301127499afcbf756a3ac29701098e855",
+        "size_in_bytes": 5907
+      },
+      {
+        "_path": "lib/libframecpp.so",
+        "path_type": "softlink",
+        "sha256": "a705a122eeff8c390d21eae60fc13c08df3086e65b297adc235ec10e0b921cf8",
+        "size_in_bytes": 2416200
+      },
+      {
+        "_path": "lib/libframecpp.so.15",
+        "path_type": "softlink",
+        "sha256": "a705a122eeff8c390d21eae60fc13c08df3086e65b297adc235ec10e0b921cf8",
+        "size_in_bytes": 2416200
+      },
+      {
+        "_path": "lib/libframecpp.so.15.0.0",
+        "path_type": "hardlink",
+        "sha256": "a705a122eeff8c390d21eae60fc13c08df3086e65b297adc235ec10e0b921cf8",
+        "sha256_in_prefix": "a705a122eeff8c390d21eae60fc13c08df3086e65b297adc235ec10e0b921cf8",
+        "size_in_bytes": 2416200
+      },
+      {
+        "_path": "lib/libframecpp3.so",
+        "path_type": "softlink",
+        "sha256": "c59059d41123f2a1f8f45b1e5fa9210add610466c98c06cbc038ef7588656b4d",
+        "size_in_bytes": 12298488
+      },
+      {
+        "_path": "lib/libframecpp3.so.8",
+        "path_type": "softlink",
+        "sha256": "c59059d41123f2a1f8f45b1e5fa9210add610466c98c06cbc038ef7588656b4d",
+        "size_in_bytes": 12298488
+      },
+      {
+        "_path": "lib/libframecpp3.so.8.1.0",
+        "path_type": "hardlink",
+        "sha256": "c59059d41123f2a1f8f45b1e5fa9210add610466c98c06cbc038ef7588656b4d",
+        "sha256_in_prefix": "c59059d41123f2a1f8f45b1e5fa9210add610466c98c06cbc038ef7588656b4d",
+        "size_in_bytes": 12298488
+      },
+      {
+        "_path": "lib/libframecpp4.so",
+        "path_type": "softlink",
+        "sha256": "18f51ceb9fe256a623f0636e25dff5aaf5e28f9fd949e418f38934fafc548af4",
+        "size_in_bytes": 18636368
+      },
+      {
+        "_path": "lib/libframecpp4.so.10",
+        "path_type": "softlink",
+        "sha256": "18f51ceb9fe256a623f0636e25dff5aaf5e28f9fd949e418f38934fafc548af4",
+        "size_in_bytes": 18636368
+      },
+      {
+        "_path": "lib/libframecpp4.so.10.1.0",
+        "path_type": "hardlink",
+        "sha256": "18f51ceb9fe256a623f0636e25dff5aaf5e28f9fd949e418f38934fafc548af4",
+        "sha256_in_prefix": "18f51ceb9fe256a623f0636e25dff5aaf5e28f9fd949e418f38934fafc548af4",
+        "size_in_bytes": 18636368
+      },
+      {
+        "_path": "lib/libframecpp6.so",
+        "path_type": "softlink",
+        "sha256": "ba7e66c31a99756ed05158f8312b7538c8e23c347463d2b538ef0440f67e2715",
+        "size_in_bytes": 23276080
+      },
+      {
+        "_path": "lib/libframecpp6.so.10",
+        "path_type": "softlink",
+        "sha256": "ba7e66c31a99756ed05158f8312b7538c8e23c347463d2b538ef0440f67e2715",
+        "size_in_bytes": 23276080
+      },
+      {
+        "_path": "lib/libframecpp6.so.10.0.1",
+        "path_type": "hardlink",
+        "sha256": "ba7e66c31a99756ed05158f8312b7538c8e23c347463d2b538ef0440f67e2715",
+        "sha256_in_prefix": "ba7e66c31a99756ed05158f8312b7538c8e23c347463d2b538ef0440f67e2715",
+        "size_in_bytes": 23276080
+      },
+      {
+        "_path": "lib/libframecpp7.so",
+        "path_type": "softlink",
+        "sha256": "5e834956d61f9e265c119a8f0c0970feeced5ebd93fac470cb0ac38f6988aa93",
+        "size_in_bytes": 12558304
+      },
+      {
+        "_path": "lib/libframecpp7.so.6",
+        "path_type": "softlink",
+        "sha256": "5e834956d61f9e265c119a8f0c0970feeced5ebd93fac470cb0ac38f6988aa93",
+        "size_in_bytes": 12558304
+      },
+      {
+        "_path": "lib/libframecpp7.so.6.0.0",
+        "path_type": "hardlink",
+        "sha256": "5e834956d61f9e265c119a8f0c0970feeced5ebd93fac470cb0ac38f6988aa93",
+        "sha256_in_prefix": "5e834956d61f9e265c119a8f0c0970feeced5ebd93fac470cb0ac38f6988aa93",
+        "size_in_bytes": 12558304
+      },
+      {
+        "_path": "lib/libframecpp8.so",
+        "path_type": "softlink",
+        "sha256": "488c5ec3827e60bd10efbae3be35cbce11eabc78c0346a17a4335371008d19c0",
+        "size_in_bytes": 28049616
+      },
+      {
+        "_path": "lib/libframecpp8.so.11",
+        "path_type": "softlink",
+        "sha256": "488c5ec3827e60bd10efbae3be35cbce11eabc78c0346a17a4335371008d19c0",
+        "size_in_bytes": 28049616
+      },
+      {
+        "_path": "lib/libframecpp8.so.11.0.1",
+        "path_type": "hardlink",
+        "sha256": "488c5ec3827e60bd10efbae3be35cbce11eabc78c0346a17a4335371008d19c0",
+        "sha256_in_prefix": "488c5ec3827e60bd10efbae3be35cbce11eabc78c0346a17a4335371008d19c0",
+        "size_in_bytes": 28049616
+      },
+      {
+        "_path": "lib/libframecppc.so",
+        "path_type": "softlink",
+        "sha256": "f4435d425d4fa367390e37da90931a3700c5dc6cebcc3497e8d355644d58add1",
+        "size_in_bytes": 16193632
+      },
+      {
+        "_path": "lib/libframecppc.so.3",
+        "path_type": "softlink",
+        "sha256": "f4435d425d4fa367390e37da90931a3700c5dc6cebcc3497e8d355644d58add1",
+        "size_in_bytes": 16193632
+      },
+      {
+        "_path": "lib/libframecppc.so.3.0.5",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "f4435d425d4fa367390e37da90931a3700c5dc6cebcc3497e8d355644d58add1",
+        "sha256_in_prefix": "8dab2783a35d315e2961a76b9e1ec247a18863bcd9c0c84c6598920670a926c9",
+        "size_in_bytes": 16193632
+      },
+      {
+        "_path": "lib/libframecppcmn.so",
+        "path_type": "softlink",
+        "sha256": "215ed6c12bbe6b70d603aa46501ea1dce9ca58f08f69936b72b3dce4e79eb653",
+        "size_in_bytes": 9473416
+      },
+      {
+        "_path": "lib/libframecppcmn.so.12",
+        "path_type": "softlink",
+        "sha256": "215ed6c12bbe6b70d603aa46501ea1dce9ca58f08f69936b72b3dce4e79eb653",
+        "size_in_bytes": 9473416
+      },
+      {
+        "_path": "lib/libframecppcmn.so.12.1.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "215ed6c12bbe6b70d603aa46501ea1dce9ca58f08f69936b72b3dce4e79eb653",
+        "sha256_in_prefix": "cc6984e8d862428f1061ff2a0d72c712f18e279194e3f492e5ed486ef282d7e7",
+        "size_in_bytes": 9473416
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "fdfd9d020cae7e6b86a28711226bdc8610d1d757677099deb687367b0a56058e",
+        "sha256_in_prefix": "0db30005f9c84e87eb421ffbe78edd4648d35446c694bfe12c5554e21c82b069",
+        "size_in_bytes": 1679
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp3.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "70998f86fd1f6460b3cbd9efde39cc93ac6aaba0b62e6c444e184ccf2ee80134",
+        "sha256_in_prefix": "eeade4be92093773cefa64588bd32066fa5cac94daed83f499be6ee9d83ad432",
+        "size_in_bytes": 1618
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp4.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "139a929462bf5f0cd6f6d30b35365c447d2f32d72d804f3db302d8124db774d1",
+        "sha256_in_prefix": "d5ff7a7aadde2f75a029a3fc871aefac384d4b96e7b62f1130c77a61f558aee8",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp6.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "be21032a05347c32e511614ff84ba9a5b47a583d1e0700a937100dd87ecf2106",
+        "sha256_in_prefix": "5b2963bed13104942c0e2e05b99f7e9aa0506e0022de74f8ef095fdd359a38e6",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp7.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "4eaedfcd9a192fa9ea32b3f5927151ef26ad4b2d7ed61d4f90491b4d965cfa1a",
+        "sha256_in_prefix": "346b8ac8c7d8421b0991099dce8f9de888f10ea128cc2e0edb13f7f303407a83",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp8.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "05348037aa8cdeff71f9ea06109d369e5850e708c5f606ad7974391054a7f290",
+        "sha256_in_prefix": "925e12ee407029a045865383c5157bf0b38084dcd9ca971f3ae1fd7fcf6fc487",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "lib/pkgconfig/framecpp_common.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "4f4ccc46e52c2e02218ebf892cd7b1b39cedf1e03760a07cfb84ca558bd1b20d",
+        "sha256_in_prefix": "193747c5ec23ae7456821505cfa8dad481d344769a43afc78150250ec5e293cf",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "lib/pkgconfig/framecppc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ldas-tools-framecpp_1712564445050/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "2d9f967aaed4c20744cd0d40e723640f9952727c1703d578e13b3543d246b7c6",
+        "sha256_in_prefix": "6a63c2188836476573357d6bccffa11ccc25468b021079c953a2c8e6b3bec7b4",
+        "size_in_bytes": 1630
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f53e7f91f8bb181abb00ba309b5eec2f219795ccee44168f7111f2be39ce94eb",
+  "size": 38905567,
+  "subdir": "linux-64",
+  "timestamp": 1712566068000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ldas-tools-framecpp-2.9.3-h97420db_2.conda",
+  "version": "2.9.3"
+}

@@ -1,0 +1,21 @@
+#
+#  lzo2.pc -- LZO pkg-config configuration file
+#
+#  This file is part of the LZO data compression library.
+#    http://www.oberhumer.com/opensource/lzo/
+#
+#  Copyright (C) 1996-2017 Markus Franz Xaver Johannes Oberhumer
+#  All Rights Reserved.
+#
+
+prefix=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs
+exec_prefix=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin
+includedir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include
+libdir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib
+
+Name: lzo2
+Version: 2.10
+Description: LZO - a real-time data compression library
+URL: http://www.oberhumer.com/opensource/lzo/
+Cflags: -I${includedir}/lzo
+Libs: -L${libdir} -llzo2

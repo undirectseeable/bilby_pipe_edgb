@@ -1,0 +1,39 @@
+.TH nds-client-config 1 "November 24, 2013" "" "nds-client-config"
+
+.SH NAME
+nds-client-config \- program for determining where components or libraries are located
+
+.SH SYNOPSIS
+.B nds-client-config [option]
+  nds-client-config accepts the following arguments:
+    --help          Show the options
+    --includedir    Include directory for (C headers)
+    --javaclasspath Java class directory
+    --libdir        Library directory (for linking)
+    --matlabdir     Matlab function library path
+    --octavedir     Octave function library path
+    --pythondir     Python sources
+    --pyexecdir     Python executable libraries
+    --version       This nds2-client version
+
+
+.SH LICENSE
+.if n NDS2 software is release under the GNU General Public License version 3 or later see: <http://www.gnu.org/licenses/>
+
+
+.SH DESCRIPTION
+
+This commands displays all the important paths specified when the programs and libraries were compiled. It
+is installed so as to be available to running programs and is used to set environment variables or to find
+elements of the package.  One thing to be aware of is that on some systems such as MacOS, when a program is
+launched from the Window Manager (Finder or the Dock) the executable path is not set. If the programs are
+not installed in the system directories on Linux.
+
+
+.SH NOTES
+
+
+.SH "SEE ALSO"
+The other programs in the nds client packare are nds2_channel_source, nds_query, NDS2Frame, nds2-tunnel(deprecated)
+
+

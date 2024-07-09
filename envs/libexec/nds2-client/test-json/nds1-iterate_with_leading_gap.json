@@ -1,0 +1,46 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "command": "version;\n", 
+                "type": "script", 
+                "response": "0000000c"
+            }, 
+            {
+                "command": "revision;\n", 
+                "type": "script", 
+                "response": "00000002"
+            }, 
+            {
+                "command": "status channels 3 {\"X1:CDS-DACTEST_COSINE_OUT_DQ\"};\n", 
+                "type": "script", 
+                "response": "X1:CDS-DACTEST_COSINE_OUT_DQ\n16384\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "start trend 60 net-writer 1130797740 9000 {\"X1:CDS-DACTEST_COSINE_OUT_DQ.n\"};\n", 
+                "type": "script", 
+                "response_blob": "f5164efb0b61a9891a6cd33acb0e1dbb8270d418"
+            },
+
+
+            {
+                "command": "start trend 60 net-writer 1130797740 9000 {\"X1:CDS-DACTEST_COSINE_OUT_DQ.n\"};\n",
+                "type": "script",
+                "response_blob": "f5164efb0b61a9891a6cd33acb0e1dbb8270d418"
+            },
+
+
+            {
+                "command": "start trend 60 net-writer 1130797740 9000 {\"X1:CDS-DACTEST_COSINE_OUT_DQ.n\"};\n",
+                "type": "script",
+                "response_blob": "7d6aad60d298eda5b4e94052d4568de97528b068"
+            },
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

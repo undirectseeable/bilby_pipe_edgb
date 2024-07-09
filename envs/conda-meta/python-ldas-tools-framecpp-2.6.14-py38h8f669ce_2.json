@@ -1,0 +1,74 @@
+{
+  "build": "py38h8f669ce_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ldas-tools-al >=2.6.7",
+    "ldas-tools-al >=2.6.7,<2.7.0a0",
+    "ldas-tools-framecpp >=2.9.1",
+    "ldas-tools-framecpp >=2.9.1,<2.10.0a0",
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "numpy >=1.20.3,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python-ldas-tools-al >=2.6.10",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-ldas-tools-framecpp-2.6.14-py38h8f669ce_2",
+  "files": [
+    "bin/py38-framecpp-dump",
+    "lib/python3.8/site-packages/LDAStools/__pycache__/frameCPP.cpython-38.pyc",
+    "lib/python3.8/site-packages/LDAStools/_frameCPP.so",
+    "lib/python3.8/site-packages/LDAStools/frameCPP.py"
+  ],
+  "fn": "python-ldas-tools-framecpp-2.6.14-py38h8f669ce_2.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-ldas-tools-framecpp-2.6.14-py38h8f669ce_2",
+    "type": 1
+  },
+  "md5": "c881585a550d3a52e1ed7a36881d49cb",
+  "name": "python-ldas-tools-framecpp",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-ldas-tools-framecpp-2.6.14-py38h8f669ce_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/py38-framecpp-dump",
+        "path_type": "hardlink",
+        "sha256": "8b6abb6faae5bd8832f7080b58c321d816a4f4da8e2b6119f1980f9d1aba6d68",
+        "sha256_in_prefix": "8b6abb6faae5bd8832f7080b58c321d816a4f4da8e2b6119f1980f9d1aba6d68",
+        "size_in_bytes": 14812
+      },
+      {
+        "_path": "lib/python3.8/site-packages/LDAStools/__pycache__/frameCPP.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cbd0b4d657696336955034a70bffc35de5c178caa63212c53ecdfd5da6cf889d",
+        "sha256_in_prefix": "cbd0b4d657696336955034a70bffc35de5c178caa63212c53ecdfd5da6cf889d",
+        "size_in_bytes": 107324
+      },
+      {
+        "_path": "lib/python3.8/site-packages/LDAStools/_frameCPP.so",
+        "path_type": "hardlink",
+        "sha256": "0822cc7676819035463aca466b9106960f443fd391f874c84fc85703cafaf171",
+        "sha256_in_prefix": "0822cc7676819035463aca466b9106960f443fd391f874c84fc85703cafaf171",
+        "size_in_bytes": 3144624
+      },
+      {
+        "_path": "lib/python3.8/site-packages/LDAStools/frameCPP.py",
+        "path_type": "hardlink",
+        "sha256": "6d6a28c49f4d8c5da392a4023193c0a64f7a6cbeed7a56635a891f607cf8f448",
+        "sha256_in_prefix": "6d6a28c49f4d8c5da392a4023193c0a64f7a6cbeed7a56635a891f607cf8f448",
+        "size_in_bytes": 118093
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6ad5091d2da5d66c1cf68d1c291e7c67e59373a26fb42339f23b94c87eb0d686",
+  "size": 758570,
+  "subdir": "linux-64",
+  "timestamp": 1667407516000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-ldas-tools-framecpp-2.6.14-py38h8f669ce_2.tar.bz2",
+  "version": "2.6.14"
+}

@@ -1,0 +1,37 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "command": "version;\n", 
+                "type": "script", 
+                "response": "0000000c"
+            }, 
+            {
+                "command": "revision;\n", 
+                "type": "script", 
+                "response": "00000001"
+            }, 
+            {
+                "command": "status channels 2;\n\n", 
+                "type": "script", 
+                "response_blob": "0206c5078f95ecf7e9442c5a1f429e5726dd13ad"
+            }, 
+            {
+                "command": "status channels 2;\n\n", 
+                "type": "script", 
+                "response_blob": "0206c5078f95ecf7e9442c5a1f429e5726dd13ad"
+            }, 
+            {
+                "command": "start net-writer 1108842312 4 {\"X2:SUS-ETMX_L1_OLDAMP_P_INMON\" \"X2:SUS-ETMX_L1_OSEMINF_UR_INMON\"};\n", 
+                "type": "script", 
+                "response_blob": "8f5178079d3e13d35383ee8ef57cd8963883acfa"
+            }, 
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

@@ -1,0 +1,309 @@
+{
+  "build": "h0c602a9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "lalinference >=2.0.6",
+    "python-lalinference >=2.0.6"
+  ],
+  "depends": [
+    "_openmp_mutex >=4.5",
+    "gsl >=2.7,<2.8.0a0",
+    "lalinference-data 4.1.6 ha770c72_0",
+    "libgcc-ng >=12",
+    "liblal >=7.5.0",
+    "liblal >=7.5.0,<8.0a0",
+    "liblalburst >=2.0.0",
+    "liblalburst >=2.0.4,<3.0a0",
+    "liblalframe >=3.0.0",
+    "liblalframe >=3.0.4,<4.0a0",
+    "liblalinspiral >=5.0.0",
+    "liblalinspiral >=5.0.0,<6.0a0",
+    "liblalmetaio >=4.0.0",
+    "liblalmetaio >=4.0.4,<5.0a0",
+    "liblalsimulation >=5.4.0",
+    "liblalsimulation >=5.4.0,<6.0a0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/liblalinference-4.1.6-h0c602a9_0",
+  "files": [
+    "include/lal/LALInference.h",
+    "include/lal/LALInferenceBurstRoutines.h",
+    "include/lal/LALInferenceCalibrationErrors.h",
+    "include/lal/LALInferenceClusteredKDE.h",
+    "include/lal/LALInferenceConfig.h",
+    "include/lal/LALInferenceDistanceMarg.h",
+    "include/lal/LALInferenceGenerateROQ.h",
+    "include/lal/LALInferenceHDF5.h",
+    "include/lal/LALInferenceInit.h",
+    "include/lal/LALInferenceKDE.h",
+    "include/lal/LALInferenceLikelihood.h",
+    "include/lal/LALInferenceMultibanding.h",
+    "include/lal/LALInferenceNestedSampler.h",
+    "include/lal/LALInferencePrior.h",
+    "include/lal/LALInferencePriorVolumes.h",
+    "include/lal/LALInferenceProposal.h",
+    "include/lal/LALInferenceReadBurstData.h",
+    "include/lal/LALInferenceReadData.h",
+    "include/lal/LALInferenceRemoveLines.h",
+    "include/lal/LALInferenceTemplate.h",
+    "include/lal/LALInferenceVCSInfo.h",
+    "include/lal/LALInferenceVCSInfoHeader.h",
+    "include/lal/SWIGLALInferenceAlpha.i",
+    "include/lal/SWIGLALInferenceOmega.i",
+    "include/lal/SWIGLALInferenceTest.h",
+    "include/lal/cubic_interp.h",
+    "include/lal/distance_integrator.h",
+    "include/lal/swiglalinference.i",
+    "lib/liblalinference.so",
+    "lib/liblalinference.so.23",
+    "lib/liblalinference.so.23.1.4",
+    "lib/pkgconfig/lalinference.pc"
+  ],
+  "fn": "liblalinference-4.1.6-h0c602a9_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/liblalinference-4.1.6-h0c602a9_0",
+    "type": 1
+  },
+  "md5": "c272e825c3ec7bc2c559fde74215be8a",
+  "name": "liblalinference",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/liblalinference-4.1.6-h0c602a9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/lal/LALInference.h",
+        "path_type": "hardlink",
+        "sha256": "578b2c3e5b880dbcce860e0819d1be17487657a552d1060b3269a357dea9f5b1",
+        "sha256_in_prefix": "578b2c3e5b880dbcce860e0819d1be17487657a552d1060b3269a357dea9f5b1",
+        "size_in_bytes": 54548
+      },
+      {
+        "_path": "include/lal/LALInferenceBurstRoutines.h",
+        "path_type": "hardlink",
+        "sha256": "bd63ea8b8dab3a0f50b174c682fc52baac30b2dc9cd7987c1e43fc67f9c5bcd7",
+        "sha256_in_prefix": "bd63ea8b8dab3a0f50b174c682fc52baac30b2dc9cd7987c1e43fc67f9c5bcd7",
+        "size_in_bytes": 13415
+      },
+      {
+        "_path": "include/lal/LALInferenceCalibrationErrors.h",
+        "path_type": "hardlink",
+        "sha256": "165b63be4e320d97ec9c2d3735bc589bc3aac8cfd15882865372948a28af6d67",
+        "sha256_in_prefix": "165b63be4e320d97ec9c2d3735bc589bc3aac8cfd15882865372948a28af6d67",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "include/lal/LALInferenceClusteredKDE.h",
+        "path_type": "hardlink",
+        "sha256": "5f6bd0ce1191297d5d4e2746ec207bca10d508c75325e9c58509ae22facf6345",
+        "sha256_in_prefix": "5f6bd0ce1191297d5d4e2746ec207bca10d508c75325e9c58509ae22facf6345",
+        "size_in_bytes": 7091
+      },
+      {
+        "_path": "include/lal/LALInferenceConfig.h",
+        "path_type": "hardlink",
+        "sha256": "a84508e64b7a268503f5ea242cad994a49324c45d458c08c169d5498101b3cc3",
+        "sha256_in_prefix": "a84508e64b7a268503f5ea242cad994a49324c45d458c08c169d5498101b3cc3",
+        "size_in_bytes": 610
+      },
+      {
+        "_path": "include/lal/LALInferenceDistanceMarg.h",
+        "path_type": "hardlink",
+        "sha256": "b2fa3dc6675d8037773ba85f943f78d84d215c34f1967f30528adbf4324a5a7f",
+        "sha256_in_prefix": "b2fa3dc6675d8037773ba85f943f78d84d215c34f1967f30528adbf4324a5a7f",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "include/lal/LALInferenceGenerateROQ.h",
+        "path_type": "hardlink",
+        "sha256": "22da2a4bb73dfe86e1c0d79a71de34bd7f29de10ee5ee4700bb75632ff262399",
+        "sha256_in_prefix": "22da2a4bb73dfe86e1c0d79a71de34bd7f29de10ee5ee4700bb75632ff262399",
+        "size_in_bytes": 6099
+      },
+      {
+        "_path": "include/lal/LALInferenceHDF5.h",
+        "path_type": "hardlink",
+        "sha256": "bd57460a0eaf577575edc5aaeb218617684254a9e7e586357485e214dbb1e37a",
+        "sha256_in_prefix": "bd57460a0eaf577575edc5aaeb218617684254a9e7e586357485e214dbb1e37a",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "include/lal/LALInferenceInit.h",
+        "path_type": "hardlink",
+        "sha256": "7edec9a0cf8f856dea0c69cf3b68255ac287b561f8dd28636b196dd44ddb5986",
+        "sha256_in_prefix": "7edec9a0cf8f856dea0c69cf3b68255ac287b561f8dd28636b196dd44ddb5986",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "include/lal/LALInferenceKDE.h",
+        "path_type": "hardlink",
+        "sha256": "06843155a7eb308fd6cc9ffd8035df50e78458d731cacf5e82f5a753b7f175fe",
+        "sha256_in_prefix": "06843155a7eb308fd6cc9ffd8035df50e78458d731cacf5e82f5a753b7f175fe",
+        "size_in_bytes": 3965
+      },
+      {
+        "_path": "include/lal/LALInferenceLikelihood.h",
+        "path_type": "hardlink",
+        "sha256": "081f1a4e788a8024376fe24d5024050b1343942b62a60dd1ba91a900476ee539",
+        "sha256_in_prefix": "081f1a4e788a8024376fe24d5024050b1343942b62a60dd1ba91a900476ee539",
+        "size_in_bytes": 9582
+      },
+      {
+        "_path": "include/lal/LALInferenceMultibanding.h",
+        "path_type": "hardlink",
+        "sha256": "946f504aed2216bef063b3661a85d7ee28f1da69a5c0b3d36dec147c5b7dea89",
+        "sha256_in_prefix": "946f504aed2216bef063b3661a85d7ee28f1da69a5c0b3d36dec147c5b7dea89",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "include/lal/LALInferenceNestedSampler.h",
+        "path_type": "hardlink",
+        "sha256": "ab5d1a4e03a639fd01f0990b8976b3130d81d0f4a18faf2ecf7af4b99e0b3a68",
+        "sha256_in_prefix": "ab5d1a4e03a639fd01f0990b8976b3130d81d0f4a18faf2ecf7af4b99e0b3a68",
+        "size_in_bytes": 3755
+      },
+      {
+        "_path": "include/lal/LALInferencePrior.h",
+        "path_type": "hardlink",
+        "sha256": "dcac475be23d9ffbb78e4c9eb2811f4452136240191c94b70e784541512b3bf6",
+        "sha256_in_prefix": "dcac475be23d9ffbb78e4c9eb2811f4452136240191c94b70e784541512b3bf6",
+        "size_in_bytes": 17728
+      },
+      {
+        "_path": "include/lal/LALInferencePriorVolumes.h",
+        "path_type": "hardlink",
+        "sha256": "e51364e9a395faa4c20896ac8e1f91b01d0eb18350dfa260c3795e90d1171871",
+        "sha256_in_prefix": "e51364e9a395faa4c20896ac8e1f91b01d0eb18350dfa260c3795e90d1171871",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "include/lal/LALInferenceProposal.h",
+        "path_type": "hardlink",
+        "sha256": "bb486374e6cb55fdc9603aa8da7742d5cf06d7f0baaa9a78028230f913bbd996",
+        "sha256_in_prefix": "bb486374e6cb55fdc9603aa8da7742d5cf06d7f0baaa9a78028230f913bbd996",
+        "size_in_bytes": 18411
+      },
+      {
+        "_path": "include/lal/LALInferenceReadBurstData.h",
+        "path_type": "hardlink",
+        "sha256": "05d4aefdf86c5d8a8b9eba2d989de3584c195b65b6b543f524bcd1cbfc6eebae",
+        "sha256_in_prefix": "05d4aefdf86c5d8a8b9eba2d989de3584c195b65b6b543f524bcd1cbfc6eebae",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "include/lal/LALInferenceReadData.h",
+        "path_type": "hardlink",
+        "sha256": "3cf26626be3c6e043e7526d799c7e215bcfb6aa2c95db022a8728f145926ce4f",
+        "sha256_in_prefix": "3cf26626be3c6e043e7526d799c7e215bcfb6aa2c95db022a8728f145926ce4f",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "include/lal/LALInferenceRemoveLines.h",
+        "path_type": "hardlink",
+        "sha256": "b073f771e4476d76eff717993c490a5eab9d49a2858ee0d9002c4bb269c10a3d",
+        "sha256_in_prefix": "b073f771e4476d76eff717993c490a5eab9d49a2858ee0d9002c4bb269c10a3d",
+        "size_in_bytes": 3867
+      },
+      {
+        "_path": "include/lal/LALInferenceTemplate.h",
+        "path_type": "hardlink",
+        "sha256": "6704210675c37370a357d7efb55d94c06bc6afe107109d6c2cfeebfd53b4257d",
+        "sha256_in_prefix": "6704210675c37370a357d7efb55d94c06bc6afe107109d6c2cfeebfd53b4257d",
+        "size_in_bytes": 7914
+      },
+      {
+        "_path": "include/lal/LALInferenceVCSInfo.h",
+        "path_type": "hardlink",
+        "sha256": "040ff957c3ec43e1b3e00dcb5e4fb5c027207abaa81ef9ce81e9b0ab2fc5ce3d",
+        "sha256_in_prefix": "040ff957c3ec43e1b3e00dcb5e4fb5c027207abaa81ef9ce81e9b0ab2fc5ce3d",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "include/lal/LALInferenceVCSInfoHeader.h",
+        "path_type": "hardlink",
+        "sha256": "5aab856e781f7ff933411316330143c2abe85c2b95d1f7e2b2c478c0d59db222",
+        "sha256_in_prefix": "5aab856e781f7ff933411316330143c2abe85c2b95d1f7e2b2c478c0d59db222",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "include/lal/SWIGLALInferenceAlpha.i",
+        "path_type": "hardlink",
+        "sha256": "e1169b0e3f09b42c34a8ad2ef19deae88a9fa900debc9989c2cf13471d79a42b",
+        "sha256_in_prefix": "e1169b0e3f09b42c34a8ad2ef19deae88a9fa900debc9989c2cf13471d79a42b",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "include/lal/SWIGLALInferenceOmega.i",
+        "path_type": "hardlink",
+        "sha256": "893ec0b09a4b432cc366e00a29ed4aea53e6262fe93a117f3972d4f6e3df0d93",
+        "sha256_in_prefix": "893ec0b09a4b432cc366e00a29ed4aea53e6262fe93a117f3972d4f6e3df0d93",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "include/lal/SWIGLALInferenceTest.h",
+        "path_type": "hardlink",
+        "sha256": "23aa4c83e45feea29f2608be50cff664381c37a6124452849e8d622d69747c50",
+        "sha256_in_prefix": "23aa4c83e45feea29f2608be50cff664381c37a6124452849e8d622d69747c50",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "include/lal/cubic_interp.h",
+        "path_type": "hardlink",
+        "sha256": "f2db77d2a42ae35655b4e1d4ba4542bcccd2f3ed8a93f3a09030e0b57f180088",
+        "sha256_in_prefix": "f2db77d2a42ae35655b4e1d4ba4542bcccd2f3ed8a93f3a09030e0b57f180088",
+        "size_in_bytes": 2270
+      },
+      {
+        "_path": "include/lal/distance_integrator.h",
+        "path_type": "hardlink",
+        "sha256": "91c46a494e12a96eb146a3d383d904e8394ac1a05885e4d476f4578e4f6fd845",
+        "sha256_in_prefix": "91c46a494e12a96eb146a3d383d904e8394ac1a05885e4d476f4578e4f6fd845",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "include/lal/swiglalinference.i",
+        "path_type": "hardlink",
+        "sha256": "01cd390a458fb00ea3fb0c1b80833890bef46f27ef2d26b893556b8dee60251f",
+        "sha256_in_prefix": "01cd390a458fb00ea3fb0c1b80833890bef46f27ef2d26b893556b8dee60251f",
+        "size_in_bytes": 55756
+      },
+      {
+        "_path": "lib/liblalinference.so",
+        "path_type": "softlink",
+        "sha256": "3d9a0b6764ce39cecffefee31dc79194cda7b8f9c2164d4ba6d922dfcacdf4bf",
+        "size_in_bytes": 2486376
+      },
+      {
+        "_path": "lib/liblalinference.so.23",
+        "path_type": "softlink",
+        "sha256": "3d9a0b6764ce39cecffefee31dc79194cda7b8f9c2164d4ba6d922dfcacdf4bf",
+        "size_in_bytes": 2486376
+      },
+      {
+        "_path": "lib/liblalinference.so.23.1.4",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalinference-split_1711981297819/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "3d9a0b6764ce39cecffefee31dc79194cda7b8f9c2164d4ba6d922dfcacdf4bf",
+        "sha256_in_prefix": "991ef196e41fec1cccc4251caa6383a3a444f109e82c161ffe9452a1044e35f0",
+        "size_in_bytes": 2486376
+      },
+      {
+        "_path": "lib/pkgconfig/lalinference.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalinference-split_1711981297819/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "e762839bd9f5c7919283cb96b8d30c8735c9ef18d05cc2ecfe8364ec9b6d4841",
+        "sha256_in_prefix": "a38219c844121c110def1481d54604e7cb47c1e510b0793b03261c9edeaa5769",
+        "size_in_bytes": 624
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d36281565992e2a8b6d7a94193133e0458e0a0177166af1dc8920e972c00fc6e",
+  "size": 966515,
+  "subdir": "linux-64",
+  "timestamp": 1711981865000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalinference-4.1.6-h0c602a9_0.conda",
+  "version": "4.1.6"
+}

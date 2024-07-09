@@ -1,0 +1,1407 @@
+{
+  "build": "h59595ed_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "cyrus-sasl >=2.1.27,<3.0a0",
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/nds2-client-0.16.8-h59595ed_7",
+  "files": [
+    "bin/nds-client-config",
+    "bin/nds2-tunnel",
+    "bin/nds2_channel_source",
+    "bin/nds_query",
+    "etc/nds2-client-user-env.csh",
+    "etc/nds2-client-user-env.sh",
+    "etc/nds2-client/nds2-client.cfg",
+    "include/nds2-client/channel.h",
+    "include/nds2-client/daqc.h",
+    "include/nds2-client/daqc_response.h",
+    "include/nds2-client/nds.hh",
+    "include/nds2-client/nds_availability.hh",
+    "include/nds2-client/nds_buffer.hh",
+    "include/nds2-client/nds_channel.hh",
+    "include/nds2-client/nds_connection.hh",
+    "include/nds2-client/nds_data_iterator.hh",
+    "include/nds2-client/nds_epoch.hh",
+    "include/nds2-client/nds_export.hh",
+    "include/nds2-client/nds_logging.h",
+    "include/nds2-client/nds_standalone.hh",
+    "include/nds2-client/nds_version.hh",
+    "include/nds2-client/trench.h",
+    "lib/cmake/nds2-client/NDSTesterConfig.cmake",
+    "lib/cmake/nds2-client/NDSTesterConfigVersion.cmake",
+    "lib/cmake/nds2-client/nds2-clientConfig.cmake",
+    "lib/cmake/nds2-client/nds2-clientConfigVersion.cmake",
+    "lib/libndsclient.so",
+    "lib/libndsclient.so.1",
+    "lib/libndsclient.so.1.3.1",
+    "lib/libndscxx.so",
+    "lib/libndscxx.so.1",
+    "lib/libndscxx.so.1.0.3",
+    "lib/nds2-client/ndswrapcxx/bash_pattern.c.o",
+    "lib/nds2-client/ndswrapcxx/debug_stream.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_availability.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_availability_internal.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_buffer.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_channel.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_channel_cache.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_channel_selection.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_composer.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_connection.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_connection_ptype.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_data_iterator.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_gap_handler.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_helper.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_iterate_handler.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_parameter_block.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_request_fragment.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_standalone.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_static_val.cc.o",
+    "lib/nds2-client/ndswrapcxx/nds_version.cc.o",
+    "lib/pkgconfig/conlibndscxx.pc",
+    "lib/pkgconfig/libndscxx.pc",
+    "lib/pkgconfig/nds-client-tester.pc",
+    "lib/pkgconfig/nds2-client.pc",
+    "libexec/nds2-client/__pycache__/mockup_server.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/nds2_proxy.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/nds_tester.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/null_server.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/record_proxy.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/record_wrapper.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/replay.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/replay_wrapper.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/sock_test.cpython-310.pyc",
+    "libexec/nds2-client/__pycache__/unit_test.cpython-310.pyc",
+    "libexec/nds2-client/mockup_server.py",
+    "libexec/nds2-client/modules/nds1-12_2/__pycache__/nds1.cpython-310.pyc",
+    "libexec/nds2-client/modules/nds1-12_2/nds1.py",
+    "libexec/nds2-client/modules/nds1-12_2/nds1.pyc",
+    "libexec/nds2-client/modules/nds2-1_5/__pycache__/nds2.cpython-310.pyc",
+    "libexec/nds2-client/modules/nds2-1_5/nds2.py",
+    "libexec/nds2-client/modules/nds2-1_5/nds2.pyc",
+    "libexec/nds2-client/modules/nds2-1_6/__pycache__/nds2.cpython-310.pyc",
+    "libexec/nds2-client/modules/nds2-1_6/nds2.py",
+    "libexec/nds2-client/modules/nds2-1_6/nds2.pyc",
+    "libexec/nds2-client/nds2_proxy.py",
+    "libexec/nds2-client/nds_tester.py",
+    "libexec/nds2-client/null_server.py",
+    "libexec/nds2-client/record_proxy.py",
+    "libexec/nds2-client/record_wrapper.py",
+    "libexec/nds2-client/replay.py",
+    "libexec/nds2-client/replay_wrapper.py",
+    "libexec/nds2-client/sasl/sasl.c",
+    "libexec/nds2-client/sock_test.py",
+    "libexec/nds2-client/test-json/lho-prod.json",
+    "libexec/nds2-client/test-json/llodts0-nds_query.json",
+    "libexec/nds2-client/test-json/llodts0-py.json",
+    "libexec/nds2-client/test-json/nds1-basic_gap_multi.json",
+    "libexec/nds2-client/test-json/nds1-count-channels-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-fast-data-bounded.json",
+    "libexec/nds2-client/test-json/nds1-fast-data.json",
+    "libexec/nds2-client/test-json/nds1-gap-single-channel1.json",
+    "libexec/nds2-client/test-json/nds1-gap_handling_no_data.json",
+    "libexec/nds2-client/test-json/nds1-get-epoch.json",
+    "libexec/nds2-client/test-json/nds1-get-parameters.json",
+    "libexec/nds2-client/test-json/nds1-iterate-all-data-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-iterate-live-data-bounded-synthetic-multiconn.json",
+    "libexec/nds2-client/test-json/nds1-iterate-live-data-bounded-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-iterate-live-data-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-iterate-testpoint-online-data-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-iterate-with-gaps-synthetic.json",
+    "libexec/nds2-client/test-json/nds1-iterate_with_leading_gap.json",
+    "libexec/nds2-client/test-json/nds1-list-testpoint.json",
+    "libexec/nds2-client/test-json/nds1-restart-failure.json",
+    "libexec/nds2-client/test-json/nds1-synthentic.json",
+    "libexec/nds2-client/test-json/nds1-test-fetch-standalone.json",
+    "libexec/nds2-client/test-json/nds1-ticket-260.json",
+    "libexec/nds2-client/test-json/nds1-ticket-282.json",
+    "libexec/nds2-client/test-json/nds1-timeout.json",
+    "libexec/nds2-client/test-json/nds1-transfer_in_progress.json",
+    "libexec/nds2-client/test-json/nds1_bad_hex_value.json",
+    "libexec/nds2-client/test-json/nds2-16hz_data.json",
+    "libexec/nds2-client/test-json/nds2-ambiguous-channel.json",
+    "libexec/nds2-client/test-json/nds2-availability.json",
+    "libexec/nds2-client/test-json/nds2-channel-selector.json",
+    "libexec/nds2-client/test-json/nds2-count-channels-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-count.json",
+    "libexec/nds2-client/test-json/nds2-dissimilar_gaps.json",
+    "libexec/nds2-client/test-json/nds2-env_connection.json",
+    "libexec/nds2-client/test-json/nds2-fast-data-bounded.json",
+    "libexec/nds2-client/test-json/nds2-fast-data.json",
+    "libexec/nds2-client/test-json/nds2-fetch-all-gap-abort-test.json",
+    "libexec/nds2-client/test-json/nds2-fetch-all-gap.json",
+    "libexec/nds2-client/test-json/nds2-find-channels-synthetic-standalone.json",
+    "libexec/nds2-client/test-json/nds2-find-channels-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-gap-single-channel.json",
+    "libexec/nds2-client/test-json/nds2-get-epoch.json",
+    "libexec/nds2-client/test-json/nds2-get-last-message.json",
+    "libexec/nds2-client/test-json/nds2-get-parameters.json",
+    "libexec/nds2-client/test-json/nds2-iterate-all-data-standalone-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-iterate-all-data-synthetic-no-followup.json",
+    "libexec/nds2-client/test-json/nds2-iterate-all-data-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-iterate-live-data-abort-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-iterate-live-data-bounded-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-iterate-live-data-synthetic.json",
+    "libexec/nds2-client/test-json/nds2-iterate-with-full-gap.json",
+    "libexec/nds2-client/test-json/nds2-iterate_with_leading_gap.json",
+    "libexec/nds2-client/test-json/nds2-iterate_with_no_data.json",
+    "libexec/nds2-client/test-json/nds2-one_second_channel_list.json",
+    "libexec/nds2-client/test-json/nds2-test-ticket74-bad-filler.json",
+    "libexec/nds2-client/test-json/nds2-ticket-169.json",
+    "libexec/nds2-client/test-json/nds2-ticket-242.json",
+    "libexec/nds2-client/test-json/nds2-ticket-246.json",
+    "libexec/nds2-client/test-json/nds2-ticket-260.json",
+    "libexec/nds2-client/test-json/nds2-ticket-288.json",
+    "libexec/nds2-client/test-json/nds2-ticket-289.json",
+    "libexec/nds2-client/test-json/nds2-timeout.json",
+    "libexec/nds2-client/test-json/nds2-transfer_in_progress.json",
+    "libexec/nds2-client/test-json/test_daq_availability_check.json",
+    "libexec/nds2-client/test-scripts/__pycache__/lho-find-channels.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/__pycache__/llodts0-query.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/__pycache__/nds1-synthetic.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/__pycache__/nds1-timeout.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/__pycache__/nds1-transfer_in_progress.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/__pycache__/nds2-transfer_in_progress.cpython-310.pyc",
+    "libexec/nds2-client/test-scripts/lho-find-channels.py",
+    "libexec/nds2-client/test-scripts/llodts0-cmd.sh",
+    "libexec/nds2-client/test-scripts/llodts0-query.py",
+    "libexec/nds2-client/test-scripts/nds1-synthetic.py",
+    "libexec/nds2-client/test-scripts/nds1-timeout.py",
+    "libexec/nds2-client/test-scripts/nds1-transfer_in_progress.py",
+    "libexec/nds2-client/test-scripts/nds2-transfer_in_progress.py",
+    "libexec/nds2-client/unit_test.py",
+    "share/man/man1/NDS2Frame.1",
+    "share/man/man1/nds-client-config.1",
+    "share/man/man1/nds2-tunnel.1",
+    "share/man/man1/nds2.1",
+    "share/man/man1/nds2_channel_source.1",
+    "share/man/man1/nds_query.1"
+  ],
+  "fn": "nds2-client-0.16.8-h59595ed_7.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/nds2-client-0.16.8-h59595ed_7",
+    "type": 1
+  },
+  "md5": "0484e282e2ce3effce76da6767170e39",
+  "name": "nds2-client",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/nds2-client-0.16.8-h59595ed_7.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nds-client-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "25b44028107cb4beba117bd4303f1a597f97c27d47b9eefa450573585c84c731",
+        "sha256_in_prefix": "386730045e3c2679e14934d882da9c948e4c8e409fc919dc5a50acc3082f8f02",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "bin/nds2-tunnel",
+        "path_type": "hardlink",
+        "sha256": "82d53bc87253a8166c92c3c06a20a06882804d7dae84d52edee7f325cb31029a",
+        "sha256_in_prefix": "82d53bc87253a8166c92c3c06a20a06882804d7dae84d52edee7f325cb31029a",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "bin/nds2_channel_source",
+        "path_type": "hardlink",
+        "sha256": "37cafd28be18f15f18a4b41e1696941d65ea723a9e6c4c66bd407f3ad9b4d901",
+        "sha256_in_prefix": "37cafd28be18f15f18a4b41e1696941d65ea723a9e6c4c66bd407f3ad9b4d901",
+        "size_in_bytes": 35144
+      },
+      {
+        "_path": "bin/nds_query",
+        "path_type": "hardlink",
+        "sha256": "baf5a453867a20440caf42509691217e1a4056601f1fd501d461a696cd48545d",
+        "sha256_in_prefix": "baf5a453867a20440caf42509691217e1a4056601f1fd501d461a696cd48545d",
+        "size_in_bytes": 72944
+      },
+      {
+        "_path": "etc/nds2-client-user-env.csh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7efd0649e7e1d2d6de350c3516bfc60d84304248b30b49a563c4ebf748eba04e",
+        "sha256_in_prefix": "2b7e771bd9471fb569088a7c90e1fc6f10d9bc6fdd5156868650d46ffc69b4b0",
+        "size_in_bytes": 4028
+      },
+      {
+        "_path": "etc/nds2-client-user-env.sh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "6468530248ef1518d8327451d3b06ba8cd0c16072384ad4a4a3a4fd8429ad6ca",
+        "sha256_in_prefix": "2f3a06a0b57d69fb7d7bb2da0fa25db82292144f4d99d8891a1433c313c9b2e6",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "etc/nds2-client/nds2-client.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "dd469a9245ef53fde5c90cd8223136c05a01d9aa8daa692c9988c60471a1b369",
+        "sha256_in_prefix": "95ed09341d9bcba8b42414f8663308ee2151618c9d7eb0c251e9cd215c5fe790",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "include/nds2-client/channel.h",
+        "path_type": "hardlink",
+        "sha256": "a0b2265d4e62cb7dec849bcdd3c0fce97fa485b237c773721046b3fe9970b58d",
+        "sha256_in_prefix": "a0b2265d4e62cb7dec849bcdd3c0fce97fa485b237c773721046b3fe9970b58d",
+        "size_in_bytes": 3150
+      },
+      {
+        "_path": "include/nds2-client/daqc.h",
+        "path_type": "hardlink",
+        "sha256": "dd0185e902e691328725b6885bb9a0e96e38a2e62148d4d51e1d8e04e5a9fad5",
+        "sha256_in_prefix": "dd0185e902e691328725b6885bb9a0e96e38a2e62148d4d51e1d8e04e5a9fad5",
+        "size_in_bytes": 34425
+      },
+      {
+        "_path": "include/nds2-client/daqc_response.h",
+        "path_type": "hardlink",
+        "sha256": "d363aac47191613df62fabb524094f9eaf192c0551aab9f75149f109bfbf1d6e",
+        "sha256_in_prefix": "d363aac47191613df62fabb524094f9eaf192c0551aab9f75149f109bfbf1d6e",
+        "size_in_bytes": 2615
+      },
+      {
+        "_path": "include/nds2-client/nds.hh",
+        "path_type": "hardlink",
+        "sha256": "000d3a87a91da81d3048a840e649eceaae8e292c52add8e8a2c6abe43a08cdf3",
+        "sha256_in_prefix": "000d3a87a91da81d3048a840e649eceaae8e292c52add8e8a2c6abe43a08cdf3",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "include/nds2-client/nds_availability.hh",
+        "path_type": "hardlink",
+        "sha256": "bf6778326b4afcdb3d3005aab0653358d5735b6b7b2138c12d1805409adf4669",
+        "sha256_in_prefix": "bf6778326b4afcdb3d3005aab0653358d5735b6b7b2138c12d1805409adf4669",
+        "size_in_bytes": 4978
+      },
+      {
+        "_path": "include/nds2-client/nds_buffer.hh",
+        "path_type": "hardlink",
+        "sha256": "b3bc0adb94dd832f07aaa2855c52572677841530c11a8a74a19d3ac01cf1535e",
+        "sha256_in_prefix": "b3bc0adb94dd832f07aaa2855c52572677841530c11a8a74a19d3ac01cf1535e",
+        "size_in_bytes": 21671
+      },
+      {
+        "_path": "include/nds2-client/nds_channel.hh",
+        "path_type": "hardlink",
+        "sha256": "1b88c9a7f9c0acb5d64666b02824bdae357c408ff5c06a933cda2fe22c39c703",
+        "sha256_in_prefix": "1b88c9a7f9c0acb5d64666b02824bdae357c408ff5c06a933cda2fe22c39c703",
+        "size_in_bytes": 16595
+      },
+      {
+        "_path": "include/nds2-client/nds_connection.hh",
+        "path_type": "hardlink",
+        "sha256": "e333386e6a28ea1f433952411a6cf33f9533ef2f609ec371c9c207ad82b617b4",
+        "sha256_in_prefix": "e333386e6a28ea1f433952411a6cf33f9533ef2f609ec371c9c207ad82b617b4",
+        "size_in_bytes": 42295
+      },
+      {
+        "_path": "include/nds2-client/nds_data_iterator.hh",
+        "path_type": "hardlink",
+        "sha256": "b422854cd7ac5fb22af2bfb0674a66942dc003a4120e22ff03645c3281a32924",
+        "sha256_in_prefix": "b422854cd7ac5fb22af2bfb0674a66942dc003a4120e22ff03645c3281a32924",
+        "size_in_bytes": 13054
+      },
+      {
+        "_path": "include/nds2-client/nds_epoch.hh",
+        "path_type": "hardlink",
+        "sha256": "87e5dba82996cc03936dacef079840c4013aae99720a31e521a66b73735732cd",
+        "sha256_in_prefix": "87e5dba82996cc03936dacef079840c4013aae99720a31e521a66b73735732cd",
+        "size_in_bytes": 1924
+      },
+      {
+        "_path": "include/nds2-client/nds_export.hh",
+        "path_type": "hardlink",
+        "sha256": "e5fd563233f6bc38ae67fd8a23528f644763516ec067d04abf2771a5f43c9d46",
+        "sha256_in_prefix": "e5fd563233f6bc38ae67fd8a23528f644763516ec067d04abf2771a5f43c9d46",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "include/nds2-client/nds_logging.h",
+        "path_type": "hardlink",
+        "sha256": "7ee888a3ee40d3e52e5bb15729daa64a13ad9bc5d8ab27f18ea8de50c349fae9",
+        "sha256_in_prefix": "7ee888a3ee40d3e52e5bb15729daa64a13ad9bc5d8ab27f18ea8de50c349fae9",
+        "size_in_bytes": 1725
+      },
+      {
+        "_path": "include/nds2-client/nds_standalone.hh",
+        "path_type": "hardlink",
+        "sha256": "7fc18768a90da0c2b163727dbb30a2e0e58f347f1c282722988d803fbd1968b4",
+        "sha256_in_prefix": "7fc18768a90da0c2b163727dbb30a2e0e58f347f1c282722988d803fbd1968b4",
+        "size_in_bytes": 10719
+      },
+      {
+        "_path": "include/nds2-client/nds_version.hh",
+        "path_type": "hardlink",
+        "sha256": "9f0ed52a3eb8bdf17d06378ddbdecb2812354a46c7a775e429287483519b4835",
+        "sha256_in_prefix": "9f0ed52a3eb8bdf17d06378ddbdecb2812354a46c7a775e429287483519b4835",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "include/nds2-client/trench.h",
+        "path_type": "hardlink",
+        "sha256": "c7bf54a3c5a164cd71983f8e1be0f6d601e2b571181a96b0648fe1c6d75c1a60",
+        "sha256_in_prefix": "c7bf54a3c5a164cd71983f8e1be0f6d601e2b571181a96b0648fe1c6d75c1a60",
+        "size_in_bytes": 4732
+      },
+      {
+        "_path": "lib/cmake/nds2-client/NDSTesterConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "ed13eda51b48ed151ce44a53dde097eff7cec44bba6214a766bf4cd1ab7b9c7d",
+        "sha256_in_prefix": "ed13eda51b48ed151ce44a53dde097eff7cec44bba6214a766bf4cd1ab7b9c7d",
+        "size_in_bytes": 1426
+      },
+      {
+        "_path": "lib/cmake/nds2-client/NDSTesterConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "0cf0564f6476706cc5a257c7c6568c6dceeba477fac6a81f5d28b5422c07c65d",
+        "sha256_in_prefix": "0cf0564f6476706cc5a257c7c6568c6dceeba477fac6a81f5d28b5422c07c65d",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/cmake/nds2-client/nds2-clientConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "e3255b23a8138b8c90c68c616ea959ddccd09fc3523fd75063eeaab1bf809e0a",
+        "sha256_in_prefix": "e3255b23a8138b8c90c68c616ea959ddccd09fc3523fd75063eeaab1bf809e0a",
+        "size_in_bytes": 9838
+      },
+      {
+        "_path": "lib/cmake/nds2-client/nds2-clientConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "0cf0564f6476706cc5a257c7c6568c6dceeba477fac6a81f5d28b5422c07c65d",
+        "sha256_in_prefix": "0cf0564f6476706cc5a257c7c6568c6dceeba477fac6a81f5d28b5422c07c65d",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "lib/libndsclient.so",
+        "path_type": "softlink",
+        "sha256": "7b2a396204ef9cca2c3bbb678d923810ac17728d28d9843c6a458d5d91ce60f4",
+        "size_in_bytes": 241392
+      },
+      {
+        "_path": "lib/libndsclient.so.1",
+        "path_type": "softlink",
+        "sha256": "7b2a396204ef9cca2c3bbb678d923810ac17728d28d9843c6a458d5d91ce60f4",
+        "size_in_bytes": 241392
+      },
+      {
+        "_path": "lib/libndsclient.so.1.3.1",
+        "path_type": "hardlink",
+        "sha256": "7b2a396204ef9cca2c3bbb678d923810ac17728d28d9843c6a458d5d91ce60f4",
+        "sha256_in_prefix": "7b2a396204ef9cca2c3bbb678d923810ac17728d28d9843c6a458d5d91ce60f4",
+        "size_in_bytes": 241392
+      },
+      {
+        "_path": "lib/libndscxx.so",
+        "path_type": "softlink",
+        "sha256": "94678b90b9e6c66b55753a7edaa6a6888af8ae029f1e4a7f9055f9810126bcfd",
+        "size_in_bytes": 5833984
+      },
+      {
+        "_path": "lib/libndscxx.so.1",
+        "path_type": "softlink",
+        "sha256": "94678b90b9e6c66b55753a7edaa6a6888af8ae029f1e4a7f9055f9810126bcfd",
+        "size_in_bytes": 5833984
+      },
+      {
+        "_path": "lib/libndscxx.so.1.0.3",
+        "path_type": "hardlink",
+        "sha256": "94678b90b9e6c66b55753a7edaa6a6888af8ae029f1e4a7f9055f9810126bcfd",
+        "sha256_in_prefix": "94678b90b9e6c66b55753a7edaa6a6888af8ae029f1e4a7f9055f9810126bcfd",
+        "size_in_bytes": 5833984
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/bash_pattern.c.o",
+        "path_type": "hardlink",
+        "sha256": "f6821a87aab7cb67de9ce439b47848902153a7d1702355d4e025ad9477d1b2c6",
+        "sha256_in_prefix": "f6821a87aab7cb67de9ce439b47848902153a7d1702355d4e025ad9477d1b2c6",
+        "size_in_bytes": 17904
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/debug_stream.cc.o",
+        "path_type": "hardlink",
+        "sha256": "43ce975a13e505c48126bf02c6bc8cd64d7676dd14f7c3a4888f87c6f1c6f049",
+        "sha256_in_prefix": "43ce975a13e505c48126bf02c6bc8cd64d7676dd14f7c3a4888f87c6f1c6f049",
+        "size_in_bytes": 97888
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_availability.cc.o",
+        "path_type": "hardlink",
+        "sha256": "7767a7e2da974620ee334a22d6c93fc430576659ffe87c187db9484512fae666",
+        "sha256_in_prefix": "7767a7e2da974620ee334a22d6c93fc430576659ffe87c187db9484512fae666",
+        "size_in_bytes": 165024
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_availability_internal.cc.o",
+        "path_type": "hardlink",
+        "sha256": "8b525a942da9be624a5215bd2f8f4897a5c33b6cf13e442dabafd35ebc7f9dda",
+        "sha256_in_prefix": "8b525a942da9be624a5215bd2f8f4897a5c33b6cf13e442dabafd35ebc7f9dda",
+        "size_in_bytes": 122048
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_buffer.cc.o",
+        "path_type": "hardlink",
+        "sha256": "e3dd7bd91afa6bfcd300834dab646d36dfec393a28d6eeefe2c0a2cfea7d97a3",
+        "sha256_in_prefix": "e3dd7bd91afa6bfcd300834dab646d36dfec393a28d6eeefe2c0a2cfea7d97a3",
+        "size_in_bytes": 136608
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_channel.cc.o",
+        "path_type": "hardlink",
+        "sha256": "eb83c8cbeae748eed90c44ea42c93bb39876eeae14cd2f2e00bfbbbe761bab42",
+        "sha256_in_prefix": "eb83c8cbeae748eed90c44ea42c93bb39876eeae14cd2f2e00bfbbbe761bab42",
+        "size_in_bytes": 379528
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_channel_cache.cc.o",
+        "path_type": "hardlink",
+        "sha256": "ab1a3adc125c5afb7ebe8f386a04358cc31e573d960bb38bd8a7aacd9a4ebd53",
+        "sha256_in_prefix": "ab1a3adc125c5afb7ebe8f386a04358cc31e573d960bb38bd8a7aacd9a4ebd53",
+        "size_in_bytes": 382648
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_channel_selection.cc.o",
+        "path_type": "hardlink",
+        "sha256": "b020fb4e649c46c31b97a87ccc7f2e8a85d20446e6de5fb7d11d995672996621",
+        "sha256_in_prefix": "b020fb4e649c46c31b97a87ccc7f2e8a85d20446e6de5fb7d11d995672996621",
+        "size_in_bytes": 756488
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_composer.cc.o",
+        "path_type": "hardlink",
+        "sha256": "848ed2d58728d67a1f494c808eb5399209ba1ffda845971a54262fecc4bcc7b1",
+        "sha256_in_prefix": "848ed2d58728d67a1f494c808eb5399209ba1ffda845971a54262fecc4bcc7b1",
+        "size_in_bytes": 507848
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_connection.cc.o",
+        "path_type": "hardlink",
+        "sha256": "a0b36b74b56a54ebe285bd211b99bb98dbf6920484b15db6fef5f513b6896fcc",
+        "sha256_in_prefix": "a0b36b74b56a54ebe285bd211b99bb98dbf6920484b15db6fef5f513b6896fcc",
+        "size_in_bytes": 753416
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_connection_ptype.cc.o",
+        "path_type": "hardlink",
+        "sha256": "10ea0d0afc8e4095d5d2e3144c3744fe34d47243faf50fbe764acdfef5e47fd4",
+        "sha256_in_prefix": "10ea0d0afc8e4095d5d2e3144c3744fe34d47243faf50fbe764acdfef5e47fd4",
+        "size_in_bytes": 2983792
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_data_iterator.cc.o",
+        "path_type": "hardlink",
+        "sha256": "0a840d35868622fdd30ff13648be3459d72fb57196c8326a0278888eea736c3d",
+        "sha256_in_prefix": "0a840d35868622fdd30ff13648be3459d72fb57196c8326a0278888eea736c3d",
+        "size_in_bytes": 182864
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_gap_handler.cc.o",
+        "path_type": "hardlink",
+        "sha256": "f3e35bd266038d0d485f47b9ec88b2964f4eaa018be6b4272808e45e5241aabf",
+        "sha256_in_prefix": "f3e35bd266038d0d485f47b9ec88b2964f4eaa018be6b4272808e45e5241aabf",
+        "size_in_bytes": 434520
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_helper.cc.o",
+        "path_type": "hardlink",
+        "sha256": "b718e6ee32f31d5eea3826a84327d95a6a2cdeb72c25c3cfa18422da3724c989",
+        "sha256_in_prefix": "b718e6ee32f31d5eea3826a84327d95a6a2cdeb72c25c3cfa18422da3724c989",
+        "size_in_bytes": 607464
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_iterate_handler.cc.o",
+        "path_type": "hardlink",
+        "sha256": "1f0552a8cdb454900c4c059555529b0627a4cd8682f91adb984fdad07e7674d4",
+        "sha256_in_prefix": "1f0552a8cdb454900c4c059555529b0627a4cd8682f91adb984fdad07e7674d4",
+        "size_in_bytes": 384336
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_parameter_block.cc.o",
+        "path_type": "hardlink",
+        "sha256": "1845e0ec9d18fd53ebc520c1f462ab0a8c7b81401240148453994fbe76284af5",
+        "sha256_in_prefix": "1845e0ec9d18fd53ebc520c1f462ab0a8c7b81401240148453994fbe76284af5",
+        "size_in_bytes": 756176
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_request_fragment.cc.o",
+        "path_type": "hardlink",
+        "sha256": "2e74be0c1a6765dcd7feb0454aaa3847d9f0ef1fd0d5c9e038eec71bac543e78",
+        "sha256_in_prefix": "2e74be0c1a6765dcd7feb0454aaa3847d9f0ef1fd0d5c9e038eec71bac543e78",
+        "size_in_bytes": 212232
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_standalone.cc.o",
+        "path_type": "hardlink",
+        "sha256": "ed8736e9f64f44f00116d4eee0cdf83a3f3ad60a4bae0e7314f124a16f0fbde1",
+        "sha256_in_prefix": "ed8736e9f64f44f00116d4eee0cdf83a3f3ad60a4bae0e7314f124a16f0fbde1",
+        "size_in_bytes": 212640
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_static_val.cc.o",
+        "path_type": "hardlink",
+        "sha256": "c2ccff5c12625bed49f69671ffd08f0bf577a6909fcf65606080783746f59589",
+        "sha256_in_prefix": "c2ccff5c12625bed49f69671ffd08f0bf577a6909fcf65606080783746f59589",
+        "size_in_bytes": 27528
+      },
+      {
+        "_path": "lib/nds2-client/ndswrapcxx/nds_version.cc.o",
+        "path_type": "hardlink",
+        "sha256": "337a937f1c5f07157ef78175943babbf1a0d4397461cf051893c7a70b6000c1f",
+        "sha256_in_prefix": "337a937f1c5f07157ef78175943babbf1a0d4397461cf051893c7a70b6000c1f",
+        "size_in_bytes": 55608
+      },
+      {
+        "_path": "lib/pkgconfig/conlibndscxx.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "e44b713cd19be889d60452adcd6673eebe54eaf6a41e8b69308b2a8ebf92f6f2",
+        "sha256_in_prefix": "c57f8d9d037f449cdbadb3032db45e678a2989ebab7bb500e52410b880fe7016",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/pkgconfig/libndscxx.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "5f838fca6e9dc78273af21659ac260666e5ddc9e48d0ee37a5ac5fee29a9ac35",
+        "sha256_in_prefix": "440e54f70db7dd997a033be721c668f64533c5100b68ee100a2758ba51e0163e",
+        "size_in_bytes": 1062
+      },
+      {
+        "_path": "lib/pkgconfig/nds-client-tester.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "a1772eed0ea35481e044e31fd0f3c6497f5a010ba4c88cef6ec4bbf09748ebfd",
+        "sha256_in_prefix": "349094f2a44c85278a3deb60b1f032ac68b0eae20190f2b4302897625025c060",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "lib/pkgconfig/nds2-client.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client_1696282512564/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "d2fd6a32515a76a96faad2cce5c0a3e35490ba4611d35ac2c9ee5ce17ab3c4c8",
+        "sha256_in_prefix": "fba213f56d55a98fffe755a608f2ca1a0a4bf22ddcc275a5b76792eb382c9538",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/mockup_server.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b68075ed47367c406b91685f5fd359d7ab4510087e57bbf97563d98d4718720",
+        "sha256_in_prefix": "9b68075ed47367c406b91685f5fd359d7ab4510087e57bbf97563d98d4718720",
+        "size_in_bytes": 8889
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/nds2_proxy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "130469f5210bef0d4444b01af97a93e2b9a45cc7b79f02380cabd96747b55f86",
+        "sha256_in_prefix": "130469f5210bef0d4444b01af97a93e2b9a45cc7b79f02380cabd96747b55f86",
+        "size_in_bytes": 4332
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/nds_tester.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "458b2da0537d30c73de85ddcbfb71eaa64262ff293c5c1a36198cba771f5aa7c",
+        "sha256_in_prefix": "458b2da0537d30c73de85ddcbfb71eaa64262ff293c5c1a36198cba771f5aa7c",
+        "size_in_bytes": 15558
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/null_server.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ebe472dbed02a0570b1c472dfed36f9d4155baf29e0ff8387afe07e5f53cd940",
+        "sha256_in_prefix": "ebe472dbed02a0570b1c472dfed36f9d4155baf29e0ff8387afe07e5f53cd940",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/record_proxy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "18640c5a0d2680f76a9588806d27d2b7bfcd01802f9506cf45231c2ccaede84a",
+        "sha256_in_prefix": "18640c5a0d2680f76a9588806d27d2b7bfcd01802f9506cf45231c2ccaede84a",
+        "size_in_bytes": 5221
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/record_wrapper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "232cc7fec03b2ad0944e2e3f9bd9597a49ccd5a979cd9769e29136de14f02227",
+        "sha256_in_prefix": "232cc7fec03b2ad0944e2e3f9bd9597a49ccd5a979cd9769e29136de14f02227",
+        "size_in_bytes": 1710
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/replay.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b888bb287bcf40783328b00575f88ceaadc1f97793b8ee0daf8929ab70728b3",
+        "sha256_in_prefix": "7b888bb287bcf40783328b00575f88ceaadc1f97793b8ee0daf8929ab70728b3",
+        "size_in_bytes": 11967
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/replay_wrapper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6f553b8f123e79aa5c61330979fbe82188aa8af3598c015bedaa972ba2f2d26",
+        "sha256_in_prefix": "f6f553b8f123e79aa5c61330979fbe82188aa8af3598c015bedaa972ba2f2d26",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/sock_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "44a1c9d9c70906d7f8984b82350b5df4ffd2d78f61c4dbf5e34c6746f5ea8de0",
+        "sha256_in_prefix": "44a1c9d9c70906d7f8984b82350b5df4ffd2d78f61c4dbf5e34c6746f5ea8de0",
+        "size_in_bytes": 5669
+      },
+      {
+        "_path": "libexec/nds2-client/__pycache__/unit_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4141c978528ff1cd630cd227e2a799cadde09b4ae107f350884e81851923c8dc",
+        "sha256_in_prefix": "4141c978528ff1cd630cd227e2a799cadde09b4ae107f350884e81851923c8dc",
+        "size_in_bytes": 1901
+      },
+      {
+        "_path": "libexec/nds2-client/mockup_server.py",
+        "path_type": "hardlink",
+        "sha256": "d519e876a63fa1391aab6546e5560f3e6317db11c8895bfb545d863f521c92b7",
+        "sha256_in_prefix": "d519e876a63fa1391aab6546e5560f3e6317db11c8895bfb545d863f521c92b7",
+        "size_in_bytes": 12907
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds1-12_2/__pycache__/nds1.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8ba10ecde10fa1ef9f1107b1c8533af146e93000e0019852a5a9e54e58c39da",
+        "sha256_in_prefix": "e8ba10ecde10fa1ef9f1107b1c8533af146e93000e0019852a5a9e54e58c39da",
+        "size_in_bytes": 6209
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds1-12_2/nds1.py",
+        "path_type": "hardlink",
+        "sha256": "5695874dd6a4eb66ca180bdcfe4cc96c130262d09258a81be234dc705069c4e6",
+        "sha256_in_prefix": "5695874dd6a4eb66ca180bdcfe4cc96c130262d09258a81be234dc705069c4e6",
+        "size_in_bytes": 6827
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds1-12_2/nds1.pyc",
+        "path_type": "hardlink",
+        "sha256": "348637d47f5cba229874c0f893c8149e2979e570042e1f3011e9b8f4888ba9a5",
+        "sha256_in_prefix": "348637d47f5cba229874c0f893c8149e2979e570042e1f3011e9b8f4888ba9a5",
+        "size_in_bytes": 8502
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_5/__pycache__/nds2.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2db2f13f4c2da8f040e5f342b55a420db09225da226930aacc188ef31befef5",
+        "sha256_in_prefix": "c2db2f13f4c2da8f040e5f342b55a420db09225da226930aacc188ef31befef5",
+        "size_in_bytes": 6125
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_5/nds2.py",
+        "path_type": "hardlink",
+        "sha256": "233fa301c6807cb5a789a35a46cc5f4126574eec78786502f14939ed2188a40f",
+        "sha256_in_prefix": "233fa301c6807cb5a789a35a46cc5f4126574eec78786502f14939ed2188a40f",
+        "size_in_bytes": 6396
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_5/nds2.pyc",
+        "path_type": "hardlink",
+        "sha256": "60497c7461b4ac32b2084b0dc5df16985efca91903e2ffef29b3e89f832c9b0e",
+        "sha256_in_prefix": "60497c7461b4ac32b2084b0dc5df16985efca91903e2ffef29b3e89f832c9b0e",
+        "size_in_bytes": 8125
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_6/__pycache__/nds2.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "19b2c8fe6390032eb33b3693e05cb0bccab926f463c97dadb274da89d2832e33",
+        "sha256_in_prefix": "19b2c8fe6390032eb33b3693e05cb0bccab926f463c97dadb274da89d2832e33",
+        "size_in_bytes": 6785
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_6/nds2.py",
+        "path_type": "hardlink",
+        "sha256": "0bdc65d8fd257e704cd8e9f88aad00c8ef132afd58849c59d63069a2b7993f8c",
+        "sha256_in_prefix": "0bdc65d8fd257e704cd8e9f88aad00c8ef132afd58849c59d63069a2b7993f8c",
+        "size_in_bytes": 7784
+      },
+      {
+        "_path": "libexec/nds2-client/modules/nds2-1_6/nds2.pyc",
+        "path_type": "hardlink",
+        "sha256": "d54285114f616dc90e964b9a85949ce3175e21e5712aca056494ac3c93f10c66",
+        "sha256_in_prefix": "d54285114f616dc90e964b9a85949ce3175e21e5712aca056494ac3c93f10c66",
+        "size_in_bytes": 8921
+      },
+      {
+        "_path": "libexec/nds2-client/nds2_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "8ddcdacc9d2fa7e01d3531f92263ed406220dbfae5c132f5087bb2beb97edb7a",
+        "sha256_in_prefix": "8ddcdacc9d2fa7e01d3531f92263ed406220dbfae5c132f5087bb2beb97edb7a",
+        "size_in_bytes": 6492
+      },
+      {
+        "_path": "libexec/nds2-client/nds_tester.py",
+        "path_type": "hardlink",
+        "sha256": "b8e7de00538d3f96987daedd3cff7c3138b8aa6daababe1e09b0ddb4b59915f9",
+        "sha256_in_prefix": "b8e7de00538d3f96987daedd3cff7c3138b8aa6daababe1e09b0ddb4b59915f9",
+        "size_in_bytes": 24363
+      },
+      {
+        "_path": "libexec/nds2-client/null_server.py",
+        "path_type": "hardlink",
+        "sha256": "455218ed636cce73bd39bf808fe24f7a6c01b2dde8826d70e4fe2ab5c8789972",
+        "sha256_in_prefix": "455218ed636cce73bd39bf808fe24f7a6c01b2dde8826d70e4fe2ab5c8789972",
+        "size_in_bytes": 2168
+      },
+      {
+        "_path": "libexec/nds2-client/record_proxy.py",
+        "path_type": "hardlink",
+        "sha256": "71985bc428fc25db364a2a24f42e0fef8785c91b3cc4ce3bc9f647ed101eb056",
+        "sha256_in_prefix": "71985bc428fc25db364a2a24f42e0fef8785c91b3cc4ce3bc9f647ed101eb056",
+        "size_in_bytes": 4855
+      },
+      {
+        "_path": "libexec/nds2-client/record_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "f8d86986ea26ffdca039529f302a8b2fe725e12e75cfd9eb218e16be1a88f2a6",
+        "sha256_in_prefix": "f8d86986ea26ffdca039529f302a8b2fe725e12e75cfd9eb218e16be1a88f2a6",
+        "size_in_bytes": 1221
+      },
+      {
+        "_path": "libexec/nds2-client/replay.py",
+        "path_type": "hardlink",
+        "sha256": "e1aa1465f37051d3a6fa896e1882bdfca61b58f59dd75b4d2515b179825a9a44",
+        "sha256_in_prefix": "e1aa1465f37051d3a6fa896e1882bdfca61b58f59dd75b4d2515b179825a9a44",
+        "size_in_bytes": 12977
+      },
+      {
+        "_path": "libexec/nds2-client/replay_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "55c2e2ab1a38f9da1a1dff0eccef216654cd91fa020eb17d0a9aa2fd87d6447e",
+        "sha256_in_prefix": "55c2e2ab1a38f9da1a1dff0eccef216654cd91fa020eb17d0a9aa2fd87d6447e",
+        "size_in_bytes": 1762
+      },
+      {
+        "_path": "libexec/nds2-client/sasl/sasl.c",
+        "path_type": "hardlink",
+        "sha256": "203aa6455dbbcaf0e5857ef127db4ad0815d02cbd3220621ea381dfbab75adbb",
+        "sha256_in_prefix": "203aa6455dbbcaf0e5857ef127db4ad0815d02cbd3220621ea381dfbab75adbb",
+        "size_in_bytes": 19737
+      },
+      {
+        "_path": "libexec/nds2-client/sock_test.py",
+        "path_type": "hardlink",
+        "sha256": "7e49f65c7fea68490937ac1583d0366f596b13012bab9d53d7b10309800f3242",
+        "sha256_in_prefix": "7e49f65c7fea68490937ac1583d0366f596b13012bab9d53d7b10309800f3242",
+        "size_in_bytes": 7295
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/lho-prod.json",
+        "path_type": "hardlink",
+        "sha256": "a1abaf1cbe48dfd5d1809ec01d6b723217b91590ccca413089d64b6422fa574a",
+        "sha256_in_prefix": "a1abaf1cbe48dfd5d1809ec01d6b723217b91590ccca413089d64b6422fa574a",
+        "size_in_bytes": 3589
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/llodts0-nds_query.json",
+        "path_type": "hardlink",
+        "sha256": "0fb6ebfbe2cab62f96a927d084f7c4eb04daab34a28f6829f48b4ccb79a67087",
+        "sha256_in_prefix": "0fb6ebfbe2cab62f96a927d084f7c4eb04daab34a28f6829f48b4ccb79a67087",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/llodts0-py.json",
+        "path_type": "hardlink",
+        "sha256": "fd833e51d1b0c194a4583474b3d8ca9c8be4c51b2d89438e034d061ab281cf32",
+        "sha256_in_prefix": "fd833e51d1b0c194a4583474b3d8ca9c8be4c51b2d89438e034d061ab281cf32",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-basic_gap_multi.json",
+        "path_type": "hardlink",
+        "sha256": "25009e6cc7defcdc2b0b04981caaf91cd1391657af2065b0a1be456f702fdab4",
+        "sha256_in_prefix": "25009e6cc7defcdc2b0b04981caaf91cd1391657af2065b0a1be456f702fdab4",
+        "size_in_bytes": 2143
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-count-channels-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "465213829de366d94dd2bccf9962793267da77c11f95210dab8996423b1050d1",
+        "sha256_in_prefix": "465213829de366d94dd2bccf9962793267da77c11f95210dab8996423b1050d1",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-fast-data-bounded.json",
+        "path_type": "hardlink",
+        "sha256": "fe8511920e3c0fa87c52b36c4452a9be688c33e869f4f612f394a617cf473764",
+        "sha256_in_prefix": "fe8511920e3c0fa87c52b36c4452a9be688c33e869f4f612f394a617cf473764",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-fast-data.json",
+        "path_type": "hardlink",
+        "sha256": "cb52de970bd23740e35969238f483a0376d51d9ab9f5ddda93bddb76ec3eea3d",
+        "sha256_in_prefix": "cb52de970bd23740e35969238f483a0376d51d9ab9f5ddda93bddb76ec3eea3d",
+        "size_in_bytes": 3541
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-gap-single-channel1.json",
+        "path_type": "hardlink",
+        "sha256": "1fa70315835ab1c0de4cb177583ea900d65562b782df220af274f7727b8465b5",
+        "sha256_in_prefix": "1fa70315835ab1c0de4cb177583ea900d65562b782df220af274f7727b8465b5",
+        "size_in_bytes": 1014
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-gap_handling_no_data.json",
+        "path_type": "hardlink",
+        "sha256": "9f49883633c19d004add5d7d303285e146fbbe4c5ae976684dd50d6778342cba",
+        "sha256_in_prefix": "9f49883633c19d004add5d7d303285e146fbbe4c5ae976684dd50d6778342cba",
+        "size_in_bytes": 2376
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-get-epoch.json",
+        "path_type": "hardlink",
+        "sha256": "1ef86ca8b73a01c224a579a116a62bcdc17330bc1426815afbb7239ed7c862d1",
+        "sha256_in_prefix": "1ef86ca8b73a01c224a579a116a62bcdc17330bc1426815afbb7239ed7c862d1",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-get-parameters.json",
+        "path_type": "hardlink",
+        "sha256": "08eedb47f12d2c6dd8984fb2c624ec1778c9767ca0aee9c5f045b97887e5d83c",
+        "sha256_in_prefix": "08eedb47f12d2c6dd8984fb2c624ec1778c9767ca0aee9c5f045b97887e5d83c",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-all-data-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "77aa619cf1c79773d90b4628e36d21cc10da62ef7049a47c0b4d9353ae750f48",
+        "sha256_in_prefix": "77aa619cf1c79773d90b4628e36d21cc10da62ef7049a47c0b4d9353ae750f48",
+        "size_in_bytes": 2778
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-live-data-bounded-synthetic-multiconn.json",
+        "path_type": "hardlink",
+        "sha256": "e90c8e1cec841f9046dcf84379a1824f22825009bcd36feaa6cfe78872f376be",
+        "sha256_in_prefix": "e90c8e1cec841f9046dcf84379a1824f22825009bcd36feaa6cfe78872f376be",
+        "size_in_bytes": 13155
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-live-data-bounded-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "0c68fa602b1741fd85e749aa29fee8f2408d7548ee5d79088ca3a4e0fde59bae",
+        "sha256_in_prefix": "0c68fa602b1741fd85e749aa29fee8f2408d7548ee5d79088ca3a4e0fde59bae",
+        "size_in_bytes": 11891
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-live-data-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "5b9a7a34f4d23303c9f527ce38405ca4647830929f04a098925a683ac664a358",
+        "sha256_in_prefix": "5b9a7a34f4d23303c9f527ce38405ca4647830929f04a098925a683ac664a358",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-testpoint-online-data-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "246ef062fb1ef1087da9a3af4baf91f3eb1b4137e5aea6480ce0f5ada6227f6f",
+        "sha256_in_prefix": "246ef062fb1ef1087da9a3af4baf91f3eb1b4137e5aea6480ce0f5ada6227f6f",
+        "size_in_bytes": 3994
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate-with-gaps-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "ab5001afe469efb2c6271cbdce8d9840fbaa6b2dcb75483ae43956f752e0ff5d",
+        "sha256_in_prefix": "ab5001afe469efb2c6271cbdce8d9840fbaa6b2dcb75483ae43956f752e0ff5d",
+        "size_in_bytes": 3940
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-iterate_with_leading_gap.json",
+        "path_type": "hardlink",
+        "sha256": "ff54efcb1be7198eff862b7406d11cb926beb9a6805116e69e49fb19d44199ff",
+        "sha256_in_prefix": "ff54efcb1be7198eff862b7406d11cb926beb9a6805116e69e49fb19d44199ff",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-list-testpoint.json",
+        "path_type": "hardlink",
+        "sha256": "5d641bd0f96576afe2581b8174fc465e9c99083353b813cfe71bdc51ad280689",
+        "sha256_in_prefix": "5d641bd0f96576afe2581b8174fc465e9c99083353b813cfe71bdc51ad280689",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-restart-failure.json",
+        "path_type": "hardlink",
+        "sha256": "aaa28552c4b34a9c89b967c62f9fce0e71c09729a91dc1c25e63b9f56bc56a7d",
+        "sha256_in_prefix": "aaa28552c4b34a9c89b967c62f9fce0e71c09729a91dc1c25e63b9f56bc56a7d",
+        "size_in_bytes": 1785
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-synthentic.json",
+        "path_type": "hardlink",
+        "sha256": "5a32f17cc0d96cdf1e6efff07965bfdb57fc16cc5ab0557b4e5d02e6c36c6aa8",
+        "sha256_in_prefix": "5a32f17cc0d96cdf1e6efff07965bfdb57fc16cc5ab0557b4e5d02e6c36c6aa8",
+        "size_in_bytes": 1384
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-test-fetch-standalone.json",
+        "path_type": "hardlink",
+        "sha256": "a4af4b1282c1193bf9565b2b6b9d678f936ec0f092924deaa712331765ac3f8a",
+        "sha256_in_prefix": "a4af4b1282c1193bf9565b2b6b9d678f936ec0f092924deaa712331765ac3f8a",
+        "size_in_bytes": 3395
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-ticket-260.json",
+        "path_type": "hardlink",
+        "sha256": "7f2da3aece1ff5dfa684116c7c9c967a552365e6ed88a781b9e6e9c967a8bb17",
+        "sha256_in_prefix": "7f2da3aece1ff5dfa684116c7c9c967a552365e6ed88a781b9e6e9c967a8bb17",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-ticket-282.json",
+        "path_type": "hardlink",
+        "sha256": "44f315f8a8075e2f65c07777287eff7d76443c0824d3adf08e377d91dd633f72",
+        "sha256_in_prefix": "44f315f8a8075e2f65c07777287eff7d76443c0824d3adf08e377d91dd633f72",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-timeout.json",
+        "path_type": "hardlink",
+        "sha256": "b28ca0e60e83dab3c9dab4b648b9b9ced33213ce5b8d34ef14e2102d42368823",
+        "sha256_in_prefix": "b28ca0e60e83dab3c9dab4b648b9b9ced33213ce5b8d34ef14e2102d42368823",
+        "size_in_bytes": 663
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1-transfer_in_progress.json",
+        "path_type": "hardlink",
+        "sha256": "372c43c93f9219de11567a9364d7123f167de62e90e3139a3bba9e8bdb358683",
+        "sha256_in_prefix": "372c43c93f9219de11567a9364d7123f167de62e90e3139a3bba9e8bdb358683",
+        "size_in_bytes": 3774
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds1_bad_hex_value.json",
+        "path_type": "hardlink",
+        "sha256": "030d600e79727b2c369372e9115f4c05220b8f0ec681170e0da53e8647f5f2ec",
+        "sha256_in_prefix": "030d600e79727b2c369372e9115f4c05220b8f0ec681170e0da53e8647f5f2ec",
+        "size_in_bytes": 1603
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-16hz_data.json",
+        "path_type": "hardlink",
+        "sha256": "b8aca7d5d7a85ab8249e4f65e98d221c2364e32f7b5ad7b03dc2ba38cff56bfd",
+        "sha256_in_prefix": "b8aca7d5d7a85ab8249e4f65e98d221c2364e32f7b5ad7b03dc2ba38cff56bfd",
+        "size_in_bytes": 6711
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ambiguous-channel.json",
+        "path_type": "hardlink",
+        "sha256": "d6e1a5d89bb3db4a68758c1b523f5d7213b8d4fc3f47a68ff0fb5c8c8caa5fd0",
+        "sha256_in_prefix": "d6e1a5d89bb3db4a68758c1b523f5d7213b8d4fc3f47a68ff0fb5c8c8caa5fd0",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-availability.json",
+        "path_type": "hardlink",
+        "sha256": "c32049a2010a42d481577ceb28359c876acbd27b6ec8fc59b8590c7cfee90cb0",
+        "sha256_in_prefix": "c32049a2010a42d481577ceb28359c876acbd27b6ec8fc59b8590c7cfee90cb0",
+        "size_in_bytes": 5252
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-channel-selector.json",
+        "path_type": "hardlink",
+        "sha256": "eac0519db3c27f8892c26081ac256b3ca1888e368904184f2a54b5dc5000c545",
+        "sha256_in_prefix": "eac0519db3c27f8892c26081ac256b3ca1888e368904184f2a54b5dc5000c545",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-count-channels-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "049bc1c8ed9761e20eaf2d21a01ebf711710852e22edb89cec18932641744ded",
+        "sha256_in_prefix": "049bc1c8ed9761e20eaf2d21a01ebf711710852e22edb89cec18932641744ded",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-count.json",
+        "path_type": "hardlink",
+        "sha256": "b8cb0604f2d053e02c387c23d524cc09a30f4381e8a1269a9b0fb647069f8f6e",
+        "sha256_in_prefix": "b8cb0604f2d053e02c387c23d524cc09a30f4381e8a1269a9b0fb647069f8f6e",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-dissimilar_gaps.json",
+        "path_type": "hardlink",
+        "sha256": "31c689509313e456893570adf5c3cb5619a3e2a7e3e3c9832dc4dc63725a0b64",
+        "sha256_in_prefix": "31c689509313e456893570adf5c3cb5619a3e2a7e3e3c9832dc4dc63725a0b64",
+        "size_in_bytes": 3637
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-env_connection.json",
+        "path_type": "hardlink",
+        "sha256": "0e0c64d1612de7d65f3a71c3280d75fceb3177bddf35f6e0acc8cc7c16f13855",
+        "sha256_in_prefix": "0e0c64d1612de7d65f3a71c3280d75fceb3177bddf35f6e0acc8cc7c16f13855",
+        "size_in_bytes": 606
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-fast-data-bounded.json",
+        "path_type": "hardlink",
+        "sha256": "ed8d55eb1855e1c59071e672b19f3406d1f1c9a62c8e30ef36ca515154099831",
+        "sha256_in_prefix": "ed8d55eb1855e1c59071e672b19f3406d1f1c9a62c8e30ef36ca515154099831",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-fast-data.json",
+        "path_type": "hardlink",
+        "sha256": "dd01cbd99681a4ee1e75bb4ac76fdb71c4b8edf2a90617d68c298a0f967c8b60",
+        "sha256_in_prefix": "dd01cbd99681a4ee1e75bb4ac76fdb71c4b8edf2a90617d68c298a0f967c8b60",
+        "size_in_bytes": 2051
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-fetch-all-gap-abort-test.json",
+        "path_type": "hardlink",
+        "sha256": "9adf4d6ea067294ccf8cce06a12e00b3e8d8bc2a9024a3a1046b68503c052774",
+        "sha256_in_prefix": "9adf4d6ea067294ccf8cce06a12e00b3e8d8bc2a9024a3a1046b68503c052774",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-fetch-all-gap.json",
+        "path_type": "hardlink",
+        "sha256": "9adf4d6ea067294ccf8cce06a12e00b3e8d8bc2a9024a3a1046b68503c052774",
+        "sha256_in_prefix": "9adf4d6ea067294ccf8cce06a12e00b3e8d8bc2a9024a3a1046b68503c052774",
+        "size_in_bytes": 2220
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-find-channels-synthetic-standalone.json",
+        "path_type": "hardlink",
+        "sha256": "352e01857619110bd384b15c5408b3f5fd662e42a7f2a95bcabfb6c2cf5d7690",
+        "sha256_in_prefix": "352e01857619110bd384b15c5408b3f5fd662e42a7f2a95bcabfb6c2cf5d7690",
+        "size_in_bytes": 2154
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-find-channels-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "8455efae5ba5b9a5324925f676373520c33e1ea05434fd336a3394ed271b53de",
+        "sha256_in_prefix": "8455efae5ba5b9a5324925f676373520c33e1ea05434fd336a3394ed271b53de",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-gap-single-channel.json",
+        "path_type": "hardlink",
+        "sha256": "37c8c25063d8674f342038e99533270e463117a9165d3e366b333ef56da2946d",
+        "sha256_in_prefix": "37c8c25063d8674f342038e99533270e463117a9165d3e366b333ef56da2946d",
+        "size_in_bytes": 1467
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-get-epoch.json",
+        "path_type": "hardlink",
+        "sha256": "245de5d4ceb18cba4284f388c7e499c8f2dd3b881db23fc97df5154d3ea4c2be",
+        "sha256_in_prefix": "245de5d4ceb18cba4284f388c7e499c8f2dd3b881db23fc97df5154d3ea4c2be",
+        "size_in_bytes": 994
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-get-last-message.json",
+        "path_type": "hardlink",
+        "sha256": "52f76bd8d688ba241b92158f214651bb55f779298d1a831559565b711d21d1d8",
+        "sha256_in_prefix": "52f76bd8d688ba241b92158f214651bb55f779298d1a831559565b711d21d1d8",
+        "size_in_bytes": 1560
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-get-parameters.json",
+        "path_type": "hardlink",
+        "sha256": "6af3b190f394ef43d6778f99fbb6347bdbe16625bd8203ba331c9c067548f0e4",
+        "sha256_in_prefix": "6af3b190f394ef43d6778f99fbb6347bdbe16625bd8203ba331c9c067548f0e4",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-all-data-standalone-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "78b2fba328dae8e354bc706ae0e5cdeefb243ddbcbb82fd789a94e543b055045",
+        "sha256_in_prefix": "78b2fba328dae8e354bc706ae0e5cdeefb243ddbcbb82fd789a94e543b055045",
+        "size_in_bytes": 2262
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-all-data-synthetic-no-followup.json",
+        "path_type": "hardlink",
+        "sha256": "b8e4d43a687bbe7898886f6a877bbee4078c299f03672bce1ca440895224a691",
+        "sha256_in_prefix": "b8e4d43a687bbe7898886f6a877bbee4078c299f03672bce1ca440895224a691",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-all-data-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "ec6f23d94339af2c15ede4027cd74df020de7b503aec38099302b2195cac27ba",
+        "sha256_in_prefix": "ec6f23d94339af2c15ede4027cd74df020de7b503aec38099302b2195cac27ba",
+        "size_in_bytes": 2859
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-live-data-abort-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "ed28fee4b8972207781e5c5dfa0f6cb4fdc934f987c0348659c332a761e3a7b5",
+        "sha256_in_prefix": "ed28fee4b8972207781e5c5dfa0f6cb4fdc934f987c0348659c332a761e3a7b5",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-live-data-bounded-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "7cbe96881a0aa7f221dc46e49c0c2708be66f5adca3aa42203fa2d28f32bde4c",
+        "sha256_in_prefix": "7cbe96881a0aa7f221dc46e49c0c2708be66f5adca3aa42203fa2d28f32bde4c",
+        "size_in_bytes": 3648
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-live-data-synthetic.json",
+        "path_type": "hardlink",
+        "sha256": "bf6b61f2907fe2f56f9b40464d5c78742b07fa9fcfcb714f2d80f36e5eb195e7",
+        "sha256_in_prefix": "bf6b61f2907fe2f56f9b40464d5c78742b07fa9fcfcb714f2d80f36e5eb195e7",
+        "size_in_bytes": 3363
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate-with-full-gap.json",
+        "path_type": "hardlink",
+        "sha256": "e1d0a9e7cd62fc219816b894cfded6da68d15e4916f5bbdb92a00ad934f1a5b7",
+        "sha256_in_prefix": "e1d0a9e7cd62fc219816b894cfded6da68d15e4916f5bbdb92a00ad934f1a5b7",
+        "size_in_bytes": 4961
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate_with_leading_gap.json",
+        "path_type": "hardlink",
+        "sha256": "10335f6024610f8a84d2e21fbc37854e4c2361e07eb1c5124f7aa7ae433c2cd5",
+        "sha256_in_prefix": "10335f6024610f8a84d2e21fbc37854e4c2361e07eb1c5124f7aa7ae433c2cd5",
+        "size_in_bytes": 10156
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-iterate_with_no_data.json",
+        "path_type": "hardlink",
+        "sha256": "f1a1d94da653d64fa35c986b69458662ce3b698e10638190831205129c9b7d62",
+        "sha256_in_prefix": "f1a1d94da653d64fa35c986b69458662ce3b698e10638190831205129c9b7d62",
+        "size_in_bytes": 3298
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-one_second_channel_list.json",
+        "path_type": "hardlink",
+        "sha256": "927d7d8d498cc513dc3ec7ea3884742d7bc16845188cfbd014f9abcf4ad0562f",
+        "sha256_in_prefix": "927d7d8d498cc513dc3ec7ea3884742d7bc16845188cfbd014f9abcf4ad0562f",
+        "size_in_bytes": 3980
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-test-ticket74-bad-filler.json",
+        "path_type": "hardlink",
+        "sha256": "d70d863c2ab26c1a98b1c7ba871e2011faf25ba6956dca522dd36d1532949a18",
+        "sha256_in_prefix": "d70d863c2ab26c1a98b1c7ba871e2011faf25ba6956dca522dd36d1532949a18",
+        "size_in_bytes": 1931
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-169.json",
+        "path_type": "hardlink",
+        "sha256": "1c45c074e44f43408537456cf4409b3ca00c1918079d91b4f9bd9fc59c5fb741",
+        "sha256_in_prefix": "1c45c074e44f43408537456cf4409b3ca00c1918079d91b4f9bd9fc59c5fb741",
+        "size_in_bytes": 2274
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-242.json",
+        "path_type": "hardlink",
+        "sha256": "5049ddfd4c42e0ff78af5d9370604c0280dba387391f714736d21d538bf17713",
+        "sha256_in_prefix": "5049ddfd4c42e0ff78af5d9370604c0280dba387391f714736d21d538bf17713",
+        "size_in_bytes": 6625
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-246.json",
+        "path_type": "hardlink",
+        "sha256": "f4e6341d1f7dfad6612ee1a778423dd48b14a65f64c84f36d52033d48f107aee",
+        "sha256_in_prefix": "f4e6341d1f7dfad6612ee1a778423dd48b14a65f64c84f36d52033d48f107aee",
+        "size_in_bytes": 1630
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-260.json",
+        "path_type": "hardlink",
+        "sha256": "654269865e763ba35f79193c9b747d8062cfeba1b20042c91bad5db94ca38f4b",
+        "sha256_in_prefix": "654269865e763ba35f79193c9b747d8062cfeba1b20042c91bad5db94ca38f4b",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-288.json",
+        "path_type": "hardlink",
+        "sha256": "b86a94a404f7a403b7b86ce920e215ed3f0f44823595d82d28e3de6e200a20f4",
+        "sha256_in_prefix": "b86a94a404f7a403b7b86ce920e215ed3f0f44823595d82d28e3de6e200a20f4",
+        "size_in_bytes": 6056
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-ticket-289.json",
+        "path_type": "hardlink",
+        "sha256": "6c3cd2cdf7a6647f266c61bef57e792fbc3da2a6579719b7603e289a5b537c86",
+        "sha256_in_prefix": "6c3cd2cdf7a6647f266c61bef57e792fbc3da2a6579719b7603e289a5b537c86",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-timeout.json",
+        "path_type": "hardlink",
+        "sha256": "9f13b5eb5e7dab99f992f0dbacbf1efb6db0f39c3e6bbef032e0bcddd700e246",
+        "sha256_in_prefix": "9f13b5eb5e7dab99f992f0dbacbf1efb6db0f39c3e6bbef032e0bcddd700e246",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/nds2-transfer_in_progress.json",
+        "path_type": "hardlink",
+        "sha256": "57dce0aea6d6eb8addd438d83f511793257cc6471bfb7dd1b4de4c067ffc95f8",
+        "sha256_in_prefix": "57dce0aea6d6eb8addd438d83f511793257cc6471bfb7dd1b4de4c067ffc95f8",
+        "size_in_bytes": 1478
+      },
+      {
+        "_path": "libexec/nds2-client/test-json/test_daq_availability_check.json",
+        "path_type": "hardlink",
+        "sha256": "66e9214d6b8a5714fd473399dab4bd00660c24c030fc4808a1cacf67fbdfb105",
+        "sha256_in_prefix": "66e9214d6b8a5714fd473399dab4bd00660c24c030fc4808a1cacf67fbdfb105",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/lho-find-channels.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3651a6182318aeb2a67f5b66d6ddde5dd49addf25426ccfd86f65d84666912d",
+        "sha256_in_prefix": "b3651a6182318aeb2a67f5b66d6ddde5dd49addf25426ccfd86f65d84666912d",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/llodts0-query.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ac97a73e355fe37795d1390a839462d1022526ddc7845393fc7fb36f899fa270",
+        "sha256_in_prefix": "ac97a73e355fe37795d1390a839462d1022526ddc7845393fc7fb36f899fa270",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/nds1-synthetic.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a54da32032ed8aa6a3c535b6476579cccd910d0adf74a01aaf8f2411975b379",
+        "sha256_in_prefix": "6a54da32032ed8aa6a3c535b6476579cccd910d0adf74a01aaf8f2411975b379",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/nds1-timeout.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d442ef28c71553eb70dc69b797c601252b407186adf8454453c972641487f51b",
+        "sha256_in_prefix": "d442ef28c71553eb70dc69b797c601252b407186adf8454453c972641487f51b",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/nds1-transfer_in_progress.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7310930be88b196ef69894a5850d851a18147c030a1f1cd0c3fdfeb22eb99e3e",
+        "sha256_in_prefix": "7310930be88b196ef69894a5850d851a18147c030a1f1cd0c3fdfeb22eb99e3e",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/__pycache__/nds2-transfer_in_progress.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fd5f07e0c216cee709783fb51bbd6162b74e1bebdbab3705a33b8dd45ecc9d9",
+        "sha256_in_prefix": "9fd5f07e0c216cee709783fb51bbd6162b74e1bebdbab3705a33b8dd45ecc9d9",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/lho-find-channels.py",
+        "path_type": "hardlink",
+        "sha256": "87493eabe5c410d9c239c362d54004c7a552899bc6a312f65cd9bcd9c0b8e2aa",
+        "sha256_in_prefix": "87493eabe5c410d9c239c362d54004c7a552899bc6a312f65cd9bcd9c0b8e2aa",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/llodts0-cmd.sh",
+        "path_type": "hardlink",
+        "sha256": "2d1b9dcb7e5436d5cbebd34a8529bbf0c046487f14ca60ab0cb932aecdd67337",
+        "sha256_in_prefix": "2d1b9dcb7e5436d5cbebd34a8529bbf0c046487f14ca60ab0cb932aecdd67337",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/llodts0-query.py",
+        "path_type": "hardlink",
+        "sha256": "9b04f8503f74d8e63c8376430d1f2332df81ff503ba0b0b3ed5050cc215a71be",
+        "sha256_in_prefix": "9b04f8503f74d8e63c8376430d1f2332df81ff503ba0b0b3ed5050cc215a71be",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/nds1-synthetic.py",
+        "path_type": "hardlink",
+        "sha256": "32772350132ab6f6f866f44f5bafacf8d2306fae2f2459f528acdeb4c33463aa",
+        "sha256_in_prefix": "32772350132ab6f6f866f44f5bafacf8d2306fae2f2459f528acdeb4c33463aa",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/nds1-timeout.py",
+        "path_type": "hardlink",
+        "sha256": "a9a0479054c06515075c3431a75c3dcc403cf205703241a332c820b3e00bd0cf",
+        "sha256_in_prefix": "a9a0479054c06515075c3431a75c3dcc403cf205703241a332c820b3e00bd0cf",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/nds1-transfer_in_progress.py",
+        "path_type": "hardlink",
+        "sha256": "5b03f451b6c4e0a091f2000014f9d383f62bb78acd6fa90d4fe8a4ba91bfcd96",
+        "sha256_in_prefix": "5b03f451b6c4e0a091f2000014f9d383f62bb78acd6fa90d4fe8a4ba91bfcd96",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "libexec/nds2-client/test-scripts/nds2-transfer_in_progress.py",
+        "path_type": "hardlink",
+        "sha256": "0975789d3c5dff0ed17176923da4abebf84db6cba681d271c0386987fc02ecea",
+        "sha256_in_prefix": "0975789d3c5dff0ed17176923da4abebf84db6cba681d271c0386987fc02ecea",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "libexec/nds2-client/unit_test.py",
+        "path_type": "hardlink",
+        "sha256": "89cf11fc5d5c1a7e39bbb4bc259e63eccb69d4100afa5da78b52d335f8390860",
+        "sha256_in_prefix": "89cf11fc5d5c1a7e39bbb4bc259e63eccb69d4100afa5da78b52d335f8390860",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "share/man/man1/NDS2Frame.1",
+        "path_type": "hardlink",
+        "sha256": "509d1f25a648499c52e40b2c282c7d1ba4d5cb698de89e6c4316796994734587",
+        "sha256_in_prefix": "509d1f25a648499c52e40b2c282c7d1ba4d5cb698de89e6c4316796994734587",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "share/man/man1/nds-client-config.1",
+        "path_type": "hardlink",
+        "sha256": "db6525e8b06d9d04ff51409b9f674c78b19a977df83a137cbfd3cd4a36751042",
+        "sha256_in_prefix": "db6525e8b06d9d04ff51409b9f674c78b19a977df83a137cbfd3cd4a36751042",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "share/man/man1/nds2-tunnel.1",
+        "path_type": "hardlink",
+        "sha256": "08e3ae7a0f0782fb5329062ea052ec469025e89a31b7eec510b3c5673e89ac00",
+        "sha256_in_prefix": "08e3ae7a0f0782fb5329062ea052ec469025e89a31b7eec510b3c5673e89ac00",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "share/man/man1/nds2.1",
+        "path_type": "hardlink",
+        "sha256": "db8db5ee1d55fc82d0b587a6710f6b0c1da9a39d81df6d4671edf621feac5bcb",
+        "sha256_in_prefix": "db8db5ee1d55fc82d0b587a6710f6b0c1da9a39d81df6d4671edf621feac5bcb",
+        "size_in_bytes": 8503
+      },
+      {
+        "_path": "share/man/man1/nds2_channel_source.1",
+        "path_type": "hardlink",
+        "sha256": "065869865225da25a2f9faafdaa4e178dea3ebccdf2dbfd07c930b40e9372f52",
+        "sha256_in_prefix": "065869865225da25a2f9faafdaa4e178dea3ebccdf2dbfd07c930b40e9372f52",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "share/man/man1/nds_query.1",
+        "path_type": "hardlink",
+        "sha256": "77e384c7d33424025e7a504f8c3dd4565713dd9bff001fa1fc15aa23d94c391f",
+        "sha256_in_prefix": "77e384c7d33424025e7a504f8c3dd4565713dd9bff001fa1fc15aa23d94c391f",
+        "size_in_bytes": 3599
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cd99b1d3965e9c46a83122f55ba4037bf638101bbbfa7f5f27a57592b2f31f16",
+  "size": 4812502,
+  "subdir": "linux-64",
+  "timestamp": 1696282829000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nds2-client-0.16.8-h59595ed_7.conda",
+  "version": "0.16.8"
+}

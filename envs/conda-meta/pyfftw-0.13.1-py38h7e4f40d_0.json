@@ -1,0 +1,316 @@
+{
+  "build": "py38h7e4f40d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "numpy >=1.20.3,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/pyfftw-0.13.1-py38h7e4f40d_0",
+  "files": [
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pyfftw/__init__.py",
+    "lib/python3.8/site-packages/pyfftw/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/_version.py",
+    "lib/python3.8/site-packages/pyfftw/builders/__init__.py",
+    "lib/python3.8/site-packages/pyfftw/builders/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/builders/__pycache__/_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/builders/__pycache__/builders.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/builders/_utils.py",
+    "lib/python3.8/site-packages/pyfftw/builders/builders.py",
+    "lib/python3.8/site-packages/pyfftw/config.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__init__.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/cache.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/dask_fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/numpy_fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/scipy_fft.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/scipy_fftpack.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyfftw/interfaces/_utils.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/cache.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/dask_fft.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/numpy_fft.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/scipy_fft.py",
+    "lib/python3.8/site-packages/pyfftw/interfaces/scipy_fftpack.py",
+    "lib/python3.8/site-packages/pyfftw/pyfftw.cpython-38-x86_64-linux-gnu.so"
+  ],
+  "fn": "pyfftw-0.13.1-py38h7e4f40d_0.conda",
+  "license": "BSD or GPL 2",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/pyfftw-0.13.1-py38h7e4f40d_0",
+    "type": 1
+  },
+  "md5": "1b3b3bd27fd5d9a559279d393de6fe5d",
+  "name": "pyfftw",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/pyfftw-0.13.1-py38h7e4f40d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cdd1373cf6a9c06e94663baff9cd6b50d312ee63408e5001d2b6de509947ebdf",
+        "sha256_in_prefix": "cdd1373cf6a9c06e94663baff9cd6b50d312ee63408e5001d2b6de509947ebdf",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f484008a687e4fa39500e9ba79833e33c2b304a5784610045c54ec379a5d7faf",
+        "sha256_in_prefix": "f484008a687e4fa39500e9ba79833e33c2b304a5784610045c54ec379a5d7faf",
+        "size_in_bytes": 2606
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1f5b4d8699b9e219b11f41835f70cebe249b36407e7feb81a5c0463f1ad8de12",
+        "sha256_in_prefix": "1f5b4d8699b9e219b11f41835f70cebe249b36407e7feb81a5c0463f1ad8de12",
+        "size_in_bytes": 2566
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "080bae93ff73cfd4e496f49a28abb20e954c3d2cd4f71595eadd6f2bb282efe0",
+        "sha256_in_prefix": "080bae93ff73cfd4e496f49a28abb20e954c3d2cd4f71595eadd6f2bb282efe0",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0774e1a14075644b496017b30367e58048ba2ae032c379f3f3d68725679bd28b",
+        "sha256_in_prefix": "0774e1a14075644b496017b30367e58048ba2ae032c379f3f3d68725679bd28b",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyFFTW-0.13.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3cb84a8327902a47af69a9d7f168d582a719a35b510b77a38fbdb10b44a4ec54",
+        "sha256_in_prefix": "3cb84a8327902a47af69a9d7f168d582a719a35b510b77a38fbdb10b44a4ec54",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02ccb95922990b8ce2fae09b5813ee6cd6465ef1efa385812a171e2e924c6b91",
+        "sha256_in_prefix": "02ccb95922990b8ce2fae09b5813ee6cd6465ef1efa385812a171e2e924c6b91",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "86a2df826bec89bbfe1c1d0caca3751c3783b50de944b0c07de3a7e4c5d85544",
+        "sha256_in_prefix": "86a2df826bec89bbfe1c1d0caca3751c3783b50de944b0c07de3a7e4c5d85544",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba91cbc38391ff03a2e77883d181fdabc1ddeaec26eca7280a6ff6f5b7d751ff",
+        "sha256_in_prefix": "ba91cbc38391ff03a2e77883d181fdabc1ddeaec26eca7280a6ff6f5b7d751ff",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "72f04a60ee7c17786984dac1e98d0990490b0cb009b8d7dbb3f27c3af2bfa756",
+        "sha256_in_prefix": "72f04a60ee7c17786984dac1e98d0990490b0cb009b8d7dbb3f27c3af2bfa756",
+        "size_in_bytes": 2512
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/_version.py",
+        "path_type": "hardlink",
+        "sha256": "506cc0ad926e6b0306067d2a891c84e07427ebd6cc7d5b8c303d49f358b89ee3",
+        "sha256_in_prefix": "506cc0ad926e6b0306067d2a891c84e07427ebd6cc7d5b8c303d49f358b89ee3",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "653551eca6b2b7cce0c65ba06d339570f929fb8d7a7dd893419cdb217df1b982",
+        "sha256_in_prefix": "653551eca6b2b7cce0c65ba06d339570f929fb8d7a7dd893419cdb217df1b982",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "562c08df41c815c423b4daff481143e18fa15d3b96a263fb04d51692f8593668",
+        "sha256_in_prefix": "562c08df41c815c423b4daff481143e18fa15d3b96a263fb04d51692f8593668",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b419094a9ccd4258f259eb7c3dcdafea72603bb99ded5e85f238bace91237db7",
+        "sha256_in_prefix": "b419094a9ccd4258f259eb7c3dcdafea72603bb99ded5e85f238bace91237db7",
+        "size_in_bytes": 10125
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/__pycache__/builders.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "33e16188970bb647d9acd82d3f68d78e00ec3f857cfb631f8d8dc942691395f9",
+        "sha256_in_prefix": "33e16188970bb647d9acd82d3f68d78e00ec3f857cfb631f8d8dc942691395f9",
+        "size_in_bytes": 18534
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "737773bcf9d7cb07a416d033715fcccb10f4b96cc38a2ae2d756d696e8fe3b9c",
+        "sha256_in_prefix": "737773bcf9d7cb07a416d033715fcccb10f4b96cc38a2ae2d756d696e8fe3b9c",
+        "size_in_bytes": 17611
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/builders/builders.py",
+        "path_type": "hardlink",
+        "sha256": "cd0522f6de02bf4da3ec12e4e85f7254be8188bdc3cd8899e6e8d50c93970f64",
+        "sha256_in_prefix": "cd0522f6de02bf4da3ec12e4e85f7254be8188bdc3cd8899e6e8d50c93970f64",
+        "size_in_bytes": 24188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/config.py",
+        "path_type": "hardlink",
+        "sha256": "21b0bc339245ddf2bc32e9dc0f9dd73aadbe2639370f37554c99c61533da6333",
+        "sha256_in_prefix": "21b0bc339245ddf2bc32e9dc0f9dd73aadbe2639370f37554c99c61533da6333",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "234a7755f4855be21131dc4b57cace3cc86791eb605345c3c277b157f9aaae8d",
+        "sha256_in_prefix": "234a7755f4855be21131dc4b57cace3cc86791eb605345c3c277b157f9aaae8d",
+        "size_in_bytes": 11846
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ff7955d92745f829bbe49779ea9cc0d788a1e96500a15c4d1417f7d8dc17e0a",
+        "sha256_in_prefix": "6ff7955d92745f829bbe49779ea9cc0d788a1e96500a15c4d1417f7d8dc17e0a",
+        "size_in_bytes": 11926
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "69306f49d04fafb087fbe677cdb329716eb9f583422c30adde471f7f13db092a",
+        "sha256_in_prefix": "69306f49d04fafb087fbe677cdb329716eb9f583422c30adde471f7f13db092a",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/cache.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a8434225cf3c981ea13eef7c14fcf534d228cea2077e38847d069d8cf2d55ed",
+        "sha256_in_prefix": "5a8434225cf3c981ea13eef7c14fcf534d228cea2077e38847d069d8cf2d55ed",
+        "size_in_bytes": 6744
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/dask_fft.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f73ea276a6409d49c47e8686f780e9a1551e1baa3a70692a39078b292ba49a96",
+        "sha256_in_prefix": "f73ea276a6409d49c47e8686f780e9a1551e1baa3a70692a39078b292ba49a96",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/numpy_fft.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e4b704c6ae9e676ed60326f79cf1796496cc328666c43963c2ede5d3b6542fb",
+        "sha256_in_prefix": "0e4b704c6ae9e676ed60326f79cf1796496cc328666c43963c2ede5d3b6542fb",
+        "size_in_bytes": 8941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/scipy_fft.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa0d4b116ee62aa5d5a9c9252baf7fe58a7ffc9ae315137d65d332a1c6a26cb7",
+        "sha256_in_prefix": "fa0d4b116ee62aa5d5a9c9252baf7fe58a7ffc9ae315137d65d332a1c6a26cb7",
+        "size_in_bytes": 12593
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/__pycache__/scipy_fftpack.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "90b333bde02160fa34bf12a2d7832fb56f70212f3911723a52fa0c47aece14aa",
+        "sha256_in_prefix": "90b333bde02160fa34bf12a2d7832fb56f70212f3911723a52fa0c47aece14aa",
+        "size_in_bytes": 21924
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "6499cadf73e71ef0a56aed1f22e719fbc04b5e576252242a54569607ad6fee3f",
+        "sha256_in_prefix": "6499cadf73e71ef0a56aed1f22e719fbc04b5e576252242a54569607ad6fee3f",
+        "size_in_bytes": 5766
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/cache.py",
+        "path_type": "hardlink",
+        "sha256": "fcedae1e5aee0d22392a8218e18e6ee91a70e865ce24e47b9f7617151ccaf1b9",
+        "sha256_in_prefix": "fcedae1e5aee0d22392a8218e18e6ee91a70e865ce24e47b9f7617151ccaf1b9",
+        "size_in_bytes": 9270
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/dask_fft.py",
+        "path_type": "hardlink",
+        "sha256": "a250d76a17b0856e2c90e10606fb5e83679dabcfb8d8c658f9b91e0aea39b55e",
+        "sha256_in_prefix": "a250d76a17b0856e2c90e10606fb5e83679dabcfb8d8c658f9b91e0aea39b55e",
+        "size_in_bytes": 3173
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/numpy_fft.py",
+        "path_type": "hardlink",
+        "sha256": "7655f954812f4b2b9fb3e581e84be2ba4592b89db1bd8c8f148c109e0e9653a2",
+        "sha256_in_prefix": "7655f954812f4b2b9fb3e581e84be2ba4592b89db1bd8c8f148c109e0e9653a2",
+        "size_in_bytes": 14195
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/scipy_fft.py",
+        "path_type": "hardlink",
+        "sha256": "3a964374ba10f2ef846b9f5cd4583d391dad166fd00382e3b290dfe06fbd2f9e",
+        "sha256_in_prefix": "3a964374ba10f2ef846b9f5cd4583d391dad166fd00382e3b290dfe06fbd2f9e",
+        "size_in_bytes": 19385
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/interfaces/scipy_fftpack.py",
+        "path_type": "hardlink",
+        "sha256": "0b0eaf54c456b8ef5035b510e4f1ee3d12eafd03ae4576f7a0ed8a5b5f339d38",
+        "sha256_in_prefix": "0b0eaf54c456b8ef5035b510e4f1ee3d12eafd03ae4576f7a0ed8a5b5f339d38",
+        "size_in_bytes": 32646
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyfftw/pyfftw.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "af20a6e25d5a533d40d3782936befee207c2e04ceb1d3a5665f0440b64282499",
+        "sha256_in_prefix": "af20a6e25d5a533d40d3782936befee207c2e04ceb1d3a5665f0440b64282499",
+        "size_in_bytes": 6086736
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "29b1e543a28f4051d58e684948f2f12da7e8fd85b85bdbd4864b36e54b00f416",
+  "size": 2115758,
+  "subdir": "linux-64",
+  "timestamp": 1673618308000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyfftw-0.13.1-py38h7e4f40d_0.conda",
+  "version": "0.13.1"
+}

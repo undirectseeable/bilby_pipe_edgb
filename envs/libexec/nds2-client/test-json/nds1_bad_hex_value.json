@@ -1,0 +1,70 @@
+{
+  "recorded_script": {
+    "type": "compound_multi",
+    "scripts": [
+      {
+        "type": "compound",
+        "scripts": [
+          {
+            "command": "version;\n",
+            "response": "0000000c",
+            "type": "script"
+          },
+          {
+            "command": "revision;\n",
+            "response": "00000001",
+            "type": "script"
+          },
+          {
+            "command": "status channels 2;\n",
+            "response": "at least eight bytes data that is not hex encoded in ascii",
+            "type": "script"
+          }
+        ]
+      },
+
+
+      {
+        "type": "compound",
+        "scripts": [
+          {
+            "type": "command",
+            "action": "import",
+            "args": ["nds1"]
+          },
+          {
+            "type": "command",
+            "action": "nds1.register_chan",
+            "args": ["X1:PEM-1", 256, 4, 0, 0, "Undef", 1, 1, 0]
+          },
+          {
+            "command": "version;\n",
+            "response": "0000000c",
+            "type": "script"
+          },
+          {
+            "command": "revision;\n",
+            "response": "00000001",
+            "type": "script"
+          },
+          {
+            "command": "status channels 2;\n",
+            "response": "000000000001",
+            "type": "script"
+          },
+          {
+            "type": "command",
+            "action": "nds1.gen_sc2_12_1",
+            "args": ["X1:PEM-1"]
+          },
+
+          {
+            "command": "quit;\n",
+            "type": "script",
+            "response": ""
+          }
+        ]
+      }
+    ]
+  }
+}

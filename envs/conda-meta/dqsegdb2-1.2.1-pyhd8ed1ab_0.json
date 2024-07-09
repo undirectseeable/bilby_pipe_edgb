@@ -1,0 +1,218 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "igwn-auth-utils >=1.0.0",
+    "ligo-segments >=1.0.0",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/dqsegdb2-1.2.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/dqsegdb2-1.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/dqsegdb2/__init__.py",
+    "lib/python3.8/site-packages/dqsegdb2/_version.py",
+    "lib/python3.8/site-packages/dqsegdb2/api.py",
+    "lib/python3.8/site-packages/dqsegdb2/query.py",
+    "lib/python3.8/site-packages/dqsegdb2/requests.py",
+    "lib/python3.8/site-packages/dqsegdb2/tests/__init__.py",
+    "lib/python3.8/site-packages/dqsegdb2/tests/test_api.py",
+    "lib/python3.8/site-packages/dqsegdb2/tests/test_query.py",
+    "lib/python3.8/site-packages/dqsegdb2/utils.py",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/query.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/requests.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/test_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/test_query.cpython-38.pyc",
+    "lib/python3.8/site-packages/dqsegdb2/__pycache__/utils.cpython-38.pyc"
+  ],
+  "fn": "dqsegdb2-1.2.1-pyhd8ed1ab_0.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/dqsegdb2-1.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a82cee43e83f7154aaa178cd5594282f",
+  "name": "dqsegdb2",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/dqsegdb2-1.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "09c03757b652e514d4891e0f041b51ac2c714cc90076ce449d8e448f834e27ff",
+        "sha256_in_prefix": "09c03757b652e514d4891e0f041b51ac2c714cc90076ce449d8e448f834e27ff",
+        "size_in_bytes": 33095
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d0320662e62fd9576239616320e337140ed8949e54f6915acad6fafac126c86b",
+        "sha256_in_prefix": "d0320662e62fd9576239616320e337140ed8949e54f6915acad6fafac126c86b",
+        "size_in_bytes": 3596
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f824dbd08effda341ecc2e2ad77cf8a787f155af0e7e47710abe2dedcd536e90",
+        "sha256_in_prefix": "f824dbd08effda341ecc2e2ad77cf8a787f155af0e7e47710abe2dedcd536e90",
+        "size_in_bytes": 1831
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "31b52460538d3d0388725db66ce313a053dd7a3194b9bfa25e6053290e38453b",
+        "sha256_in_prefix": "31b52460538d3d0388725db66ce313a053dd7a3194b9bfa25e6053290e38453b",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/dqsegdb2-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e2390b82a02e3733495103e26dc8759aaa782c2a8134986ab81ab16657f911cd",
+        "sha256_in_prefix": "e2390b82a02e3733495103e26dc8759aaa782c2a8134986ab81ab16657f911cd",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/dqsegdb2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01c93aad4d94e63e28b95835815d87cb33380ff711306afda5267b217ba4bbaf",
+        "sha256_in_prefix": "01c93aad4d94e63e28b95835815d87cb33380ff711306afda5267b217ba4bbaf",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "site-packages/dqsegdb2/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a2c146b3aaa6944b61d17bb6307207a0285f5dc8fc3545b884b58312efb5fcae",
+        "sha256_in_prefix": "a2c146b3aaa6944b61d17bb6307207a0285f5dc8fc3545b884b58312efb5fcae",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/dqsegdb2/api.py",
+        "path_type": "hardlink",
+        "sha256": "d7eac49c44c6cabdf23f2e673d0cbb7606c05337e3c22491480655dd4c9a1216",
+        "sha256_in_prefix": "d7eac49c44c6cabdf23f2e673d0cbb7606c05337e3c22491480655dd4c9a1216",
+        "size_in_bytes": 9155
+      },
+      {
+        "_path": "site-packages/dqsegdb2/query.py",
+        "path_type": "hardlink",
+        "sha256": "3bb228ca190b04819023d530a16d03e603ca23f6e9db70938f90ab8ffe7f4dba",
+        "sha256_in_prefix": "3bb228ca190b04819023d530a16d03e603ca23f6e9db70938f90ab8ffe7f4dba",
+        "size_in_bytes": 10144
+      },
+      {
+        "_path": "site-packages/dqsegdb2/requests.py",
+        "path_type": "hardlink",
+        "sha256": "2ba238ec24738ad344c014268a9da3ea801736fd01e85eb818a2ace0313492cd",
+        "sha256_in_prefix": "2ba238ec24738ad344c014268a9da3ea801736fd01e85eb818a2ace0313492cd",
+        "size_in_bytes": 1708
+      },
+      {
+        "_path": "site-packages/dqsegdb2/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4402f39aaeba8e6cd2c017abd83a076e53130a8a69e878d65900db54bebd32c",
+        "sha256_in_prefix": "e4402f39aaeba8e6cd2c017abd83a076e53130a8a69e878d65900db54bebd32c",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "site-packages/dqsegdb2/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "972c865491bc5a594c78ad61c231cc6824917b00e577b0a98b2f1d9746b5c866",
+        "sha256_in_prefix": "972c865491bc5a594c78ad61c231cc6824917b00e577b0a98b2f1d9746b5c866",
+        "size_in_bytes": 3202
+      },
+      {
+        "_path": "site-packages/dqsegdb2/tests/test_query.py",
+        "path_type": "hardlink",
+        "sha256": "3b61632bb0564da575e74e7bb41a41721bb88d8afaad4fded255ccc36f8f4d6e",
+        "sha256_in_prefix": "3b61632bb0564da575e74e7bb41a41721bb88d8afaad4fded255ccc36f8f4d6e",
+        "size_in_bytes": 4557
+      },
+      {
+        "_path": "site-packages/dqsegdb2/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a2c92226f8f3ef81227b0d8d02cca51755b028f45cc9edeeb099a99f4701ce2c",
+        "sha256_in_prefix": "a2c92226f8f3ef81227b0d8d02cca51755b028f45cc9edeeb099a99f4701ce2c",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/_version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/query.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/requests.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/test_api.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/tests/__pycache__/test_query.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/dqsegdb2/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0e6b3d8d29d2259c5b0126674ee3082aee2b5e39b6eec58a21683467e3ed9ad1",
+  "size": 26582,
+  "subdir": "noarch",
+  "timestamp": 1692955300000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dqsegdb2-1.2.1-pyhd8ed1ab_0.conda",
+  "version": "1.2.1"
+}

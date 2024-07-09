@@ -1,0 +1,87 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "type": "command",
+                "action": "import",
+                "args": ["nds2"]
+            },
+            {
+                "type": "command",
+                "action": "nds2.register_chan",
+                "args": [0, "X1:PEM-1", "raw", 256, "real_4"]
+            },
+            {
+                "type": "command",
+                "action": "nds2.register_chan",
+                "args": [1, "X1:PEM-2", "raw", 256, "real_4"]
+            },
+            {
+                "type": "command",
+                "action": "nds2.register_chan",
+                "args": [2, "X1:PEM-3", "raw", 256, "real_4"]
+            },
+            {
+                "type": "command",
+                "action": "nds2.register_chan",
+                "args": [3, "X1:PEM-1", "s-trend", 1, "real_4"]
+            },
+            {
+                "type": "command",
+                "action": "nds2.register_chan",
+                "args": [4, "X1:PEM-2", "s-trend", 1, "real_4"]
+            },
+            {
+                "command": "authorize\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "server-protocol-version;\n", 
+                "response_hex": "3030303000000001", 
+                "type": "script"
+            },
+            {
+                "type": "command",
+                "action": "nds2.revision",
+                "args": []
+            },
+            {
+                "command": "get-channels 0 unknown;\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "type": "command",
+                "action": "nds2.get-channels",
+                "args": [0, 1, 2, 3, 4]
+            },
+            {
+                "command": "get-channels 0 unknown {X1*1};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "type": "command",
+                "action": "nds2.get-channels",
+                "args": [0, 3]
+            },
+            {
+                "command": "get-channels 0 s-trend {X1*};\n", 
+                "type": "script", 
+                "response": "0000"
+            },
+            {
+                "type": "command",
+                "action": "nds2.get-channels",
+                "args": [3, 4]
+            },
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

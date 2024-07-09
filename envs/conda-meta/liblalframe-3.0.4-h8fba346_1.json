@@ -1,0 +1,153 @@
+{
+  "build": "h8fba346_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "lalframe >=1.5.3",
+    "python-lalframe >=1.5.3"
+  ],
+  "depends": [
+    "ldas-tools-framecpp >=2.9.3,<2.10.0a0",
+    "libframel >=8.41.3,<9.0a0",
+    "libgcc-ng >=12",
+    "liblal >=7.5.0,<8.0a0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/liblalframe-3.0.4-h8fba346_1",
+  "files": [
+    "include/lal/LALFrStream.h",
+    "include/lal/LALFrameConfig.h",
+    "include/lal/LALFrameIO.h",
+    "include/lal/LALFrameU.h",
+    "include/lal/LALFrameVCSInfo.h",
+    "include/lal/LALFrameVCSInfoHeader.h",
+    "include/lal/SWIGLALFrameAlpha.i",
+    "include/lal/SWIGLALFrameOmega.i",
+    "include/lal/SWIGLALFrameTest.h",
+    "include/lal/swiglalframe.i",
+    "lib/liblalframe.so",
+    "lib/liblalframe.so.14",
+    "lib/liblalframe.so.14.0.1",
+    "lib/pkgconfig/lalframe.pc"
+  ],
+  "fn": "liblalframe-3.0.4-h8fba346_1.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/liblalframe-3.0.4-h8fba346_1",
+    "type": 1
+  },
+  "md5": "cbfc599cd6bad3daed6365b4a08c9050",
+  "name": "liblalframe",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/liblalframe-3.0.4-h8fba346_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/lal/LALFrStream.h",
+        "path_type": "hardlink",
+        "sha256": "8aaac14d8616be62b9de5b267aae60475fcfdff0bcfe56801a6ff26ca1c36e98",
+        "sha256_in_prefix": "8aaac14d8616be62b9de5b267aae60475fcfdff0bcfe56801a6ff26ca1c36e98",
+        "size_in_bytes": 15533
+      },
+      {
+        "_path": "include/lal/LALFrameConfig.h",
+        "path_type": "hardlink",
+        "sha256": "d2e638ec4dcc9f297b79b05272e0acdd985ee8b9a2cc147ed17bad03f8db36ef",
+        "sha256_in_prefix": "d2e638ec4dcc9f297b79b05272e0acdd985ee8b9a2cc147ed17bad03f8db36ef",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "include/lal/LALFrameIO.h",
+        "path_type": "hardlink",
+        "sha256": "d9f2cc8e0991847215cbfd64210a59acd5c9550c0e7866c586aff22b5feddfbc",
+        "sha256_in_prefix": "d9f2cc8e0991847215cbfd64210a59acd5c9550c0e7866c586aff22b5feddfbc",
+        "size_in_bytes": 57012
+      },
+      {
+        "_path": "include/lal/LALFrameU.h",
+        "path_type": "hardlink",
+        "sha256": "b26596b753fdb96a5b520624a461460ceb95155fa66429eedc21f827e56ac691",
+        "sha256_in_prefix": "b26596b753fdb96a5b520624a461460ceb95155fa66429eedc21f827e56ac691",
+        "size_in_bytes": 58620
+      },
+      {
+        "_path": "include/lal/LALFrameVCSInfo.h",
+        "path_type": "hardlink",
+        "sha256": "8ce4f4e890223c25a871f414e041644ad70c77f9192d57108f2b0fd6135a82e2",
+        "sha256_in_prefix": "8ce4f4e890223c25a871f414e041644ad70c77f9192d57108f2b0fd6135a82e2",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "include/lal/LALFrameVCSInfoHeader.h",
+        "path_type": "hardlink",
+        "sha256": "ce5a37b1ed7943bfad34a131014afa9885531b5102431196487afa7dd99f3538",
+        "sha256_in_prefix": "ce5a37b1ed7943bfad34a131014afa9885531b5102431196487afa7dd99f3538",
+        "size_in_bytes": 1921
+      },
+      {
+        "_path": "include/lal/SWIGLALFrameAlpha.i",
+        "path_type": "hardlink",
+        "sha256": "d26c5cf70af902cbe1bbe7b0c6e6fd797ca6d05aec847d76c6d1de516ba4afb7",
+        "sha256_in_prefix": "d26c5cf70af902cbe1bbe7b0c6e6fd797ca6d05aec847d76c6d1de516ba4afb7",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "include/lal/SWIGLALFrameOmega.i",
+        "path_type": "hardlink",
+        "sha256": "f93a3740397673995290282335c0bc9057848d65bec7af65b1b7a62c7cab3a97",
+        "sha256_in_prefix": "f93a3740397673995290282335c0bc9057848d65bec7af65b1b7a62c7cab3a97",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "include/lal/SWIGLALFrameTest.h",
+        "path_type": "hardlink",
+        "sha256": "72f5ee8d017414e9f0d5f233f98e67ae502c1ea0e1f89391ab5a63ef9add8687",
+        "sha256_in_prefix": "72f5ee8d017414e9f0d5f233f98e67ae502c1ea0e1f89391ab5a63ef9add8687",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "include/lal/swiglalframe.i",
+        "path_type": "hardlink",
+        "sha256": "f255586f95290a505d8bb174632560f1e90b12ce996c324e7cae0e5f8a42af13",
+        "sha256_in_prefix": "f255586f95290a505d8bb174632560f1e90b12ce996c324e7cae0e5f8a42af13",
+        "size_in_bytes": 39319
+      },
+      {
+        "_path": "lib/liblalframe.so",
+        "path_type": "softlink",
+        "sha256": "2d77514bc9226557c656f8edce5b7c3fd98a6bd306c7dd17e798d403410761da",
+        "size_in_bytes": 968920
+      },
+      {
+        "_path": "lib/liblalframe.so.14",
+        "path_type": "softlink",
+        "sha256": "2d77514bc9226557c656f8edce5b7c3fd98a6bd306c7dd17e798d403410761da",
+        "size_in_bytes": 968920
+      },
+      {
+        "_path": "lib/liblalframe.so.14.0.1",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalframe-split_1711652535256/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2d77514bc9226557c656f8edce5b7c3fd98a6bd306c7dd17e798d403410761da",
+        "sha256_in_prefix": "0ccdabf6400f9f1e06e08ed61e4bba134949e885bdf2dce4f87c4e268a3d19c9",
+        "size_in_bytes": 968920
+      },
+      {
+        "_path": "lib/pkgconfig/lalframe.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalframe-split_1711652535256/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "788448142d083f231dd01b3216d6c4fd82ff3e6feecfc707b96390ef3648a699",
+        "sha256_in_prefix": "29492b61ab2b39ba5dcf01956d4a9cbe7173c346ccc435387b00727d697ba65a",
+        "size_in_bytes": 522
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "493e8dc85ca556bd4d05b86f0dcbdfc87dfc899eb747bab5946ef276b0b16445",
+  "size": 251454,
+  "subdir": "linux-64",
+  "timestamp": 1711652800000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalframe-3.0.4-h8fba346_1.conda",
+  "version": "3.0.4"
+}

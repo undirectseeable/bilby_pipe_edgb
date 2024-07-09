@@ -1,0 +1,191 @@
+{
+  "build": "h0c602a9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python-lalburst >=1.5.7",
+    "lalburst >=1.5.7"
+  ],
+  "depends": [
+    "gsl >=2.7,<2.8.0a0",
+    "libgcc-ng >=12",
+    "liblal >=7.5.0",
+    "liblal >=7.5.0,<8.0a0",
+    "liblalmetaio >=4.0.0",
+    "liblalmetaio >=4.0.4,<5.0a0",
+    "liblalsimulation >=5.4.0",
+    "liblalsimulation >=5.4.0,<6.0a0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/liblalburst-2.0.4-h0c602a9_0",
+  "files": [
+    "etc/conda/activate.d/activate_liblalburst.sh",
+    "etc/conda/deactivate.d/deactivate_liblalburst.sh",
+    "include/lal/EPSearch.h",
+    "include/lal/GenerateBurst.h",
+    "include/lal/LALBurstConfig.h",
+    "include/lal/LALBurstVCSInfo.h",
+    "include/lal/LALBurstVCSInfoHeader.h",
+    "include/lal/SWIGLALBurstAlpha.i",
+    "include/lal/SWIGLALBurstOmega.i",
+    "include/lal/SWIGLALBurstTest.h",
+    "include/lal/SnglBurstUtils.h",
+    "include/lal/cs_cosmo.h",
+    "include/lal/cs_lambda_cosmo.h",
+    "include/lal/swiglalburst.i",
+    "lib/liblalburst.so",
+    "lib/liblalburst.so.8",
+    "lib/liblalburst.so.8.0.0",
+    "lib/pkgconfig/lalburst.pc"
+  ],
+  "fn": "liblalburst-2.0.4-h0c602a9_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/liblalburst-2.0.4-h0c602a9_0",
+    "type": 1
+  },
+  "md5": "c39b5d69e552a95d24f2975489f0af9c",
+  "name": "liblalburst",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/liblalburst-2.0.4-h0c602a9_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate_liblalburst.sh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "aac7b5aa675a7788536075297621657eba37045405137e49af182ebcad648c04",
+        "sha256_in_prefix": "3570e049864bb60469c9720a29440da4e9110efca1b9da47d9c846b9b803762e",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate_liblalburst.sh",
+        "path_type": "hardlink",
+        "sha256": "ca882e989b30da8ad50ceb835d42667b540e50e03a0a7c84afbb6f275660aed0",
+        "sha256_in_prefix": "ca882e989b30da8ad50ceb835d42667b540e50e03a0a7c84afbb6f275660aed0",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "include/lal/EPSearch.h",
+        "path_type": "hardlink",
+        "sha256": "0a3a7acaf185a89c0ab53774c7c256d0e53709477c03f279454ba82f59c8c3ad",
+        "sha256_in_prefix": "0a3a7acaf185a89c0ab53774c7c256d0e53709477c03f279454ba82f59c8c3ad",
+        "size_in_bytes": 6452
+      },
+      {
+        "_path": "include/lal/GenerateBurst.h",
+        "path_type": "hardlink",
+        "sha256": "5516693f2be3fda0798609d13d4e603344691f9ff651a2cb1c51cb8f4bce2c86",
+        "sha256_in_prefix": "5516693f2be3fda0798609d13d4e603344691f9ff651a2cb1c51cb8f4bce2c86",
+        "size_in_bytes": 1999
+      },
+      {
+        "_path": "include/lal/LALBurstConfig.h",
+        "path_type": "hardlink",
+        "sha256": "f63c0d55a9682dd334c5c8d527e069b7dcf3a0dd60df8bde5c78766a0b212810",
+        "sha256_in_prefix": "f63c0d55a9682dd334c5c8d527e069b7dcf3a0dd60df8bde5c78766a0b212810",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "include/lal/LALBurstVCSInfo.h",
+        "path_type": "hardlink",
+        "sha256": "ea74fee892a34ccb30e617a1693beae9764698996cd33066e6c379e130b65ec4",
+        "sha256_in_prefix": "ea74fee892a34ccb30e617a1693beae9764698996cd33066e6c379e130b65ec4",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "include/lal/LALBurstVCSInfoHeader.h",
+        "path_type": "hardlink",
+        "sha256": "2f312284a45271c769aa9764dabc34796127325227d3b163c6f4bb2cbdd34751",
+        "sha256_in_prefix": "2f312284a45271c769aa9764dabc34796127325227d3b163c6f4bb2cbdd34751",
+        "size_in_bytes": 1921
+      },
+      {
+        "_path": "include/lal/SWIGLALBurstAlpha.i",
+        "path_type": "hardlink",
+        "sha256": "25541d5027801be4ee335348e86930d2a7b305388e81ba16a52707d74fd069ce",
+        "sha256_in_prefix": "25541d5027801be4ee335348e86930d2a7b305388e81ba16a52707d74fd069ce",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "include/lal/SWIGLALBurstOmega.i",
+        "path_type": "hardlink",
+        "sha256": "fc47dfaa47ff809991f0d857866e061746625254ea4448b4da3fe55710f644ea",
+        "sha256_in_prefix": "fc47dfaa47ff809991f0d857866e061746625254ea4448b4da3fe55710f644ea",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "include/lal/SWIGLALBurstTest.h",
+        "path_type": "hardlink",
+        "sha256": "ce02db86f893a24160e51990b62218861661eb0c2cd96dfc90ee41ce293e27da",
+        "sha256_in_prefix": "ce02db86f893a24160e51990b62218861661eb0c2cd96dfc90ee41ce293e27da",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "include/lal/SnglBurstUtils.h",
+        "path_type": "hardlink",
+        "sha256": "eb4fef31dc9401cf8325b37f38efc6f9edc0347f8b88aeefb4aeff06c6d6d084",
+        "sha256_in_prefix": "eb4fef31dc9401cf8325b37f38efc6f9edc0347f8b88aeefb4aeff06c6d6d084",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "include/lal/cs_cosmo.h",
+        "path_type": "hardlink",
+        "sha256": "42e513670ab862af3d81b390da23c2e5ba0d82e10b6bf9d185b95f0d7b88e4d4",
+        "sha256_in_prefix": "42e513670ab862af3d81b390da23c2e5ba0d82e10b6bf9d185b95f0d7b88e4d4",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "include/lal/cs_lambda_cosmo.h",
+        "path_type": "hardlink",
+        "sha256": "9374e2bbd96ed965ecb9e36025913cf6ee1d83259571299d2708daadc22b5a80",
+        "sha256_in_prefix": "9374e2bbd96ed965ecb9e36025913cf6ee1d83259571299d2708daadc22b5a80",
+        "size_in_bytes": 1885
+      },
+      {
+        "_path": "include/lal/swiglalburst.i",
+        "path_type": "hardlink",
+        "sha256": "96f571e52b3e0b6867af2d97a068b3b3903fb107d0e678dc74b4526ff3bf008a",
+        "sha256_in_prefix": "96f571e52b3e0b6867af2d97a068b3b3903fb107d0e678dc74b4526ff3bf008a",
+        "size_in_bytes": 3504
+      },
+      {
+        "_path": "lib/liblalburst.so",
+        "path_type": "softlink",
+        "sha256": "e1b8c59e3f126f159c1c1eb80c13c74bbf32c197b52687938feaf7026103f1d9",
+        "size_in_bytes": 145000
+      },
+      {
+        "_path": "lib/liblalburst.so.8",
+        "path_type": "softlink",
+        "sha256": "e1b8c59e3f126f159c1c1eb80c13c74bbf32c197b52687938feaf7026103f1d9",
+        "size_in_bytes": 145000
+      },
+      {
+        "_path": "lib/liblalburst.so.8.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalburst-split_1711715251392/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e1b8c59e3f126f159c1c1eb80c13c74bbf32c197b52687938feaf7026103f1d9",
+        "sha256_in_prefix": "99472cee5ad52e326bb8e0e4d06d5407c06ebef7a933ca2eea1ec2a6e9a58b4a",
+        "size_in_bytes": 145000
+      },
+      {
+        "_path": "lib/pkgconfig/lalburst.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalburst-split_1711715251392/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ad4f1e9803c2740b279c754ea52f8d694433e26fe8c295184712e91e23c40d05",
+        "sha256_in_prefix": "4adea7cbc6c50b8ea4e4c99aa4dfa87eef7d60cc76b431d82586f672c9f3dd3b",
+        "size_in_bytes": 554
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2da9ec822bcaa014b86a293166cd17436b441498dc601d2a2c9c29524bf8195e",
+  "size": 73649,
+  "subdir": "linux-64",
+  "timestamp": 1711715556000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblalburst-2.0.4-h0c602a9_0.conda",
+  "version": "2.0.4"
+}

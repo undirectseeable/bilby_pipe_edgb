@@ -1,0 +1,46 @@
+.TH nds2-tunnel 1 "November 24, 2013" "" "nds2-tunnel (deprecated)"
+
+.SH NAME
+nds2-tunnel \- program for...
+
+.SH SYNOPSIS
+.B nds2-tunnel <host> [<port>]
+.RI [ options ]
+  <host> the name or ip address of the remote NDS2 server
+  <port> - defaults to 31200 the common NDS2 port only needed if the server is listening  on a non-standard port.
+.br
+.LP
+A convenience function for opening an ssh tunnel to an open NDS2 server which only listens on localhost. If no port is given the standard 31200 is used for port numbeer.
+
+
+.LP
+
+The mailing list monitored by the NDS development team is the best place to send questions, comments, and suggestions: <nds-discuss@ligo.org>
+
+.LP
+The complete documentation is maintainted at <https://www.lsc-group.phys.uwm.edu/daswg/projects/nds-client/>
+
+.SH LICENSE
+.if n NDS2 software is release under the GNU General Public License version 3 or later see: <http://www.gnu.org/licenses/>
+
+
+.SH DESCRIPTION
+When unauthenticated server (one that does not use Kerberos) it will only listen on localhost.  In these cases only clients that are logged into the server's system can interact with the server. Using an ssh tunnel from remote clients.
+
+For example if an uauthenticated server is installed at ldas-pcdev4.ligo.caltech.edu and you can ssh into that machine entering ns2-tunnel ldas-pcdev4.ligo.caltech.edu will allow you to use localhost as the host address for subsequent nds2 programs or library calls.
+
+This utility has been deprecated and may be removed in a future release.  
+
+
+.SH NOTES
+
+The functionality of this script can be done with a single ssh command of the form:
+
+  ssh -N <server> -L <port>:localhost:<port> &
+
+  or
+
+  gsissh -N <server> -L <port>:localhost:<port> &
+.SH "SEE ALSO"
+
+

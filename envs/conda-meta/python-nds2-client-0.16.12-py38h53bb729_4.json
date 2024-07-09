@@ -1,0 +1,75 @@
+{
+  "build": "py38h53bb729_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "nds2-client >=0.16.8",
+    "nds2-client >=0.16.8,<0.17.0a0",
+    "numpy >=1.22.4,<2.0a0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-nds2-client-0.16.12-py38h53bb729_4",
+  "files": [
+    "etc/nds2-client/nds2-client-py38.cfg",
+    "lib/python3.8/site-packages/__pycache__/nds2.cpython-38.pyc",
+    "lib/python3.8/site-packages/_nds2.so",
+    "lib/python3.8/site-packages/nds2.py"
+  ],
+  "fn": "python-nds2-client-0.16.12-py38h53bb729_4.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-nds2-client-0.16.12-py38h53bb729_4",
+    "type": 1
+  },
+  "md5": "08be9182c7064d6680086764ee0ed044",
+  "name": "python-nds2-client",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-nds2-client-0.16.12-py38h53bb729_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/nds2-client/nds2-client-py38.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client-swig_1696329041474/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b7e14c22d0455a5ba964d050b384fe1c1fbbb448f178a17777778a33b6840c5c",
+        "sha256_in_prefix": "1141c53f5721a87bada2a731bc668729b6acb73aa6ce661a4bc572ad8c86dfbb",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "lib/python3.8/site-packages/__pycache__/nds2.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aed11a77316f44e44f5ae8ad5ce0bb208acda2f100ccb7a41f9deccebe69ef99",
+        "sha256_in_prefix": "aed11a77316f44e44f5ae8ad5ce0bb208acda2f100ccb7a41f9deccebe69ef99",
+        "size_in_bytes": 64658
+      },
+      {
+        "_path": "lib/python3.8/site-packages/_nds2.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/nds2-client-swig_1696329041474/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "0876908e9628bc1fb66ceb06b90a9f486d9584a3cdcc8a846aa729b649b0adb5",
+        "sha256_in_prefix": "171cc7d5d54d4342d2894abb08d93b4568ab9b7407bc9cecca3b17c5d2e1db35",
+        "size_in_bytes": 12596576
+      },
+      {
+        "_path": "lib/python3.8/site-packages/nds2.py",
+        "path_type": "hardlink",
+        "sha256": "fab4716530fd81c92f7b1d3154b025e24ab854252bdc50a20663259995d2a947",
+        "sha256_in_prefix": "fab4716530fd81c92f7b1d3154b025e24ab854252bdc50a20663259995d2a947",
+        "size_in_bytes": 80524
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "195cfc82c55e76e49b19def4c3424a801caa9786ba139f06ab2b25bb460b51ff",
+  "size": 2698964,
+  "subdir": "linux-64",
+  "timestamp": 1696329457000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-nds2-client-0.16.12-py38h53bb729_4.conda",
+  "version": "0.16.12"
+}

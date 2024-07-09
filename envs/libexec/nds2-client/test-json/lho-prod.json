@@ -1,0 +1,82 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "command": "version;\n", 
+                "type": "script", 
+                "response": "0000000c"
+            }, 
+            {
+                "command": "revision;\n", 
+                "type": "script", 
+                "response": "00000001"
+            }, 
+            {
+                "command": "status channels 2;\n", 
+                "type": "script", 
+                "response_blob": "d59b8039593606bb3befa0155f6afd9aa1cff715"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_BIO_ENCODE_DIO_0_OUT\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_BIO_ENCODE_DIO_0_OUT\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_BIO_M1_MSDELAYON\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_BIO_M1_MSDELAYON\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_COMMISH_STATUS\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_COMMISH_STATUS\n16\n2\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DACKILL_BYPASS_TIMEMON\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DACKILL_BYPASS_TIMEMON\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DCU_ID\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DCU_ID\n16\n2\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DITHERP2EUL_1_1\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DITHERP2EUL_1_1\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DITHERP2EUL_2_1\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DITHERP2EUL_2_1\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DITHERY2EUL_1_1\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DITHERY2EUL_1_1\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DITHERY2EUL_2_1\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DITHERY2EUL_2_1\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "status channels 3 {\"H1:SUS-BS_DITHER_P_IPCERR\"};\n", 
+                "type": "script", 
+                "response": "H1:SUS-BS_DITHER_P_IPCERR\n16\n4\n0\n0\nundef\n1\n1\n0\n"
+            }, 
+            {
+                "command": "start net-writer 1108835634 4 {\"H1:SUS-BS_BIO_ENCODE_DIO_0_OUT\" \"H1:SUS-BS_BIO_M1_MSDELAYON\" \"H1:SUS-BS_COMMISH_STATUS\" \"H1:SUS-BS_DACKILL_BYPASS_TIMEMON\" \"H1:SUS-BS_DCU_ID\" \"H1:SUS-BS_DITHERP2EUL_1_1\" \"H1:SUS-BS_DITHERP2EUL_2_1\" \"H1:SUS-BS_DITHERY2EUL_1_1\" \"H1:SUS-BS_DITHERY2EUL_2_1\" \"H1:SUS-BS_DITHER_P_IPCERR\"};\n", 
+                "type": "script", 
+                "response_blob": "aba4642dcae2c7cacdc102117a63369f26732b3c"
+            }, 
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

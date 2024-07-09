@@ -1,0 +1,53 @@
+{
+    "recorded_script": {
+        "type": "compound", 
+        "scripts": [
+            {
+                "type": "command",
+                "action": "import",
+                "args": ["nds2"]
+            },
+            {
+                "command": "authorize\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "server-protocol-version;\n", 
+                "response_hex": "3030303000000001", 
+                "type": "script"
+            },
+            {
+                "type": "command",
+                "action": "nds2.revision",
+                "args": []
+            },
+            {
+                "command": "check-data 1163880064 1163880094 {H1:DAQ-BCST0_FAST_DATA_CRC};\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "check-data 1163880064 1163880094 {H1:DAQ-BCST0_FAST_DATA_CRC};\n", 
+                "type": "script", 
+                "response": "0000"
+            }, 
+            {
+                "command": "get-data 1163880064 1163880094 30 {H1:DAQ-BCST0_FAST_DATA_CRC};\n", 
+                "type": "script", 
+                "response": ""
+            },
+            {
+                "type": "command",
+                "action": "nds2.translate_nds2_1_5_get_data_block",
+                "args": [],
+                "response_blob": "eee8929196c798f77581ebf6ac75590d85230b37"
+            },
+            {
+                "command": "quit;\n", 
+                "type": "script", 
+                "response": ""
+            }
+        ]
+    }
+}

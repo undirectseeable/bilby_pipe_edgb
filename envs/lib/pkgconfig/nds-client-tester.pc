@@ -1,0 +1,17 @@
+#------------------------------------------------------------------------
+# Global variables
+#------------------------------------------------------------------------
+libdir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/nds2-client/ndswrapcxx
+includedir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include/nds2-client
+libexecdir=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/libexec
+#------------------------------------------------------------------------
+#
+#------------------------------------------------------------------------
+PROG_NDS_TESTER="${libexecdir}/nds2-client/nds_tester.py"
+ABS_TESTERDIR="${libexecdir}/nds2-client"
+#------------------------------------------------------------------------
+# Description of the package
+#------------------------------------------------------------------------
+Name: nds-client-tester
+Description: Testing scripts for NDS
+Version: 0.16.8

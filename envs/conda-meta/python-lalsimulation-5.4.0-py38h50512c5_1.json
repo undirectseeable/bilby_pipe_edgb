@@ -1,0 +1,456 @@
+{
+  "build": "py38h50512c5_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "_openmp_mutex >=4.5",
+    "astropy",
+    "gsl >=2.7,<2.8.0a0",
+    "gwpy",
+    "libgcc-ng >=12",
+    "liblal >=7.5.0",
+    "liblal >=7.5.0,<8.0a0",
+    "liblalsimulation 5.4.0 py38h0404125_1",
+    "mpmath >=1.0.0",
+    "numpy",
+    "python >=3.8,<3.9.0a0",
+    "python-lal >=7.5.0",
+    "python_abi 3.8.* *_cp38",
+    "scipy"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-lalsimulation-5.4.0-py38h50512c5_1",
+  "files": [
+    "lib/python3.8/site-packages/lalsimulation/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/__pycache__/git_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/__pycache__/lalsimulation.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/_lalsimulation.so",
+    "lib/python3.8/site-packages/lalsimulation/git_version.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/conditioning_subroutines.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/gw.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/parameter_conventions.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/waveform.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/waveform_conditioning.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/conditioning_subroutines.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/errors.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/gw.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/parameter_conventions.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/utils.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/waveform.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/core/waveform_conditioning.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__pycache__/pyseobnr_model.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/gwsignal/models/pyseobnr_model.py",
+    "lib/python3.8/site-packages/lalsimulation/lalsimulation.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/NRSur3dq8Remnant.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/NRSur7dq4Remnant.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/NRSur3dq8Remnant.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/NRSur7dq4Remnant.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/eval_fits.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/nrfits.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/pn_spin_evolution_wrapper.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/quaternion_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/eval_fits.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/nrfits.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/pn_spin_evolution_wrapper.py",
+    "lib/python3.8/site-packages/lalsimulation/nrfits/quaternion_utils.py",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__init__.py",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/calc_tilts_prec_avg_regularized.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/hybrid_spin_evolution.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/tilts_at_infinity_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/calc_tilts_prec_avg_regularized.py",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/hybrid_spin_evolution.py",
+    "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/tilts_at_infinity_utils.py"
+  ],
+  "fn": "python-lalsimulation-5.4.0-py38h50512c5_1.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-lalsimulation-5.4.0-py38h50512c5_1",
+    "type": 1
+  },
+  "md5": "1c57589997af633ce6f542bdc425244d",
+  "name": "python-lalsimulation",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-lalsimulation-5.4.0-py38h50512c5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6083bd6755c5b944f88f092d280eca7bb44eadd7b7844a28cfd01c01adbd5154",
+        "sha256_in_prefix": "6083bd6755c5b944f88f092d280eca7bb44eadd7b7844a28cfd01c01adbd5154",
+        "size_in_bytes": 204
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2857192b05f117e58666767aa03b43b982f624d7bf547b5881294adc59ee5e5",
+        "sha256_in_prefix": "e2857192b05f117e58666767aa03b43b982f624d7bf547b5881294adc59ee5e5",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/__pycache__/git_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "787efe0568c66f9d7b140df5ffc0c48ee1d0df0a060d3d3f438b1f5540e5818f",
+        "sha256_in_prefix": "787efe0568c66f9d7b140df5ffc0c48ee1d0df0a060d3d3f438b1f5540e5818f",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/__pycache__/lalsimulation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee3d9c9dc4d519ccf4feefc6561650a3bcb24de4cbad1df4c6d583bfab820ab1",
+        "sha256_in_prefix": "ee3d9c9dc4d519ccf4feefc6561650a3bcb24de4cbad1df4c6d583bfab820ab1",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/_lalsimulation.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lalsimulation-split_1716366387284/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "30dafecd04495245488c1524d9ec8fc8a89a4ce503fa433c8e1e9a4ed6352005",
+        "sha256_in_prefix": "22410da86d690b3b3e9f891414f268511eb68be7984643660a69857fbb85c1f3",
+        "size_in_bytes": 28437896
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/git_version.py",
+        "path_type": "hardlink",
+        "sha256": "57e3e72ea748c2cdcf8c0b40808f9fb55d24615130a417dd851e9b3793cad914",
+        "sha256_in_prefix": "57e3e72ea748c2cdcf8c0b40808f9fb55d24615130a417dd851e9b3793cad914",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b11bee58e4b88c4e8a5d1192a294cbbefa8cb9b8a1af82cdcc8a93c9c6f9556",
+        "sha256_in_prefix": "0b11bee58e4b88c4e8a5d1192a294cbbefa8cb9b8a1af82cdcc8a93c9c6f9556",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "876400b63c80b8e601d1a20e575a374b53d04e1dc1e9bdffb453b9da1b06c42d",
+        "sha256_in_prefix": "876400b63c80b8e601d1a20e575a374b53d04e1dc1e9bdffb453b9da1b06c42d",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6e5533a51f2e285dd9adb48198b9a1cc1ddab8fff1146477f7d0dfe50430544e",
+        "sha256_in_prefix": "6e5533a51f2e285dd9adb48198b9a1cc1ddab8fff1146477f7d0dfe50430544e",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3235c3f5aca014f2b08ea73a9148717ee41794e608f91a108bae7a1c7de9f725",
+        "sha256_in_prefix": "3235c3f5aca014f2b08ea73a9148717ee41794e608f91a108bae7a1c7de9f725",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/conditioning_subroutines.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa90b6145bfe311f9da722c6544aa85235ff37f40466980aa91773dc2a7b1d53",
+        "sha256_in_prefix": "aa90b6145bfe311f9da722c6544aa85235ff37f40466980aa91773dc2a7b1d53",
+        "size_in_bytes": 4504
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "31978524b87ef7b20b026ca7f2244e3ea1ed6eddfbb69f70939648a2eb74d80c",
+        "sha256_in_prefix": "31978524b87ef7b20b026ca7f2244e3ea1ed6eddfbb69f70939648a2eb74d80c",
+        "size_in_bytes": 4882
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/gw.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc3d90a4b6476d54750a8333c22e085b287fc95807ea1f03783569c0d3a647a0",
+        "sha256_in_prefix": "fc3d90a4b6476d54750a8333c22e085b287fc95807ea1f03783569c0d3a647a0",
+        "size_in_bytes": 7316
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/parameter_conventions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc1857c3dd1d6277836409a92ea9a5d4f5372aa867c6974de8affc38ab5dc888",
+        "sha256_in_prefix": "dc1857c3dd1d6277836409a92ea9a5d4f5372aa867c6974de8affc38ab5dc888",
+        "size_in_bytes": 4021
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ef7a8aaaded8f2832553edf64911a7a9e5b748f697ac9ccd0e0a691d4a8b227",
+        "sha256_in_prefix": "7ef7a8aaaded8f2832553edf64911a7a9e5b748f697ac9ccd0e0a691d4a8b227",
+        "size_in_bytes": 9806
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/waveform.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36f8bae2767c4558d1e1ede2e80be9ea02a3d26bc05fce4bdedff794e4c541ec",
+        "sha256_in_prefix": "36f8bae2767c4558d1e1ede2e80be9ea02a3d26bc05fce4bdedff794e4c541ec",
+        "size_in_bytes": 20833
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/__pycache__/waveform_conditioning.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3714f9a40f62bfe953f9f1e49cdb2d5e2f7cd47993f70ba412e5a6f4f3400f34",
+        "sha256_in_prefix": "3714f9a40f62bfe953f9f1e49cdb2d5e2f7cd47993f70ba412e5a6f4f3400f34",
+        "size_in_bytes": 8500
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/conditioning_subroutines.py",
+        "path_type": "hardlink",
+        "sha256": "d70e0c4ba0d1c309fb9c878275b72735d7eb62b269e2c83fea5ff58d47b20d67",
+        "sha256_in_prefix": "d70e0c4ba0d1c309fb9c878275b72735d7eb62b269e2c83fea5ff58d47b20d67",
+        "size_in_bytes": 5732
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/errors.py",
+        "path_type": "hardlink",
+        "sha256": "13bb020389d7add2f603600a9fc768bc1498e58551de28405b5fef580ce07716",
+        "sha256_in_prefix": "13bb020389d7add2f603600a9fc768bc1498e58551de28405b5fef580ce07716",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/gw.py",
+        "path_type": "hardlink",
+        "sha256": "5adf196caea2bb8e0db58f38e6dfc4a984273652dae05f86dd5419a52eccd40f",
+        "sha256_in_prefix": "5adf196caea2bb8e0db58f38e6dfc4a984273652dae05f86dd5419a52eccd40f",
+        "size_in_bytes": 7869
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/parameter_conventions.py",
+        "path_type": "hardlink",
+        "sha256": "94a56fc674985a417191d86c4922a1e7263c87f83dfd70bfee3da8492fde049e",
+        "sha256_in_prefix": "94a56fc674985a417191d86c4922a1e7263c87f83dfd70bfee3da8492fde049e",
+        "size_in_bytes": 5623
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a5516a09ae305218fbc86c643e504507ff0c145ded393b3f3b7b3a8b92913f60",
+        "sha256_in_prefix": "a5516a09ae305218fbc86c643e504507ff0c145ded393b3f3b7b3a8b92913f60",
+        "size_in_bytes": 13189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/waveform.py",
+        "path_type": "hardlink",
+        "sha256": "3d98e7a13addf0899102453a49916b7d10e114bbb5b6b5941e655ce545a62538",
+        "sha256_in_prefix": "3d98e7a13addf0899102453a49916b7d10e114bbb5b6b5941e655ce545a62538",
+        "size_in_bytes": 24571
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/core/waveform_conditioning.py",
+        "path_type": "hardlink",
+        "sha256": "61319acebd03fb5b185b45ea8b28317e5f4754fa443be6ef57b90577f3ccdee4",
+        "sha256_in_prefix": "61319acebd03fb5b185b45ea8b28317e5f4754fa443be6ef57b90577f3ccdee4",
+        "size_in_bytes": 16623
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dcff0f1ee8b600a0e0690f3047433a6099841d8f4c017af0a46955aa3120f2f4",
+        "sha256_in_prefix": "dcff0f1ee8b600a0e0690f3047433a6099841d8f4c017af0a46955aa3120f2f4",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db88ecf0c41d53e43bd63f0109ab9c39bcaedfe7a3ba9909fac725d81075087b",
+        "sha256_in_prefix": "db88ecf0c41d53e43bd63f0109ab9c39bcaedfe7a3ba9909fac725d81075087b",
+        "size_in_bytes": 839
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/models/__pycache__/pyseobnr_model.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cbe2d10400b0c928094f880ca8204f4cf43396e48f5a6dd24fded01064af08c",
+        "sha256_in_prefix": "1cbe2d10400b0c928094f880ca8204f4cf43396e48f5a6dd24fded01064af08c",
+        "size_in_bytes": 6844
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/gwsignal/models/pyseobnr_model.py",
+        "path_type": "hardlink",
+        "sha256": "1860d8643311c3c7dbcc7f5ea0bec6c6dbc9ccaeff82a79ea0fbb899c2486f1e",
+        "sha256_in_prefix": "1860d8643311c3c7dbcc7f5ea0bec6c6dbc9ccaeff82a79ea0fbb899c2486f1e",
+        "size_in_bytes": 9224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/lalsimulation.py",
+        "path_type": "hardlink",
+        "sha256": "6761525bc4140e0597f2737771a2eed15f3ce62fbe6ebc83a15bbb57fbeca4b5",
+        "sha256_in_prefix": "6761525bc4140e0597f2737771a2eed15f3ce62fbe6ebc83a15bbb57fbeca4b5",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/NRSur3dq8Remnant.py",
+        "path_type": "hardlink",
+        "sha256": "d5c6accc644c0cad0d1bad82a723f34c564ebf983939b1d03b5a1bdf3e1ca252",
+        "sha256_in_prefix": "d5c6accc644c0cad0d1bad82a723f34c564ebf983939b1d03b5a1bdf3e1ca252",
+        "size_in_bytes": 3768
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/NRSur7dq4Remnant.py",
+        "path_type": "hardlink",
+        "sha256": "fd2226e0cc96812563ba30c9b6d4adef455d88012d8c1b98d4736eb9e2c71d6c",
+        "sha256_in_prefix": "fd2226e0cc96812563ba30c9b6d4adef455d88012d8c1b98d4736eb9e2c71d6c",
+        "size_in_bytes": 23504
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8ca2fdef61713947321228b2ccf69c5a186d70a420065c7ba1e0a1b17317824",
+        "sha256_in_prefix": "f8ca2fdef61713947321228b2ccf69c5a186d70a420065c7ba1e0a1b17317824",
+        "size_in_bytes": 34
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/NRSur3dq8Remnant.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "97c3f2ecdf60ca662a8c00e5473462fbdbeb6b90131c8eff328f9ef01ad2ff48",
+        "sha256_in_prefix": "97c3f2ecdf60ca662a8c00e5473462fbdbeb6b90131c8eff328f9ef01ad2ff48",
+        "size_in_bytes": 2730
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/NRSur7dq4Remnant.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2ff573ff4b764406c7d79492eadeb4ee23952eb8d21ecc54316867173d52f21",
+        "sha256_in_prefix": "d2ff573ff4b764406c7d79492eadeb4ee23952eb8d21ecc54316867173d52f21",
+        "size_in_bytes": 16460
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7c3215d4e06cbf90101c01c3314bf6c0c7360b9f29dcca2268e3c19e1276652",
+        "sha256_in_prefix": "b7c3215d4e06cbf90101c01c3314bf6c0c7360b9f29dcca2268e3c19e1276652",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/eval_fits.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "15c72801920b0d118db69c965439bfff8dac5c0a2afece84b5c77e9fb5b3197f",
+        "sha256_in_prefix": "15c72801920b0d118db69c965439bfff8dac5c0a2afece84b5c77e9fb5b3197f",
+        "size_in_bytes": 11247
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/nrfits.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c256cdf3223391641c46ffeeea7f58b0fea9e53ba89ec20f20685546ad8bcae7",
+        "sha256_in_prefix": "c256cdf3223391641c46ffeeea7f58b0fea9e53ba89ec20f20685546ad8bcae7",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/pn_spin_evolution_wrapper.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "432a0c69580434e3e1f5b4f27d886a144fd3e303a18e429dbc25865630b80bfe",
+        "sha256_in_prefix": "432a0c69580434e3e1f5b4f27d886a144fd3e303a18e429dbc25865630b80bfe",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/__pycache__/quaternion_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd571b97d6ad142d4ab6ee630054e82b5c6be5511d0c131e2cec85f376175615",
+        "sha256_in_prefix": "fd571b97d6ad142d4ab6ee630054e82b5c6be5511d0c131e2cec85f376175615",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/eval_fits.py",
+        "path_type": "hardlink",
+        "sha256": "11b20b757facb378a9230aedf5ef75e14c4818b0e7135d0fad3dbed47f1af702",
+        "sha256_in_prefix": "11b20b757facb378a9230aedf5ef75e14c4818b0e7135d0fad3dbed47f1af702",
+        "size_in_bytes": 15417
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/nrfits.py",
+        "path_type": "hardlink",
+        "sha256": "701c0b8388a13b75a5b6c8d50bdfe536244ed8aafa704d4ee696941f0672dd30",
+        "sha256_in_prefix": "701c0b8388a13b75a5b6c8d50bdfe536244ed8aafa704d4ee696941f0672dd30",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/pn_spin_evolution_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "fca281f6a090df2c30018598669190943aee71a30a45f57fdafc5f7da3c62887",
+        "sha256_in_prefix": "fca281f6a090df2c30018598669190943aee71a30a45f57fdafc5f7da3c62887",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/nrfits/quaternion_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a13f8fadd63f1f7adf2b8d2b3d36b986c987db8f77cd1fbac261f1519eb84d56",
+        "sha256_in_prefix": "a13f8fadd63f1f7adf2b8d2b3d36b986c987db8f77cd1fbac261f1519eb84d56",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e261e2d53e2746dae91c858c12bfa38615b5de224ea9f52dec89a394ac2b320c",
+        "sha256_in_prefix": "e261e2d53e2746dae91c858c12bfa38615b5de224ea9f52dec89a394ac2b320c",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "be195444f11bf3dc6812067376ca2004bdf9418b159f67548acae88e97d04a40",
+        "sha256_in_prefix": "be195444f11bf3dc6812067376ca2004bdf9418b159f67548acae88e97d04a40",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/calc_tilts_prec_avg_regularized.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0dba2e11479f920529bd450306321ec8c39b8e16bfde577eb877f36e2d5ed2e3",
+        "sha256_in_prefix": "0dba2e11479f920529bd450306321ec8c39b8e16bfde577eb877f36e2d5ed2e3",
+        "size_in_bytes": 49201
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/hybrid_spin_evolution.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "14e031b23ef52df0edf506d4f35ab5568242a2ad52e4dd205f52e934a354baf0",
+        "sha256_in_prefix": "14e031b23ef52df0edf506d4f35ab5568242a2ad52e4dd205f52e934a354baf0",
+        "size_in_bytes": 14527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/__pycache__/tilts_at_infinity_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "206627dc52ce8aff71f3e792b0868889757770a3d0a3274d96edac6952164256",
+        "sha256_in_prefix": "206627dc52ce8aff71f3e792b0868889757770a3d0a3274d96edac6952164256",
+        "size_in_bytes": 6913
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/calc_tilts_prec_avg_regularized.py",
+        "path_type": "hardlink",
+        "sha256": "acb9e0d42c0264e759109a6095016cecc806db6b35b49430506bdf6752ad479c",
+        "sha256_in_prefix": "acb9e0d42c0264e759109a6095016cecc806db6b35b49430506bdf6752ad479c",
+        "size_in_bytes": 73094
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/hybrid_spin_evolution.py",
+        "path_type": "hardlink",
+        "sha256": "81dbf257e19b48c2115d66690780cd31adc8eb0b14c9f21f8e55c4ed25a1570a",
+        "sha256_in_prefix": "81dbf257e19b48c2115d66690780cd31adc8eb0b14c9f21f8e55c4ed25a1570a",
+        "size_in_bytes": 22640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/lalsimulation/tilts_at_infinity/tilts_at_infinity_utils.py",
+        "path_type": "hardlink",
+        "sha256": "657f87135b948a4364e49810294eef1ec1033de95b0783fe681f78b7ae3eeb61",
+        "sha256_in_prefix": "657f87135b948a4364e49810294eef1ec1033de95b0783fe681f78b7ae3eeb61",
+        "size_in_bytes": 6577
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bfc87f459f8ee7400c1d025bf57c555af5a79ae5a830547c149e0c57e63fd1f0",
+  "size": 8456782,
+  "subdir": "linux-64",
+  "timestamp": 1716366880000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lalsimulation-5.4.0-py38h50512c5_1.conda",
+  "version": "5.4.0"
+}
