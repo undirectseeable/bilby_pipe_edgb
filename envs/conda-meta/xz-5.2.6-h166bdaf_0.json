@@ -1082,7 +1082,7 @@
   "sha256": "03a6d28ded42af8a347345f82f3eebdd6807a08526d47899a42d62d319609162",
   "size": 418368,
   "subdir": "linux-64",
-  "timestamp": 1660346797927,
+  "timestamp": 1660346797000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/xz-5.2.6-h166bdaf_0.tar.bz2",
   "version": "5.2.6"
 }

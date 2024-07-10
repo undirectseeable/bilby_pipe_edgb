@@ -15,7 +15,6 @@
   ],
   "fn": "ld_impl_linux-64-2.40-hf3520f5_7.conda",
   "license": "GPL-3.0-only",
-  "license_family": "GPL",
   "link": {
     "source": "/home/nj2nu/.conda/pkgs/ld_impl_linux-64-2.40-hf3520f5_7",
     "type": 1
@@ -57,7 +56,7 @@
   "sha256": "764b6950aceaaad0c67ef925417594dd14cd2e22fff864aeef455ac259263d15",
   "size": 707602,
   "subdir": "linux-64",
-  "timestamp": 1718625640445,
+  "timestamp": 1718625640000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/ld_impl_linux-64-2.40-hf3520f5_7.conda",
   "version": "2.40"
 }

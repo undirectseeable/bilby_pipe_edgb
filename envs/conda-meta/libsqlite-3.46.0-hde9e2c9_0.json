@@ -76,7 +76,7 @@
   "sha256": "daee3f68786231dad457d0dfde3f7f1f9a7f2018adabdbb864226775101341a8",
   "size": 865346,
   "subdir": "linux-64",
-  "timestamp": 1718050628718,
+  "timestamp": 1718050628000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.46.0-hde9e2c9_0.conda",
   "version": "3.46.0"
 }

@@ -1,7 +1,0 @@
-#! /bin/sh
-case x${NDS2_SSH} in
-x) NDS2_SSH=ssh;;
-esac
-node=${1:-ldas-pcdev2.ligo.caltech.edu}
-port=${2:-31200}
-${NDS2_SSH} -N ${node} -L ${port}:localhost:${port} &

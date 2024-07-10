@@ -1,8 +1,0 @@
-prefix=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs
-exec_prefix=${prefix}
-
-Name: metaio
-Description: LIGO Light-Weight XML I/O library
-Version: 8.5.1
-Libs: -L${exec_prefix}/lib -lmetaio
-Cflags: -I${prefix}/include

@@ -40,7 +40,7 @@
   "sha256": "c1548a3235376f464f9931850b64b02492f379b2f2bb98bc786055329b080446",
   "size": 154853,
   "subdir": "linux-64",
-  "timestamp": 1720077432978,
+  "timestamp": 1720077432000,
   "url": "https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2024.7.4-hbcca054_0.conda",
   "version": "2024.7.4"
 }
