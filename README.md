@@ -1,2 +1,4 @@
 # bilby_pipe_edgb
-readme
+# load environment
+module load anaconda
+source activate /path/envs (or conda activate)
