@@ -692,7 +692,7 @@ tr:nth-child(even) {
 
 <tr>
     <th scope="row"> prior_dict </th>
-   <td> {mass-1: Constraint(name='mass_1', minimum=10, maximum=80), mass_2 = Constraint(name='mass_2', minimum=10, maximum=80), mass_ratio =  Uniform(name='mass_ratio', minimum=0.125, maximum=1, latex_label="$q$"), chirp_mass =  Uniform(name='chirp_mass', minimum=25, maximum=35, latex_label="$M_{c}$"), chi_1 = Uniform(name='chi_1', minimum=0, maximum=0.99), chi_2 = Uniform(name='chi_2', minimum=0, maximum=0.99), luminosity_distance = PowerLaw(alpha=2, name='luminosity_distance', minimum=50, maximum=2000, unit='Mpc', latex_label='$d_L$'), dec = Cosine(name='dec'), ra = Uniform(name='ra', minimum=0, maximum=2 * np.pi, boundary='periodic'), theta_jn = Sine(name='theta_jn'), psi =  Uniform(name='psi', minimum=0, maximum=np.pi, boundary='periodic'), phase =  Uniform(name='phase', minimum=0, maximum=2 * np.pi, boundary='periodic'), } </td>
+   <td> {mass-1: Constraint(name='mass_1', minimum=10, maximum=80), mass_2 = Constraint(name='mass_2', minimum=10, maximum=80), mass_ratio =  Uniform(name='mass_ratio', minimum=0.125, maximum=1, latex_label="$q$"), chirp_mass =  Uniform(name='chirp_mass', minimum=25, maximum=35, latex_label="$M_{c}$"), chi_1 = Uniform(name='chi_1', minimum=-0.99, maximum=0.99), chi_2 = Uniform(name='chi_2', minimum=-0.99, maximum=0.99), luminosity_distance = PowerLaw(alpha=2, name='luminosity_distance', minimum=50, maximum=2000, unit='Mpc', latex_label='$d_L$'), dec = Cosine(name='dec'), ra = Uniform(name='ra', minimum=0, maximum=2 * np.pi, boundary='periodic'), theta_jn = Sine(name='theta_jn'), psi =  Uniform(name='psi', minimum=0, maximum=np.pi, boundary='periodic'), phase =  Uniform(name='phase', minimum=0, maximum=2 * np.pi, boundary='periodic'), alpha = 0.0, } </td>
 </tr>
 
 <tr>
@@ -849,12 +849,12 @@ tr:nth-child(even) {
 
 <tr>
     <th scope="row"> chi_1 </th>
-   <td> Uniform(minimum=0, maximum=0.99, name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None) </td>
+   <td> Uniform(minimum=-0.99, maximum=0.99, name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None) </td>
 </tr>
 
 <tr>
     <th scope="row"> chi_2 </th>
-   <td> Uniform(minimum=0, maximum=0.99, name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None) </td>
+   <td> Uniform(minimum=-0.99, maximum=0.99, name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None) </td>
 </tr>
 
 <tr>
@@ -885,6 +885,11 @@ tr:nth-child(even) {
 <tr>
     <th scope="row"> phase </th>
    <td> Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\phi$', unit=None, boundary='periodic') </td>
+</tr>
+
+<tr>
+    <th scope="row"> alpha </th>
+   <td> DeltaFunction(peak=0.0, name=None, latex_label=None, unit=None) </td>
 </tr>
 
 <tr>

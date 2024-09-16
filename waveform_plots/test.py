@@ -23,21 +23,21 @@ spin2L = np.sqrt(np.sum(spin2*spin2))
 
 
 
-p = {'chirp_mass': 43.8382568359375, 'mass_ratio': 0.39232388138771057, 'phase': 4.7816548347473145, 'chi_1': -0.019056152552366257, 'chi_2': 0.22444136440753937, 'theta_jn': 1.3895268440246582, 'luminosity_distance': 100.0, 'geocent_time': 0.0}
+p = {'chirp_mass': 43.8382568359375, 'mass_ratio': 0.39232388138771057, 'phase': 4.7816548347473145, 'chi_1': 0.59056152552366257, 'chi_2': 0.22444136440753937, 'theta_jn': 1.3895268440246582, 'luminosity_distance': 100.0, 'geocent_time': 0.0}
 Mtot = p['chirp_mass'] * (1 + p['mass_ratio']) ** 1.2 / p['mass_ratio'] ** 0.6
 mass_1 = Mtot / (p['mass_ratio']+1)
 mass_2 = Mtot - mass_1
 #theta_jn, phi_jl, tilt_1, tilt_2, phi_12, a_1, a_2 = SimInspiralTransformPrecessingWvf2PE(0.2, 0, 0, p['chi_1'], 0, 0, -0.5, mass_1, mass_2, 20.0, p['phase'])
 
 
-gw1 = wf(freqArr, mass_1, mass_2, p['luminosity_distance'], p['chi_1'], p['chi_2'], p['theta_jn'], p['phase'], 0.1091422287773841)
+gw1 = wf(freqArr, mass_1, mass_2, p['luminosity_distance'], p['chi_1'], p['chi_2'], p['theta_jn'], p['phase'], 5.0)
 
 out = np.zeros((8193, 4))
 out[:, 0] = np.real(gw1['cross'])
 out[:, 1] = np.imag(gw1['cross'])
 out[:, 2] = np.real(gw1['plus'])
 out[:, 3] = np.imag(gw1['plus'])
-np.savetxt("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/waveform_plots/bilby_wf1.dat", out, delimiter='\t')
+np.savetxt("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/waveform_plots/bilby_wf3.dat", out, delimiter='\t')
 
 '''
 #gw1 = wf2(freqArr, mass1, mass2, 100, a_1, tilt_1, phi_12, a_2, tilt_2, phi_jl, theta_jn, phase,  0.0)

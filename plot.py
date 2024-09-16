@@ -10,11 +10,10 @@ labels = ['chirp_mass', 'mass_ratio', 'chi_1', 'chi_2',"luminosity_distance","ps
 data = h5py.File("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/GW150914_edgb/outdir_GW150914/final_result/GW150914_data0_1126259462-4_analysis_H1L1_merge_result.hdf5", 'r')
 data = data['posterior']
 ndim = len(labels)
-corner_model = np.zeros((18257, ndim))
+corner_model = np.zeros((16612, ndim))
 for i in range(ndim):
     corner_model[:, i] = data[labels[i]]
 
-corner_model[:, ndim-1] = corner_model[:, ndim-1]*(corner_model[:, 0] * (1 + corner_model[:, 1]) ** 1.2 / corner_model[:, 1] ** 0.6)*1.476625
 
 labels[-1] = "sqrt(alpha)/km"
 fig = corner.corner(corner_model, labels=labels, color='blue',

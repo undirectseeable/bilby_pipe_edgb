@@ -9,20 +9,25 @@ labels = ["chirp_mass", "mass_ratio", "chi_1", "chi_2", "luminosity_distance","d
 label_LIGO = ['m1_detector_frame_Msun', 'm2_detector_frame_Msun', 'spin1', 'spin2', 'luminosity_distance_Mpc', 'declination', 'right_ascension', 'costheta_jn']
 
 
-data = h5py.File("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/GW150914_edgb/outdir_GW150914/final_result/GW150914_data0_1126259462-4_analysis_H1L1_merge_result.hdf5", 'r')
+data = h5py.File("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/GW150914_GR/outdir_GW150914/final_result/GW150914_data0_1126259462-4_analysis_H1L1_merge_result.hdf5", 'r')
+data_edgb = h5py.File("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/GW150914_edgb/outdir_GW150914/final_result/GW150914_data0_1126259462-4_analysis_H1L1_merge_result.hdf5", 'r')
 data_LIGO = h5py.File("/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/GW150914_LIGO/GW150914_GWTC-1.hdf5",'r')
 
 
 data_LIGO = data_LIGO['IMRPhenomPv2_posterior']
 data = data['posterior']
+data_edgb = data_edgb['posterior']
 ndim = len(labels)
-corner_model = np.zeros((18257, ndim))
+corner_model = np.zeros((19023, ndim))
+corner_edgb = np.zeros((16612,ndim))
 corner_ligo = np.zeros((40836, ndim))
 for i in range(ndim):
     if(labels[i]=='theta_jn'):
         corner_model[:, i] = np.cos(data[labels[i]])
+        corner_edgb[:, i] = np.cos(data_edgb[labels[i]])
     else:
         corner_model[:, i] = data[labels[i]]
+        corner_edgb[:, i] = data_edgb[labels[i]]
     corner_ligo[:, i] = data_LIGO[label_LIGO[i]]
 
 
@@ -34,10 +39,13 @@ corner_ligo[:, 1] = ratio
 fig = corner.corner(corner_model, labels=labels, color='blue',
                     levels=(0.5,0.9), scale_hist=True, plot_datapoints=False)
 
+corner.corner(corner_edgb, fig = fig, color='green',
+                    levels=(0.5,0.9), scale_hist=True, plot_datapoints=False)
+
 corner.corner(corner_ligo, fig = fig, color='red',
                     levels=(0.5,0.9), scale_hist=True, plot_datapoints=False)
 
-plt.legend(['XAS_MCMC', 'LIGO_IMRPhenomPv2'], bbox_to_anchor=(-3,4,3,2), fontsize=20)
+plt.legend(['XAS_MCMC', 'edgb', 'LIGO_IMRPhenomPv2'], bbox_to_anchor=(-3,4,3,2), fontsize=20)
 
 '''
 axes = np.array(fig.axes).reshape((ndim, ndim))
@@ -58,4 +66,4 @@ for yi in range(ndim):
 '''
 #corner.overplot_lines(fig, value_inject, color="C1")
 #plt.show()
-plt.savefig('gw150914_edgb_compare.pdf',dpi=1000)
+plt.savefig('gw150914_all_compare.pdf',dpi=1000)
