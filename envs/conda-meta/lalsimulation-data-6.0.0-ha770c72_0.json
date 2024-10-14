@@ -1,0 +1,1289 @@
+{
+  "build": "ha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "liblalsimulation >=3.1.2"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/lalsimulation-data-6.0.0-ha770c72_0",
+  "files": [
+    "etc/conda/activate.d/activate-lalsimulation.csh",
+    "etc/conda/activate.d/activate-lalsimulation.sh",
+    "etc/conda/deactivate.d/deactivate-lalsimulation.csh",
+    "etc/conda/deactivate.d/deactivate-lalsimulation.sh",
+    "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF1_META.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF2_META.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF3_META.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF4_META.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ALF1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ALF2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ALF3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ALF4.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_AP1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_AP2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_AP3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_AP4.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_APR.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_APR4_EPP.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BBB2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BGN1H1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BHF_BBB2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BL_CHIRAL_META.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BPAL12.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BSK19.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BSK20.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_BSK21.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_ENG.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_FPS.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_BSK14_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_DHSL59_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_DHSL69_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_F0_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H1_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H3_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H4_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H5_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_LN55_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GMSR_SLY5_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GNH3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_DD2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_DDME2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_FSU2H_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_FSU2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_NL3WRL55_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GS1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_GS2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H4.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H5.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H6.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_H7.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_HQC18.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_KDE0V.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_KDE0V1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_KDE0V1_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_KDE0V_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MPA1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MS1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MS1B.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MS1B_PP.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MS1_PP.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_MS2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_PAL6.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_PCL2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_PCP_BSK24_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_PS.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_QMC700.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_RG_SLY4_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_RS.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_RS_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SK255.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SK255_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SK272.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKA.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKA_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKB.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKB_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI3_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI4.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI4_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI5.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI6.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKI6_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKMP.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKOP.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SKOP_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY230A.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY230A_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY4.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY9.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SLY9_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SQM1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SQM2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_SQM3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_WFF1.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_WFF2.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_WFF3.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDLZ1_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDME2_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDMEX_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_GM1_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_MTVTC_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_NL3_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_PKDD_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_TM1_BSK24.dat",
+    "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_TW99_BSK24.dat",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_BNS_OPTIMIZED.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_DESIGN.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_EARLY_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_EARLY_LOW.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_LATE_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_LATE_LOW.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_MID_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-AdV_MID_LOW.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_BNS_OPTIMIZED.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_DESIGN.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_EARLY_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_EARLY_LOW.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_LATE_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_LATE_LOW.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_MID_HIGH.txt",
+    "share/lalsimulation/LIGO-P1200087-v18-aLIGO_MID_LOW.txt",
+    "share/lalsimulation/LIGO-P1600143-v18-CE.txt",
+    "share/lalsimulation/LIGO-P1600143-v18-CE_Pessimistic.txt",
+    "share/lalsimulation/LIGO-P1600143-v18-CE_Wideband.txt",
+    "share/lalsimulation/LIGO-P1600143-v18-ET_D.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-BHBH_20deg.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-High_Freq.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-NO_SRM.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-NSNS_Opt.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt",
+    "share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_low_P.txt",
+    "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Design.txt",
+    "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Early.txt",
+    "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Late.txt",
+    "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Mid.txt",
+    "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Opening.txt",
+    "share/lalsimulation/LIGO-T1800042-v5-aLIGO_APLUS.txt",
+    "share/lalsimulation/LIGO-T1800044-v5-aLIGO_DESIGN.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-AdV_O3low.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-AdV_O4.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-AdV_O4intermediate.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-KAGRA_128Mpc.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-KAGRA_25Mpc.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-KAGRA_80Mpc.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-aLIGO_140Mpc.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-aLIGO_175Mpc.txt",
+    "share/lalsimulation/LIGO-T1800545-v1-aLIGO_O3low.txt"
+  ],
+  "fn": "lalsimulation-data-6.0.0-ha770c72_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/lalsimulation-data-6.0.0-ha770c72_0",
+    "type": 1
+  },
+  "md5": "2e1bacbd89c64270468cbab0906c6818",
+  "name": "lalsimulation-data",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/lalsimulation-data-6.0.0-ha770c72_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/conda/activate.d/activate-lalsimulation.csh",
+        "path_type": "hardlink",
+        "sha256": "efafe483e80a0745a431203c64820795aaf35b678be0ed3aef8e666738b76c0f",
+        "sha256_in_prefix": "efafe483e80a0745a431203c64820795aaf35b678be0ed3aef8e666738b76c0f",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "etc/conda/activate.d/activate-lalsimulation.sh",
+        "path_type": "hardlink",
+        "sha256": "9ba5cdace17010d13e140814e436dc49e523c528114e4cdd5134c04c679f7747",
+        "sha256_in_prefix": "9ba5cdace17010d13e140814e436dc49e523c528114e4cdd5134c04c679f7747",
+        "size_in_bytes": 321
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-lalsimulation.csh",
+        "path_type": "hardlink",
+        "sha256": "cb09bcd96dd6263053db986f66a98c69e888388b7bd505f5bf39dd3d90dc44c1",
+        "sha256_in_prefix": "cb09bcd96dd6263053db986f66a98c69e888388b7bd505f5bf39dd3d90dc44c1",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "etc/conda/deactivate.d/deactivate-lalsimulation.sh",
+        "path_type": "hardlink",
+        "sha256": "bf93af871fbdc0698a741ad6760958a921d871abbec368979261f8221e5a0c77",
+        "sha256_in_prefix": "bf93af871fbdc0698a741ad6760958a921d871abbec368979261f8221e5a0c77",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF1_META.dat",
+        "path_type": "hardlink",
+        "sha256": "da4adbb5465388c2df7bf40baa55012cd71ffe3956a832a3cb695c706c0e8419",
+        "sha256_in_prefix": "da4adbb5465388c2df7bf40baa55012cd71ffe3956a832a3cb695c706c0e8419",
+        "size_in_bytes": 385437
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF2_META.dat",
+        "path_type": "hardlink",
+        "sha256": "55380872bd5db58e56323c253c1898141b6a180a72df50da586dc2f015483e12",
+        "sha256_in_prefix": "55380872bd5db58e56323c253c1898141b6a180a72df50da586dc2f015483e12",
+        "size_in_bytes": 397179
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF3_META.dat",
+        "path_type": "hardlink",
+        "sha256": "f32df0965b24953652072dd424b29fcaf7d382f6c2a6733ccc56d86ef450fb1d",
+        "sha256_in_prefix": "f32df0965b24953652072dd424b29fcaf7d382f6c2a6733ccc56d86ef450fb1d",
+        "size_in_bytes": 365243
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ABHT_QMC_RMF4_META.dat",
+        "path_type": "hardlink",
+        "sha256": "15929b7ee59b5a165254c8f4e9d6bd244df25bd9cfa126d63d4d929a9cd99660",
+        "sha256_in_prefix": "15929b7ee59b5a165254c8f4e9d6bd244df25bd9cfa126d63d4d929a9cd99660",
+        "size_in_bytes": 424989
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ALF1.dat",
+        "path_type": "hardlink",
+        "sha256": "9f78a5f9124db0fa1af49d9e958725a14c92febdf6a9129399aebe2e4747b899",
+        "sha256_in_prefix": "9f78a5f9124db0fa1af49d9e958725a14c92febdf6a9129399aebe2e4747b899",
+        "size_in_bytes": 21750
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ALF2.dat",
+        "path_type": "hardlink",
+        "sha256": "659366bc867a82b878bd4d05de13f9be387a5af9c219de2c9b0f8503b46eb627",
+        "sha256_in_prefix": "659366bc867a82b878bd4d05de13f9be387a5af9c219de2c9b0f8503b46eb627",
+        "size_in_bytes": 22650
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ALF3.dat",
+        "path_type": "hardlink",
+        "sha256": "f6b5c0cb3f234cfb3d3ac97a9f7d06d4cb1d0a8c2ce8c41290d6e3e0e0df6947",
+        "sha256_in_prefix": "f6b5c0cb3f234cfb3d3ac97a9f7d06d4cb1d0a8c2ce8c41290d6e3e0e0df6947",
+        "size_in_bytes": 22050
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ALF4.dat",
+        "path_type": "hardlink",
+        "sha256": "ba1cc7711a1f8ff4a551c4af9258da0fc8c5752742aba450fb885e9fc87c09c2",
+        "sha256_in_prefix": "ba1cc7711a1f8ff4a551c4af9258da0fc8c5752742aba450fb885e9fc87c09c2",
+        "size_in_bytes": 22050
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_AP1.dat",
+        "path_type": "hardlink",
+        "sha256": "bc11a87e3bb4c7be13b1cd09035eee5c1c5512638a5c7967b9552c78beee5b42",
+        "sha256_in_prefix": "bc11a87e3bb4c7be13b1cd09035eee5c1c5512638a5c7967b9552c78beee5b42",
+        "size_in_bytes": 10600
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_AP2.dat",
+        "path_type": "hardlink",
+        "sha256": "4af707d4d6bfe35bb10a8c83c7cf370d5377ad2ee671891cdc4ecd3e5a2eff9f",
+        "sha256_in_prefix": "4af707d4d6bfe35bb10a8c83c7cf370d5377ad2ee671891cdc4ecd3e5a2eff9f",
+        "size_in_bytes": 10600
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_AP3.dat",
+        "path_type": "hardlink",
+        "sha256": "3ad2dfc102ddccab52932e57e15995bfca96fa94a96c07728cba493ee9ca9b25",
+        "sha256_in_prefix": "3ad2dfc102ddccab52932e57e15995bfca96fa94a96c07728cba493ee9ca9b25",
+        "size_in_bytes": 10600
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_AP4.dat",
+        "path_type": "hardlink",
+        "sha256": "008a19207e28c3a70188d150e505d6327cea7b99127095d1f1ddce5c6dff5598",
+        "sha256_in_prefix": "008a19207e28c3a70188d150e505d6327cea7b99127095d1f1ddce5c6dff5598",
+        "size_in_bytes": 10500
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_APR.dat",
+        "path_type": "hardlink",
+        "sha256": "b6ef3d1cca79d723431958987a51f2951d0b998d179ef8f05697a99b0a5669d6",
+        "sha256_in_prefix": "b6ef3d1cca79d723431958987a51f2951d0b998d179ef8f05697a99b0a5669d6",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_APR4_EPP.dat",
+        "path_type": "hardlink",
+        "sha256": "2a63cd7f1e1c5a158bb3cc06ab4b51f4344a9a1e6bfaeec7f98937c3d5a5447f",
+        "sha256_in_prefix": "2a63cd7f1e1c5a158bb3cc06ab4b51f4344a9a1e6bfaeec7f98937c3d5a5447f",
+        "size_in_bytes": 72350
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BBB2.dat",
+        "path_type": "hardlink",
+        "sha256": "e62f05bd30460c3538b3a266e8a301f27b0b7dc04ecade425beee06596aa9396",
+        "sha256_in_prefix": "e62f05bd30460c3538b3a266e8a301f27b0b7dc04ecade425beee06596aa9396",
+        "size_in_bytes": 4200
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BGN1H1.dat",
+        "path_type": "hardlink",
+        "sha256": "00b4aa6fa51308767f1545888b062222034304bf030c4549b7a79fc8ff922f87",
+        "sha256_in_prefix": "00b4aa6fa51308767f1545888b062222034304bf030c4549b7a79fc8ff922f87",
+        "size_in_bytes": 6150
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BHF_BBB2.dat",
+        "path_type": "hardlink",
+        "sha256": "38df1421bad6821dc5f8f9973fd37b59d35a124cfe7bdf23b59c493599dea869",
+        "sha256_in_prefix": "38df1421bad6821dc5f8f9973fd37b59d35a124cfe7bdf23b59c493599dea869",
+        "size_in_bytes": 24950
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BL_CHIRAL_META.dat",
+        "path_type": "hardlink",
+        "sha256": "50bb32954c17df9ec64753107d448f61b74bebb536b55492da16078bf2492e11",
+        "sha256_in_prefix": "50bb32954c17df9ec64753107d448f61b74bebb536b55492da16078bf2492e11",
+        "size_in_bytes": 313744
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BPAL12.dat",
+        "path_type": "hardlink",
+        "sha256": "981f9f0990dee2eef108b88488079c7a222bf2de6f1dd7a6ab20bf7e208eead4",
+        "sha256_in_prefix": "981f9f0990dee2eef108b88488079c7a222bf2de6f1dd7a6ab20bf7e208eead4",
+        "size_in_bytes": 3050
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BSK19.dat",
+        "path_type": "hardlink",
+        "sha256": "2aacc8cf5e1f3c86a8296cf211122fd29171873142ccb664d3ef7e57fb397a6b",
+        "sha256_in_prefix": "2aacc8cf5e1f3c86a8296cf211122fd29171873142ccb664d3ef7e57fb397a6b",
+        "size_in_bytes": 15500
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BSK20.dat",
+        "path_type": "hardlink",
+        "sha256": "f8b1f87595165a76a9a9b606cf29332ab0d0797a942a381ae0b483d42f17418b",
+        "sha256_in_prefix": "f8b1f87595165a76a9a9b606cf29332ab0d0797a942a381ae0b483d42f17418b",
+        "size_in_bytes": 15500
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_BSK21.dat",
+        "path_type": "hardlink",
+        "sha256": "da4616e872bbde8546d2158eada7203a978fcf35cca9f574abfa518804170e2b",
+        "sha256_in_prefix": "da4616e872bbde8546d2158eada7203a978fcf35cca9f574abfa518804170e2b",
+        "size_in_bytes": 15500
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_ENG.dat",
+        "path_type": "hardlink",
+        "sha256": "e471644d8b7bda5a6a616d1764e4de6ad67b708c04182cd9bf0e92b1cab9629d",
+        "sha256_in_prefix": "e471644d8b7bda5a6a616d1764e4de6ad67b708c04182cd9bf0e92b1cab9629d",
+        "size_in_bytes": 5400
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_FPS.dat",
+        "path_type": "hardlink",
+        "sha256": "bb34c87bc2d1446a26d9fb5602faa17be61cf21b014f20cf7eee8428d4188b16",
+        "sha256_in_prefix": "bb34c87bc2d1446a26d9fb5602faa17be61cf21b014f20cf7eee8428d4188b16",
+        "size_in_bytes": 6450
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_BSK14_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "e0c74b27f4e31fa9f0d94b939c293ada88a148b37f6123b238defb636aa004cb",
+        "sha256_in_prefix": "e0c74b27f4e31fa9f0d94b939c293ada88a148b37f6123b238defb636aa004cb",
+        "size_in_bytes": 188444
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_DHSL59_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "2f9be6773496c623665e060e907d769522ab326f2616008d96f711e13362de2c",
+        "sha256_in_prefix": "2f9be6773496c623665e060e907d769522ab326f2616008d96f711e13362de2c",
+        "size_in_bytes": 188445
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_DHSL69_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "c6711caebba7fb57d426e9c66d01609d1a3d2c8a051a55922f40591f7152eecb",
+        "sha256_in_prefix": "c6711caebba7fb57d426e9c66d01609d1a3d2c8a051a55922f40591f7152eecb",
+        "size_in_bytes": 188445
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_F0_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "262fb0168f164b4810582d0663e3bbc9d2c19125392a1e9fdbf57c5f1a26037e",
+        "sha256_in_prefix": "262fb0168f164b4810582d0663e3bbc9d2c19125392a1e9fdbf57c5f1a26037e",
+        "size_in_bytes": 188438
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H1_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "63e4297c2eba0db0a490d0c300b5545b1813219172dfa75434d370971f9ee495",
+        "sha256_in_prefix": "63e4297c2eba0db0a490d0c300b5545b1813219172dfa75434d370971f9ee495",
+        "size_in_bytes": 188437
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "01d631efa2c387632418f8fe96fd5cadb4c72431d8fda611897da26709ec40f4",
+        "sha256_in_prefix": "01d631efa2c387632418f8fe96fd5cadb4c72431d8fda611897da26709ec40f4",
+        "size_in_bytes": 188438
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H3_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "ac6fd67105c1d739d075c7057555b532fa2594af4beacc882ae544e951e1918f",
+        "sha256_in_prefix": "ac6fd67105c1d739d075c7057555b532fa2594af4beacc882ae544e951e1918f",
+        "size_in_bytes": 188438
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H4_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "4fd86b034a0a9fc924f18517c9c84c76474ca98ce5380a83616b38162b9921e8",
+        "sha256_in_prefix": "4fd86b034a0a9fc924f18517c9c84c76474ca98ce5380a83616b38162b9921e8",
+        "size_in_bytes": 188438
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_H5_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "09adb86880864bbc0f2ade07c5a94073ec9b96a5e1642a0264f38407da11d788",
+        "sha256_in_prefix": "09adb86880864bbc0f2ade07c5a94073ec9b96a5e1642a0264f38407da11d788",
+        "size_in_bytes": 188437
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_LN55_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "347b3d9bd15c5b9408522dbfd7eb6904659257643974e9a11eac3015452bd0f6",
+        "sha256_in_prefix": "347b3d9bd15c5b9408522dbfd7eb6904659257643974e9a11eac3015452bd0f6",
+        "size_in_bytes": 188440
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GMSR_SLY5_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "940125705fd5c69f5862d7cc5150dce8daf24364b5c35d7ad56311b906745e7b",
+        "sha256_in_prefix": "940125705fd5c69f5862d7cc5150dce8daf24364b5c35d7ad56311b906745e7b",
+        "size_in_bytes": 188442
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GNH3.dat",
+        "path_type": "hardlink",
+        "sha256": "a096c6d96edcc28d1385d2be8fc1aa8010084cb321e9234114874fe84fa38448",
+        "sha256_in_prefix": "a096c6d96edcc28d1385d2be8fc1aa8010084cb321e9234114874fe84fa38448",
+        "size_in_bytes": 3550
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_DD2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "247e726eb3ed24f352500ae7aa66ab3942499713f7a004a8ae9c87b1050859c1",
+        "sha256_in_prefix": "247e726eb3ed24f352500ae7aa66ab3942499713f7a004a8ae9c87b1050859c1",
+        "size_in_bytes": 188441
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_DDME2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "e70234ab0b232748fe2c3e4cb13ead8833216c8db4c999fa750a631fccfa8691",
+        "sha256_in_prefix": "e70234ab0b232748fe2c3e4cb13ead8833216c8db4c999fa750a631fccfa8691",
+        "size_in_bytes": 188446
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_FSU2H_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "86e976ea2d701b8a3164a65ce1c1dae96fff85c1837797981134e72c26078c83",
+        "sha256_in_prefix": "86e976ea2d701b8a3164a65ce1c1dae96fff85c1837797981134e72c26078c83",
+        "size_in_bytes": 188445
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_FSU2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "be0bb25ff8fa7553a66a167225cb89e04a97e67f77988fde741a55aaa71599c4",
+        "sha256_in_prefix": "be0bb25ff8fa7553a66a167225cb89e04a97e67f77988fde741a55aaa71599c4",
+        "size_in_bytes": 188444
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GPPVA_NL3WRL55_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "52acd45a9755cf9d9c2572069d0a0457037d2d561821dbe1d9c4f342c7d2587d",
+        "sha256_in_prefix": "52acd45a9755cf9d9c2572069d0a0457037d2d561821dbe1d9c4f342c7d2587d",
+        "size_in_bytes": 188452
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GS1.dat",
+        "path_type": "hardlink",
+        "sha256": "4a27916b8a4765271f327b1f4f43c8dd7c65924f16428ff5a690d6e6459314dd",
+        "sha256_in_prefix": "4a27916b8a4765271f327b1f4f43c8dd7c65924f16428ff5a690d6e6459314dd",
+        "size_in_bytes": 6800
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_GS2.dat",
+        "path_type": "hardlink",
+        "sha256": "f067556c55c8e97df22ddedc7bd16209d1d95baf22e936f95f0ddff3a9905f8b",
+        "sha256_in_prefix": "f067556c55c8e97df22ddedc7bd16209d1d95baf22e936f95f0ddff3a9905f8b",
+        "size_in_bytes": 5000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H1.dat",
+        "path_type": "hardlink",
+        "sha256": "1e882b9fb98c56bd952888e4788b193202eb8fe2dfe6b42c4ceb5c31fcba4dab",
+        "sha256_in_prefix": "1e882b9fb98c56bd952888e4788b193202eb8fe2dfe6b42c4ceb5c31fcba4dab",
+        "size_in_bytes": 5700
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H2.dat",
+        "path_type": "hardlink",
+        "sha256": "0abb0af5180e65aa71654f580a1a657bab8ad25fa9ef1541839282e38b0a31f3",
+        "sha256_in_prefix": "0abb0af5180e65aa71654f580a1a657bab8ad25fa9ef1541839282e38b0a31f3",
+        "size_in_bytes": 5700
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H3.dat",
+        "path_type": "hardlink",
+        "sha256": "2be04852678f8e8904b09f60878034ee9ccc01845e6831b8ee2464920abd6769",
+        "sha256_in_prefix": "2be04852678f8e8904b09f60878034ee9ccc01845e6831b8ee2464920abd6769",
+        "size_in_bytes": 4900
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H4.dat",
+        "path_type": "hardlink",
+        "sha256": "bb310c328094f79b32a353796c725eee3f42e5b01b7523eb192271045c86a363",
+        "sha256_in_prefix": "bb310c328094f79b32a353796c725eee3f42e5b01b7523eb192271045c86a363",
+        "size_in_bytes": 33200
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H5.dat",
+        "path_type": "hardlink",
+        "sha256": "39b9646f30d7bc6a9ba440b62fb55b23a1dc0b70e6a948e9a37b39a4b1aed4eb",
+        "sha256_in_prefix": "39b9646f30d7bc6a9ba440b62fb55b23a1dc0b70e6a948e9a37b39a4b1aed4eb",
+        "size_in_bytes": 35150
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H6.dat",
+        "path_type": "hardlink",
+        "sha256": "927eae2add24ed28cc955f1d1ee33cb777db6da1c6b83f75f27b8d5dec9e4bd3",
+        "sha256_in_prefix": "927eae2add24ed28cc955f1d1ee33cb777db6da1c6b83f75f27b8d5dec9e4bd3",
+        "size_in_bytes": 25450
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_H7.dat",
+        "path_type": "hardlink",
+        "sha256": "66b11a84f77f61edeb52ce0564c2f8dafe6b9a1edb032b3301fccc8e117e5278",
+        "sha256_in_prefix": "66b11a84f77f61edeb52ce0564c2f8dafe6b9a1edb032b3301fccc8e117e5278",
+        "size_in_bytes": 35150
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_HQC18.dat",
+        "path_type": "hardlink",
+        "sha256": "50637320eefabaaa7574d29c534e7534453fcfaaa015644595545672a62c6757",
+        "sha256_in_prefix": "50637320eefabaaa7574d29c534e7534453fcfaaa015644595545672a62c6757",
+        "size_in_bytes": 19400
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_KDE0V.dat",
+        "path_type": "hardlink",
+        "sha256": "85c5b0b3d54aa25965ca9c6367676b947873aa1a6ea1e74313f7f2cd1d886794",
+        "sha256_in_prefix": "85c5b0b3d54aa25965ca9c6367676b947873aa1a6ea1e74313f7f2cd1d886794",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_KDE0V1.dat",
+        "path_type": "hardlink",
+        "sha256": "ea1a78c88db5a5cccf20c519e8a6dd290e2020d733afb7457d58eb30b7c41de2",
+        "sha256_in_prefix": "ea1a78c88db5a5cccf20c519e8a6dd290e2020d733afb7457d58eb30b7c41de2",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_KDE0V1_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "784d9605d6d182dee21a40cb7573afae7d3ececd2f87b064e27b9ccc947fc50e",
+        "sha256_in_prefix": "784d9605d6d182dee21a40cb7573afae7d3ececd2f87b064e27b9ccc947fc50e",
+        "size_in_bytes": 261186
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_KDE0V_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "e941fe26afb2523d946d97520b6497b7da7d660281c012ab32a3d855b0e2dbd8",
+        "sha256_in_prefix": "e941fe26afb2523d946d97520b6497b7da7d660281c012ab32a3d855b0e2dbd8",
+        "size_in_bytes": 263084
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MPA1.dat",
+        "path_type": "hardlink",
+        "sha256": "bd1b0c1a0506f37649275bfe401cf985f78b31e7d5dc3023665c49b9e2d0c3ec",
+        "sha256_in_prefix": "bd1b0c1a0506f37649275bfe401cf985f78b31e7d5dc3023665c49b9e2d0c3ec",
+        "size_in_bytes": 5100
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MS1.dat",
+        "path_type": "hardlink",
+        "sha256": "8f65aeeccd11f974c41d9b4c7cb2042250804702da9ee247d5b8fe91bd547ecb",
+        "sha256_in_prefix": "8f65aeeccd11f974c41d9b4c7cb2042250804702da9ee247d5b8fe91bd547ecb",
+        "size_in_bytes": 6100
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MS1B.dat",
+        "path_type": "hardlink",
+        "sha256": "818b1bda1e64e35b792613dff1cf27134bbcd97ec0432f48d65e766d6e882aee",
+        "sha256_in_prefix": "818b1bda1e64e35b792613dff1cf27134bbcd97ec0432f48d65e766d6e882aee",
+        "size_in_bytes": 6300
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MS1B_PP.dat",
+        "path_type": "hardlink",
+        "sha256": "9c03ee728665820d8dd132c339fa2578f6deef0d463adc5e3f7ab795ae441b73",
+        "sha256_in_prefix": "9c03ee728665820d8dd132c339fa2578f6deef0d463adc5e3f7ab795ae441b73",
+        "size_in_bytes": 72350
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MS1_PP.dat",
+        "path_type": "hardlink",
+        "sha256": "2a96d1ba85649925f65841e2fb08966c1f603efe8dddb41f2c16d7f8eb83e0d2",
+        "sha256_in_prefix": "2a96d1ba85649925f65841e2fb08966c1f603efe8dddb41f2c16d7f8eb83e0d2",
+        "size_in_bytes": 72350
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_MS2.dat",
+        "path_type": "hardlink",
+        "sha256": "d44979b3fde41bce9752b2fbec678d71927c1f505eb45ead7336542a87f66307",
+        "sha256_in_prefix": "d44979b3fde41bce9752b2fbec678d71927c1f505eb45ead7336542a87f66307",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_PAL6.dat",
+        "path_type": "hardlink",
+        "sha256": "99ec8d6d357d82662364c965196e73b9c33aa0697b7a12e9dbb5fb873b0865ec",
+        "sha256_in_prefix": "99ec8d6d357d82662364c965196e73b9c33aa0697b7a12e9dbb5fb873b0865ec",
+        "size_in_bytes": 7400
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_PCL2.dat",
+        "path_type": "hardlink",
+        "sha256": "a8cdb5ece081fb1290841f1d53dae015b483c62919cc2cb1a245a89ac82b3b2f",
+        "sha256_in_prefix": "a8cdb5ece081fb1290841f1d53dae015b483c62919cc2cb1a245a89ac82b3b2f",
+        "size_in_bytes": 6700
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_PCP_BSK24_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "ea81382a2442729adc19dc58e612fa7852d679515eeaff93982678c0fb5ca743",
+        "sha256_in_prefix": "ea81382a2442729adc19dc58e612fa7852d679515eeaff93982678c0fb5ca743",
+        "size_in_bytes": 188442
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_PS.dat",
+        "path_type": "hardlink",
+        "sha256": "4bad449cbf845d2803e293636aaf8115ad59fcd78814ea446a218b21a48cf3a5",
+        "sha256_in_prefix": "4bad449cbf845d2803e293636aaf8115ad59fcd78814ea446a218b21a48cf3a5",
+        "size_in_bytes": 8250
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_QMC700.dat",
+        "path_type": "hardlink",
+        "sha256": "5b8a4eaa56be971d73c673bf1aeae2731374db259c37a57482630ea086368878",
+        "sha256_in_prefix": "5b8a4eaa56be971d73c673bf1aeae2731374db259c37a57482630ea086368878",
+        "size_in_bytes": 5850
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_RG_SLY4_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "47019da6158e9798c2ef66832a79698fcc4c02b566bf14817b973f01cdb6e887",
+        "sha256_in_prefix": "47019da6158e9798c2ef66832a79698fcc4c02b566bf14817b973f01cdb6e887",
+        "size_in_bytes": 188438
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_RS.dat",
+        "path_type": "hardlink",
+        "sha256": "4f556a5348d92e8c5426aeb15289b9a68dbddf331a595873307e03921f2c076b",
+        "sha256_in_prefix": "4f556a5348d92e8c5426aeb15289b9a68dbddf331a595873307e03921f2c076b",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_RS_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "bef142caa2b99f876f3b0dff313e5415e7e22dd3f265d056986cbc6564b3417a",
+        "sha256_in_prefix": "bef142caa2b99f876f3b0dff313e5415e7e22dd3f265d056986cbc6564b3417a",
+        "size_in_bytes": 254910
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SK255.dat",
+        "path_type": "hardlink",
+        "sha256": "8afae603a27b405defa0c9908b50370dd64382ffc2f773ead7e0cdb32005a492",
+        "sha256_in_prefix": "8afae603a27b405defa0c9908b50370dd64382ffc2f773ead7e0cdb32005a492",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SK255_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "572f9d247d33386f9396c92b3f5bd52709e93d94faab98f0a85b727661884150",
+        "sha256_in_prefix": "572f9d247d33386f9396c92b3f5bd52709e93d94faab98f0a85b727661884150",
+        "size_in_bytes": 200005
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SK272.dat",
+        "path_type": "hardlink",
+        "sha256": "5b70c20f89d1a6cb73618f700b1ca639184396eb83b31d72d4fa42ef9dfae12f",
+        "sha256_in_prefix": "5b70c20f89d1a6cb73618f700b1ca639184396eb83b31d72d4fa42ef9dfae12f",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKA.dat",
+        "path_type": "hardlink",
+        "sha256": "83e234ef1f42ec04e508cc1638182dfa7968d57af5e6201bf48f7bfd0e2ce7bc",
+        "sha256_in_prefix": "83e234ef1f42ec04e508cc1638182dfa7968d57af5e6201bf48f7bfd0e2ce7bc",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKA_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "839b1c9bfae39e26cafd25046d622304e17ea574beebcabc9f4ce04a399f0b65",
+        "sha256_in_prefix": "839b1c9bfae39e26cafd25046d622304e17ea574beebcabc9f4ce04a399f0b65",
+        "size_in_bytes": 269730
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKB.dat",
+        "path_type": "hardlink",
+        "sha256": "05b7bdae38f4d17925636e840b47f423be6e36655d8a498c7e2d17c7931cc196",
+        "sha256_in_prefix": "05b7bdae38f4d17925636e840b47f423be6e36655d8a498c7e2d17c7931cc196",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKB_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "e6ca40636c618d37b2297da27e69b61a0375d5625186e1ab1dacea6031434e94",
+        "sha256_in_prefix": "e6ca40636c618d37b2297da27e69b61a0375d5625186e1ab1dacea6031434e94",
+        "size_in_bytes": 258330
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI2.dat",
+        "path_type": "hardlink",
+        "sha256": "1d3b6e12e66ee23a289404341df80a661f76d852c92a45591482cde8ed29152a",
+        "sha256_in_prefix": "1d3b6e12e66ee23a289404341df80a661f76d852c92a45591482cde8ed29152a",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "27b8ab3f800960999ebdfa643f06ca6e6b72611a044a95826a7b87e539eeabed",
+        "sha256_in_prefix": "27b8ab3f800960999ebdfa643f06ca6e6b72611a044a95826a7b87e539eeabed",
+        "size_in_bytes": 253582
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI3.dat",
+        "path_type": "hardlink",
+        "sha256": "910a8cb5b94279ed626b056454fb046141881e2db302428f7d9b94f2708ba7d9",
+        "sha256_in_prefix": "910a8cb5b94279ed626b056454fb046141881e2db302428f7d9b94f2708ba7d9",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI3_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "cf890c32b66d6f50af58f786d8aaa4a48c18885c6e174922aae7f366fcc05c57",
+        "sha256_in_prefix": "cf890c32b66d6f50af58f786d8aaa4a48c18885c6e174922aae7f366fcc05c57",
+        "size_in_bytes": 254912
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI4.dat",
+        "path_type": "hardlink",
+        "sha256": "7e5d60491801121d49415a1b9f92d705e3c841dd0671535b6de2bcdf1c522ebf",
+        "sha256_in_prefix": "7e5d60491801121d49415a1b9f92d705e3c841dd0671535b6de2bcdf1c522ebf",
+        "size_in_bytes": 24850
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI4_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "38c8a60b8c2ac1c775653cb0dcadc082d91efa70dada1d18d161ee358db1a491",
+        "sha256_in_prefix": "38c8a60b8c2ac1c775653cb0dcadc082d91efa70dada1d18d161ee358db1a491",
+        "size_in_bytes": 253582
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI5.dat",
+        "path_type": "hardlink",
+        "sha256": "41d9a325c90ca590cd21f8e0e7abbc1b1643cf599b33e66f68230f080f2f7810",
+        "sha256_in_prefix": "41d9a325c90ca590cd21f8e0e7abbc1b1643cf599b33e66f68230f080f2f7810",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI6.dat",
+        "path_type": "hardlink",
+        "sha256": "8fde8c5f6b196b2fc301ea6b6c16440755cb98bc81d75f9b9a3ddc2265d48fd2",
+        "sha256_in_prefix": "8fde8c5f6b196b2fc301ea6b6c16440755cb98bc81d75f9b9a3ddc2265d48fd2",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKI6_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "49e8cf38a47d20e73f39da76e72714dbfa3cd4c841a4b6246485886978a9630e",
+        "sha256_in_prefix": "49e8cf38a47d20e73f39da76e72714dbfa3cd4c841a4b6246485886978a9630e",
+        "size_in_bytes": 255482
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKMP.dat",
+        "path_type": "hardlink",
+        "sha256": "b808542c660add28be22baa068111b4710536d5a4f033fd4011ae824ab36c605",
+        "sha256_in_prefix": "b808542c660add28be22baa068111b4710536d5a4f033fd4011ae824ab36c605",
+        "size_in_bytes": 24900
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKOP.dat",
+        "path_type": "hardlink",
+        "sha256": "b96a315d1ead8dd7a664f9fc68c1524435634aea4544523a131e8c74b4908cd4",
+        "sha256_in_prefix": "b96a315d1ead8dd7a664f9fc68c1524435634aea4544523a131e8c74b4908cd4",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SKOP_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "e00bccaf42f1cb5b9f7d3882cc7e2a5028dc15d2ecd4b00af162cd79d0c5888f",
+        "sha256_in_prefix": "e00bccaf42f1cb5b9f7d3882cc7e2a5028dc15d2ecd4b00af162cd79d0c5888f",
+        "size_in_bytes": 258332
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY.dat",
+        "path_type": "hardlink",
+        "sha256": "eddb8321e8ad97b30eccebe5d6a5bf8147bfb6baf3c1783aa32fa4ce94d30052",
+        "sha256_in_prefix": "eddb8321e8ad97b30eccebe5d6a5bf8147bfb6baf3c1783aa32fa4ce94d30052",
+        "size_in_bytes": 4950
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY2.dat",
+        "path_type": "hardlink",
+        "sha256": "f4411fea28eed20558a867ebeb1b9922f8a36d21f278da479df3b7009d7515bf",
+        "sha256_in_prefix": "f4411fea28eed20558a867ebeb1b9922f8a36d21f278da479df3b7009d7515bf",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY230A.dat",
+        "path_type": "hardlink",
+        "sha256": "d77c1d62870f6580989430f165149f1b86ce681adf578d2ffa85691dd4557636",
+        "sha256_in_prefix": "d77c1d62870f6580989430f165149f1b86ce681adf578d2ffa85691dd4557636",
+        "size_in_bytes": 25000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY230A_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "647948ad1ca1d2dd22c02ddc00f9ec4c7384b96fc528e977762e49f287f3a219",
+        "sha256_in_prefix": "647948ad1ca1d2dd22c02ddc00f9ec4c7384b96fc528e977762e49f287f3a219",
+        "size_in_bytes": 209508
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "ca87c90738bacdc06596f097462d9616ad2f5408cdaa4fa5fbdf442a9cb357de",
+        "sha256_in_prefix": "ca87c90738bacdc06596f097462d9616ad2f5408cdaa4fa5fbdf442a9cb357de",
+        "size_in_bytes": 207602
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY4.dat",
+        "path_type": "hardlink",
+        "sha256": "475b77304c6da7253699c3cf48ad5a06bb637178f9615267cc0c6e6b41cc0b75",
+        "sha256_in_prefix": "475b77304c6da7253699c3cf48ad5a06bb637178f9615267cc0c6e6b41cc0b75",
+        "size_in_bytes": 3545
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY9.dat",
+        "path_type": "hardlink",
+        "sha256": "8c03e6be9471668d1b5cfc3f0715ffabc6b44e549f562c9b081eafa9218dc200",
+        "sha256_in_prefix": "8c03e6be9471668d1b5cfc3f0715ffabc6b44e549f562c9b081eafa9218dc200",
+        "size_in_bytes": 24900
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SLY9_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "c35510cb35a9d98a565e85d73ee56feedf62fdd08f1faa23f462b0b8edf2e5a1",
+        "sha256_in_prefix": "c35510cb35a9d98a565e85d73ee56feedf62fdd08f1faa23f462b0b8edf2e5a1",
+        "size_in_bytes": 203232
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SQM1.dat",
+        "path_type": "hardlink",
+        "sha256": "96eb5c171fb216947f43483dd5ee6cec5a209116d0a52960e5917eeae44a9a7d",
+        "sha256_in_prefix": "96eb5c171fb216947f43483dd5ee6cec5a209116d0a52960e5917eeae44a9a7d",
+        "size_in_bytes": 8800
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SQM2.dat",
+        "path_type": "hardlink",
+        "sha256": "b8c0e60f332a9e26a7e451bb43ea0091c088e1972ad36f0b4f4bd3dfcb9f2934",
+        "sha256_in_prefix": "b8c0e60f332a9e26a7e451bb43ea0091c088e1972ad36f0b4f4bd3dfcb9f2934",
+        "size_in_bytes": 9000
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_SQM3.dat",
+        "path_type": "hardlink",
+        "sha256": "73bba93bdddd2b213c98d09bfd05304da8fc4773cd0d2cf1cf2fefbe3ffd2c4c",
+        "sha256_in_prefix": "73bba93bdddd2b213c98d09bfd05304da8fc4773cd0d2cf1cf2fefbe3ffd2c4c",
+        "size_in_bytes": 8800
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_WFF1.dat",
+        "path_type": "hardlink",
+        "sha256": "7ed773ea0e0328b16ed71f66d27f7f71289bfe978fa8f7d04a8f449690d30776",
+        "sha256_in_prefix": "7ed773ea0e0328b16ed71f66d27f7f71289bfe978fa8f7d04a8f449690d30776",
+        "size_in_bytes": 5450
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_WFF2.dat",
+        "path_type": "hardlink",
+        "sha256": "04698be6750edd326cab423a21956a276b1fcdec2851e35d1e298082f9b89667",
+        "sha256_in_prefix": "04698be6750edd326cab423a21956a276b1fcdec2851e35d1e298082f9b89667",
+        "size_in_bytes": 5450
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_WFF3.dat",
+        "path_type": "hardlink",
+        "sha256": "14f17b48027aa7378f9e14a6e09ea427e022a33ca601f32149fac8441150971d",
+        "sha256_in_prefix": "14f17b48027aa7378f9e14a6e09ea427e022a33ca601f32149fac8441150971d",
+        "size_in_bytes": 5350
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDLZ1_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "4b29cf2959643ec22edd76c915823a3abfc7b2d768978995a53a4e94c965776f",
+        "sha256_in_prefix": "4b29cf2959643ec22edd76c915823a3abfc7b2d768978995a53a4e94c965776f",
+        "size_in_bytes": 230609
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDME2_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "52f14e2c1cebc7d5ba78a9fac04cff5d7d71f1cab9c9a8ddca88e37ae3479ec6",
+        "sha256_in_prefix": "52f14e2c1cebc7d5ba78a9fac04cff5d7d71f1cab9c9a8ddca88e37ae3479ec6",
+        "size_in_bytes": 239158
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_DDMEX_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "79b013795aef5c4d94c764061a682cb952f8fec2bcae0ebe9d403f78f7f49894",
+        "sha256_in_prefix": "79b013795aef5c4d94c764061a682cb952f8fec2bcae0ebe9d403f78f7f49894",
+        "size_in_bytes": 240678
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_GM1_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "d01c8fe7dc13dc912ea05b5dcb62fecd816a468d53fa6193ff8ce14ebb0ca9f9",
+        "sha256_in_prefix": "d01c8fe7dc13dc912ea05b5dcb62fecd816a468d53fa6193ff8ce14ebb0ca9f9",
+        "size_in_bytes": 242194
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_MTVTC_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "647c1586813a101674802c0e6c40cf9d9ce545d6ba9bd4e511dcd1fe3b4b3b59",
+        "sha256_in_prefix": "647c1586813a101674802c0e6c40cf9d9ce545d6ba9bd4e511dcd1fe3b4b3b59",
+        "size_in_bytes": 242198
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_NL3_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "a756900cb4aa7ad98ebcef7559e2298eb21835af85eaaadbf5e571a13d43dcbc",
+        "sha256_in_prefix": "a756900cb4aa7ad98ebcef7559e2298eb21835af85eaaadbf5e571a13d43dcbc",
+        "size_in_bytes": 231174
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_PKDD_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "0bbc5cfb268b6ee833a4f15e8adcc25bb98f850d31ce7ac1c6074c10da62bb06",
+        "sha256_in_prefix": "0bbc5cfb268b6ee833a4f15e8adcc25bb98f850d31ce7ac1c6074c10da62bb06",
+        "size_in_bytes": 242196
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_TM1_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "337b03d6a33134984cdfd3faf6a95a7d33f1d55ea648fa68078bc704437a88f0",
+        "sha256_in_prefix": "337b03d6a33134984cdfd3faf6a95a7d33f1d55ea648fa68078bc704437a88f0",
+        "size_in_bytes": 242194
+      },
+      {
+        "_path": "share/lalsimulation/LALSimNeutronStarEOS_XMLSLZ_TW99_BSK24.dat",
+        "path_type": "hardlink",
+        "sha256": "825427abf92376bce04f3c663b77a8b75689b6b2be8c3e9d09e6a6d046314793",
+        "sha256_in_prefix": "825427abf92376bce04f3c663b77a8b75689b6b2be8c3e9d09e6a6d046314793",
+        "size_in_bytes": 242196
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_BNS_OPTIMIZED.txt",
+        "path_type": "hardlink",
+        "sha256": "c9ed8efca7c3a9146b15a03e61cbd23843c9c6dc1f47e49dfb2e4029e8fe5192",
+        "sha256_in_prefix": "c9ed8efca7c3a9146b15a03e61cbd23843c9c6dc1f47e49dfb2e4029e8fe5192",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_DESIGN.txt",
+        "path_type": "hardlink",
+        "sha256": "211d94b2be29a603143f35abb1c40881453aad52af3be0d287a62619effdc21d",
+        "sha256_in_prefix": "211d94b2be29a603143f35abb1c40881453aad52af3be0d287a62619effdc21d",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_EARLY_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "428893b23f4896f9c56b77a930bd9cd1b22f891e518c6e3f6c1e4bfaa8301e9c",
+        "sha256_in_prefix": "428893b23f4896f9c56b77a930bd9cd1b22f891e518c6e3f6c1e4bfaa8301e9c",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_EARLY_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "610bf04624fb93ebea1ce9683a1ff61b0677666ff81483db7d676842540ebf3d",
+        "sha256_in_prefix": "610bf04624fb93ebea1ce9683a1ff61b0677666ff81483db7d676842540ebf3d",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_LATE_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "1391876a46a34dc1c2388da76d9910b8ce6e19e13d6f47c6c0100dacc048abf5",
+        "sha256_in_prefix": "1391876a46a34dc1c2388da76d9910b8ce6e19e13d6f47c6c0100dacc048abf5",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_LATE_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "0150832448026edee65d65bfd13ee60064dae4b7332f0dacdcde1bbb5c19414e",
+        "sha256_in_prefix": "0150832448026edee65d65bfd13ee60064dae4b7332f0dacdcde1bbb5c19414e",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_MID_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "2c9177060a016bab6ca35f06cd73bf2502b3d0490c37af5be01ca204e167ce5e",
+        "sha256_in_prefix": "2c9177060a016bab6ca35f06cd73bf2502b3d0490c37af5be01ca204e167ce5e",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-AdV_MID_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "428893b23f4896f9c56b77a930bd9cd1b22f891e518c6e3f6c1e4bfaa8301e9c",
+        "sha256_in_prefix": "428893b23f4896f9c56b77a930bd9cd1b22f891e518c6e3f6c1e4bfaa8301e9c",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_BNS_OPTIMIZED.txt",
+        "path_type": "hardlink",
+        "sha256": "02c49fca26bc9f844bdb2487b449cf146e4c3badbfe71bb778669960bd0a5c18",
+        "sha256_in_prefix": "02c49fca26bc9f844bdb2487b449cf146e4c3badbfe71bb778669960bd0a5c18",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_DESIGN.txt",
+        "path_type": "hardlink",
+        "sha256": "652002df1c6d2830f9debe33a70f8cec7ed0249f16cfccd0c1108132472c7af6",
+        "sha256_in_prefix": "652002df1c6d2830f9debe33a70f8cec7ed0249f16cfccd0c1108132472c7af6",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_EARLY_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "1399eadefb86c13a7d076c8e87c2f23aeccd32a4d92d949d4d39ffe6982b4d13",
+        "sha256_in_prefix": "1399eadefb86c13a7d076c8e87c2f23aeccd32a4d92d949d4d39ffe6982b4d13",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_EARLY_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "9fcdd0542850f3edc9dbdcf63bb8cb6b7590437006bd4f385b5f0269ae168c3f",
+        "sha256_in_prefix": "9fcdd0542850f3edc9dbdcf63bb8cb6b7590437006bd4f385b5f0269ae168c3f",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_LATE_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "a0009e8469a36651ea2ab32bd76faac81aefafc95e4b24ff6a5cfedbea2c5fe9",
+        "sha256_in_prefix": "a0009e8469a36651ea2ab32bd76faac81aefafc95e4b24ff6a5cfedbea2c5fe9",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_LATE_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "7df1f0d987e23b06ba01d187852c0f4aec706974e4304b28129eaca5e080f81d",
+        "sha256_in_prefix": "7df1f0d987e23b06ba01d187852c0f4aec706974e4304b28129eaca5e080f81d",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_MID_HIGH.txt",
+        "path_type": "hardlink",
+        "sha256": "7df1f0d987e23b06ba01d187852c0f4aec706974e4304b28129eaca5e080f81d",
+        "sha256_in_prefix": "7df1f0d987e23b06ba01d187852c0f4aec706974e4304b28129eaca5e080f81d",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1200087-v18-aLIGO_MID_LOW.txt",
+        "path_type": "hardlink",
+        "sha256": "1399eadefb86c13a7d076c8e87c2f23aeccd32a4d92d949d4d39ffe6982b4d13",
+        "sha256_in_prefix": "1399eadefb86c13a7d076c8e87c2f23aeccd32a4d92d949d4d39ffe6982b4d13",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1600143-v18-CE.txt",
+        "path_type": "hardlink",
+        "sha256": "6ca05fe8d2f0143b0c2a9c5d5030612b078f7d431ffa8690d321d20b27f0cf64",
+        "sha256_in_prefix": "6ca05fe8d2f0143b0c2a9c5d5030612b078f7d431ffa8690d321d20b27f0cf64",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1600143-v18-CE_Pessimistic.txt",
+        "path_type": "hardlink",
+        "sha256": "d2675dff7ed5923610c3830a93a30381515f87e3fead310bc3c4da71cce52ac2",
+        "sha256_in_prefix": "d2675dff7ed5923610c3830a93a30381515f87e3fead310bc3c4da71cce52ac2",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1600143-v18-CE_Wideband.txt",
+        "path_type": "hardlink",
+        "sha256": "e58ea6056a8a4b0492f10afe3e281d9c239231a211531217617108f9c223375f",
+        "sha256_in_prefix": "e58ea6056a8a4b0492f10afe3e281d9c239231a211531217617108f9c223375f",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-P1600143-v18-ET_D.txt",
+        "path_type": "hardlink",
+        "sha256": "3af20e527f7e5aa540f981c19a9ef4eb44a6805b73950ef7fdad08d01447303c",
+        "sha256_in_prefix": "3af20e527f7e5aa540f981c19a9ef4eb44a6805b73950ef7fdad08d01447303c",
+        "size_in_bytes": 84000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-BHBH_20deg.txt",
+        "path_type": "hardlink",
+        "sha256": "9b7d230decc4b44a65365295b9f3ca4a0df9947393a82ddc5da6dbda0f1a9f01",
+        "sha256_in_prefix": "9b7d230decc4b44a65365295b9f3ca4a0df9947393a82ddc5da6dbda0f1a9f01",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-High_Freq.txt",
+        "path_type": "hardlink",
+        "sha256": "22bd0fcfce55a22cb18ca272f2a55dc69e083be37b1d76ffa2da4424c83ec03b",
+        "sha256_in_prefix": "22bd0fcfce55a22cb18ca272f2a55dc69e083be37b1d76ffa2da4424c83ec03b",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-NO_SRM.txt",
+        "path_type": "hardlink",
+        "sha256": "e6f5c31e6f8060692258a5d98407d8e7e0e10eb0fd4bcd1e16c268ffb39ee901",
+        "sha256_in_prefix": "e6f5c31e6f8060692258a5d98407d8e7e0e10eb0fd4bcd1e16c268ffb39ee901",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-NSNS_Opt.txt",
+        "path_type": "hardlink",
+        "sha256": "fdc3866921a139cf435609c3f069a4d6ea850926f85e143db58e09ea80d5d1e2",
+        "sha256_in_prefix": "fdc3866921a139cf435609c3f069a4d6ea850926f85e143db58e09ea80d5d1e2",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_high_P.txt",
+        "path_type": "hardlink",
+        "sha256": "008d8e6aa2e406dfcb61b07f3139c55aa6c89e4c9d6126a59967594cc3c15aa7",
+        "sha256_in_prefix": "008d8e6aa2e406dfcb61b07f3139c55aa6c89e4c9d6126a59967594cc3c15aa7",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T0900288-v3-ZERO_DET_low_P.txt",
+        "path_type": "hardlink",
+        "sha256": "95cca66674e00a17fc9cdd0bc67b8407c7a4d6e6dec06815ee99544ac4eedc12",
+        "sha256_in_prefix": "95cca66674e00a17fc9cdd0bc67b8407c7a4d6e6dec06815ee99544ac4eedc12",
+        "size_in_bytes": 153000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Design.txt",
+        "path_type": "hardlink",
+        "sha256": "25a00c05472a3fd6d4c84c13fdeef70bf709d4bf03139fb3f193882f521c308f",
+        "sha256_in_prefix": "25a00c05472a3fd6d4c84c13fdeef70bf709d4bf03139fb3f193882f521c308f",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Early.txt",
+        "path_type": "hardlink",
+        "sha256": "f583551adbe63747bf3e21aa3fb38014b7acaf5b7916f5f58477b856b61c92f5",
+        "sha256_in_prefix": "f583551adbe63747bf3e21aa3fb38014b7acaf5b7916f5f58477b856b61c92f5",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Late.txt",
+        "path_type": "hardlink",
+        "sha256": "10cbedc91eb92b5b747a54b1283f59fc35a077f824473b549afca47e8883e37d",
+        "sha256_in_prefix": "10cbedc91eb92b5b747a54b1283f59fc35a077f824473b549afca47e8883e37d",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Mid.txt",
+        "path_type": "hardlink",
+        "sha256": "95740187ed9933950c244d1a7fb0c3ac676ca1fb9acf7fba998f14370c214898",
+        "sha256_in_prefix": "95740187ed9933950c244d1a7fb0c3ac676ca1fb9acf7fba998f14370c214898",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1600593-v1-KAGRA_Opening.txt",
+        "path_type": "hardlink",
+        "sha256": "99958c3c1b08e798e1f039171e14d9c0558f5f0d9c336c5566be3b620954828d",
+        "sha256_in_prefix": "99958c3c1b08e798e1f039171e14d9c0558f5f0d9c336c5566be3b620954828d",
+        "size_in_bytes": 132000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800042-v5-aLIGO_APLUS.txt",
+        "path_type": "hardlink",
+        "sha256": "78edfab99e8e5ff303a3285d2da611b9afa71517d3ebeb7815f4a9e42929f9e4",
+        "sha256_in_prefix": "78edfab99e8e5ff303a3285d2da611b9afa71517d3ebeb7815f4a9e42929f9e4",
+        "size_in_bytes": 56268
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800044-v5-aLIGO_DESIGN.txt",
+        "path_type": "hardlink",
+        "sha256": "b90556e379ddb19e8784d3e3a1a45e7899a8337a9e8f10c7fdb644b93b64ec87",
+        "sha256_in_prefix": "b90556e379ddb19e8784d3e3a1a45e7899a8337a9e8f10c7fdb644b93b64ec87",
+        "size_in_bytes": 56290
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-AdV_O3low.txt",
+        "path_type": "hardlink",
+        "sha256": "d64df599d83f7f9a7ad740865fce05a53689911b48ae23c7b4bb2e88c6834016",
+        "sha256_in_prefix": "d64df599d83f7f9a7ad740865fce05a53689911b48ae23c7b4bb2e88c6834016",
+        "size_in_bytes": 78000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-AdV_O4.txt",
+        "path_type": "hardlink",
+        "sha256": "01c114e2057cb2f75781518e803ceb20659604179feb51fd75d5e20bf202327d",
+        "sha256_in_prefix": "01c114e2057cb2f75781518e803ceb20659604179feb51fd75d5e20bf202327d",
+        "size_in_bytes": 78000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-AdV_O4intermediate.txt",
+        "path_type": "hardlink",
+        "sha256": "7a5e46663f675491f85881ccceb57cd9dba505f05bddbcfc807d167efae837b6",
+        "sha256_in_prefix": "7a5e46663f675491f85881ccceb57cd9dba505f05bddbcfc807d167efae837b6",
+        "size_in_bytes": 99000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-KAGRA_128Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "a06a4f207f7fde873e427ed5210452ac7b58fc87ef629d0cf8687af145aeb57e",
+        "sha256_in_prefix": "a06a4f207f7fde873e427ed5210452ac7b58fc87ef629d0cf8687af145aeb57e",
+        "size_in_bytes": 26000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-KAGRA_25Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "a6c285d7051b50e86c6e21fe6e7b71d7d3fe7f028e7a949f59babe859d6234e6",
+        "sha256_in_prefix": "a6c285d7051b50e86c6e21fe6e7b71d7d3fe7f028e7a949f59babe859d6234e6",
+        "size_in_bytes": 26000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-KAGRA_80Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "77c32fff1bffc2489ed18c5fa015a8b0a80bf86c33ca9ed1573b8868f5a7d43d",
+        "sha256_in_prefix": "77c32fff1bffc2489ed18c5fa015a8b0a80bf86c33ca9ed1573b8868f5a7d43d",
+        "size_in_bytes": 26000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-aLIGO_140Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "3f0c4a44b1eead215ea7e24964810341a5de60486a2492f0517bc232bb0c5eab",
+        "sha256_in_prefix": "3f0c4a44b1eead215ea7e24964810341a5de60486a2492f0517bc232bb0c5eab",
+        "size_in_bytes": 27000
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-aLIGO_175Mpc.txt",
+        "path_type": "hardlink",
+        "sha256": "698756dcc73e7fcab639f06a0e1e2c5da2e178334e213423d14126cbad7927e8",
+        "sha256_in_prefix": "698756dcc73e7fcab639f06a0e1e2c5da2e178334e213423d14126cbad7927e8",
+        "size_in_bytes": 72592
+      },
+      {
+        "_path": "share/lalsimulation/LIGO-T1800545-v1-aLIGO_O3low.txt",
+        "path_type": "hardlink",
+        "sha256": "84d21f4d15bf604f7504e90bd02b4a7c7d67c8ccdaec0ec102c721c4a52b2524",
+        "sha256_in_prefix": "84d21f4d15bf604f7504e90bd02b4a7c7d67c8ccdaec0ec102c721c4a52b2524",
+        "size_in_bytes": 72592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e490b31efb234ba062733dcb6c6227564e454777b4d2dd5b8e1ad7bd88ea591e",
+  "size": 3632081,
+  "subdir": "linux-64",
+  "timestamp": 1724329134000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/lalsimulation-data-6.0.0-ha770c72_0.conda",
+  "version": "6.0.0"
+}

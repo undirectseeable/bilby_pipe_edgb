@@ -1,0 +1,391 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "bilby",
+    "numpy >=1.17",
+    "python >=3.8",
+    "python-lal",
+    "python-lalsimulation >=5.1.0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/bilby_tgr-0.1a1-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/LICENSE.md",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/METADATA",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/RECORD",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/bilby_tgr-0.1a1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/bilby_tgr/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/_version.py",
+    "lib/python3.9/site-packages/bilby_tgr/fti/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/fti/conversion.py",
+    "lib/python3.9/site-packages/bilby_tgr/fti/prior.py",
+    "lib/python3.9/site-packages/bilby_tgr/fti/prior_files/aligned_spins_bbh.prior",
+    "lib/python3.9/site-packages/bilby_tgr/fti/prior_files/precessing_spins_bbh.prior",
+    "lib/python3.9/site-packages/bilby_tgr/fti/source.py",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/conversion.py",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/postprocessing.py",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior.py",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bbh.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bbh_tides_on.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bns.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bns_tides_on.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bbh.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bbh_tides_on.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bns.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bns_tides_on.prior",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/source.py",
+    "lib/python3.9/site-packages/bilby_tgr/pseob/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/pseob/source.py",
+    "lib/python3.9/site-packages/bilby_tgr/siqm/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/tiger/__init__.py",
+    "lib/python3.9/site-packages/bilby_tgr/tiger/source.py",
+    "lib/python3.9/site-packages/bilby_tgr/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/conversion.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/prior.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/source.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/conversion.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/postprocessing.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/prior.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/source.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/pseob/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/pseob/__pycache__/source.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/siqm/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/tiger/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_tgr/tiger/__pycache__/source.cpython-39.pyc"
+  ],
+  "fn": "bilby_tgr-0.1a1-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/bilby_tgr-0.1a1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "ea34aef31906a68bad8a2fa43f3ed04b",
+  "name": "bilby_tgr",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/bilby_tgr-0.1a1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "dcf4150fc03fd20bc75ac42f8ea7baf7ee3184492295ac8c70acd849b18266b5",
+        "sha256_in_prefix": "dcf4150fc03fd20bc75ac42f8ea7baf7ee3184492295ac8c70acd849b18266b5",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d7899b0394022b3280bb7e045965445fd8abb8aab805a591e38d22460c2c85dd",
+        "sha256_in_prefix": "d7899b0394022b3280bb7e045965445fd8abb8aab805a591e38d22460c2c85dd",
+        "size_in_bytes": 5431
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "384d6c331012e1a9816a97949e71cbe856c0e4324d9f7f2692ef89121b1ccf6d",
+        "sha256_in_prefix": "384d6c331012e1a9816a97949e71cbe856c0e4324d9f7f2692ef89121b1ccf6d",
+        "size_in_bytes": 3979
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "341087e898e32d0c0b8a72d31244efb6b9b2aa021fcb85e86fbded6569277e9f",
+        "sha256_in_prefix": "341087e898e32d0c0b8a72d31244efb6b9b2aa021fcb85e86fbded6569277e9f",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/bilby_tgr-0.1a1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cc3cf57daba770563cb6ed1d5fa9da7308dc5ea8024de069b0d5d19852a43b85",
+        "sha256_in_prefix": "cc3cf57daba770563cb6ed1d5fa9da7308dc5ea8024de069b0d5d19852a43b85",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/bilby_tgr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f1bc4a5cd223f57349838a8b08be8bddd44dc6abd349948a3ee3dc28a15a94ba",
+        "sha256_in_prefix": "f1bc4a5cd223f57349838a8b08be8bddd44dc6abd349948a3ee3dc28a15a94ba",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/bilby_tgr/_version.py",
+        "path_type": "hardlink",
+        "sha256": "65624df87cfebf21f6cef9c5f04273dcafb2532963468f5304aaf7834777a229",
+        "sha256_in_prefix": "65624df87cfebf21f6cef9c5f04273dcafb2532963468f5304aaf7834777a229",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b12d53682d9f8907fa73ff2e8830947d7c5b472dea1e21d01d9820c678eae7c",
+        "sha256_in_prefix": "0b12d53682d9f8907fa73ff2e8830947d7c5b472dea1e21d01d9820c678eae7c",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/conversion.py",
+        "path_type": "hardlink",
+        "sha256": "40f36a9e7b773218653c0687b0198b00d4f558f66fcf6bf786e9c89665e385de",
+        "sha256_in_prefix": "40f36a9e7b773218653c0687b0198b00d4f558f66fcf6bf786e9c89665e385de",
+        "size_in_bytes": 6137
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/prior.py",
+        "path_type": "hardlink",
+        "sha256": "24454f101fd51cf329954332a1f587f5ae1f5404349d3a7bcee4956807252943",
+        "sha256_in_prefix": "24454f101fd51cf329954332a1f587f5ae1f5404349d3a7bcee4956807252943",
+        "size_in_bytes": 5902
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/prior_files/aligned_spins_bbh.prior",
+        "path_type": "hardlink",
+        "sha256": "38d9787a0dacddd6bcb2ef5d80e6444b69f75225c50f5d038bf5893ed9121fe6",
+        "sha256_in_prefix": "38d9787a0dacddd6bcb2ef5d80e6444b69f75225c50f5d038bf5893ed9121fe6",
+        "size_in_bytes": 2365
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/prior_files/precessing_spins_bbh.prior",
+        "path_type": "hardlink",
+        "sha256": "ce2bc918df1eddae751c61c2592ad7f5dfec79c46697e6a32056fc264a244ca4",
+        "sha256_in_prefix": "ce2bc918df1eddae751c61c2592ad7f5dfec79c46697e6a32056fc264a244ca4",
+        "size_in_bytes": 2509
+      },
+      {
+        "_path": "site-packages/bilby_tgr/fti/source.py",
+        "path_type": "hardlink",
+        "sha256": "2137b7caae3697b285c81cffbe284c06e8a21acd77815c17397ffdb45c86c2a2",
+        "sha256_in_prefix": "2137b7caae3697b285c81cffbe284c06e8a21acd77815c17397ffdb45c86c2a2",
+        "size_in_bytes": 12057
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cb25407dd27d31021aa86e20acf532543d1b0978fa3d38f35e1f9934baed076f",
+        "sha256_in_prefix": "cb25407dd27d31021aa86e20acf532543d1b0978fa3d38f35e1f9934baed076f",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/conversion.py",
+        "path_type": "hardlink",
+        "sha256": "4c018b5bf250f18716711d3b6df54186a2181a94a7182da385544d6afb4c423c",
+        "sha256_in_prefix": "4c018b5bf250f18716711d3b6df54186a2181a94a7182da385544d6afb4c423c",
+        "size_in_bytes": 16435
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/postprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "a7dcd26154ffde2d55655422ccc621c1315ee9e454b78533c7bdb4dee7afd356",
+        "sha256_in_prefix": "a7dcd26154ffde2d55655422ccc621c1315ee9e454b78533c7bdb4dee7afd356",
+        "size_in_bytes": 6892
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior.py",
+        "path_type": "hardlink",
+        "sha256": "05c1336262f7bb6141a0e2b7e650f8abaf210b6172e22e46d81695a4fc45a4b9",
+        "sha256_in_prefix": "05c1336262f7bb6141a0e2b7e650f8abaf210b6172e22e46d81695a4fc45a4b9",
+        "size_in_bytes": 2930
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bbh.prior",
+        "path_type": "hardlink",
+        "sha256": "2516a3fed17043d07a1c688af1691475b163ddd3b012bfb043028db31624edf1",
+        "sha256_in_prefix": "2516a3fed17043d07a1c688af1691475b163ddd3b012bfb043028db31624edf1",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bbh_tides_on.prior",
+        "path_type": "hardlink",
+        "sha256": "335f23599034289fb591f047a14005728726e0f737f2321f5b07920aa80d49bc",
+        "sha256_in_prefix": "335f23599034289fb591f047a14005728726e0f737f2321f5b07920aa80d49bc",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bns.prior",
+        "path_type": "hardlink",
+        "sha256": "7d9cf8a94091c1e70741b651e18f1c5d87ebbff23ffb9a7bd60ef5ee259c2a04",
+        "sha256_in_prefix": "7d9cf8a94091c1e70741b651e18f1c5d87ebbff23ffb9a7bd60ef5ee259c2a04",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/aligned_spins_bns_tides_on.prior",
+        "path_type": "hardlink",
+        "sha256": "82d03848affacb42ffaa57a99d45092a9805cc5cc5feea58a47dd11a7ffc7c3a",
+        "sha256_in_prefix": "82d03848affacb42ffaa57a99d45092a9805cc5cc5feea58a47dd11a7ffc7c3a",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bbh.prior",
+        "path_type": "hardlink",
+        "sha256": "689c64bb9294cf47f2cf3e324e2a7b9ee30bcd976c7ad8aed8f99f23ef9173c1",
+        "sha256_in_prefix": "689c64bb9294cf47f2cf3e324e2a7b9ee30bcd976c7ad8aed8f99f23ef9173c1",
+        "size_in_bytes": 1453
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bbh_tides_on.prior",
+        "path_type": "hardlink",
+        "sha256": "94acec62152925aa935eae1bf9d0d9d31efc18313d325215d1f00c764a3eddd4",
+        "sha256_in_prefix": "94acec62152925aa935eae1bf9d0d9d31efc18313d325215d1f00c764a3eddd4",
+        "size_in_bytes": 1575
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bns.prior",
+        "path_type": "hardlink",
+        "sha256": "cd41170f6026ddcdb2acaff10e8f4e772123c1b4433b33f15aacbe0a0d55d814",
+        "sha256_in_prefix": "cd41170f6026ddcdb2acaff10e8f4e772123c1b4433b33f15aacbe0a0d55d814",
+        "size_in_bytes": 1454
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/prior_files/precessing_spins_bns_tides_on.prior",
+        "path_type": "hardlink",
+        "sha256": "be7dc8e0caefe69388cef8a97d94fecd34f9291f0ad0a2f8f1390978969d5c55",
+        "sha256_in_prefix": "be7dc8e0caefe69388cef8a97d94fecd34f9291f0ad0a2f8f1390978969d5c55",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "site-packages/bilby_tgr/mdr/source.py",
+        "path_type": "hardlink",
+        "sha256": "9ceaf43784e550f4c7c5527e03dc12885a511894190ec00c4362fef5852797bd",
+        "sha256_in_prefix": "9ceaf43784e550f4c7c5527e03dc12885a511894190ec00c4362fef5852797bd",
+        "size_in_bytes": 7679
+      },
+      {
+        "_path": "site-packages/bilby_tgr/pseob/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd88dd3a56d18f9cce18fdbbb486507e4b0ee6875ac318b0c8944b8912795e33",
+        "sha256_in_prefix": "cd88dd3a56d18f9cce18fdbbb486507e4b0ee6875ac318b0c8944b8912795e33",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/bilby_tgr/pseob/source.py",
+        "path_type": "hardlink",
+        "sha256": "cc09d9bd752ccedf4bf02404862b81e926dd147158cc669cf00c6af44154fd92",
+        "sha256_in_prefix": "cc09d9bd752ccedf4bf02404862b81e926dd147158cc669cf00c6af44154fd92",
+        "size_in_bytes": 4619
+      },
+      {
+        "_path": "site-packages/bilby_tgr/siqm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/bilby_tgr/tiger/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd88dd3a56d18f9cce18fdbbb486507e4b0ee6875ac318b0c8944b8912795e33",
+        "sha256_in_prefix": "cd88dd3a56d18f9cce18fdbbb486507e4b0ee6875ac318b0c8944b8912795e33",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/bilby_tgr/tiger/source.py",
+        "path_type": "hardlink",
+        "sha256": "2f8dd0bc1fc9bbe7ad8ede230cdfb63fdc0db9ec9d984aad4ca7b49e769a8698",
+        "sha256_in_prefix": "2f8dd0bc1fc9bbe7ad8ede230cdfb63fdc0db9ec9d984aad4ca7b49e769a8698",
+        "size_in_bytes": 10899
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/conversion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/prior.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/fti/__pycache__/source.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/conversion.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/postprocessing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/prior.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/mdr/__pycache__/source.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/pseob/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/pseob/__pycache__/source.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/siqm/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/tiger/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_tgr/tiger/__pycache__/source.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bilby_tgr",
+  "sha256": "f6531ebffb65e874ee5586832a8355e2c300ed5d5903cb86b7297dd86acab25e",
+  "size": 25176,
+  "subdir": "noarch",
+  "timestamp": 1702680659000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bilby_tgr-0.1a1-pyhd8ed1ab_1.conda",
+  "version": "0.1a1"
+}

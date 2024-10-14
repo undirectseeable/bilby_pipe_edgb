@@ -1,0 +1,3312 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "astropy >=4.3.0",
+    "dateparser >=1.1.4",
+    "dqsegdb2",
+    "gwdatafind >=1.1.0",
+    "gwosc >=0.5.3",
+    "h5py >=3.0.0",
+    "ligo-segments >=1.0.0",
+    "ligotimegps >=1.2.1",
+    "matplotlib-base >=3.3.0",
+    "numpy >=1.19",
+    "python >=3.8",
+    "python-dateutil",
+    "requests",
+    "scipy >=1.5.0",
+    "tqdm >=4.10.0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/gwpy-3.0.10-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/LICENSE",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/METADATA",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/RECORD",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/gwpy-3.0.10.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/gwpy/__init__.py",
+    "lib/python3.9/site-packages/gwpy/_version.py",
+    "lib/python3.9/site-packages/gwpy/astro/__init__.py",
+    "lib/python3.9/site-packages/gwpy/astro/range.py",
+    "lib/python3.9/site-packages/gwpy/astro/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/astro/tests/test_range.py",
+    "lib/python3.9/site-packages/gwpy/cli/__init__.py",
+    "lib/python3.9/site-packages/gwpy/cli/cliproduct.py",
+    "lib/python3.9/site-packages/gwpy/cli/coherence.py",
+    "lib/python3.9/site-packages/gwpy/cli/coherencegram.py",
+    "lib/python3.9/site-packages/gwpy/cli/gwpy_plot.py",
+    "lib/python3.9/site-packages/gwpy/cli/qtransform.py",
+    "lib/python3.9/site-packages/gwpy/cli/spectrogram.py",
+    "lib/python3.9/site-packages/gwpy/cli/spectrum.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/base.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_coherence.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_coherencegram.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_gwpy_plot.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_qtransform.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_spectrogram.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_spectrum.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_timeseries.py",
+    "lib/python3.9/site-packages/gwpy/cli/tests/test_transferfunction.py",
+    "lib/python3.9/site-packages/gwpy/cli/timeseries.py",
+    "lib/python3.9/site-packages/gwpy/cli/transferfunction.py",
+    "lib/python3.9/site-packages/gwpy/conftest.py",
+    "lib/python3.9/site-packages/gwpy/detector/__init__.py",
+    "lib/python3.9/site-packages/gwpy/detector/channel.py",
+    "lib/python3.9/site-packages/gwpy/detector/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/detector/io/cis.py",
+    "lib/python3.9/site-packages/gwpy/detector/io/clf.py",
+    "lib/python3.9/site-packages/gwpy/detector/io/omega.py",
+    "lib/python3.9/site-packages/gwpy/detector/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/detector/tests/test_channel.py",
+    "lib/python3.9/site-packages/gwpy/detector/tests/test_units.py",
+    "lib/python3.9/site-packages/gwpy/detector/units.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/__init__.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/_fdcommon.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/frequencyseries.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/hist.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/ascii.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/ligolw.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/test_frequencyseries.py",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/test_hist.py",
+    "lib/python3.9/site-packages/gwpy/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/io/_framecpp.py",
+    "lib/python3.9/site-packages/gwpy/io/cache.py",
+    "lib/python3.9/site-packages/gwpy/io/datafind.py",
+    "lib/python3.9/site-packages/gwpy/io/ffldatafind.py",
+    "lib/python3.9/site-packages/gwpy/io/gwf.py",
+    "lib/python3.9/site-packages/gwpy/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/io/kerberos.py",
+    "lib/python3.9/site-packages/gwpy/io/ligolw.py",
+    "lib/python3.9/site-packages/gwpy/io/mp.py",
+    "lib/python3.9/site-packages/gwpy/io/nds2.py",
+    "lib/python3.9/site-packages/gwpy/io/registry.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_cache.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_datafind.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_ffldatafind.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_gwf.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_kerberos.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_ligolw.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_mp.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_nds2.py",
+    "lib/python3.9/site-packages/gwpy/io/tests/test_utils.py",
+    "lib/python3.9/site-packages/gwpy/io/utils.py",
+    "lib/python3.9/site-packages/gwpy/plot/__init__.py",
+    "lib/python3.9/site-packages/gwpy/plot/axes.py",
+    "lib/python3.9/site-packages/gwpy/plot/bode.py",
+    "lib/python3.9/site-packages/gwpy/plot/colorbar.py",
+    "lib/python3.9/site-packages/gwpy/plot/colors.py",
+    "lib/python3.9/site-packages/gwpy/plot/gps.py",
+    "lib/python3.9/site-packages/gwpy/plot/legend.py",
+    "lib/python3.9/site-packages/gwpy/plot/log.py",
+    "lib/python3.9/site-packages/gwpy/plot/plot.py",
+    "lib/python3.9/site-packages/gwpy/plot/rc.py",
+    "lib/python3.9/site-packages/gwpy/plot/segments.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_axes.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_bode.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_colors.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_gps.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_log.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_plot.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_rc.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_segments.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_tex.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_text.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/test_utils.py",
+    "lib/python3.9/site-packages/gwpy/plot/tests/utils.py",
+    "lib/python3.9/site-packages/gwpy/plot/tex.py",
+    "lib/python3.9/site-packages/gwpy/plot/text.py",
+    "lib/python3.9/site-packages/gwpy/plot/units.py",
+    "lib/python3.9/site-packages/gwpy/plot/utils.py",
+    "lib/python3.9/site-packages/gwpy/segments/__init__.py",
+    "lib/python3.9/site-packages/gwpy/segments/flag.py",
+    "lib/python3.9/site-packages/gwpy/segments/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/segments/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/segments/io/json.py",
+    "lib/python3.9/site-packages/gwpy/segments/io/ligolw.py",
+    "lib/python3.9/site-packages/gwpy/segments/io/segwizard.py",
+    "lib/python3.9/site-packages/gwpy/segments/segments.py",
+    "lib/python3.9/site-packages/gwpy/segments/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/segments/tests/test_flag.py",
+    "lib/python3.9/site-packages/gwpy/segments/tests/test_segments.py",
+    "lib/python3.9/site-packages/gwpy/signal/__init__.py",
+    "lib/python3.9/site-packages/gwpy/signal/fft.py",
+    "lib/python3.9/site-packages/gwpy/signal/filter_design.py",
+    "lib/python3.9/site-packages/gwpy/signal/qtransform.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__init__.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_lal.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_median_mean.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_pycbc.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_registry.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_scipy.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_ui.py",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/_utils.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_coherence.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_filter_design.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_qtransform.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_lal.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_median_mean.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_pycbc.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_registry.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_scipy.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_ui.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_spectral_utils.py",
+    "lib/python3.9/site-packages/gwpy/signal/tests/test_window.py",
+    "lib/python3.9/site-packages/gwpy/signal/window.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/__init__.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/coherence.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/spectrogram.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/spectrogram/tests/test_spectrogram.py",
+    "lib/python3.9/site-packages/gwpy/table/__init__.py",
+    "lib/python3.9/site-packages/gwpy/table/filter.py",
+    "lib/python3.9/site-packages/gwpy/table/filters.py",
+    "lib/python3.9/site-packages/gwpy/table/gravityspy.py",
+    "lib/python3.9/site-packages/gwpy/table/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/table/io/cwb.py",
+    "lib/python3.9/site-packages/gwpy/table/io/fetch.py",
+    "lib/python3.9/site-packages/gwpy/table/io/gravityspy.py",
+    "lib/python3.9/site-packages/gwpy/table/io/gstlal.py",
+    "lib/python3.9/site-packages/gwpy/table/io/gwf.py",
+    "lib/python3.9/site-packages/gwpy/table/io/hacr.py",
+    "lib/python3.9/site-packages/gwpy/table/io/ligolw.py",
+    "lib/python3.9/site-packages/gwpy/table/io/losc.py",
+    "lib/python3.9/site-packages/gwpy/table/io/omega.py",
+    "lib/python3.9/site-packages/gwpy/table/io/omicron.py",
+    "lib/python3.9/site-packages/gwpy/table/io/pycbc.py",
+    "lib/python3.9/site-packages/gwpy/table/io/root.py",
+    "lib/python3.9/site-packages/gwpy/table/io/snax.py",
+    "lib/python3.9/site-packages/gwpy/table/io/sql.py",
+    "lib/python3.9/site-packages/gwpy/table/io/utils.py",
+    "lib/python3.9/site-packages/gwpy/table/table.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/test_gravityspy.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/test_io_gstlal.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/test_io_ligolw.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/test_io_pycbc.py",
+    "lib/python3.9/site-packages/gwpy/table/tests/test_table.py",
+    "lib/python3.9/site-packages/gwpy/testing/__init__.py",
+    "lib/python3.9/site-packages/gwpy/testing/data/H1-LDAS_STRAIN-968654552-10.xml.gz",
+    "lib/python3.9/site-packages/gwpy/testing/data/HLV-HW100916-968654552-1.gwf",
+    "lib/python3.9/site-packages/gwpy/testing/data/HLV-HW100916-968654552-1.hdf",
+    "lib/python3.9/site-packages/gwpy/testing/data/X1-GWPY_TEST_SEGMENTS-0-10.txt",
+    "lib/python3.9/site-packages/gwpy/testing/data/X1-GWPY_TEST_SEGMENTS-0-10.xml.gz",
+    "lib/python3.9/site-packages/gwpy/testing/errors.py",
+    "lib/python3.9/site-packages/gwpy/testing/fixtures.py",
+    "lib/python3.9/site-packages/gwpy/testing/marks.py",
+    "lib/python3.9/site-packages/gwpy/testing/mocks.py",
+    "lib/python3.9/site-packages/gwpy/testing/utils.py",
+    "lib/python3.9/site-packages/gwpy/time/__init__.py",
+    "lib/python3.9/site-packages/gwpy/time/__main__.py",
+    "lib/python3.9/site-packages/gwpy/time/_tconvert.py",
+    "lib/python3.9/site-packages/gwpy/time/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/time/tests/test_main.py",
+    "lib/python3.9/site-packages/gwpy/time/tests/test_time.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/__init__.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/core.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/ascii.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/cache.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/core.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__init__.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/framecpp.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/framel.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/lalframe.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/losc.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/nds2.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/wav.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/statevector.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_core.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_io_cache.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_io_gwf_framecpp.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_io_gwf_lalframe.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_io_losc.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_statevector.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/test_timeseries.py",
+    "lib/python3.9/site-packages/gwpy/timeseries/timeseries.py",
+    "lib/python3.9/site-packages/gwpy/types/__init__.py",
+    "lib/python3.9/site-packages/gwpy/types/array.py",
+    "lib/python3.9/site-packages/gwpy/types/array2d.py",
+    "lib/python3.9/site-packages/gwpy/types/index.py",
+    "lib/python3.9/site-packages/gwpy/types/io/__init__.py",
+    "lib/python3.9/site-packages/gwpy/types/io/ascii.py",
+    "lib/python3.9/site-packages/gwpy/types/io/hdf5.py",
+    "lib/python3.9/site-packages/gwpy/types/io/ligolw.py",
+    "lib/python3.9/site-packages/gwpy/types/series.py",
+    "lib/python3.9/site-packages/gwpy/types/sliceutils.py",
+    "lib/python3.9/site-packages/gwpy/types/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/types/tests/test_array.py",
+    "lib/python3.9/site-packages/gwpy/types/tests/test_array2d.py",
+    "lib/python3.9/site-packages/gwpy/types/tests/test_index.py",
+    "lib/python3.9/site-packages/gwpy/types/tests/test_series.py",
+    "lib/python3.9/site-packages/gwpy/utils/__init__.py",
+    "lib/python3.9/site-packages/gwpy/utils/decorators.py",
+    "lib/python3.9/site-packages/gwpy/utils/enum.py",
+    "lib/python3.9/site-packages/gwpy/utils/env.py",
+    "lib/python3.9/site-packages/gwpy/utils/lal.py",
+    "lib/python3.9/site-packages/gwpy/utils/misc.py",
+    "lib/python3.9/site-packages/gwpy/utils/mp.py",
+    "lib/python3.9/site-packages/gwpy/utils/progress.py",
+    "lib/python3.9/site-packages/gwpy/utils/shell.py",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/__init__.py",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/ex2rst.py",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/zenodo.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__init__.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_decorators.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_enum.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_env.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_lal.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_misc.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_mp.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_shell.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_sphinx_ex2rst.py",
+    "lib/python3.9/site-packages/gwpy/utils/tests/test_sphinx_zenodo.py",
+    "lib/python3.9/site-packages/gwpy/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/astro/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/astro/__pycache__/range.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/astro/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/astro/tests/__pycache__/test_range.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/cliproduct.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/coherence.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/coherencegram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/gwpy_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/qtransform.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/spectrogram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/spectrum.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_coherence.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_coherencegram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_gwpy_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_qtransform.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_spectrogram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_spectrum.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_timeseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_transferfunction.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/timeseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/cli/__pycache__/transferfunction.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/__pycache__/channel.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/cis.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/clf.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/omega.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/test_channel.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/test_units.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/detector/__pycache__/units.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/_fdcommon.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/frequencyseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/hist.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/ascii.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/test_frequencyseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/test_hist.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/_framecpp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/datafind.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/ffldatafind.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/gwf.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/kerberos.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/mp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/nds2.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_datafind.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_ffldatafind.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_gwf.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_kerberos.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_mp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_nds2.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/io/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/axes.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/bode.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/colorbar.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/colors.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/gps.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/legend.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/log.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/rc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/segments.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_axes.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_bode.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_colors.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_gps.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_log.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_rc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_segments.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_tex.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_text.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/tex.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/text.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/units.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/plot/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/__pycache__/flag.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/json.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/segwizard.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/__pycache__/segments.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/test_flag.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/test_segments.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/__pycache__/fft.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/__pycache__/filter_design.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/__pycache__/qtransform.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_lal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_median_mean.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_pycbc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_scipy.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_ui.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_coherence.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_filter_design.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_qtransform.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_lal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_median_mean.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_pycbc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_registry.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_scipy.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_ui.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_window.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/signal/__pycache__/window.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/coherence.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/spectrogram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/spectrogram/tests/__pycache__/test_spectrogram.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/__pycache__/filter.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/__pycache__/filters.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/__pycache__/gravityspy.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/cwb.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/fetch.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gravityspy.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gstlal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gwf.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/hacr.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/losc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/omega.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/omicron.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/pycbc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/root.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/snax.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/sql.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/io/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/__pycache__/table.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_gravityspy.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_gstlal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_pycbc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/fixtures.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/marks.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/mocks.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/testing/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/__pycache__/__main__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/__pycache__/_tconvert.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/test_main.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/test_time.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/ascii.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/framecpp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/framel.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/lalframe.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/losc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/nds2.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/wav.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/statevector.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_core.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_gwf_framecpp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_gwf_lalframe.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_losc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_statevector.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_timeseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/timeseries.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/array.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/array2d.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/index.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/io/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/io/__pycache__/ascii.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/io/__pycache__/hdf5.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/io/__pycache__/ligolw.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/series.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/__pycache__/sliceutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_array.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_array2d.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_index.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_series.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/decorators.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/enum.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/env.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/lal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/misc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/mp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/progress.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/__pycache__/shell.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/ex2rst.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/zenodo.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_decorators.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_enum.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_env.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_lal.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_misc.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_mp.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_shell.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_sphinx_ex2rst.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_sphinx_zenodo.cpython-39.pyc",
+    "bin/gwpy-plot"
+  ],
+  "fn": "gwpy-3.0.10-pyhd8ed1ab_0.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/gwpy-3.0.10-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ad54d55f72961e761d8aaa7f13990bfe",
+  "name": "gwpy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/gwpy-3.0.10-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e4700dfb5007efece782ed68d9566b0553a32b4b07180e6028d3c4ef52280795",
+        "sha256_in_prefix": "e4700dfb5007efece782ed68d9566b0553a32b4b07180e6028d3c4ef52280795",
+        "size_in_bytes": 4866
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "19175ad9a77984ebfbd6c76ecec93dea1d19ad8213fc623c5dbb194b47f1b53a",
+        "sha256_in_prefix": "19175ad9a77984ebfbd6c76ecec93dea1d19ad8213fc623c5dbb194b47f1b53a",
+        "size_in_bytes": 35329
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "sha256_in_prefix": "1e20998f3bb2e83c3485d5f94772c214f0e6152e015a5f07fbc5b7f577e6817e",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0f2c9440265b21edea64d5a07e55af0de7ef7fc028e13698fd493dc3b0f55f49",
+        "sha256_in_prefix": "0f2c9440265b21edea64d5a07e55af0de7ef7fc028e13698fd493dc3b0f55f49",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a5c3bf5d1927a1b53b6f5baec456f79d3746324f05ac742c58139f9678fa12ff",
+        "sha256_in_prefix": "a5c3bf5d1927a1b53b6f5baec456f79d3746324f05ac742c58139f9678fa12ff",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/gwpy-3.0.10.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d1745db128c57417bf405fd0b2dd34dbe082c6eb8ed776a0da7fb5d670696781",
+        "sha256_in_prefix": "d1745db128c57417bf405fd0b2dd34dbe082c6eb8ed776a0da7fb5d670696781",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gwpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ddc86ee5cc5f540d3caa41589379725c19455ceea5ae0cad208761fe72fd6335",
+        "sha256_in_prefix": "ddc86ee5cc5f540d3caa41589379725c19455ceea5ae0cad208761fe72fd6335",
+        "size_in_bytes": 1533
+      },
+      {
+        "_path": "site-packages/gwpy/_version.py",
+        "path_type": "hardlink",
+        "sha256": "f31dd448c87e4170ceaacd75da809e35976def0d4ce4fe61c8b086f5b913f9ce",
+        "sha256_in_prefix": "f31dd448c87e4170ceaacd75da809e35976def0d4ce4fe61c8b086f5b913f9ce",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "site-packages/gwpy/astro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ed6aab1b55d948e10cba791957b8bb6b69308b5e3a5061a764e69105c17accf",
+        "sha256_in_prefix": "0ed6aab1b55d948e10cba791957b8bb6b69308b5e3a5061a764e69105c17accf",
+        "size_in_bytes": 1909
+      },
+      {
+        "_path": "site-packages/gwpy/astro/range.py",
+        "path_type": "hardlink",
+        "sha256": "05c46b26483189c78bd50b0ecb5b94b4232c9447a2734314c5616cefa2e06346",
+        "sha256_in_prefix": "05c46b26483189c78bd50b0ecb5b94b4232c9447a2734314c5616cefa2e06346",
+        "size_in_bytes": 24892
+      },
+      {
+        "_path": "site-packages/gwpy/astro/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8c35619823e98b068ccc3cf50eafd3413778adf6398ade6a7d9d7b6e885c08ea",
+        "sha256_in_prefix": "8c35619823e98b068ccc3cf50eafd3413778adf6398ade6a7d9d7b6e885c08ea",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/gwpy/astro/tests/test_range.py",
+        "path_type": "hardlink",
+        "sha256": "8a428c6258e641ee8831644c8b6567e3ccb94a8fd15626c3d14fa2a0ba043839",
+        "sha256_in_prefix": "8a428c6258e641ee8831644c8b6567e3ccb94a8fd15626c3d14fa2a0ba043839",
+        "size_in_bytes": 6003
+      },
+      {
+        "_path": "site-packages/gwpy/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dc39f059aca486393e6d3d21de7f9ff2f48736d1b3a62ed1546deb6ce9054213",
+        "sha256_in_prefix": "dc39f059aca486393e6d3d21de7f9ff2f48736d1b3a62ed1546deb6ce9054213",
+        "size_in_bytes": 1404
+      },
+      {
+        "_path": "site-packages/gwpy/cli/cliproduct.py",
+        "path_type": "hardlink",
+        "sha256": "f4e3c00a44328d0991b44988822b383b735a40b415ec0bc4113d53e38ad2c8b3",
+        "sha256_in_prefix": "f4e3c00a44328d0991b44988822b383b735a40b415ec0bc4113d53e38ad2c8b3",
+        "size_in_bytes": 34269
+      },
+      {
+        "_path": "site-packages/gwpy/cli/coherence.py",
+        "path_type": "hardlink",
+        "sha256": "09b1b0165f692c7367701311744af99affba1092ee30be7a4e9fe4303e05f83b",
+        "sha256_in_prefix": "09b1b0165f692c7367701311744af99affba1092ee30be7a4e9fe4303e05f83b",
+        "size_in_bytes": 4048
+      },
+      {
+        "_path": "site-packages/gwpy/cli/coherencegram.py",
+        "path_type": "hardlink",
+        "sha256": "9a9186ddf1c147639f8e17e7466dd581ec0076beb052007a930b6c09e5a773ae",
+        "sha256_in_prefix": "9a9186ddf1c147639f8e17e7466dd581ec0076beb052007a930b6c09e5a773ae",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "site-packages/gwpy/cli/gwpy_plot.py",
+        "path_type": "hardlink",
+        "sha256": "e78ae30288b2c1403828b2f4dc9c97b20d32779ed74c7a976f197d9fe19bd8af",
+        "sha256_in_prefix": "e78ae30288b2c1403828b2f4dc9c97b20d32779ed74c7a976f197d9fe19bd8af",
+        "size_in_bytes": 5101
+      },
+      {
+        "_path": "site-packages/gwpy/cli/qtransform.py",
+        "path_type": "hardlink",
+        "sha256": "8c2e386f960b991e4de420ba60de45ae79ed3843c3d706fe4a4f0de0389ff38d",
+        "sha256_in_prefix": "8c2e386f960b991e4de420ba60de45ae79ed3843c3d706fe4a4f0de0389ff38d",
+        "size_in_bytes": 9148
+      },
+      {
+        "_path": "site-packages/gwpy/cli/spectrogram.py",
+        "path_type": "hardlink",
+        "sha256": "3653475498636f5eb68f93f97b41bfea781c6cf9425b7d549b0f88a8a9aca86b",
+        "sha256_in_prefix": "3653475498636f5eb68f93f97b41bfea781c6cf9425b7d549b0f88a8a9aca86b",
+        "size_in_bytes": 7131
+      },
+      {
+        "_path": "site-packages/gwpy/cli/spectrum.py",
+        "path_type": "hardlink",
+        "sha256": "229061a22ef48750b1d51eaa940dd1302c81ec15d6acd172404551a4420e4961",
+        "sha256_in_prefix": "229061a22ef48750b1d51eaa940dd1302c81ec15d6acd172404551a4420e4961",
+        "size_in_bytes": 4899
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e643bfab37c965bb9f7c8f31e12403300bf53514659b45d88eb819d2f229596e",
+        "sha256_in_prefix": "e643bfab37c965bb9f7c8f31e12403300bf53514659b45d88eb819d2f229596e",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/base.py",
+        "path_type": "hardlink",
+        "sha256": "6f553d259c9b41044c77be7af684f9e7613f98cee2e936673f793091877df781",
+        "sha256_in_prefix": "6f553d259c9b41044c77be7af684f9e7613f98cee2e936673f793091877df781",
+        "size_in_bytes": 11213
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_coherence.py",
+        "path_type": "hardlink",
+        "sha256": "dee7b56a491ab19c140df2d0eaf93804bea56308589a459301c81e07c9dc98d3",
+        "sha256_in_prefix": "dee7b56a491ab19c140df2d0eaf93804bea56308589a459301c81e07c9dc98d3",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_coherencegram.py",
+        "path_type": "hardlink",
+        "sha256": "06f46920e22479dcdcacad33a36a386d2e3517b9b81d806c65e91f278d4d101d",
+        "sha256_in_prefix": "06f46920e22479dcdcacad33a36a386d2e3517b9b81d806c65e91f278d4d101d",
+        "size_in_bytes": 1580
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_gwpy_plot.py",
+        "path_type": "hardlink",
+        "sha256": "89d5f4a76b85a4602c0b149184586462afa157420caf0ec65e42175236bbb429",
+        "sha256_in_prefix": "89d5f4a76b85a4602c0b149184586462afa157420caf0ec65e42175236bbb429",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_qtransform.py",
+        "path_type": "hardlink",
+        "sha256": "e881d8c7188d83ec168f07322cd81b570cd726671bfb0cdf8c0986111eaceaa7",
+        "sha256_in_prefix": "e881d8c7188d83ec168f07322cd81b570cd726671bfb0cdf8c0986111eaceaa7",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_spectrogram.py",
+        "path_type": "hardlink",
+        "sha256": "295edeb68b50f8315dc5a558570f9e388f26e617a4f0c74458d38edb4a4b4471",
+        "sha256_in_prefix": "295edeb68b50f8315dc5a558570f9e388f26e617a4f0c74458d38edb4a4b4471",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_spectrum.py",
+        "path_type": "hardlink",
+        "sha256": "d0d3a4d29ca52e0491f6eef816677172d49a19ebdd0b2cc4b0764877b794f8d0",
+        "sha256_in_prefix": "d0d3a4d29ca52e0491f6eef816677172d49a19ebdd0b2cc4b0764877b794f8d0",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "1c261e45d93563ba303074d446657e1bd3788923d9a682972af7e280eadfc4b8",
+        "sha256_in_prefix": "1c261e45d93563ba303074d446657e1bd3788923d9a682972af7e280eadfc4b8",
+        "size_in_bytes": 1279
+      },
+      {
+        "_path": "site-packages/gwpy/cli/tests/test_transferfunction.py",
+        "path_type": "hardlink",
+        "sha256": "542bdee4d801428eed060339cda065a98dbd474ca673b4df93da51a492ec05d8",
+        "sha256_in_prefix": "542bdee4d801428eed060339cda065a98dbd474ca673b4df93da51a492ec05d8",
+        "size_in_bytes": 1999
+      },
+      {
+        "_path": "site-packages/gwpy/cli/timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "1964509d4cdcd282367099434d31a7c1174568bd97d24cbc9e5ccc645e9d96fb",
+        "sha256_in_prefix": "1964509d4cdcd282367099434d31a7c1174568bd97d24cbc9e5ccc645e9d96fb",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "site-packages/gwpy/cli/transferfunction.py",
+        "path_type": "hardlink",
+        "sha256": "3b51145162f95a7e99a0989e557bb56250a9ba866199db4f2c7bcd184ffa7db4",
+        "sha256_in_prefix": "3b51145162f95a7e99a0989e557bb56250a9ba866199db4f2c7bcd184ffa7db4",
+        "size_in_bytes": 9784
+      },
+      {
+        "_path": "site-packages/gwpy/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "9ccaa274a14d7304c2bc36febc7cf30a6cd4cb22f44c7f43c1b99a81f744d482",
+        "sha256_in_prefix": "9ccaa274a14d7304c2bc36febc7cf30a6cd4cb22f44c7f43c1b99a81f744d482",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "site-packages/gwpy/detector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "82c0bfd1c6bc9bcc5143343c9ece9fa70150d78feec54bb52d187507eb0de840",
+        "sha256_in_prefix": "82c0bfd1c6bc9bcc5143343c9ece9fa70150d78feec54bb52d187507eb0de840",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "site-packages/gwpy/detector/channel.py",
+        "path_type": "hardlink",
+        "sha256": "d97dfb92701bab30e0dc66af2a17979ce1ce02055a3c7ace150e1fe16a66bcf7",
+        "sha256_in_prefix": "d97dfb92701bab30e0dc66af2a17979ce1ce02055a3c7ace150e1fe16a66bcf7",
+        "size_in_bytes": 26786
+      },
+      {
+        "_path": "site-packages/gwpy/detector/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "740b33f228b945587023f04d56362bb275f53edde77e387c8ea565e31a8b4de7",
+        "sha256_in_prefix": "740b33f228b945587023f04d56362bb275f53edde77e387c8ea565e31a8b4de7",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "site-packages/gwpy/detector/io/cis.py",
+        "path_type": "hardlink",
+        "sha256": "8071a707af31300bf4c50506e1e6b303ee09a7405eb1896bb6d3c15edda0d90b",
+        "sha256_in_prefix": "8071a707af31300bf4c50506e1e6b303ee09a7405eb1896bb6d3c15edda0d90b",
+        "size_in_bytes": 3184
+      },
+      {
+        "_path": "site-packages/gwpy/detector/io/clf.py",
+        "path_type": "hardlink",
+        "sha256": "02eb0fcca104b8933aa91cab03304a995798ae99d4f139e2aa5d433ed5475b6f",
+        "sha256_in_prefix": "02eb0fcca104b8933aa91cab03304a995798ae99d4f139e2aa5d433ed5475b6f",
+        "size_in_bytes": 5689
+      },
+      {
+        "_path": "site-packages/gwpy/detector/io/omega.py",
+        "path_type": "hardlink",
+        "sha256": "77a0597b63c248c83cf645cfcd28c134a7e14a2629400321a90fe2af38afd844",
+        "sha256_in_prefix": "77a0597b63c248c83cf645cfcd28c134a7e14a2629400321a90fe2af38afd844",
+        "size_in_bytes": 5939
+      },
+      {
+        "_path": "site-packages/gwpy/detector/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a7107d219a485deda6edb6b1f08faa386d2a820109e23897c4b3a123f4fcda6f",
+        "sha256_in_prefix": "a7107d219a485deda6edb6b1f08faa386d2a820109e23897c4b3a123f4fcda6f",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "site-packages/gwpy/detector/tests/test_channel.py",
+        "path_type": "hardlink",
+        "sha256": "a5594ff810d3fd72c67cd55bea23151c289f3d9cf5c7c92879386aaa09e9428e",
+        "sha256_in_prefix": "a5594ff810d3fd72c67cd55bea23151c289f3d9cf5c7c92879386aaa09e9428e",
+        "size_in_bytes": 18473
+      },
+      {
+        "_path": "site-packages/gwpy/detector/tests/test_units.py",
+        "path_type": "hardlink",
+        "sha256": "1afb47d5f3037736e1e52ecb28f91b0124aa9ba597178afdf1f9bb297affae9e",
+        "sha256_in_prefix": "1afb47d5f3037736e1e52ecb28f91b0124aa9ba597178afdf1f9bb297affae9e",
+        "size_in_bytes": 2727
+      },
+      {
+        "_path": "site-packages/gwpy/detector/units.py",
+        "path_type": "hardlink",
+        "sha256": "29d1eb2b237a092b80f738752da9d028875de0b02decfc0f27ee5106930fff4d",
+        "sha256_in_prefix": "29d1eb2b237a092b80f738752da9d028875de0b02decfc0f27ee5106930fff4d",
+        "size_in_bytes": 7364
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "70755abc3762991474ee00747a49a571783049ab2368f327cd9d4e40c7356a6e",
+        "sha256_in_prefix": "70755abc3762991474ee00747a49a571783049ab2368f327cd9d4e40c7356a6e",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/_fdcommon.py",
+        "path_type": "hardlink",
+        "sha256": "91cf46d51ed76dc7cec55a73711637c1cb19549aeb243a7309f56ab08e87e73b",
+        "sha256_in_prefix": "91cf46d51ed76dc7cec55a73711637c1cb19549aeb243a7309f56ab08e87e73b",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/frequencyseries.py",
+        "path_type": "hardlink",
+        "sha256": "0d4d99303697b9ae1b8ab64d5fa95463199872eb01250816280c25c3dc263fd4",
+        "sha256_in_prefix": "0d4d99303697b9ae1b8ab64d5fa95463199872eb01250816280c25c3dc263fd4",
+        "size_in_bytes": 14481
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/hist.py",
+        "path_type": "hardlink",
+        "sha256": "1d0a50cf2ee8a3de497b4c0c86ebc99c591dadd457dd3ee9e11b39b3a2cc5923",
+        "sha256_in_prefix": "1d0a50cf2ee8a3de497b4c0c86ebc99c591dadd457dd3ee9e11b39b3a2cc5923",
+        "size_in_bytes": 11947
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "564ff959ef0658e53ec9d1727d32ad6f8b48ff35c0c58444a8a21b9a2b4c3c22",
+        "sha256_in_prefix": "564ff959ef0658e53ec9d1727d32ad6f8b48ff35c0c58444a8a21b9a2b4c3c22",
+        "size_in_bytes": 907
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/io/ascii.py",
+        "path_type": "hardlink",
+        "sha256": "4e3b998c75160249359dc052b117edd04cd3d1da009b2994e94ae19e90b0f374",
+        "sha256_in_prefix": "4e3b998c75160249359dc052b117edd04cd3d1da009b2994e94ae19e90b0f374",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "fc576be59f3ffd0d718775d85497520530f145bd1c27f748b7627eabf57e8041",
+        "sha256_in_prefix": "fc576be59f3ffd0d718775d85497520530f145bd1c27f748b7627eabf57e8041",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/io/ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "f0c7427183c776e9ba52359654edb55f7822cce4a914a38ba6acd0666beca580",
+        "sha256_in_prefix": "f0c7427183c776e9ba52359654edb55f7822cce4a914a38ba6acd0666beca580",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b746cbfd558868f54a9f111986aebb2e5c875678dc6bd6f4d46043426388e130",
+        "sha256_in_prefix": "b746cbfd558868f54a9f111986aebb2e5c875678dc6bd6f4d46043426388e130",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/tests/test_frequencyseries.py",
+        "path_type": "hardlink",
+        "sha256": "9217bb573ba231a3731a53f662462430e2dfa59bd799c90fb1fe227c4b00dc3d",
+        "sha256_in_prefix": "9217bb573ba231a3731a53f662462430e2dfa59bd799c90fb1fe227c4b00dc3d",
+        "size_in_bytes": 11033
+      },
+      {
+        "_path": "site-packages/gwpy/frequencyseries/tests/test_hist.py",
+        "path_type": "hardlink",
+        "sha256": "840845cd7da4da2ad5e9085051c885d8be2c418986f6a4a22fb327bf9316e333",
+        "sha256_in_prefix": "840845cd7da4da2ad5e9085051c885d8be2c418986f6a4a22fb327bf9316e333",
+        "size_in_bytes": 4237
+      },
+      {
+        "_path": "site-packages/gwpy/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63e423bed8429a310a447c62c7ed22663c7df95293df4ca73d3e1b59b29d000e",
+        "sha256_in_prefix": "63e423bed8429a310a447c62c7ed22663c7df95293df4ca73d3e1b59b29d000e",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "site-packages/gwpy/io/_framecpp.py",
+        "path_type": "hardlink",
+        "sha256": "d424d983127b603f2d66fff33fd1ee723f7f4c4d2832bb5d8455929dc6798f3a",
+        "sha256_in_prefix": "d424d983127b603f2d66fff33fd1ee723f7f4c4d2832bb5d8455929dc6798f3a",
+        "size_in_bytes": 4250
+      },
+      {
+        "_path": "site-packages/gwpy/io/cache.py",
+        "path_type": "hardlink",
+        "sha256": "ea45f86a40bb6bd9b707c02f0e6c156208959016f62fa0772223c5ca8c1e027c",
+        "sha256_in_prefix": "ea45f86a40bb6bd9b707c02f0e6c156208959016f62fa0772223c5ca8c1e027c",
+        "size_in_bytes": 15124
+      },
+      {
+        "_path": "site-packages/gwpy/io/datafind.py",
+        "path_type": "hardlink",
+        "sha256": "304807f27d988c84f6d4063f8c0214243b53f7de05f3b9f6ac4c1330c0b0174c",
+        "sha256_in_prefix": "304807f27d988c84f6d4063f8c0214243b53f7de05f3b9f6ac4c1330c0b0174c",
+        "size_in_bytes": 18485
+      },
+      {
+        "_path": "site-packages/gwpy/io/ffldatafind.py",
+        "path_type": "hardlink",
+        "sha256": "38570c10f4fc16a285315fed9f0448820aaf2e051281561671d3f516746bc279",
+        "sha256_in_prefix": "38570c10f4fc16a285315fed9f0448820aaf2e051281561671d3f516746bc279",
+        "size_in_bytes": 8766
+      },
+      {
+        "_path": "site-packages/gwpy/io/gwf.py",
+        "path_type": "hardlink",
+        "sha256": "e8cc45abdfb9f67c0e7077bb775df317d058a437d509768834af8abe7b45ed95",
+        "sha256_in_prefix": "e8cc45abdfb9f67c0e7077bb775df317d058a437d509768834af8abe7b45ed95",
+        "size_in_bytes": 18966
+      },
+      {
+        "_path": "site-packages/gwpy/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "3e0f3322fd5dcbb23d674b0133abedaf2f7b8a01de8f98059c1ba48ec4e2897d",
+        "sha256_in_prefix": "3e0f3322fd5dcbb23d674b0133abedaf2f7b8a01de8f98059c1ba48ec4e2897d",
+        "size_in_bytes": 5257
+      },
+      {
+        "_path": "site-packages/gwpy/io/kerberos.py",
+        "path_type": "hardlink",
+        "sha256": "e2d14f43988ecba70e7bd302109a95a89659dbcec42a1f1517ae013cf88e3c7d",
+        "sha256_in_prefix": "e2d14f43988ecba70e7bd302109a95a89659dbcec42a1f1517ae013cf88e3c7d",
+        "size_in_bytes": 6928
+      },
+      {
+        "_path": "site-packages/gwpy/io/ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "a0f409b1589b77398fa9fcc31c0b1e97de8a749cc3ea948aae9652c1364f7c91",
+        "sha256_in_prefix": "a0f409b1589b77398fa9fcc31c0b1e97de8a749cc3ea948aae9652c1364f7c91",
+        "size_in_bytes": 22182
+      },
+      {
+        "_path": "site-packages/gwpy/io/mp.py",
+        "path_type": "hardlink",
+        "sha256": "833c6efb70b0fd4367fbe1b25c24f2ef45097db152fb413a2bc9d5a83b68ba91",
+        "sha256_in_prefix": "833c6efb70b0fd4367fbe1b25c24f2ef45097db152fb413a2bc9d5a83b68ba91",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "site-packages/gwpy/io/nds2.py",
+        "path_type": "hardlink",
+        "sha256": "8e455f3f25c5c3c039f1da922e3d3fddb213b9a27e3521a74e56b5d79f98c8a0",
+        "sha256_in_prefix": "8e455f3f25c5c3c039f1da922e3d3fddb213b9a27e3521a74e56b5d79f98c8a0",
+        "size_in_bytes": 19331
+      },
+      {
+        "_path": "site-packages/gwpy/io/registry.py",
+        "path_type": "hardlink",
+        "sha256": "50857bb4e00ac98a0baddbc4c2c79fd4dd9e302c58ddd8909f79a117abc282a3",
+        "sha256_in_prefix": "50857bb4e00ac98a0baddbc4c2c79fd4dd9e302c58ddd8909f79a117abc282a3",
+        "size_in_bytes": 3518
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1015c39f1fa10732cf9f1f49d8298c202a57f6f9ce5b20d0ce8e150b0d6736d",
+        "sha256_in_prefix": "e1015c39f1fa10732cf9f1f49d8298c202a57f6f9ce5b20d0ce8e150b0d6736d",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_cache.py",
+        "path_type": "hardlink",
+        "sha256": "f85078a9c6c50ca933742e20cadfaf167a88ca1bdf3f0d04899d512608c01444",
+        "sha256_in_prefix": "f85078a9c6c50ca933742e20cadfaf167a88ca1bdf3f0d04899d512608c01444",
+        "size_in_bytes": 8567
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_datafind.py",
+        "path_type": "hardlink",
+        "sha256": "2c4460331e249043a5ac586e818a8fbf701a869e531c2d3eab7ea84f01ac53d7",
+        "sha256_in_prefix": "2c4460331e249043a5ac586e818a8fbf701a869e531c2d3eab7ea84f01ac53d7",
+        "size_in_bytes": 10597
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_ffldatafind.py",
+        "path_type": "hardlink",
+        "sha256": "212e9c20ba5645d9314ab89bb11b75e70be11b185510e8f08c712617d94f574d",
+        "sha256_in_prefix": "212e9c20ba5645d9314ab89bb11b75e70be11b185510e8f08c712617d94f574d",
+        "size_in_bytes": 6409
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_gwf.py",
+        "path_type": "hardlink",
+        "sha256": "a829f1c6318a94abfbdd87265311892682d03e54c24ef6cfbb68af8f957594df",
+        "sha256_in_prefix": "a829f1c6318a94abfbdd87265311892682d03e54c24ef6cfbb68af8f957594df",
+        "size_in_bytes": 4228
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_kerberos.py",
+        "path_type": "hardlink",
+        "sha256": "2ec1f6bb1f01ddb88c4fd5c61ef9a96c7f384f0bb79ea66d00f5684e27e6547d",
+        "sha256_in_prefix": "2ec1f6bb1f01ddb88c4fd5c61ef9a96c7f384f0bb79ea66d00f5684e27e6547d",
+        "size_in_bytes": 6492
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "eb65c8143f13e4e99fcf8aa865ca03b4f1eec2049461c718499044a2e560772d",
+        "sha256_in_prefix": "eb65c8143f13e4e99fcf8aa865ca03b4f1eec2049461c718499044a2e560772d",
+        "size_in_bytes": 10701
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_mp.py",
+        "path_type": "hardlink",
+        "sha256": "fefe6c33aa14f50c357481fecc2272310543b38ba83a88708c563cd9a471ffa7",
+        "sha256_in_prefix": "fefe6c33aa14f50c357481fecc2272310543b38ba83a88708c563cd9a471ffa7",
+        "size_in_bytes": 3293
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_nds2.py",
+        "path_type": "hardlink",
+        "sha256": "44a68fd57867246682e7799d16e418a98336c63acffd2fbb4943f2b1b5fafa13",
+        "sha256_in_prefix": "44a68fd57867246682e7799d16e418a98336c63acffd2fbb4943f2b1b5fafa13",
+        "size_in_bytes": 12185
+      },
+      {
+        "_path": "site-packages/gwpy/io/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "4ccfec93ab1357f1e1f00ee363e0b8acbf6c3eee7fca5501f3c26cd9b3a571be",
+        "sha256_in_prefix": "4ccfec93ab1357f1e1f00ee363e0b8acbf6c3eee7fca5501f3c26cd9b3a571be",
+        "size_in_bytes": 3971
+      },
+      {
+        "_path": "site-packages/gwpy/io/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c4b9fd108d55ad25f636a86c4ef2ef04b83cbcb2905cf0fa2f430e2fc67d5838",
+        "sha256_in_prefix": "c4b9fd108d55ad25f636a86c4ef2ef04b83cbcb2905cf0fa2f430e2fc67d5838",
+        "size_in_bytes": 7341
+      },
+      {
+        "_path": "site-packages/gwpy/plot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c0e15807ac55271ed47cee1015508474f350f942415535d86c3a786b9114dbb7",
+        "sha256_in_prefix": "c0e15807ac55271ed47cee1015508474f350f942415535d86c3a786b9114dbb7",
+        "size_in_bytes": 1641
+      },
+      {
+        "_path": "site-packages/gwpy/plot/axes.py",
+        "path_type": "hardlink",
+        "sha256": "9a932d83e553369491cdbbd1c9c6bd11b1c9b5375c14a1d85fca5521ce9a3d4c",
+        "sha256_in_prefix": "9a932d83e553369491cdbbd1c9c6bd11b1c9b5375c14a1d85fca5521ce9a3d4c",
+        "size_in_bytes": 23376
+      },
+      {
+        "_path": "site-packages/gwpy/plot/bode.py",
+        "path_type": "hardlink",
+        "sha256": "11f0bcc25d3fc58ae22f5da6fa365d7831c1274b6dd8627aad836e1d096446c4",
+        "sha256_in_prefix": "11f0bcc25d3fc58ae22f5da6fa365d7831c1274b6dd8627aad836e1d096446c4",
+        "size_in_bytes": 8733
+      },
+      {
+        "_path": "site-packages/gwpy/plot/colorbar.py",
+        "path_type": "hardlink",
+        "sha256": "e3ed0b722d4a869130742a352fa8d66d9d04ae32b167ad59b75ba892b94ce383",
+        "sha256_in_prefix": "e3ed0b722d4a869130742a352fa8d66d9d04ae32b167ad59b75ba892b94ce383",
+        "size_in_bytes": 7041
+      },
+      {
+        "_path": "site-packages/gwpy/plot/colors.py",
+        "path_type": "hardlink",
+        "sha256": "aa6acce2ee08afc381da3907506dd99eb894969d6c74007f2006f41fd9a10bf0",
+        "sha256_in_prefix": "aa6acce2ee08afc381da3907506dd99eb894969d6c74007f2006f41fd9a10bf0",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "site-packages/gwpy/plot/gps.py",
+        "path_type": "hardlink",
+        "sha256": "5ee8b53cc4a1f4ad28bd216e2f254934ab0ca0da0eaa9a50b68114df2e595435",
+        "sha256_in_prefix": "5ee8b53cc4a1f4ad28bd216e2f254934ab0ca0da0eaa9a50b68114df2e595435",
+        "size_in_bytes": 16846
+      },
+      {
+        "_path": "site-packages/gwpy/plot/legend.py",
+        "path_type": "hardlink",
+        "sha256": "983d3b0939afd2b175ef5a25b7a39bb0af64e22f93c4a69c1d0e24051cdd6ffd",
+        "sha256_in_prefix": "983d3b0939afd2b175ef5a25b7a39bb0af64e22f93c4a69c1d0e24051cdd6ffd",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "site-packages/gwpy/plot/log.py",
+        "path_type": "hardlink",
+        "sha256": "4a7d412510799a5d28a84f145c1a616fb303870bbbaeef94b65bc6e22e6a4f21",
+        "sha256_in_prefix": "4a7d412510799a5d28a84f145c1a616fb303870bbbaeef94b65bc6e22e6a4f21",
+        "size_in_bytes": 5030
+      },
+      {
+        "_path": "site-packages/gwpy/plot/plot.py",
+        "path_type": "hardlink",
+        "sha256": "f5a01d227b0de40a1ad3a548c615640936e2e777d2a5d4843ab6d1bc4aefb19f",
+        "sha256_in_prefix": "f5a01d227b0de40a1ad3a548c615640936e2e777d2a5d4843ab6d1bc4aefb19f",
+        "size_in_bytes": 22080
+      },
+      {
+        "_path": "site-packages/gwpy/plot/rc.py",
+        "path_type": "hardlink",
+        "sha256": "70af293b372fb91b0cbffd7a93d1e5da6927fdd93c15a46b21586d361073ca9f",
+        "sha256_in_prefix": "70af293b372fb91b0cbffd7a93d1e5da6927fdd93c15a46b21586d361073ca9f",
+        "size_in_bytes": 4816
+      },
+      {
+        "_path": "site-packages/gwpy/plot/segments.py",
+        "path_type": "hardlink",
+        "sha256": "1e18d012ff06d34469ee246e9fdf0218893dd7e73fbc0bc4b2ffae721dc26f25",
+        "sha256_in_prefix": "1e18d012ff06d34469ee246e9fdf0218893dd7e73fbc0bc4b2ffae721dc26f25",
+        "size_in_bytes": 16943
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93a850b1f07392d0c461bf6019fcbd0ca0f90a3d860909a71419d7211f72ca73",
+        "sha256_in_prefix": "93a850b1f07392d0c461bf6019fcbd0ca0f90a3d860909a71419d7211f72ca73",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_axes.py",
+        "path_type": "hardlink",
+        "sha256": "511b3c36f83b587a835988d34d2cf5ebd86108cf9a1373fd9d16b89fdab0a259",
+        "sha256_in_prefix": "511b3c36f83b587a835988d34d2cf5ebd86108cf9a1373fd9d16b89fdab0a259",
+        "size_in_bytes": 11736
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_bode.py",
+        "path_type": "hardlink",
+        "sha256": "3686b9e55ed6c6213b0bffd174d6f6c5c6de6a915eb8a3fd82dd1c9a74fd79e8",
+        "sha256_in_prefix": "3686b9e55ed6c6213b0bffd174d6f6c5c6de6a915eb8a3fd82dd1c9a74fd79e8",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_colors.py",
+        "path_type": "hardlink",
+        "sha256": "9b6f642a2d2da6d898fddbf7167533c4f025236a879f52b78a71b6dfcd9c0e85",
+        "sha256_in_prefix": "9b6f642a2d2da6d898fddbf7167533c4f025236a879f52b78a71b6dfcd9c0e85",
+        "size_in_bytes": 1881
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_gps.py",
+        "path_type": "hardlink",
+        "sha256": "97616134ea51d6ee8dc5ccda6837f55aafe6a0e3c55450b5c108b25feea3bc94",
+        "sha256_in_prefix": "97616134ea51d6ee8dc5ccda6837f55aafe6a0e3c55450b5c108b25feea3bc94",
+        "size_in_bytes": 5505
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_log.py",
+        "path_type": "hardlink",
+        "sha256": "58b604398571c0891741618caa2a1e0b498407425b550c64a309709946cfaa47",
+        "sha256_in_prefix": "58b604398571c0891741618caa2a1e0b498407425b550c64a309709946cfaa47",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_plot.py",
+        "path_type": "hardlink",
+        "sha256": "0492649266c9fd11ca4210f8a037810a2f589bd567ae2ce1ff51795712db3255",
+        "sha256_in_prefix": "0492649266c9fd11ca4210f8a037810a2f589bd567ae2ce1ff51795712db3255",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_rc.py",
+        "path_type": "hardlink",
+        "sha256": "f30c485649c1b493a70d6b5694dc8f30f960cd814b15e7fd0663ac38c22505f4",
+        "sha256_in_prefix": "f30c485649c1b493a70d6b5694dc8f30f960cd814b15e7fd0663ac38c22505f4",
+        "size_in_bytes": 1252
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_segments.py",
+        "path_type": "hardlink",
+        "sha256": "4a1d5d2f9b04d165a537a38b62e03dfc69a441870337e56a44ecd41793064a6b",
+        "sha256_in_prefix": "4a1d5d2f9b04d165a537a38b62e03dfc69a441870337e56a44ecd41793064a6b",
+        "size_in_bytes": 5478
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_tex.py",
+        "path_type": "hardlink",
+        "sha256": "9eb9b07e904cba813d3e80b1fe56e90a34fe7d31d602562672098921c2ae3eba",
+        "sha256_in_prefix": "9eb9b07e904cba813d3e80b1fe56e90a34fe7d31d602562672098921c2ae3eba",
+        "size_in_bytes": 2423
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_text.py",
+        "path_type": "hardlink",
+        "sha256": "f602134ac20a88444fe3f88dda207a2be9942f83d15ef2f4ea3a27db352848dc",
+        "sha256_in_prefix": "f602134ac20a88444fe3f88dda207a2be9942f83d15ef2f4ea3a27db352848dc",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "fcf809351dcbcba4f6ea2c42c17326d4d9a302a3e13ef1cbdabda2cdadd581f6",
+        "sha256_in_prefix": "fcf809351dcbcba4f6ea2c42c17326d4d9a302a3e13ef1cbdabda2cdadd581f6",
+        "size_in_bytes": 1615
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "fc6d32a06d6a2758b3d88cf9e35fdda92c96433deb24b3b029b5de6433cbe797",
+        "sha256_in_prefix": "fc6d32a06d6a2758b3d88cf9e35fdda92c96433deb24b3b029b5de6433cbe797",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "site-packages/gwpy/plot/tex.py",
+        "path_type": "hardlink",
+        "sha256": "5b510f8dd77d4fa1f68ab0ec6db6cd34b2ff0aa05c6114dc016c7d3a5b027058",
+        "sha256_in_prefix": "5b510f8dd77d4fa1f68ab0ec6db6cd34b2ff0aa05c6114dc016c7d3a5b027058",
+        "size_in_bytes": 4869
+      },
+      {
+        "_path": "site-packages/gwpy/plot/text.py",
+        "path_type": "hardlink",
+        "sha256": "48f54ef9041ee81e9268f8b2712dfc1306469956f041fc507d0d5c8db19e3a22",
+        "sha256_in_prefix": "48f54ef9041ee81e9268f8b2712dfc1306469956f041fc507d0d5c8db19e3a22",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "site-packages/gwpy/plot/units.py",
+        "path_type": "hardlink",
+        "sha256": "0f46d6c1820083e42e5a9b0dbf37bd505b87a015fda7cd41f83963e646c3c514",
+        "sha256_in_prefix": "0f46d6c1820083e42e5a9b0dbf37bd505b87a015fda7cd41f83963e646c3c514",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "site-packages/gwpy/plot/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b91cfd1aacbfd8cc64fb636fc3dc32fa422800a5037920c02cc4644b3890c996",
+        "sha256_in_prefix": "b91cfd1aacbfd8cc64fb636fc3dc32fa422800a5037920c02cc4644b3890c996",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "site-packages/gwpy/segments/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f61d2079d13f3a394da969b089b4cd2d2b23a93a246d754a60c7cc29268aa1c4",
+        "sha256_in_prefix": "f61d2079d13f3a394da969b089b4cd2d2b23a93a246d754a60c7cc29268aa1c4",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "site-packages/gwpy/segments/flag.py",
+        "path_type": "hardlink",
+        "sha256": "57395332fd42cb2de2095df38f53d5e112043125e2bebe97fd24771f3e1d613f",
+        "sha256_in_prefix": "57395332fd42cb2de2095df38f53d5e112043125e2bebe97fd24771f3e1d613f",
+        "size_in_bytes": 53042
+      },
+      {
+        "_path": "site-packages/gwpy/segments/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "39b9c9b2a4a4fd8f2a0f9f8e56661171db436d9726e69744bb4911a08f6f1ed0",
+        "sha256_in_prefix": "39b9c9b2a4a4fd8f2a0f9f8e56661171db436d9726e69744bb4911a08f6f1ed0",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "site-packages/gwpy/segments/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "807d312b12c1c783909548cfd81beccadd3648a63c755146e83ea9a0a581438b",
+        "sha256_in_prefix": "807d312b12c1c783909548cfd81beccadd3648a63c755146e83ea9a0a581438b",
+        "size_in_bytes": 11048
+      },
+      {
+        "_path": "site-packages/gwpy/segments/io/json.py",
+        "path_type": "hardlink",
+        "sha256": "86919902e33bdd47942b77b80f222b3509b1ba3380ef00c6739418e2f7fc1769",
+        "sha256_in_prefix": "86919902e33bdd47942b77b80f222b3509b1ba3380ef00c6739418e2f7fc1769",
+        "size_in_bytes": 3036
+      },
+      {
+        "_path": "site-packages/gwpy/segments/io/ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "9d86878e581ed43fc1cf89bad9d2d950a3c1244a3f8e7ab933aa03e2d92ae6a0",
+        "sha256_in_prefix": "9d86878e581ed43fc1cf89bad9d2d950a3c1244a3f8e7ab933aa03e2d92ae6a0",
+        "size_in_bytes": 4907
+      },
+      {
+        "_path": "site-packages/gwpy/segments/io/segwizard.py",
+        "path_type": "hardlink",
+        "sha256": "2550457010499458b513c5812daee7933fbdbe5295bbf6d8969ad54f9d276ea1",
+        "sha256_in_prefix": "2550457010499458b513c5812daee7933fbdbe5295bbf6d8969ad54f9d276ea1",
+        "size_in_bytes": 5007
+      },
+      {
+        "_path": "site-packages/gwpy/segments/segments.py",
+        "path_type": "hardlink",
+        "sha256": "6e8cdaab57d83cefdae0cc70537e4869a7ffb77779f4ad63b484afa0cc08b718",
+        "sha256_in_prefix": "6e8cdaab57d83cefdae0cc70537e4869a7ffb77779f4ad63b484afa0cc08b718",
+        "size_in_bytes": 9042
+      },
+      {
+        "_path": "site-packages/gwpy/segments/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e18f923eafbb4011ecbd5208973e9482f3f10ec0643b8a2b16b6a9c7753081ec",
+        "sha256_in_prefix": "e18f923eafbb4011ecbd5208973e9482f3f10ec0643b8a2b16b6a9c7753081ec",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "site-packages/gwpy/segments/tests/test_flag.py",
+        "path_type": "hardlink",
+        "sha256": "2dda46f4f523962ae5fb9e2b74c0d1bf877801225b8569a903a455565b518f10",
+        "sha256_in_prefix": "2dda46f4f523962ae5fb9e2b74c0d1bf877801225b8569a903a455565b518f10",
+        "size_in_bytes": 31672
+      },
+      {
+        "_path": "site-packages/gwpy/segments/tests/test_segments.py",
+        "path_type": "hardlink",
+        "sha256": "552be3cb7a7832e572b9c2bf401e4f7ce8d9d05bc953e8dde29347bfba69884f",
+        "sha256_in_prefix": "552be3cb7a7832e572b9c2bf401e4f7ce8d9d05bc953e8dde29347bfba69884f",
+        "size_in_bytes": 5360
+      },
+      {
+        "_path": "site-packages/gwpy/signal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d4572bcc03cfe5f929f4eceba50cab0ecc08343a86b8b618fdc76d250b6d07ae",
+        "sha256_in_prefix": "d4572bcc03cfe5f929f4eceba50cab0ecc08343a86b8b618fdc76d250b6d07ae",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "site-packages/gwpy/signal/fft.py",
+        "path_type": "hardlink",
+        "sha256": "612da0e54ae1e58e31fcbdab1adb35d4ee6df8ce58ff202d02fac592a4efe0a4",
+        "sha256_in_prefix": "612da0e54ae1e58e31fcbdab1adb35d4ee6df8ce58ff202d02fac592a4efe0a4",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/gwpy/signal/filter_design.py",
+        "path_type": "hardlink",
+        "sha256": "20628724ec851a91326b1d3a86cdd3ce562970ff7550fa482af416e296c6699e",
+        "sha256_in_prefix": "20628724ec851a91326b1d3a86cdd3ce562970ff7550fa482af416e296c6699e",
+        "size_in_bytes": 20339
+      },
+      {
+        "_path": "site-packages/gwpy/signal/qtransform.py",
+        "path_type": "hardlink",
+        "sha256": "df2871922a0d6b711dc0abec9af6285e742a03c54f0195b9f0e9c0b84e181f1c",
+        "sha256_in_prefix": "df2871922a0d6b711dc0abec9af6285e742a03c54f0195b9f0e9c0b84e181f1c",
+        "size_in_bytes": 24471
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7442ae1c869e917aa09a8049fa0bc4d315b29bd77b4937000267b063caa8f312",
+        "sha256_in_prefix": "7442ae1c869e917aa09a8049fa0bc4d315b29bd77b4937000267b063caa8f312",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_lal.py",
+        "path_type": "hardlink",
+        "sha256": "36d86e2cf946018d9dc1871c5e6c11243537593e3576c4cccf5db651cbc7fdc1",
+        "sha256_in_prefix": "36d86e2cf946018d9dc1871c5e6c11243537593e3576c4cccf5db651cbc7fdc1",
+        "size_in_bytes": 12000
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_median_mean.py",
+        "path_type": "hardlink",
+        "sha256": "d720779ebd94e7a6ffeebb99428db2ed75c076971a1598eae9fcaba4a4f84af3",
+        "sha256_in_prefix": "d720779ebd94e7a6ffeebb99428db2ed75c076971a1598eae9fcaba4a4f84af3",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_pycbc.py",
+        "path_type": "hardlink",
+        "sha256": "56764b240ac0c6d216872ca27c0627d68c814bd8d5d126aecc48b9d261977b11",
+        "sha256_in_prefix": "56764b240ac0c6d216872ca27c0627d68c814bd8d5d126aecc48b9d261977b11",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_registry.py",
+        "path_type": "hardlink",
+        "sha256": "848de494b7b6312d2ba28a195cfc2fcd551cff43dc0eb9d1c1aebf40d8413a99",
+        "sha256_in_prefix": "848de494b7b6312d2ba28a195cfc2fcd551cff43dc0eb9d1c1aebf40d8413a99",
+        "size_in_bytes": 2346
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_scipy.py",
+        "path_type": "hardlink",
+        "sha256": "70ba1603d0b29ef09d4d75b75f6d87d86060631e3ea3770c559a2b16558c8ddc",
+        "sha256_in_prefix": "70ba1603d0b29ef09d4d75b75f6d87d86060631e3ea3770c559a2b16558c8ddc",
+        "size_in_bytes": 7711
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_ui.py",
+        "path_type": "hardlink",
+        "sha256": "31b0776925054b86d2e52dfd7c4712ab285b0ba168ab5e4f1a56b35496a55a33",
+        "sha256_in_prefix": "31b0776925054b86d2e52dfd7c4712ab285b0ba168ab5e4f1a56b35496a55a33",
+        "size_in_bytes": 14241
+      },
+      {
+        "_path": "site-packages/gwpy/signal/spectral/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "a926a3d4672da8e7781e6895c2d7d452b057bd9021d162586ca89e3d42846b51",
+        "sha256_in_prefix": "a926a3d4672da8e7781e6895c2d7d452b057bd9021d162586ca89e3d42846b51",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93cc87357e54bca6190b0650038a0310aee034060c5fb24b873b55ebbfc9a0e6",
+        "sha256_in_prefix": "93cc87357e54bca6190b0650038a0310aee034060c5fb24b873b55ebbfc9a0e6",
+        "size_in_bytes": 747
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_coherence.py",
+        "path_type": "hardlink",
+        "sha256": "05bea851f9d9bc2787c5b298932d1c275afcee138d34502d5c5302e68bc3dcb4",
+        "sha256_in_prefix": "05bea851f9d9bc2787c5b298932d1c275afcee138d34502d5c5302e68bc3dcb4",
+        "size_in_bytes": 5554
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_filter_design.py",
+        "path_type": "hardlink",
+        "sha256": "fd3ca0b84103fb392fe7de1775c29a62489cd048551416073c01f36bc532cc08",
+        "sha256_in_prefix": "fd3ca0b84103fb392fe7de1775c29a62489cd048551416073c01f36bc532cc08",
+        "size_in_bytes": 4349
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_qtransform.py",
+        "path_type": "hardlink",
+        "sha256": "2ca068c3dbc8608ee344d8eecf0e775a0b0960c4aff44c2442df93fd7b62d549",
+        "sha256_in_prefix": "2ca068c3dbc8608ee344d8eecf0e775a0b0960c4aff44c2442df93fd7b62d549",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_lal.py",
+        "path_type": "hardlink",
+        "sha256": "6fb2e4c9362d48c541c629301d0406d38d924b5fd98fc58762a1d7581f255efa",
+        "sha256_in_prefix": "6fb2e4c9362d48c541c629301d0406d38d924b5fd98fc58762a1d7581f255efa",
+        "size_in_bytes": 3543
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_median_mean.py",
+        "path_type": "hardlink",
+        "sha256": "2b9e37ea2e477bbfdff4de31237a72ce220a90a69540e3bf96bf64591e10dff1",
+        "sha256_in_prefix": "2b9e37ea2e477bbfdff4de31237a72ce220a90a69540e3bf96bf64591e10dff1",
+        "size_in_bytes": 2195
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_pycbc.py",
+        "path_type": "hardlink",
+        "sha256": "2b13ce681a40af48bd4f30def8c87f909fcce48b6f0f44d46943283a651f935f",
+        "sha256_in_prefix": "2b13ce681a40af48bd4f30def8c87f909fcce48b6f0f44d46943283a651f935f",
+        "size_in_bytes": 2249
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_registry.py",
+        "path_type": "hardlink",
+        "sha256": "6fb77b35279d514b6ffb0b3e611ee8881780db2f6fffe10dec389060c126c9b6",
+        "sha256_in_prefix": "6fb77b35279d514b6ffb0b3e611ee8881780db2f6fffe10dec389060c126c9b6",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_scipy.py",
+        "path_type": "hardlink",
+        "sha256": "4b4ebe561fe403628b262e4f6ef856a99acdf1f556e63139086bb8bfa7c4a7ca",
+        "sha256_in_prefix": "4b4ebe561fe403628b262e4f6ef856a99acdf1f556e63139086bb8bfa7c4a7ca",
+        "size_in_bytes": 1874
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_ui.py",
+        "path_type": "hardlink",
+        "sha256": "bfe40e93a3b3ea73c5e646528592957ae8f96543bf770ba6bba1ae1b55327874",
+        "sha256_in_prefix": "bfe40e93a3b3ea73c5e646528592957ae8f96543bf770ba6bba1ae1b55327874",
+        "size_in_bytes": 3045
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_spectral_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ca6255c7d9881f6fe5546efd66e2fed258874f94a7cdf1a5e00445972beab473",
+        "sha256_in_prefix": "ca6255c7d9881f6fe5546efd66e2fed258874f94a7cdf1a5e00445972beab473",
+        "size_in_bytes": 1453
+      },
+      {
+        "_path": "site-packages/gwpy/signal/tests/test_window.py",
+        "path_type": "hardlink",
+        "sha256": "9e45ebb0c256b0f685b6c91be3ba9a3f268f09a6e32b2b4461b08048cf976df4",
+        "sha256_in_prefix": "9e45ebb0c256b0f685b6c91be3ba9a3f268f09a6e32b2b4461b08048cf976df4",
+        "size_in_bytes": 2726
+      },
+      {
+        "_path": "site-packages/gwpy/signal/window.py",
+        "path_type": "hardlink",
+        "sha256": "ba4c1cca802d98b0ba2d61b2bdc3a1fa0ca1d2cf29688564dd9e608c2524f45f",
+        "sha256_in_prefix": "ba4c1cca802d98b0ba2d61b2bdc3a1fa0ca1d2cf29688564dd9e608c2524f45f",
+        "size_in_bytes": 5927
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90947dff43b333c3361e28fa946c7e6785429c35cfd9f7918d1529c9dc6074aa",
+        "sha256_in_prefix": "90947dff43b333c3361e28fa946c7e6785429c35cfd9f7918d1529c9dc6074aa",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/coherence.py",
+        "path_type": "hardlink",
+        "sha256": "d4a986ab67ceb1ec11b69264e0f1769d09e1cf76e0e272b1e70945bdea2b43e9",
+        "sha256_in_prefix": "d4a986ab67ceb1ec11b69264e0f1769d09e1cf76e0e272b1e70945bdea2b43e9",
+        "size_in_bytes": 5742
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "255f2b940716ab1ab130384f39e1a938766996a11f3228fb2822098f224a8561",
+        "sha256_in_prefix": "255f2b940716ab1ab130384f39e1a938766996a11f3228fb2822098f224a8561",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "96160de92cfc35b8f08e20e0f6e330b09cb2ad47ce272203140f772dcb8469fb",
+        "sha256_in_prefix": "96160de92cfc35b8f08e20e0f6e330b09cb2ad47ce272203140f772dcb8469fb",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/spectrogram.py",
+        "path_type": "hardlink",
+        "sha256": "3b943c23788629124fbb0d9a6e01849578290d3735b72353a51c422ed7838cae",
+        "sha256_in_prefix": "3b943c23788629124fbb0d9a6e01849578290d3735b72353a51c422ed7838cae",
+        "size_in_bytes": 22206
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c1bbc48c5a0f4acde68d34049fddd9058c5299978aed0931f481725299505dca",
+        "sha256_in_prefix": "c1bbc48c5a0f4acde68d34049fddd9058c5299978aed0931f481725299505dca",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "site-packages/gwpy/spectrogram/tests/test_spectrogram.py",
+        "path_type": "hardlink",
+        "sha256": "1cdbd367bf07025935b0f0c2a062ae8b7af7e928ba2e34da3adf22b72c8c80b2",
+        "sha256_in_prefix": "1cdbd367bf07025935b0f0c2a062ae8b7af7e928ba2e34da3adf22b72c8c80b2",
+        "size_in_bytes": 6604
+      },
+      {
+        "_path": "site-packages/gwpy/table/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "450ad2f32dfbe687e94f5a8e4f22f87a1f9067cc00f4d21f3aabb5e062b9f20d",
+        "sha256_in_prefix": "450ad2f32dfbe687e94f5a8e4f22f87a1f9067cc00f4d21f3aabb5e062b9f20d",
+        "size_in_bytes": 1418
+      },
+      {
+        "_path": "site-packages/gwpy/table/filter.py",
+        "path_type": "hardlink",
+        "sha256": "4d5d8aada8b7715807302278a0149cc2b0c379c3128612d18c64725de3aa1059",
+        "sha256_in_prefix": "4d5d8aada8b7715807302278a0149cc2b0c379c3128612d18c64725de3aa1059",
+        "size_in_bytes": 7918
+      },
+      {
+        "_path": "site-packages/gwpy/table/filters.py",
+        "path_type": "hardlink",
+        "sha256": "49b51607eca27741bcff6ab9efbf95bc9c4eb0db7fa811850d84ba71b2a32403",
+        "sha256_in_prefix": "49b51607eca27741bcff6ab9efbf95bc9c4eb0db7fa811850d84ba71b2a32403",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "site-packages/gwpy/table/gravityspy.py",
+        "path_type": "hardlink",
+        "sha256": "496a1315f5024f31d62e75dbd61fe93c75b7b8787f27b58051b4f05116f408ad",
+        "sha256_in_prefix": "496a1315f5024f31d62e75dbd61fe93c75b7b8787f27b58051b4f05116f408ad",
+        "size_in_bytes": 8173
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bfe4ac1650611759d9b9f5ede0a8ffe6c9e6dc67146026d3c4ddd7ade3008e01",
+        "sha256_in_prefix": "bfe4ac1650611759d9b9f5ede0a8ffe6c9e6dc67146026d3c4ddd7ade3008e01",
+        "size_in_bytes": 1564
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/cwb.py",
+        "path_type": "hardlink",
+        "sha256": "f2c0878db9cdd4b9c0080258f6cec4751e29e1ac49da33f6566276cb669ab1c0",
+        "sha256_in_prefix": "f2c0878db9cdd4b9c0080258f6cec4751e29e1ac49da33f6566276cb669ab1c0",
+        "size_in_bytes": 3809
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/fetch.py",
+        "path_type": "hardlink",
+        "sha256": "b2a949adfe3adc875e264db28ab6b979ba36297cc12b32d9e53067565b64069b",
+        "sha256_in_prefix": "b2a949adfe3adc875e264db28ab6b979ba36297cc12b32d9e53067565b64069b",
+        "size_in_bytes": 4692
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/gravityspy.py",
+        "path_type": "hardlink",
+        "sha256": "ac1c710356b710de182392d6f424125dd7df52784f57b12d2454a07f813e692f",
+        "sha256_in_prefix": "ac1c710356b710de182392d6f424125dd7df52784f57b12d2454a07f813e692f",
+        "size_in_bytes": 4663
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/gstlal.py",
+        "path_type": "hardlink",
+        "sha256": "4b109827ff32b951863a5ed8b425da2e922ebc51df0917b754952fc0190e8498",
+        "sha256_in_prefix": "4b109827ff32b951863a5ed8b425da2e922ebc51df0917b754952fc0190e8498",
+        "size_in_bytes": 8390
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/gwf.py",
+        "path_type": "hardlink",
+        "sha256": "6ce84cec0d7d1a4ca3fbc965867df42d2c192ef4c9ff0bddb6769b5917a981df",
+        "sha256_in_prefix": "6ce84cec0d7d1a4ca3fbc965867df42d2c192ef4c9ff0bddb6769b5917a981df",
+        "size_in_bytes": 5433
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/hacr.py",
+        "path_type": "hardlink",
+        "sha256": "ada385939d4b9a4f4a73a7cc5a7b7419d230da1de166c1fc91b2979fbd705d62",
+        "sha256_in_prefix": "ada385939d4b9a4f4a73a7cc5a7b7419d230da1de166c1fc91b2979fbd705d62",
+        "size_in_bytes": 5205
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "87523f4d92965e6678610fcfad9a9f7b9b3f9a90f20a9104d9a01efcf7c609b4",
+        "sha256_in_prefix": "87523f4d92965e6678610fcfad9a9f7b9b3f9a90f20a9104d9a01efcf7c609b4",
+        "size_in_bytes": 13591
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/losc.py",
+        "path_type": "hardlink",
+        "sha256": "c0c86cb06f9dd65806db036189e1b99855f0a72af344e206693897e9cc0a677c",
+        "sha256_in_prefix": "c0c86cb06f9dd65806db036189e1b99855f0a72af344e206693897e9cc0a677c",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/omega.py",
+        "path_type": "hardlink",
+        "sha256": "e40c96ca749bde1df447113673f1f5f791ee46d74b76413cb47bae7485a8fe58",
+        "sha256_in_prefix": "e40c96ca749bde1df447113673f1f5f791ee46d74b76413cb47bae7485a8fe58",
+        "size_in_bytes": 2604
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/omicron.py",
+        "path_type": "hardlink",
+        "sha256": "d5390fe0e870bf28ced4bcca42e2910176f780384f513debb9a0f319d68caf09",
+        "sha256_in_prefix": "d5390fe0e870bf28ced4bcca42e2910176f780384f513debb9a0f319d68caf09",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/pycbc.py",
+        "path_type": "hardlink",
+        "sha256": "99fed582ca226c1cde97af7b1194434db6ff031fbc4ecdb3742746effc9a2908",
+        "sha256_in_prefix": "99fed582ca226c1cde97af7b1194434db6ff031fbc4ecdb3742746effc9a2908",
+        "size_in_bytes": 8894
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/root.py",
+        "path_type": "hardlink",
+        "sha256": "05275c65645489023c6caba204e7779be180a612816d41bf0ee5ed747b43c3f8",
+        "sha256_in_prefix": "05275c65645489023c6caba204e7779be180a612816d41bf0ee5ed747b43c3f8",
+        "size_in_bytes": 3318
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/snax.py",
+        "path_type": "hardlink",
+        "sha256": "eb26c534c0dc555d9eba8c427047c404c1c0aed1bb766387b40322f60ab2296d",
+        "sha256_in_prefix": "eb26c534c0dc555d9eba8c427047c404c1c0aed1bb766387b40322f60ab2296d",
+        "size_in_bytes": 3857
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/sql.py",
+        "path_type": "hardlink",
+        "sha256": "18e5ec53aa9243c5f42a9d92c08d8324b9710cf67d95947284a678f99c16da99",
+        "sha256_in_prefix": "18e5ec53aa9243c5f42a9d92c08d8324b9710cf67d95947284a678f99c16da99",
+        "size_in_bytes": 3067
+      },
+      {
+        "_path": "site-packages/gwpy/table/io/utils.py",
+        "path_type": "hardlink",
+        "sha256": "57802bf747f5c1843d2db13a0588cf056a8ba82292b1e8c2b0371c9b1d6dfdb7",
+        "sha256_in_prefix": "57802bf747f5c1843d2db13a0588cf056a8ba82292b1e8c2b0371c9b1d6dfdb7",
+        "size_in_bytes": 3183
+      },
+      {
+        "_path": "site-packages/gwpy/table/table.py",
+        "path_type": "hardlink",
+        "sha256": "e79cbc763f90b7205270108134be0a8ce1a4fa2029d04fa71d1e2b77b1b87414",
+        "sha256_in_prefix": "e79cbc763f90b7205270108134be0a8ce1a4fa2029d04fa71d1e2b77b1b87414",
+        "size_in_bytes": 26330
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dd932aa63e27eb78ca88a307eb885fa8bb04f3fef1c54f318d981cde1ad7b48c",
+        "sha256_in_prefix": "dd932aa63e27eb78ca88a307eb885fa8bb04f3fef1c54f318d981cde1ad7b48c",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/test_gravityspy.py",
+        "path_type": "hardlink",
+        "sha256": "edea72ae129d31c980eee379faf1616352df89f74f3ae3d41affaa2b81578ca9",
+        "sha256_in_prefix": "edea72ae129d31c980eee379faf1616352df89f74f3ae3d41affaa2b81578ca9",
+        "size_in_bytes": 3392
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/test_io_gstlal.py",
+        "path_type": "hardlink",
+        "sha256": "2e6f1e11f8f4f9a8059ba83dfd2501d09b9daf5419604122c9f3d84a6406c528",
+        "sha256_in_prefix": "2e6f1e11f8f4f9a8059ba83dfd2501d09b9daf5419604122c9f3d84a6406c528",
+        "size_in_bytes": 7979
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/test_io_ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "ff44a57ec4934352d959c8efc9daa080bca2794f244cb2090c64f0320df3d814",
+        "sha256_in_prefix": "ff44a57ec4934352d959c8efc9daa080bca2794f244cb2090c64f0320df3d814",
+        "size_in_bytes": 2844
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/test_io_pycbc.py",
+        "path_type": "hardlink",
+        "sha256": "eb97ff017803d8309e21ccfeac33ae723452b5645dfff55045f2b581c6056a3f",
+        "sha256_in_prefix": "eb97ff017803d8309e21ccfeac33ae723452b5645dfff55045f2b581c6056a3f",
+        "size_in_bytes": 8313
+      },
+      {
+        "_path": "site-packages/gwpy/table/tests/test_table.py",
+        "path_type": "hardlink",
+        "sha256": "1ed851f3ce46a9c050481f2f0f943ab0e48f1e88e8f26e5f6bc1cf785c799bac",
+        "sha256_in_prefix": "1ed851f3ce46a9c050481f2f0f943ab0e48f1e88e8f26e5f6bc1cf785c799bac",
+        "size_in_bytes": 30399
+      },
+      {
+        "_path": "site-packages/gwpy/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fddb5b848e273a79d43eef212d9513519c603c2ab6281d804d988b127b3dc9bc",
+        "sha256_in_prefix": "fddb5b848e273a79d43eef212d9513519c603c2ab6281d804d988b127b3dc9bc",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/gwpy/testing/data/H1-LDAS_STRAIN-968654552-10.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "b0449c9c06d78e4706b6563718dff1d2e6a5db911459168018adf586f2cea56e",
+        "sha256_in_prefix": "b0449c9c06d78e4706b6563718dff1d2e6a5db911459168018adf586f2cea56e",
+        "size_in_bytes": 58124
+      },
+      {
+        "_path": "site-packages/gwpy/testing/data/HLV-HW100916-968654552-1.gwf",
+        "path_type": "hardlink",
+        "sha256": "004e5de7f4f632043b9e7342f9c6e790a851c1cd14496fd58c65c7109ce0e477",
+        "sha256_in_prefix": "004e5de7f4f632043b9e7342f9c6e790a851c1cd14496fd58c65c7109ce0e477",
+        "size_in_bytes": 377295
+      },
+      {
+        "_path": "site-packages/gwpy/testing/data/HLV-HW100916-968654552-1.hdf",
+        "path_type": "hardlink",
+        "sha256": "e5879dbe3bb83d41456b5eec65522205d6d2c0594b4cc17a520ac1ed0bcc253c",
+        "sha256_in_prefix": "e5879dbe3bb83d41456b5eec65522205d6d2c0594b4cc17a520ac1ed0bcc253c",
+        "size_in_bytes": 382679
+      },
+      {
+        "_path": "site-packages/gwpy/testing/data/X1-GWPY_TEST_SEGMENTS-0-10.txt",
+        "path_type": "hardlink",
+        "sha256": "e1cfe5b53b55091c9d41dba06f7a2b5d600af816075f7865aedc4b47cfcd46bf",
+        "sha256_in_prefix": "e1cfe5b53b55091c9d41dba06f7a2b5d600af816075f7865aedc4b47cfcd46bf",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/gwpy/testing/data/X1-GWPY_TEST_SEGMENTS-0-10.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "f64480d46d5e621f01cd223a747a3d8336a45ba501a753cd04df757f10d4f14b",
+        "sha256_in_prefix": "f64480d46d5e621f01cd223a747a3d8336a45ba501a753cd04df757f10d4f14b",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "site-packages/gwpy/testing/errors.py",
+        "path_type": "hardlink",
+        "sha256": "b484d5436a3798fed520228ad93d1df717d9795d09c0d31669aac04554a90a6d",
+        "sha256_in_prefix": "b484d5436a3798fed520228ad93d1df717d9795d09c0d31669aac04554a90a6d",
+        "size_in_bytes": 2820
+      },
+      {
+        "_path": "site-packages/gwpy/testing/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "a6ed2c037977adcb34a2c563f7b0b496610d6036bed52179078e2e5decb971bd",
+        "sha256_in_prefix": "a6ed2c037977adcb34a2c563f7b0b496610d6036bed52179078e2e5decb971bd",
+        "size_in_bytes": 3344
+      },
+      {
+        "_path": "site-packages/gwpy/testing/marks.py",
+        "path_type": "hardlink",
+        "sha256": "048676438c9f2524bd6105825923b0b7ae892859eb85bc795cf5dbbf07ee172a",
+        "sha256_in_prefix": "048676438c9f2524bd6105825923b0b7ae892859eb85bc795cf5dbbf07ee172a",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "site-packages/gwpy/testing/mocks.py",
+        "path_type": "hardlink",
+        "sha256": "dc6a004f5cfed4b25736ea2c9029a94a2dc64ea01afeab8eed39b9a729ecd120",
+        "sha256_in_prefix": "dc6a004f5cfed4b25736ea2c9029a94a2dc64ea01afeab8eed39b9a729ecd120",
+        "size_in_bytes": 4131
+      },
+      {
+        "_path": "site-packages/gwpy/testing/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c9be8716afdb9aa95789890cd5ff9dcca90c06a06d8a9161750c12a48df20d25",
+        "sha256_in_prefix": "c9be8716afdb9aa95789890cd5ff9dcca90c06a06d8a9161750c12a48df20d25",
+        "size_in_bytes": 12058
+      },
+      {
+        "_path": "site-packages/gwpy/time/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "69613ff8a3357c088725a153897224a46d70da1e9b9f6569c2a9ff2bfc556777",
+        "sha256_in_prefix": "69613ff8a3357c088725a153897224a46d70da1e9b9f6569c2a9ff2bfc556777",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "site-packages/gwpy/time/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "7407fd997d72c28b7d879fc9b35356c615dfd9dfcda7df40d28efe58d2ac7acb",
+        "sha256_in_prefix": "7407fd997d72c28b7d879fc9b35356c615dfd9dfcda7df40d28efe58d2ac7acb",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "site-packages/gwpy/time/_tconvert.py",
+        "path_type": "hardlink",
+        "sha256": "3c56267377ccb994e40295a340e774c8f2fb3e6ee6ee5e8645f405a553b6ae23",
+        "sha256_in_prefix": "3c56267377ccb994e40295a340e774c8f2fb3e6ee6ee5e8645f405a553b6ae23",
+        "size_in_bytes": 8486
+      },
+      {
+        "_path": "site-packages/gwpy/time/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "105e06f88b9b5dc300ffe9ae703bdca63a8cf884f2a741bfddcbced157987712",
+        "sha256_in_prefix": "105e06f88b9b5dc300ffe9ae703bdca63a8cf884f2a741bfddcbced157987712",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "site-packages/gwpy/time/tests/test_main.py",
+        "path_type": "hardlink",
+        "sha256": "dd057a913590e809060989aac5fc3e25f028891e955f3cab33fffb5dec90bd32",
+        "sha256_in_prefix": "dd057a913590e809060989aac5fc3e25f028891e955f3cab33fffb5dec90bd32",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "site-packages/gwpy/time/tests/test_time.py",
+        "path_type": "hardlink",
+        "sha256": "0a3dd8bf43783188bd0b97f3b973e047aae07ba68a81f21b9e1530cde2834433",
+        "sha256_in_prefix": "0a3dd8bf43783188bd0b97f3b973e047aae07ba68a81f21b9e1530cde2834433",
+        "size_in_bytes": 4402
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7be9dc69c9923f15149b26bcc6543e1a8be4e29b6bfb44d5a76eaf3083e6c535",
+        "sha256_in_prefix": "7be9dc69c9923f15149b26bcc6543e1a8be4e29b6bfb44d5a76eaf3083e6c535",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/core.py",
+        "path_type": "hardlink",
+        "sha256": "0ce19e3b792393bb708a74bc6830f080d28864b62b1ad9df08f3a6d3928ac62f",
+        "sha256_in_prefix": "0ce19e3b792393bb708a74bc6830f080d28864b62b1ad9df08f3a6d3928ac62f",
+        "size_in_bytes": 57804
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aaf88509a79355e4d9ed988840a432535c7187be816bad3213dbd5b66f72d5b6",
+        "sha256_in_prefix": "aaf88509a79355e4d9ed988840a432535c7187be816bad3213dbd5b66f72d5b6",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/ascii.py",
+        "path_type": "hardlink",
+        "sha256": "334e450d309ad3a28b27549bd230e1dcdc6b98c6e857bde3dfc9f231a7153e44",
+        "sha256_in_prefix": "334e450d309ad3a28b27549bd230e1dcdc6b98c6e857bde3dfc9f231a7153e44",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/cache.py",
+        "path_type": "hardlink",
+        "sha256": "c4dfa54a3b01cbb1dea3ff57ec5551627780e076843292ece10d5973b9494a80",
+        "sha256_in_prefix": "c4dfa54a3b01cbb1dea3ff57ec5551627780e076843292ece10d5973b9494a80",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/core.py",
+        "path_type": "hardlink",
+        "sha256": "d61a7b7fb52070412ac354fd39ad0318c320eaec8a26287c878037acd931d124",
+        "sha256_in_prefix": "d61a7b7fb52070412ac354fd39ad0318c320eaec8a26287c878037acd931d124",
+        "size_in_bytes": 4692
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/gwf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0b51d1bb83959ecf294cf406ee12d3645c6a212ecf667b7570b98a29fe66e0e4",
+        "sha256_in_prefix": "0b51d1bb83959ecf294cf406ee12d3645c6a212ecf667b7570b98a29fe66e0e4",
+        "size_in_bytes": 13156
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/gwf/framecpp.py",
+        "path_type": "hardlink",
+        "sha256": "b05aec5abe6e884e69ef0ca6faede830fb0a8a1e0e7246685cb7674cb29b7d2d",
+        "sha256_in_prefix": "b05aec5abe6e884e69ef0ca6faede830fb0a8a1e0e7246685cb7674cb29b7d2d",
+        "size_in_bytes": 17223
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/gwf/framel.py",
+        "path_type": "hardlink",
+        "sha256": "510bb276147dade0204a661223496a1c9ef5db4803c971e82266905235f3d267",
+        "sha256_in_prefix": "510bb276147dade0204a661223496a1c9ef5db4803c971e82266905235f3d267",
+        "size_in_bytes": 4776
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/gwf/lalframe.py",
+        "path_type": "hardlink",
+        "sha256": "cd7683c674965bd777c5d9309bc8502e740037f844993b99e226ec2589dd073c",
+        "sha256_in_prefix": "cd7683c674965bd777c5d9309bc8502e740037f844993b99e226ec2589dd073c",
+        "size_in_bytes": 7729
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "7868aa59021d0f72eefbbe05eaa8b0f5d2aae864a3047a2ba1a9cdb1dcdccb61",
+        "sha256_in_prefix": "7868aa59021d0f72eefbbe05eaa8b0f5d2aae864a3047a2ba1a9cdb1dcdccb61",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/losc.py",
+        "path_type": "hardlink",
+        "sha256": "43005d37e136094ecbdbb41183cd112ccd54dd3c09ff869ba6e75c8b7493b7c3",
+        "sha256_in_prefix": "43005d37e136094ecbdbb41183cd112ccd54dd3c09ff869ba6e75c8b7493b7c3",
+        "size_in_bytes": 9419
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/nds2.py",
+        "path_type": "hardlink",
+        "sha256": "4e551080ac87ce1450f64cf0103c6de73800580a3cbe22e4a243383f9d27dd79",
+        "sha256_in_prefix": "4e551080ac87ce1450f64cf0103c6de73800580a3cbe22e4a243383f9d27dd79",
+        "size_in_bytes": 7811
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/io/wav.py",
+        "path_type": "hardlink",
+        "sha256": "13f12321ae379f3a69b35f31f9e92896532f80f6eb2b2aadd6ffd501789c6cf4",
+        "sha256_in_prefix": "13f12321ae379f3a69b35f31f9e92896532f80f6eb2b2aadd6ffd501789c6cf4",
+        "size_in_bytes": 3595
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/statevector.py",
+        "path_type": "hardlink",
+        "sha256": "f72025a416d1f1e58330ae8f4e9b86500c0018ed6dc84d3b4a885f5360c9509b",
+        "sha256_in_prefix": "f72025a416d1f1e58330ae8f4e9b86500c0018ed6dc84d3b4a885f5360c9509b",
+        "size_in_bytes": 35891
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4097675b3fc840e4d8aba32f2ae073cf61c588d55fe90317ad9fa40e4b3e9432",
+        "sha256_in_prefix": "4097675b3fc840e4d8aba32f2ae073cf61c588d55fe90317ad9fa40e4b3e9432",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_core.py",
+        "path_type": "hardlink",
+        "sha256": "604142707d338f5cf4433d6e73386f0acee76ea6ac1b22cb3c47f935d68907a7",
+        "sha256_in_prefix": "604142707d338f5cf4433d6e73386f0acee76ea6ac1b22cb3c47f935d68907a7",
+        "size_in_bytes": 19613
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_io_cache.py",
+        "path_type": "hardlink",
+        "sha256": "9c41038c4689f0d7fd295da9ea4f4b7216e686f53e3b9c5c9894f681b0b9419c",
+        "sha256_in_prefix": "9c41038c4689f0d7fd295da9ea4f4b7216e686f53e3b9c5c9894f681b0b9419c",
+        "size_in_bytes": 2294
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_io_gwf_framecpp.py",
+        "path_type": "hardlink",
+        "sha256": "4b4320044676fe8e8c0eb05f0196e3e125a4dcb0db6a087a5ce7c10324aea161",
+        "sha256_in_prefix": "4b4320044676fe8e8c0eb05f0196e3e125a4dcb0db6a087a5ce7c10324aea161",
+        "size_in_bytes": 2267
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_io_gwf_lalframe.py",
+        "path_type": "hardlink",
+        "sha256": "883f66d3599e9ef020517a062675fb5eff8ee6dde6817d82d8dda744dfa08ad6",
+        "sha256_in_prefix": "883f66d3599e9ef020517a062675fb5eff8ee6dde6817d82d8dda744dfa08ad6",
+        "size_in_bytes": 5479
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_io_losc.py",
+        "path_type": "hardlink",
+        "sha256": "13f6cb3376dce133b6f9c30e105def0c6f1cafa4ca810c0f63e10137a0f3c948",
+        "sha256_in_prefix": "13f6cb3376dce133b6f9c30e105def0c6f1cafa4ca810c0f63e10137a0f3c948",
+        "size_in_bytes": 1833
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_statevector.py",
+        "path_type": "hardlink",
+        "sha256": "fb098377518b117791d6f59ada38b19dd2f2c7458be1e6092d4f8195c100f491",
+        "sha256_in_prefix": "fb098377518b117791d6f59ada38b19dd2f2c7458be1e6092d4f8195c100f491",
+        "size_in_bytes": 13768
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/tests/test_timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "7daffab671c425382a7036cb80b32c49af1d994c31ab6edfad640b8f46d446b9",
+        "sha256_in_prefix": "7daffab671c425382a7036cb80b32c49af1d994c31ab6edfad640b8f46d446b9",
+        "size_in_bytes": 57347
+      },
+      {
+        "_path": "site-packages/gwpy/timeseries/timeseries.py",
+        "path_type": "hardlink",
+        "sha256": "960dbc104300481476212ff88097dc5348f7ba8eed11f1445632be52feb8ce2c",
+        "sha256_in_prefix": "960dbc104300481476212ff88097dc5348f7ba8eed11f1445632be52feb8ce2c",
+        "size_in_bytes": 87809
+      },
+      {
+        "_path": "site-packages/gwpy/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "248a5745d8b46afd95d019329cec148628f141285202a13980bae8c09e8d7248",
+        "sha256_in_prefix": "248a5745d8b46afd95d019329cec148628f141285202a13980bae8c09e8d7248",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "site-packages/gwpy/types/array.py",
+        "path_type": "hardlink",
+        "sha256": "0f8130182f3484a161ad1b850f7c671daa8947b8dd4fcf2fe678a4fb7a3e454d",
+        "sha256_in_prefix": "0f8130182f3484a161ad1b850f7c671daa8947b8dd4fcf2fe678a4fb7a3e454d",
+        "size_in_bytes": 15595
+      },
+      {
+        "_path": "site-packages/gwpy/types/array2d.py",
+        "path_type": "hardlink",
+        "sha256": "36dc16e53e8f5878804ba9056147c5f1f9b7584e2a41d3db5cdd3589a0444f49",
+        "sha256_in_prefix": "36dc16e53e8f5878804ba9056147c5f1f9b7584e2a41d3db5cdd3589a0444f49",
+        "size_in_bytes": 12367
+      },
+      {
+        "_path": "site-packages/gwpy/types/index.py",
+        "path_type": "hardlink",
+        "sha256": "df96c41ec0e6c53c83148b639e0c5952b7e4da5f9bc354e44ec7b82822ea4c19",
+        "sha256_in_prefix": "df96c41ec0e6c53c83148b639e0c5952b7e4da5f9bc354e44ec7b82822ea4c19",
+        "size_in_bytes": 3154
+      },
+      {
+        "_path": "site-packages/gwpy/types/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "07903882aa657429ddf4b8d9d01116539a9a248fad594f83bb49ff804730d42b",
+        "sha256_in_prefix": "07903882aa657429ddf4b8d9d01116539a9a248fad594f83bb49ff804730d42b",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "site-packages/gwpy/types/io/ascii.py",
+        "path_type": "hardlink",
+        "sha256": "6da9b35019de8760d95e34358cf9548ccbdf9ef054f9c923189e1e611f73cd8f",
+        "sha256_in_prefix": "6da9b35019de8760d95e34358cf9548ccbdf9ef054f9c923189e1e611f73cd8f",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "site-packages/gwpy/types/io/hdf5.py",
+        "path_type": "hardlink",
+        "sha256": "38c1ab2c3dc1de8889a4df6affe387521557c6424ac4359569c11ca7018ae40e",
+        "sha256_in_prefix": "38c1ab2c3dc1de8889a4df6affe387521557c6424ac4359569c11ca7018ae40e",
+        "size_in_bytes": 8019
+      },
+      {
+        "_path": "site-packages/gwpy/types/io/ligolw.py",
+        "path_type": "hardlink",
+        "sha256": "a74d7cd7388f12e29c249040f5654e626baceca0fb53319a8bbc4277b538f7e0",
+        "sha256_in_prefix": "a74d7cd7388f12e29c249040f5654e626baceca0fb53319a8bbc4277b538f7e0",
+        "size_in_bytes": 7267
+      },
+      {
+        "_path": "site-packages/gwpy/types/series.py",
+        "path_type": "hardlink",
+        "sha256": "cdc46fc281685496e9c41b3cf9e4ddc7bcd5dd56ff078a04b6fddd5f08f49563",
+        "sha256_in_prefix": "cdc46fc281685496e9c41b3cf9e4ddc7bcd5dd56ff078a04b6fddd5f08f49563",
+        "size_in_bytes": 36490
+      },
+      {
+        "_path": "site-packages/gwpy/types/sliceutils.py",
+        "path_type": "hardlink",
+        "sha256": "11aa9b9f4642090e1ca2e326e09b8be75fb7b48732928b64e6f3e718162a0f6d",
+        "sha256_in_prefix": "11aa9b9f4642090e1ca2e326e09b8be75fb7b48732928b64e6f3e718162a0f6d",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "site-packages/gwpy/types/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7e5ea19d44eb8f185ede7be32c5a3655879b98dbd48a1ae03a56526ce19f807",
+        "sha256_in_prefix": "d7e5ea19d44eb8f185ede7be32c5a3655879b98dbd48a1ae03a56526ce19f807",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/gwpy/types/tests/test_array.py",
+        "path_type": "hardlink",
+        "sha256": "a881aeae293983e1b1365e2857a7f606965fdecc2488203b584e339f98ebfbab",
+        "sha256_in_prefix": "a881aeae293983e1b1365e2857a7f606965fdecc2488203b584e339f98ebfbab",
+        "size_in_bytes": 8698
+      },
+      {
+        "_path": "site-packages/gwpy/types/tests/test_array2d.py",
+        "path_type": "hardlink",
+        "sha256": "44cd3bdb0c12bc23906f52d01733a3ad7929332b9ce61edb890d7c266b48860a",
+        "sha256_in_prefix": "44cd3bdb0c12bc23906f52d01733a3ad7929332b9ce61edb890d7c266b48860a",
+        "size_in_bytes": 9089
+      },
+      {
+        "_path": "site-packages/gwpy/types/tests/test_index.py",
+        "path_type": "hardlink",
+        "sha256": "d832999e5342536b50d48538c38c901ad44a4d3bdc2654b016f40b8e157646b5",
+        "sha256_in_prefix": "d832999e5342536b50d48538c38c901ad44a4d3bdc2654b016f40b8e157646b5",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "site-packages/gwpy/types/tests/test_series.py",
+        "path_type": "hardlink",
+        "sha256": "120ce6813aae5c57af678efc371abce3e05f7983236a22830eff2d532078c637",
+        "sha256_in_prefix": "120ce6813aae5c57af678efc371abce3e05f7983236a22830eff2d532078c637",
+        "size_in_bytes": 16573
+      },
+      {
+        "_path": "site-packages/gwpy/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a23ce43af4df6af3113a55023dae912f84fc746e00261e3c68fab57c447a031",
+        "sha256_in_prefix": "3a23ce43af4df6af3113a55023dae912f84fc746e00261e3c68fab57c447a031",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "site-packages/gwpy/utils/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "b6f7f88f71daad42206c6fde16895b25c9f9d37da72419617d92cae14bda44ac",
+        "sha256_in_prefix": "b6f7f88f71daad42206c6fde16895b25c9f9d37da72419617d92cae14bda44ac",
+        "size_in_bytes": 3723
+      },
+      {
+        "_path": "site-packages/gwpy/utils/enum.py",
+        "path_type": "hardlink",
+        "sha256": "a362e1571d06ffe4ff3e50ded5a183edd94ebb5c92638acfc7e5136acafff10c",
+        "sha256_in_prefix": "a362e1571d06ffe4ff3e50ded5a183edd94ebb5c92638acfc7e5136acafff10c",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "site-packages/gwpy/utils/env.py",
+        "path_type": "hardlink",
+        "sha256": "4869c30c6240c73fac90e7a2ba74f4fe5d0ee0959f485f8533617f1a7f008449",
+        "sha256_in_prefix": "4869c30c6240c73fac90e7a2ba74f4fe5d0ee0959f485f8533617f1a7f008449",
+        "size_in_bytes": 1911
+      },
+      {
+        "_path": "site-packages/gwpy/utils/lal.py",
+        "path_type": "hardlink",
+        "sha256": "e34ddeb90720b9b00e29dda04f3f7816ad16e34a32d9f353ae3e8c2000a0f81e",
+        "sha256_in_prefix": "e34ddeb90720b9b00e29dda04f3f7816ad16e34a32d9f353ae3e8c2000a0f81e",
+        "size_in_bytes": 8507
+      },
+      {
+        "_path": "site-packages/gwpy/utils/misc.py",
+        "path_type": "hardlink",
+        "sha256": "9d6eb593fab5d1557a45fdda5444a9f29338797c0b2a91b2b062ad1f7bbfd312",
+        "sha256_in_prefix": "9d6eb593fab5d1557a45fdda5444a9f29338797c0b2a91b2b062ad1f7bbfd312",
+        "size_in_bytes": 3284
+      },
+      {
+        "_path": "site-packages/gwpy/utils/mp.py",
+        "path_type": "hardlink",
+        "sha256": "58f2db9615297622be94ddf3ebe12a4a6743a7708514b9b016af2a9d549cf50c",
+        "sha256_in_prefix": "58f2db9615297622be94ddf3ebe12a4a6743a7708514b9b016af2a9d549cf50c",
+        "size_in_bytes": 5057
+      },
+      {
+        "_path": "site-packages/gwpy/utils/progress.py",
+        "path_type": "hardlink",
+        "sha256": "7280c1e23bbea89ef5d131b0a68b0700a67de465a3dfa8491014478e5d7e16b9",
+        "sha256_in_prefix": "7280c1e23bbea89ef5d131b0a68b0700a67de465a3dfa8491014478e5d7e16b9",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "site-packages/gwpy/utils/shell.py",
+        "path_type": "hardlink",
+        "sha256": "3c4ae4878446952ff6fc53d7e7f90a4947908fefc2802592900fa47f638dde24",
+        "sha256_in_prefix": "3c4ae4878446952ff6fc53d7e7f90a4947908fefc2802592900fa47f638dde24",
+        "size_in_bytes": 3371
+      },
+      {
+        "_path": "site-packages/gwpy/utils/sphinx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6b09a8054fe8bbe5806264784aba919e25ab5341b589cc5725937ff70b8286cf",
+        "sha256_in_prefix": "6b09a8054fe8bbe5806264784aba919e25ab5341b589cc5725937ff70b8286cf",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "site-packages/gwpy/utils/sphinx/ex2rst.py",
+        "path_type": "hardlink",
+        "sha256": "f6ae0193b788c75adf0920d14b2a9ead761f8c1748bb0850416bfe63e5ec0286",
+        "sha256_in_prefix": "f6ae0193b788c75adf0920d14b2a9ead761f8c1748bb0850416bfe63e5ec0286",
+        "size_in_bytes": 4763
+      },
+      {
+        "_path": "site-packages/gwpy/utils/sphinx/zenodo.py",
+        "path_type": "hardlink",
+        "sha256": "b3f8f0fa51e2cee2c2e8043a53efb137a3c9150f8194bb76d3b803066c7f4ab5",
+        "sha256_in_prefix": "b3f8f0fa51e2cee2c2e8043a53efb137a3c9150f8194bb76d3b803066c7f4ab5",
+        "size_in_bytes": 4148
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "102be05848d1a9a61524a3827f16d548998cad04b49398956a70c9a09ec21f25",
+        "sha256_in_prefix": "102be05848d1a9a61524a3827f16d548998cad04b49398956a70c9a09ec21f25",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_decorators.py",
+        "path_type": "hardlink",
+        "sha256": "092ef3a177154bbd55c95afb77dfe597bb56663b85c411ae2ac18ac694b7df57",
+        "sha256_in_prefix": "092ef3a177154bbd55c95afb77dfe597bb56663b85c411ae2ac18ac694b7df57",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_enum.py",
+        "path_type": "hardlink",
+        "sha256": "c4e10a47e21df24af14d305c4cd9558ccf92fda180fffe3fccc8750eea5abccd",
+        "sha256_in_prefix": "c4e10a47e21df24af14d305c4cd9558ccf92fda180fffe3fccc8750eea5abccd",
+        "size_in_bytes": 2185
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_env.py",
+        "path_type": "hardlink",
+        "sha256": "f991b42ff8f1acdb0d9889ae004101a30eba24df8102c9ca106f8a70e97f36bf",
+        "sha256_in_prefix": "f991b42ff8f1acdb0d9889ae004101a30eba24df8102c9ca106f8a70e97f36bf",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_lal.py",
+        "path_type": "hardlink",
+        "sha256": "ec943fdba8a4bd2c03d67acde2bf075e0ff3244747cecc446548853ccfec3d3d",
+        "sha256_in_prefix": "ec943fdba8a4bd2c03d67acde2bf075e0ff3244747cecc446548853ccfec3d3d",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_misc.py",
+        "path_type": "hardlink",
+        "sha256": "ae44f176eee0bfd0f1b34388e88bc68af1a202cdcfb8af1c90cb4d179fe413a2",
+        "sha256_in_prefix": "ae44f176eee0bfd0f1b34388e88bc68af1a202cdcfb8af1c90cb4d179fe413a2",
+        "size_in_bytes": 2624
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_mp.py",
+        "path_type": "hardlink",
+        "sha256": "9195d44c5a823e2e30bc29068124a4f17ac6f691cf19a90f36e354ca4812a7e9",
+        "sha256_in_prefix": "9195d44c5a823e2e30bc29068124a4f17ac6f691cf19a90f36e354ca4812a7e9",
+        "size_in_bytes": 2062
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_shell.py",
+        "path_type": "hardlink",
+        "sha256": "6ab1f323de919a37b924f85b437def10dd01c9187cab0455a9f978fa3ccb52fe",
+        "sha256_in_prefix": "6ab1f323de919a37b924f85b437def10dd01c9187cab0455a9f978fa3ccb52fe",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_sphinx_ex2rst.py",
+        "path_type": "hardlink",
+        "sha256": "29c2013d64ec3e9d348937584fa6d9f20d85edb37ae8f697e6e2c995c5aed09d",
+        "sha256_in_prefix": "29c2013d64ec3e9d348937584fa6d9f20d85edb37ae8f697e6e2c995c5aed09d",
+        "size_in_bytes": 2263
+      },
+      {
+        "_path": "site-packages/gwpy/utils/tests/test_sphinx_zenodo.py",
+        "path_type": "hardlink",
+        "sha256": "18bfb747bc85c45e9940bb9584923be1d8dd82f13db17e10d1ab5d1e2dd2ca25",
+        "sha256_in_prefix": "18bfb747bc85c45e9940bb9584923be1d8dd82f13db17e10d1ab5d1e2dd2ca25",
+        "size_in_bytes": 5237
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/astro/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/astro/__pycache__/range.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/astro/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/astro/tests/__pycache__/test_range.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/cliproduct.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/coherence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/coherencegram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/gwpy_plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/qtransform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/spectrogram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/spectrum.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_coherence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_coherencegram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_gwpy_plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_qtransform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_spectrogram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_spectrum.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_timeseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/tests/__pycache__/test_transferfunction.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/timeseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/cli/__pycache__/transferfunction.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/__pycache__/channel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/cis.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/clf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/io/__pycache__/omega.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/test_channel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/tests/__pycache__/test_units.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/detector/__pycache__/units.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/_fdcommon.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/frequencyseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/__pycache__/hist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/ascii.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/io/__pycache__/ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/test_frequencyseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/frequencyseries/tests/__pycache__/test_hist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/_framecpp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/datafind.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/ffldatafind.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/gwf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/kerberos.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/mp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/nds2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_datafind.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_ffldatafind.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_gwf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_kerberos.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_mp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_nds2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/tests/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/io/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/axes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/bode.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/colorbar.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/colors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/gps.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/legend.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/rc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/segments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_axes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_bode.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_colors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_gps.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_log.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_rc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_segments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_tex.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/tests/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/tex.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/units.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/plot/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/__pycache__/flag.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/json.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/io/__pycache__/segwizard.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/__pycache__/segments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/test_flag.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/segments/tests/__pycache__/test_segments.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/__pycache__/fft.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/__pycache__/filter_design.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/__pycache__/qtransform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_lal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_median_mean.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_pycbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_scipy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_ui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/spectral/__pycache__/_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_coherence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_filter_design.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_qtransform.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_lal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_median_mean.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_pycbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_registry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_scipy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_ui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_spectral_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/tests/__pycache__/test_window.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/signal/__pycache__/window.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/coherence.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/__pycache__/spectrogram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/spectrogram/tests/__pycache__/test_spectrogram.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/__pycache__/filter.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/__pycache__/filters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/__pycache__/gravityspy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/cwb.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/fetch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gravityspy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gstlal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/gwf.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/hacr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/losc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/omega.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/omicron.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/pycbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/root.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/snax.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/sql.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/io/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/__pycache__/table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_gravityspy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_gstlal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_io_pycbc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/table/tests/__pycache__/test_table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/fixtures.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/marks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/mocks.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/testing/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/__pycache__/_tconvert.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/test_main.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/time/tests/__pycache__/test_time.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/ascii.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/framecpp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/framel.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/gwf/__pycache__/lalframe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/losc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/nds2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/io/__pycache__/wav.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/statevector.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_gwf_framecpp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_gwf_lalframe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_io_losc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_statevector.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/tests/__pycache__/test_timeseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/timeseries/__pycache__/timeseries.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/array.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/array2d.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/index.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/io/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/io/__pycache__/ascii.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/io/__pycache__/hdf5.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/io/__pycache__/ligolw.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/series.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/__pycache__/sliceutils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_array.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_array2d.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_index.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/types/tests/__pycache__/test_series.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/decorators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/enum.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/lal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/misc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/mp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/__pycache__/shell.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/ex2rst.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/sphinx/__pycache__/zenodo.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_decorators.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_enum.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_env.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_lal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_misc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_mp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_shell.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_sphinx_ex2rst.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwpy/utils/tests/__pycache__/test_sphinx_zenodo.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/gwpy-plot",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eeaf8d8f8327ca4bbfb44739c93b5455ce959c8f14a3e648891d27816db15331",
+  "size": 1141038,
+  "subdir": "noarch",
+  "timestamp": 1725270930000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gwpy-3.0.10-pyhd8ed1ab_0.conda",
+  "version": "3.0.10"
+}

@@ -1,0 +1,225 @@
+{
+  "build": "fftw_py39h3a094d0_100",
+  "build_number": 100,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=13",
+    "liblal 7.6.0 fftw_hcbe9c14_100",
+    "ligo-segments",
+    "numpy >=1.19,<3",
+    "python >=3.9,<3.10.0a0",
+    "python-dateutil",
+    "python_abi 3.9.* *_cp39",
+    "scipy"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/python-lal-7.6.0-fftw_py39h3a094d0_100",
+  "files": [
+    "lib/python3.9/site-packages/lal/__init__.py",
+    "lib/python3.9/site-packages/lal/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/antenna.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/git_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/gpstime.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/iterutils.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/lal.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/rate.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/__pycache__/series.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/_lal.so",
+    "lib/python3.9/site-packages/lal/antenna.py",
+    "lib/python3.9/site-packages/lal/git_version.py",
+    "lib/python3.9/site-packages/lal/gpstime.py",
+    "lib/python3.9/site-packages/lal/iterutils.py",
+    "lib/python3.9/site-packages/lal/lal.py",
+    "lib/python3.9/site-packages/lal/rate.py",
+    "lib/python3.9/site-packages/lal/series.py",
+    "lib/python3.9/site-packages/lal/utils/__init__.py",
+    "lib/python3.9/site-packages/lal/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/utils/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/utils/__pycache__/series.cpython-39.pyc",
+    "lib/python3.9/site-packages/lal/utils/cache.py",
+    "lib/python3.9/site-packages/lal/utils/series.py"
+  ],
+  "fn": "python-lal-7.6.0-fftw_py39h3a094d0_100.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/python-lal-7.6.0-fftw_py39h3a094d0_100",
+    "type": 1
+  },
+  "md5": "ba583d8a2b26d20000209c86f0d11686",
+  "name": "python-lal",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/python-lal-7.6.0-fftw_py39h3a094d0_100.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/lal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "992e923180de101b3714fbfa504e171df251548d3244a8a6f88c950e2797ec8b",
+        "sha256_in_prefix": "992e923180de101b3714fbfa504e171df251548d3244a8a6f88c950e2797ec8b",
+        "size_in_bytes": 4542
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb43ab9a0303bcac053b7d1cb9a568e5584d600026d0b6ab96d6893cf547c9b0",
+        "sha256_in_prefix": "bb43ab9a0303bcac053b7d1cb9a568e5584d600026d0b6ab96d6893cf547c9b0",
+        "size_in_bytes": 3931
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/antenna.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3c02671735df7ae964353a7d8c4b450638ca59e5387167b2b2302cb1ddc2417",
+        "sha256_in_prefix": "e3c02671735df7ae964353a7d8c4b450638ca59e5387167b2b2302cb1ddc2417",
+        "size_in_bytes": 27321
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/git_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "35bba1d455e7d5866ec028aede41460d317cc9e871c2f6ad7f3b5f1dfdd71d39",
+        "sha256_in_prefix": "35bba1d455e7d5866ec028aede41460d317cc9e871c2f6ad7f3b5f1dfdd71d39",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/gpstime.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f5e16f06a97a8e734dab0c7f25ac5fa1565532fd83b3ef52e45b0414b9b2b28",
+        "sha256_in_prefix": "1f5e16f06a97a8e734dab0c7f25ac5fa1565532fd83b3ef52e45b0414b9b2b28",
+        "size_in_bytes": 4792
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/iterutils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e4aa0ca90f6ae3a35c2da325dd00b63678197bf324e18c57fd0ef4b2354b943",
+        "sha256_in_prefix": "2e4aa0ca90f6ae3a35c2da325dd00b63678197bf324e18c57fd0ef4b2354b943",
+        "size_in_bytes": 10402
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/lal.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "071f02f38e564b3ba1e312349610fa6f3a4c205bdc75df13f5780cad6089b1af",
+        "sha256_in_prefix": "071f02f38e564b3ba1e312349610fa6f3a4c205bdc75df13f5780cad6089b1af",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/rate.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "08eaa17e306667fea367a3fe9b6f2dfe9dac53d5618490a738ff39be95f9083a",
+        "sha256_in_prefix": "08eaa17e306667fea367a3fe9b6f2dfe9dac53d5618490a738ff39be95f9083a",
+        "size_in_bytes": 78080
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/__pycache__/series.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a68969fc04ff87e121d8ad31e511a5d909c421460546cb5d06d7c7214130fef",
+        "sha256_in_prefix": "9a68969fc04ff87e121d8ad31e511a5d909c421460546cb5d06d7c7214130fef",
+        "size_in_bytes": 7929
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/_lal.so",
+        "path_type": "hardlink",
+        "sha256": "780f1700f403159f368dc74c9b1dc13fbac739a9e8ab4a9cf18f88a87d013ea5",
+        "sha256_in_prefix": "780f1700f403159f368dc74c9b1dc13fbac739a9e8ab4a9cf18f88a87d013ea5",
+        "size_in_bytes": 5026760
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/antenna.py",
+        "path_type": "hardlink",
+        "sha256": "04bea4404b25a1438d5d09cad172f154e704021e85cfbbceeee661d2ca31c3ae",
+        "sha256_in_prefix": "04bea4404b25a1438d5d09cad172f154e704021e85cfbbceeee661d2ca31c3ae",
+        "size_in_bytes": 128081
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/git_version.py",
+        "path_type": "hardlink",
+        "sha256": "04e6a215c1c4d4f814f84d97361bca76fefea99e443f966011da4585ff9b13cc",
+        "sha256_in_prefix": "04e6a215c1c4d4f814f84d97361bca76fefea99e443f966011da4585ff9b13cc",
+        "size_in_bytes": 2340
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/gpstime.py",
+        "path_type": "hardlink",
+        "sha256": "89e86bfdab84f6b7b1c9afd467d5751e5f510190c883e3abe6655c45946fa4cd",
+        "sha256_in_prefix": "89e86bfdab84f6b7b1c9afd467d5751e5f510190c883e3abe6655c45946fa4cd",
+        "size_in_bytes": 6524
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/iterutils.py",
+        "path_type": "hardlink",
+        "sha256": "4ec81b65fef72bda9a7773e299334ce6ea2ae1eed74179442b2fad441f19ed5d",
+        "sha256_in_prefix": "4ec81b65fef72bda9a7773e299334ce6ea2ae1eed74179442b2fad441f19ed5d",
+        "size_in_bytes": 12167
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/lal.py",
+        "path_type": "hardlink",
+        "sha256": "fa65774e5fc2b20cc917a65e4a16545459d3f0824132fca5902726164f04f060",
+        "sha256_in_prefix": "fa65774e5fc2b20cc917a65e4a16545459d3f0824132fca5902726164f04f060",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/rate.py",
+        "path_type": "hardlink",
+        "sha256": "c6fa87423c3d7ee7f55622911e27412b0dd7199b1228dbb2b584d8bcb6caba59",
+        "sha256_in_prefix": "c6fa87423c3d7ee7f55622911e27412b0dd7199b1228dbb2b584d8bcb6caba59",
+        "size_in_bytes": 78628
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/series.py",
+        "path_type": "hardlink",
+        "sha256": "14f35025328a4ca767c28badd9309f0ef15e6cbb061003fe7ca0c97b8e4bb462",
+        "sha256_in_prefix": "14f35025328a4ca767c28badd9309f0ef15e6cbb061003fe7ca0c97b8e4bb462",
+        "size_in_bytes": 9122
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b7ab128160d25cc92fd7fd7fe4edc1b430fe9477082271e9338b386e80001db5",
+        "sha256_in_prefix": "b7ab128160d25cc92fd7fd7fe4edc1b430fe9477082271e9338b386e80001db5",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "821ac6b684c4cb6f884394556a06792147cc22a85b065a913835f6e21fb0937c",
+        "sha256_in_prefix": "821ac6b684c4cb6f884394556a06792147cc22a85b065a913835f6e21fb0937c",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/__pycache__/cache.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "718774c98e428373ad433dc8d129d16bd7c8b1215dae67557e00203a7d6f218f",
+        "sha256_in_prefix": "718774c98e428373ad433dc8d129d16bd7c8b1215dae67557e00203a7d6f218f",
+        "size_in_bytes": 12557
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/__pycache__/series.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "54210dcbc11f6e4b4f5716f68327d500927b7adb62c8cd8f0a2566909080a8ca",
+        "sha256_in_prefix": "54210dcbc11f6e4b4f5716f68327d500927b7adb62c8cd8f0a2566909080a8ca",
+        "size_in_bytes": 6404
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "158cb280fb41ff5df31065bb62b79501e3d1ff3a2b640fadc1458f06d6c67746",
+        "sha256_in_prefix": "158cb280fb41ff5df31065bb62b79501e3d1ff3a2b640fadc1458f06d6c67746",
+        "size_in_bytes": 14846
+      },
+      {
+        "_path": "lib/python3.9/site-packages/lal/utils/series.py",
+        "path_type": "hardlink",
+        "sha256": "53e418cb412acf4f7f41673298798e3a490679551f016da779c5b00bcc02890b",
+        "sha256_in_prefix": "53e418cb412acf4f7f41673298798e3a490679551f016da779c5b00bcc02890b",
+        "size_in_bytes": 8407
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f5688845fb5ba9d8c90af9aa8d5eb9573ed049511be1f8a8894d25aae364e31a",
+  "size": 945493,
+  "subdir": "linux-64",
+  "timestamp": 1724322565000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-lal-7.6.0-fftw_py39h3a094d0_100.conda",
+  "version": "7.6.0"
+}

@@ -1,0 +1,151 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/safe-netrc-1.0.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/LICENSE.md",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/safe_netrc-1.0.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/safe_netrc/__init__.py",
+    "lib/python3.9/site-packages/safe_netrc/_version.py",
+    "lib/python3.9/site-packages/safe_netrc/tests/__init__.py",
+    "lib/python3.9/site-packages/safe_netrc/tests/test_safe_netrc.py",
+    "lib/python3.9/site-packages/safe_netrc/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/safe_netrc/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/safe_netrc/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/safe_netrc/tests/__pycache__/test_safe_netrc.cpython-39.pyc"
+  ],
+  "fn": "safe-netrc-1.0.1-pyhd8ed1ab_0.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/safe-netrc-1.0.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "2e477c6b3db4778d587294b55ce43348",
+  "name": "safe-netrc",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/safe-netrc-1.0.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "aef8b4222b79d0dbf6bf17cfff71c90a6a6bb8917a4162abe417b469ed22da2e",
+        "sha256_in_prefix": "aef8b4222b79d0dbf6bf17cfff71c90a6a6bb8917a4162abe417b469ed22da2e",
+        "size_in_bytes": 17895
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f5f442667f6aa0a4cef956453ed21922b10daebebd0894957a2caaf703390147",
+        "sha256_in_prefix": "f5f442667f6aa0a4cef956453ed21922b10daebebd0894957a2caaf703390147",
+        "size_in_bytes": 1930
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8dabcae8d462a22f1d7d8091d0d410eb5de15fa6e6af28386d33f54be0799da5",
+        "sha256_in_prefix": "8dabcae8d462a22f1d7d8091d0d410eb5de15fa6e6af28386d33f54be0799da5",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ce9ef6b8af688574b5d3a230fb8235f516e6474c20959f0a072357da567257b3",
+        "sha256_in_prefix": "ce9ef6b8af688574b5d3a230fb8235f516e6474c20959f0a072357da567257b3",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/safe_netrc-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fa05a13c67a73a4386245a44d2710163b860dd1ff20bece785fa2ae227a410b0",
+        "sha256_in_prefix": "fa05a13c67a73a4386245a44d2710163b860dd1ff20bece785fa2ae227a410b0",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/safe_netrc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa5ce69f0806d21c9180c5e12a62298d2eaab06fe6e0aa87e8118ea96695dead",
+        "sha256_in_prefix": "aa5ce69f0806d21c9180c5e12a62298d2eaab06fe6e0aa87e8118ea96695dead",
+        "size_in_bytes": 1920
+      },
+      {
+        "_path": "site-packages/safe_netrc/_version.py",
+        "path_type": "hardlink",
+        "sha256": "2088f930f42a7fb1f7d33bc717782c7d22d2c354ac76529847d4a7816fbd182f",
+        "sha256_in_prefix": "2088f930f42a7fb1f7d33bc717782c7d22d2c354ac76529847d4a7816fbd182f",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/safe_netrc/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/safe_netrc/tests/test_safe_netrc.py",
+        "path_type": "hardlink",
+        "sha256": "6af62817a9958fe2a4c60a08a3df3d313cc7598004df0ec7bb38da7b6c2c4dab",
+        "sha256_in_prefix": "6af62817a9958fe2a4c60a08a3df3d313cc7598004df0ec7bb38da7b6c2c4dab",
+        "size_in_bytes": 1165
+      },
+      {
+        "_path": "lib/python3.9/site-packages/safe_netrc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/safe_netrc/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/safe_netrc/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/safe_netrc/tests/__pycache__/test_safe_netrc.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ccb3fffff9f65a64f214848d2651315ba4709618d2a3cd7bc7683c50ac14aff8",
+  "size": 16393,
+  "subdir": "noarch",
+  "timestamp": 1717492889000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/safe-netrc-1.0.1-pyhd8ed1ab_0.conda",
+  "version": "1.0.1"
+}

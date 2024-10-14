@@ -1,0 +1,308 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "requests >=1.0.0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/gwosc-0.7.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/gwosc-0.7.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/gwosc/__init__.py",
+    "lib/python3.9/site-packages/gwosc/_version.py",
+    "lib/python3.9/site-packages/gwosc/api.py",
+    "lib/python3.9/site-packages/gwosc/datasets.py",
+    "lib/python3.9/site-packages/gwosc/locate.py",
+    "lib/python3.9/site-packages/gwosc/tests/__init__.py",
+    "lib/python3.9/site-packages/gwosc/tests/conftest.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_api.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_datasets.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_locate.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_timeline.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_urls.py",
+    "lib/python3.9/site-packages/gwosc/tests/test_utils.py",
+    "lib/python3.9/site-packages/gwosc/timeline.py",
+    "lib/python3.9/site-packages/gwosc/urls.py",
+    "lib/python3.9/site-packages/gwosc/utils.py",
+    "lib/python3.9/site-packages/gwosc/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/api.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/datasets.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/locate.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_api.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_datasets.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_locate.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_timeline.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_urls.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/timeline.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/urls.cpython-39.pyc",
+    "lib/python3.9/site-packages/gwosc/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "gwosc-0.7.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/gwosc-0.7.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "51c40e7e5e090a517e6bcceda2ae7d37",
+  "name": "gwosc",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/gwosc-0.7.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "083974b4eab58fc246912f7f0313790f80ff4a54c845345d6791b03459d2642e",
+        "sha256_in_prefix": "083974b4eab58fc246912f7f0313790f80ff4a54c845345d6791b03459d2642e",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "243e1788ea743e62ac1caf61fdb53810761e2a751885b1e69cdd3974616c95d0",
+        "sha256_in_prefix": "243e1788ea743e62ac1caf61fdb53810761e2a751885b1e69cdd3974616c95d0",
+        "size_in_bytes": 6267
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b40819faec419b745b456518c7acd0111277ff07680d366a32d6aab8aa19bfdb",
+        "sha256_in_prefix": "b40819faec419b745b456518c7acd0111277ff07680d366a32d6aab8aa19bfdb",
+        "size_in_bytes": 2681
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "53d6da0598215d36523573de8f9d78d4680ddefdafdaab0ba53ef6bb4593171f",
+        "sha256_in_prefix": "53d6da0598215d36523573de8f9d78d4680ddefdafdaab0ba53ef6bb4593171f",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/gwosc-0.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b967ca9802a6167914e1466a57f36238c405d2b8229664849ddfeee3360d0052",
+        "sha256_in_prefix": "b967ca9802a6167914e1466a57f36238c405d2b8229664849ddfeee3360d0052",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/gwosc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d7433ed2e69c93f4bef7f0383909c01159b2c06642d1a719dd67ab55811211bc",
+        "sha256_in_prefix": "d7433ed2e69c93f4bef7f0383909c01159b2c06642d1a719dd67ab55811211bc",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "site-packages/gwosc/_version.py",
+        "path_type": "hardlink",
+        "sha256": "699b2b7cdb13a1e37f176109b9c742ab1c590c0ee5de2d350850d9222f5bbca4",
+        "sha256_in_prefix": "699b2b7cdb13a1e37f176109b9c742ab1c590c0ee5de2d350850d9222f5bbca4",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/gwosc/api.py",
+        "path_type": "hardlink",
+        "sha256": "49ceca554b39821ce26624b3940f9c65a9ce5899f2b02a0a0236d813440871fc",
+        "sha256_in_prefix": "49ceca554b39821ce26624b3940f9c65a9ce5899f2b02a0a0236d813440871fc",
+        "size_in_bytes": 12740
+      },
+      {
+        "_path": "site-packages/gwosc/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "e2aeb4e8b9f5ee7d8e073ad3b5dff1604f38612096b3ccb7fb95fb90f6f5ca50",
+        "sha256_in_prefix": "e2aeb4e8b9f5ee7d8e073ad3b5dff1604f38612096b3ccb7fb95fb90f6f5ca50",
+        "size_in_bytes": 16637
+      },
+      {
+        "_path": "site-packages/gwosc/locate.py",
+        "path_type": "hardlink",
+        "sha256": "416a8367f75f8e62ef9416a7196d188f5fe2db3af8fc70fbe4c9c97b1810c7be",
+        "sha256_in_prefix": "416a8367f75f8e62ef9416a7196d188f5fe2db3af8fc70fbe4c9c97b1810c7be",
+        "size_in_bytes": 7494
+      },
+      {
+        "_path": "site-packages/gwosc/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "97469ed34b4b948f7f38e993023b69eba1fdfe7325e6f113286685b149e5fad5",
+        "sha256_in_prefix": "97469ed34b4b948f7f38e993023b69eba1fdfe7325e6f113286685b149e5fad5",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "site-packages/gwosc/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "c9b22604932f68d65a13250a362da572a2d8b0979fa2fd29db6647dfe842b6b3",
+        "sha256_in_prefix": "c9b22604932f68d65a13250a362da572a2d8b0979fa2fd29db6647dfe842b6b3",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_api.py",
+        "path_type": "hardlink",
+        "sha256": "9f586713de32440b03a4895f3b557a9c8d9b0dcfe4a20a8af9affcdd88ff448a",
+        "sha256_in_prefix": "9f586713de32440b03a4895f3b557a9c8d9b0dcfe4a20a8af9affcdd88ff448a",
+        "size_in_bytes": 6472
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_datasets.py",
+        "path_type": "hardlink",
+        "sha256": "852bf8e5afe8e4bbd25429da59dd071e0eac4b763b508fae48625cfef75c27f6",
+        "sha256_in_prefix": "852bf8e5afe8e4bbd25429da59dd071e0eac4b763b508fae48625cfef75c27f6",
+        "size_in_bytes": 7364
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_locate.py",
+        "path_type": "hardlink",
+        "sha256": "21b465a7ad84da843e3e23deacd1aaa0213243b7ea5719190fef2d1e3cae4ccd",
+        "sha256_in_prefix": "21b465a7ad84da843e3e23deacd1aaa0213243b7ea5719190fef2d1e3cae4ccd",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_timeline.py",
+        "path_type": "hardlink",
+        "sha256": "3289cf95fbe31c87676d6946a4b9e341287fe407783165b67d3fb0c8fd2fccfa",
+        "sha256_in_prefix": "3289cf95fbe31c87676d6946a4b9e341287fe407783165b67d3fb0c8fd2fccfa",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_urls.py",
+        "path_type": "hardlink",
+        "sha256": "285d3527b11929525033a03e37087057fd2b4cc00c303600eb32904c17e7ae1b",
+        "sha256_in_prefix": "285d3527b11929525033a03e37087057fd2b4cc00c303600eb32904c17e7ae1b",
+        "size_in_bytes": 1646
+      },
+      {
+        "_path": "site-packages/gwosc/tests/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "80f376cd530077ea42242daa1a3efdcd22cb8f6e932c9e12b96411d67bedf960",
+        "sha256_in_prefix": "80f376cd530077ea42242daa1a3efdcd22cb8f6e932c9e12b96411d67bedf960",
+        "size_in_bytes": 1371
+      },
+      {
+        "_path": "site-packages/gwosc/timeline.py",
+        "path_type": "hardlink",
+        "sha256": "b5a11eb138360853c3aec7ed4a1842e4762e263ee5b59b7bf3cc63b7ed7a3aea",
+        "sha256_in_prefix": "b5a11eb138360853c3aec7ed4a1842e4762e263ee5b59b7bf3cc63b7ed7a3aea",
+        "size_in_bytes": 2420
+      },
+      {
+        "_path": "site-packages/gwosc/urls.py",
+        "path_type": "hardlink",
+        "sha256": "0a275011b450ee5b41b79d9a3b9a7e53a97bb27e136d080cf17b99cb24d82f51",
+        "sha256_in_prefix": "0a275011b450ee5b41b79d9a3b9a7e53a97bb27e136d080cf17b99cb24d82f51",
+        "size_in_bytes": 5236
+      },
+      {
+        "_path": "site-packages/gwosc/utils.py",
+        "path_type": "hardlink",
+        "sha256": "27614b5aca212378d261e17375a7011d78e8124a2354337a1dd8b5a8f9fac864",
+        "sha256_in_prefix": "27614b5aca212378d261e17375a7011d78e8124a2354337a1dd8b5a8f9fac864",
+        "size_in_bytes": 2600
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/api.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/datasets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/locate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_api.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_datasets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_locate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_timeline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_urls.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/tests/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/timeline.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/urls.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/gwosc/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "662ecaf6ac1419364c04b4fbec101170661286928db6242b5273ede223971a18",
+  "size": 26019,
+  "subdir": "noarch",
+  "timestamp": 1681991025000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gwosc-0.7.1-pyhd8ed1ab_0.conda",
+  "version": "0.7.1"
+}

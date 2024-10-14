@@ -1,0 +1,140 @@
+{
+  "build": "py39hd1e30aa_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "six"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/ligo-segments-1.4.0-py39hd1e30aa_5",
+  "files": [
+    "lib/python3.9/site-packages/ligo/segments/__init__.py",
+    "lib/python3.9/site-packages/ligo/segments/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/ligo/segments/__pycache__/utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/ligo/segments/__segments.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/ligo/segments/utils.py",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/top_level.txt"
+  ],
+  "fn": "ligo-segments-1.4.0-py39hd1e30aa_5.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/ligo-segments-1.4.0-py39hd1e30aa_5",
+    "type": 1
+  },
+  "md5": "70d9748eb6009064878afc8d0563d681",
+  "name": "ligo-segments",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/ligo-segments-1.4.0-py39hd1e30aa_5.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/ligo/segments/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7a8ff4f751cd4c459c14d4ce158815af3379aed324176397d7c44ca0eb2b3f0b",
+        "sha256_in_prefix": "7a8ff4f751cd4c459c14d4ce158815af3379aed324176397d7c44ca0eb2b3f0b",
+        "size_in_bytes": 42302
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo/segments/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bff0d11229136f975a1952fc0dda4779892e0f8105c2e5b94150910fd0ec499",
+        "sha256_in_prefix": "4bff0d11229136f975a1952fc0dda4779892e0f8105c2e5b94150910fd0ec499",
+        "size_in_bytes": 46390
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo/segments/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "63993dd936825d781e76a5881a6b4daa52e38fb9cdfd02a243b5097b63b39191",
+        "sha256_in_prefix": "63993dd936825d781e76a5881a6b4daa52e38fb9cdfd02a243b5097b63b39191",
+        "size_in_bytes": 16213
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo/segments/__segments.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3cfc0f598a8069111a4f6919cd7df267f55e4e3d2f41964b88cfef1cb7962cf0",
+        "sha256_in_prefix": "3cfc0f598a8069111a4f6919cd7df267f55e4e3d2f41964b88cfef1cb7962cf0",
+        "size_in_bytes": 59656
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo/segments/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8cb810f6a99db0ac38d8be228fa5fc24deaae117eea25bba1752c5c1b72b97c8",
+        "sha256_in_prefix": "8cb810f6a99db0ac38d8be228fa5fc24deaae117eea25bba1752c5c1b72b97c8",
+        "size_in_bytes": 18244
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f37d82a8aab6a23c3489bd04b4f2c3af79949738ce8803300553d3622ae47745",
+        "sha256_in_prefix": "f37d82a8aab6a23c3489bd04b4f2c3af79949738ce8803300553d3622ae47745",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "50f447383d8863df8a4d286d4e41a9695133443dbab2f3522e6b46d6a4e6e81c",
+        "sha256_in_prefix": "50f447383d8863df8a4d286d4e41a9695133443dbab2f3522e6b46d6a4e6e81c",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ffde59e268545391617a8c11427103640fb9ffbdc367e7c9e83ceb49dbb0a277",
+        "sha256_in_prefix": "ffde59e268545391617a8c11427103640fb9ffbdc367e7c9e83ceb49dbb0a277",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "24135312080925d366179407a4d2fa94a2279891200d59f56c363927ea8c7394",
+        "sha256_in_prefix": "24135312080925d366179407a4d2fa94a2279891200d59f56c363927ea8c7394",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.9/site-packages/ligo_segments-1.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cb97f2e46b2689f3d91fa451f1f617a285c025fbfb1c94c0ab173fac6acdf911",
+        "sha256_in_prefix": "cb97f2e46b2689f3d91fa451f1f617a285c025fbfb1c94c0ab173fac6acdf911",
+        "size_in_bytes": 5
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "10c9a3cd1b9a012bd90dc819ff2a6bfaf13108ce1532b844f46d4abc4b4cb543",
+  "size": 67685,
+  "subdir": "linux-64",
+  "timestamp": 1696245000000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ligo-segments-1.4.0-py39hd1e30aa_5.conda",
+  "version": "1.4.0"
+}

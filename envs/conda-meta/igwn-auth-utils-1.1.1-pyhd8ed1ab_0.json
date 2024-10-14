@@ -1,0 +1,246 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cryptography >=2.3",
+    "python >=3.6",
+    "requests >=2.14",
+    "safe-netrc >=1.0.0",
+    "scitokens >=1.7.0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/igwn-auth-utils-1.1.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/igwn_auth_utils-1.1.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/igwn_auth_utils/__init__.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/_version.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/error.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/requests.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/scitokens.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__init__.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/conftest.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/test_requests.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/test_scitokens.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/test_x509.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/x509.py",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/error.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/requests.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/scitokens.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_requests.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_scitokens.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_x509.cpython-39.pyc",
+    "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/x509.cpython-39.pyc"
+  ],
+  "fn": "igwn-auth-utils-1.1.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/igwn-auth-utils-1.1.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "522dc45fa3a4b1fa7fe489613c0e9e5e",
+  "name": "igwn-auth-utils",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/igwn-auth-utils-1.1.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "701d44ebd51aca2feb65be2434f617551972cead855078a9d24d7eb8247eedd9",
+        "sha256_in_prefix": "701d44ebd51aca2feb65be2434f617551972cead855078a9d24d7eb8247eedd9",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "91b02ce38a0f0f53e2aad83b6fc1c869524cb0d412538b1673ef50c45f4024a6",
+        "sha256_in_prefix": "91b02ce38a0f0f53e2aad83b6fc1c869524cb0d412538b1673ef50c45f4024a6",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fbc2c0253262bded81e641385e3eb3ad2c15ec0f4fcca4976ed62c244a3de23b",
+        "sha256_in_prefix": "fbc2c0253262bded81e641385e3eb3ad2c15ec0f4fcca4976ed62c244a3de23b",
+        "size_in_bytes": 2350
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "sha256_in_prefix": "31d8bd3c3370119a6d3a34e551c02d87b5c90c5b4aac761a40c3ee9597810a24",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3092e6230c4f7e602eebfcf34b9256caeb3b418e25f1c170aa5dcd284961f501",
+        "sha256_in_prefix": "3092e6230c4f7e602eebfcf34b9256caeb3b418e25f1c170aa5dcd284961f501",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils-1.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5d6cb994d23805f4ca6b31f24a1146131cdf991bdbe2bf256782292863f285ae",
+        "sha256_in_prefix": "5d6cb994d23805f4ca6b31f24a1146131cdf991bdbe2bf256782292863f285ae",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dc82869496101924870dc6ddffb700e43926742910ae133eec4416e33c7fc5cf",
+        "sha256_in_prefix": "dc82869496101924870dc6ddffb700e43926742910ae133eec4416e33c7fc5cf",
+        "size_in_bytes": 747
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/_version.py",
+        "path_type": "hardlink",
+        "sha256": "10fa161747a6d6d289801cf975b045fabdbdf3ad15064f92b1d89787a13568ed",
+        "sha256_in_prefix": "10fa161747a6d6d289801cf975b045fabdbdf3ad15064f92b1d89787a13568ed",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/error.py",
+        "path_type": "hardlink",
+        "sha256": "53caa8a57b4d40efde42ea30a430d3ec8add1d5e813005e77733aafaef72602e",
+        "sha256_in_prefix": "53caa8a57b4d40efde42ea30a430d3ec8add1d5e813005e77733aafaef72602e",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/requests.py",
+        "path_type": "hardlink",
+        "sha256": "aafe0277d17f6c593ccfd6f4dd8176853866f10a680e8d29059b62574fc6f647",
+        "sha256_in_prefix": "aafe0277d17f6c593ccfd6f4dd8176853866f10a680e8d29059b62574fc6f647",
+        "size_in_bytes": 19587
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/scitokens.py",
+        "path_type": "hardlink",
+        "sha256": "d92c205f3b025a984da2f1cc1b2a33d5586dacfab03025d67c0ea1564eec39dd",
+        "sha256_in_prefix": "d92c205f3b025a984da2f1cc1b2a33d5586dacfab03025d67c0ea1564eec39dd",
+        "size_in_bytes": 10696
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d2770447ca19b16646efca3b99a84985b004f1eb3e45cff657aacb280150a105",
+        "sha256_in_prefix": "d2770447ca19b16646efca3b99a84985b004f1eb3e45cff657aacb280150a105",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "17c6663e64fbee2f52aa94f3bbbce64a4a53179b14ccbd230a2f1b374292d81a",
+        "sha256_in_prefix": "17c6663e64fbee2f52aa94f3bbbce64a4a53179b14ccbd230a2f1b374292d81a",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/tests/test_requests.py",
+        "path_type": "hardlink",
+        "sha256": "d6987402c6d2b30abb1668a370eddeb21c21ad6731e03e7ef1ece20c928da932",
+        "sha256_in_prefix": "d6987402c6d2b30abb1668a370eddeb21c21ad6731e03e7ef1ece20c928da932",
+        "size_in_bytes": 17101
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/tests/test_scitokens.py",
+        "path_type": "hardlink",
+        "sha256": "74f8dcd02475949d6f62615b65e5d3c7655681bebd935582bd41294045080e7d",
+        "sha256_in_prefix": "74f8dcd02475949d6f62615b65e5d3c7655681bebd935582bd41294045080e7d",
+        "size_in_bytes": 12090
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/tests/test_x509.py",
+        "path_type": "hardlink",
+        "sha256": "fa717300815f6609eba7fa6b8bda903344e54533e7fa145b12cfcda73d08ce16",
+        "sha256_in_prefix": "fa717300815f6609eba7fa6b8bda903344e54533e7fa145b12cfcda73d08ce16",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "site-packages/igwn_auth_utils/x509.py",
+        "path_type": "hardlink",
+        "sha256": "84debc548617b240b1edcbb97826e111f81a328f38b3d00f0feb79ec3e168f73",
+        "sha256_in_prefix": "84debc548617b240b1edcbb97826e111f81a328f38b3d00f0feb79ec3e168f73",
+        "size_in_bytes": 6129
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/error.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/requests.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/scitokens.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_requests.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_scitokens.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/tests/__pycache__/test_x509.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/igwn_auth_utils/__pycache__/x509.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "250c8e39fdeb0c27c20b7db9490a8f8a3de5e1d9770edc96cbeb301aafd0483f",
+  "size": 27234,
+  "subdir": "noarch",
+  "timestamp": 1725895602000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/igwn-auth-utils-1.1.1-pyhd8ed1ab_0.conda",
+  "version": "1.1.1"
+}

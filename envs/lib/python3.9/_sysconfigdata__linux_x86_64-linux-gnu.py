@@ -13,14 +13,16 @@ build_time_vars = {'ABIFLAGS': '',
  'BINDIR': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin',
  'BINLIBDEST': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/python3.9',
  'BLDLIBRARY': 'libpython3.9.a',
- 'BLDSHARED': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/ -shared  '
+ 'BLDSHARED': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -shared  '
               ''
               ''
+              '-Wl,--allow-shlib-undefined '
               '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
               '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
               '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
               ''
               ''
+              '-Wl,--allow-shlib-undefined '
               '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
               '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
               '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
@@ -28,7 +30,7 @@ build_time_vars = {'ABIFLAGS': '',
  'BUILDPYTHON': 'python',
  'BUILD_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
  'BYTESTR_DEPS': '\\',
- 'CC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/',
+ 'CC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat',
  'CCSHARED': '-fPIC',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall '
            '-fPIC '
@@ -68,6 +70,7 @@ build_time_vars = {'ABIFLAGS': '',
                        '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include',
  'CONFIGURE_LDFLAGS': ''
                       ''
+                      '-Wl,--allow-shlib-undefined '
                       '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                       '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                       '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
@@ -84,7 +87,7 @@ build_time_vars = {'ABIFLAGS': '',
                 "'--with-tcltk-libs=-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib "
                 "-ltcl8.6 -ltk8.6''--with-platlibdir=lib''--with-lto'"
                 "'--enable-optimizations'"
-                "'-oldincludedir=/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include'"
+                "'-oldincludedir=/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include'"
                 "'--disable-shared''PROFILE_TASK=-m test --pgo'"
                 "'build_alias=x86_64-conda_cos6-linux-gnu'"
                 "'host_alias=x86_64-conda_cos6-linux-gnu''MACHDEP=linux'"
@@ -98,31 +101,31 @@ build_time_vars = {'ABIFLAGS': '',
                 ''
                 "''LDFLAGS=   "
                 ''
-                ''
+                '-Wl,--allow-shlib-undefined '
                 '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                 '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                 "-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib'"
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
                 '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
                 "-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include'"
-                "'CPP=/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/_build_env/bin/cpp'"
+                "'CPP=/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/_build_env/bin/cpp'"
                 "'PKG_CONFIG_PATH=/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/pkgconfig'",
  'CONFINCLUDEDIR': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include',
  'CONFINCLUDEPY': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include/python3.9',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/build-static/coverage.info',
- 'COVERAGE_REPORT': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/build-static/lcov-report',
+ 'COVERAGE_INFO': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/build-static/coverage.info',
+ 'COVERAGE_REPORT': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/build-static/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include '
+             '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
              '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
              '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
              '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
              '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include',
- 'CXX': 'g++ -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/',
+ 'CXX': 'g++ -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat',
  'DESTDIRS': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs '
              '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/python3.9 '
@@ -162,7 +165,7 @@ build_time_vars = {'ABIFLAGS': '',
  'GITBRANCH': '',
  'GITTAG': '',
  'GITVERSION': '',
- 'GNULD': 'yes',
+ 'GNULD': 'no',
  'HAVE_ACCEPT4': 1,
  'HAVE_ACOSH': 1,
  'HAVE_ADDRINFO': 1,
@@ -308,7 +311,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_GETPWNAM_R': 1,
  'HAVE_GETPWUID_R': 1,
  'HAVE_GETRANDOM': 0,
- 'HAVE_GETRANDOM_SYSCALL': 0,
+ 'HAVE_GETRANDOM_SYSCALL': 1,
  'HAVE_GETRESGID': 1,
  'HAVE_GETRESUID': 1,
  'HAVE_GETSID': 1,
@@ -345,20 +348,22 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_LIBRESOLV': 0,
  'HAVE_LIBSENDFILE': 0,
  'HAVE_LIBUTIL_H': 0,
+ 'HAVE_LIBUUID': 1,
  'HAVE_LINK': 1,
  'HAVE_LINKAT': 1,
- 'HAVE_LINUX_CAN_BCM_H': 0,
+ 'HAVE_LINUX_AUXVEC_H': 1,
+ 'HAVE_LINUX_CAN_BCM_H': 1,
  'HAVE_LINUX_CAN_H': 1,
  'HAVE_LINUX_CAN_J1939_H': 0,
- 'HAVE_LINUX_CAN_RAW_FD_FRAMES': 0,
+ 'HAVE_LINUX_CAN_RAW_FD_FRAMES': 1,
  'HAVE_LINUX_CAN_RAW_H': 1,
- 'HAVE_LINUX_CAN_RAW_JOIN_FILTERS': 0,
- 'HAVE_LINUX_MEMFD_H': 0,
+ 'HAVE_LINUX_CAN_RAW_JOIN_FILTERS': 1,
+ 'HAVE_LINUX_MEMFD_H': 1,
  'HAVE_LINUX_NETLINK_H': 1,
  'HAVE_LINUX_QRTR_H': 0,
  'HAVE_LINUX_RANDOM_H': 1,
  'HAVE_LINUX_TIPC_H': 1,
- 'HAVE_LINUX_VM_SOCKETS_H': 0,
+ 'HAVE_LINUX_VM_SOCKETS_H': 1,
  'HAVE_LINUX_WAIT_H': 1,
  'HAVE_LOCKF': 1,
  'HAVE_LOG1P': 1,
@@ -385,6 +390,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_NETPACKET_PACKET_H': 1,
  'HAVE_NET_IF_H': 1,
  'HAVE_NICE': 1,
+ 'HAVE_NON_UNICODE_WCHAR_T_REPRESENTATION': 0,
  'HAVE_OPENAT': 1,
  'HAVE_OPENPTY': 1,
  'HAVE_PATHCONF': 1,
@@ -400,7 +406,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_PREAD': 1,
  'HAVE_PREADV': 1,
  'HAVE_PREADV2': 0,
- 'HAVE_PRLIMIT': 0,
+ 'HAVE_PRLIMIT': 1,
  'HAVE_PROCESS_H': 0,
  'HAVE_PROTOTYPES': 1,
  'HAVE_PTHREAD_CONDATTR_SETCLOCK': 1,
@@ -435,6 +441,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_SCHED_SETAFFINITY': 1,
  'HAVE_SCHED_SETPARAM': 1,
  'HAVE_SCHED_SETSCHEDULER': 1,
+ 'HAVE_SEM_CLOCKWAIT': 0,
  'HAVE_SEM_GETVALUE': 1,
  'HAVE_SEM_OPEN': 1,
  'HAVE_SEM_TIMEDWAIT': 1,
@@ -472,7 +479,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_SIGWAIT': 1,
  'HAVE_SIGWAITINFO': 1,
  'HAVE_SNPRINTF': 1,
- 'HAVE_SOCKADDR_ALG': 0,
+ 'HAVE_SOCKADDR_ALG': 1,
  'HAVE_SOCKADDR_SA_LEN': 0,
  'HAVE_SOCKADDR_STORAGE': 1,
  'HAVE_SOCKETPAIR': 1,
@@ -507,6 +514,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_SYSCONF': 1,
  'HAVE_SYSEXITS_H': 1,
  'HAVE_SYS_AUDIOIO_H': 0,
+ 'HAVE_SYS_AUXV_H': 1,
  'HAVE_SYS_BSDTTY_H': 0,
  'HAVE_SYS_DEVPOLL_H': 0,
  'HAVE_SYS_DIR_H': 0,
@@ -570,7 +578,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_UUID_CREATE': 0,
  'HAVE_UUID_ENC_BE': 0,
  'HAVE_UUID_GENERATE_TIME_SAFE': 1,
- 'HAVE_UUID_H': 0,
+ 'HAVE_UUID_H': 1,
  'HAVE_UUID_UUID_H': 1,
  'HAVE_WAIT3': 1,
  'HAVE_WAIT4': 1,
@@ -601,27 +609,31 @@ build_time_vars = {'ABIFLAGS': '',
  'INSTSONAME': 'libpython3.9.a',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
- 'LDCXXSHARED': 'g++ -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/ -shared',
+ 'LDCXXSHARED': 'g++ -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -shared',
  'LDFLAGS': ''
             ''
+            '-Wl,--allow-shlib-undefined '
             '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
             '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
             '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
             ''
             ''
+            '-Wl,--allow-shlib-undefined '
             '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
             '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
             '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
  'LDLIBRARY': 'libpython3.9.a',
  'LDLIBRARYDIR': '',
- 'LDSHARED': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/ -shared  '
+ 'LDSHARED': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -shared  '
              ''
              ''
+             '-Wl,--allow-shlib-undefined '
              '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              ''
              ''
+             '-Wl,--allow-shlib-undefined '
              '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
              '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
@@ -639,11 +651,12 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBRARY': 'libpython3.9.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
- 'LIBS': '-lcrypt -lpthread -ldl  -lutil -lrt -lm',
+ 'LIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
  'LIBSUBDIRS': 'tkinter tkinter/test tkinter/test/test_tkinter \\',
- 'LINKCC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/',
+ 'LINKCC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat',
  'LINKFORSHARED': '-Xlinker -export-dynamic',
  'LIPO_32BIT_FLAGS': '',
+ 'LIPO_INTEL64_FLAGS': '',
  'LLVM_PROF_ERR': 'no',
  'LLVM_PROF_FILE': '',
  'LLVM_PROF_MERGER': 'true',
@@ -653,12 +666,12 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP_OBJS': '',
  'MACHDESTLIB': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/python3.9',
  'MACOSX_DEPLOYMENT_TARGET': '',
- 'MAINCC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat -Wl,--sysroot=/',
+ 'MAINCC': 'gcc -pthread -B /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/compiler_compat',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
- 'MAKESETUP': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Modules/makesetup',
+ 'MAKESETUP': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Modules/makesetup',
  'MANDIR': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/share/man',
- 'MKDIR_P': '/bin/mkdir -p',
+ 'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
                    '_operator  _collections  _abc  itertools  atexit  _signal  '
                    '_stat  time  _thread  _locale  _io  faulthandler  '
@@ -745,9 +758,9 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Werror=implicit-function-declaration '
                              '-fvisibility=hidden  '
                              ''
-                             '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include/internal '
+                             '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include/internal '
                              '-IObjects -IInclude -IPython -I. '
-                             '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include '
+                             '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                              '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
                              '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
@@ -777,7 +790,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '-Wno-missing-field-initializers '
                      '-Werror=implicit-function-declaration '
                      '-fvisibility=hidden   '
-                     '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include/internal',
+                     '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 '
                    '-Wall    -fPIC '
@@ -800,9 +813,9 @@ build_time_vars = {'ABIFLAGS': '',
                    '-Wno-missing-field-initializers '
                    '-Werror=implicit-function-declaration -fvisibility=hidden '
                    ''
-                   '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include/internal '
+                   '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include/internal '
                    '-IObjects -IInclude -IPython -I. '
-                   '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include '
+                   '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include '
                    '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                    '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
                    '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
@@ -812,18 +825,20 @@ build_time_vars = {'ABIFLAGS': '',
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': ''
                     ''
+                    '-Wl,--allow-shlib-undefined '
                     '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     ''
                     ''
+                    '-Wl,--allow-shlib-undefined '
                     '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                     ''
                     '-g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include '
+                '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include '
                 '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                 '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
                 '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
@@ -833,11 +848,13 @@ build_time_vars = {'ABIFLAGS': '',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': ''
                ''
+               '-Wl,--allow-shlib-undefined '
                '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                ''
                ''
+               '-Wl,--allow-shlib-undefined '
                '-Wl,-rpath,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                '-Wl,-rpath-link,/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib '
                '-L/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
@@ -868,9 +885,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Werror=implicit-function-declaration '
                         '-fvisibility=hidden  '
                         ''
-                        '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include/internal '
+                        '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include/internal '
                         '-IObjects -IInclude -IPython -I. '
-                        '-I/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Include '
+                        '-I/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                         '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
                         '-I/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/include '
@@ -888,11 +905,10 @@ build_time_vars = {'ABIFLAGS': '',
  'RUNSHARED': '',
  'SCRIPTDIR': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib',
  'SETPGRP_HAVE_ARG': 0,
- 'SGI_ABI': '',
  'SHELL': '/bin/sh',
- 'SHLIBS': '-lcrypt -lpthread -ldl  -lutil -lrt -lm',
+ 'SHLIBS': '-lcrypt -lpthread -ldl  -lutil -lm',
  'SHLIB_SUFFIX': '.so',
- 'SHM_NEEDS_LIBRT': 0,
+ 'SHM_NEEDS_LIBRT': 1,
  'SIGNED_RIGHT_SHIFT_ZERO_FILLS': 0,
  'SITEPATH': '',
  'SIZEOF_DOUBLE': 8,
@@ -915,7 +931,7 @@ build_time_vars = {'ABIFLAGS': '',
  'SIZEOF__BOOL': 1,
  'SOABI': 'cpython-39-x86_64-linux-gnu',
  'SRCDIRS': 'Parser Parser/pegen Objects Python Modules Modules/_io Programs',
- 'SRC_GDB_HOOKS': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Tools/gdb/libpython.py',
+ 'SRC_GDB_HOOKS': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Tools/gdb/libpython.py',
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
  'STRIPFLAG': '-s',
@@ -931,20 +947,20 @@ build_time_vars = {'ABIFLAGS': '',
  'TESTPYTHON': './python',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python '
-               '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Tools/scripts/run_tests.py',
+               '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Tools/scripts/run_tests.py',
  'TESTTIMEOUT': 1200,
- 'TIMEMODULE_LIB': 'rt',
+ 'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
  'TM_IN_SYS_TIME': 0,
  'TZPATH': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/share/zoneinfo:/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': 'python3 '
-                '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/Tools/scripts/update_file.py',
+                '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 1,
  'VERSION': '3.9',
- 'VPATH': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work',
- 'WINDOW_HAS_FLAGS': 1,
+ 'VPATH': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work',
+ 'WINDOW_HAS_FLAGS': 0,
  'WITH_DECIMAL_CONTEXTVAR': 1,
  'WITH_DOC_STRINGS': 1,
  'WITH_DTRACE': 0,
@@ -955,9 +971,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work/build-static',
- 'abs_srcdir': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work',
+ 'abs_builddir': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work/build-static',
+ 'abs_srcdir': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work',
  'datarootdir': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/share',
  'exec_prefix': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs',
  'prefix': '/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs',
- 'srcdir': '/home/conda/feedstock_root/build_artifacts/python-split_1602715575598/work'}
+ 'srcdir': '/home/conda/feedstock_root/build_artifacts/python-split_1727717763064/work'}

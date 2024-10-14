@@ -1,32 +1,165 @@
-==> 2024-07-10 14:27:41 <==
-# cmd: /apps/software/standard/core/anaconda/2023.07-py3.11/bin/conda create --prefix /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs python==3.8
+==> 2024-10-13 22:50:39 <==
+# cmd: /apps/software/standard/core/anaconda/2023.07-py3.11/bin/conda create -p /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs python=3.9
 # conda version: 23.5.2
 +conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
 +conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
-+conda-forge/linux-64::ca-certificates-2024.7.4-hbcca054_0
-+conda-forge/linux-64::ld_impl_linux-64-2.40-hf3520f5_7
-+conda-forge/linux-64::libffi-3.2.1-he1b5a44_1007
-+conda-forge/linux-64::libgcc-ng-14.1.0-h77fa898_0
-+conda-forge/linux-64::libgomp-14.1.0-h77fa898_0
-+conda-forge/linux-64::libsqlite-3.46.0-hde9e2c9_0
-+conda-forge/linux-64::libstdcxx-ng-14.1.0-hc0a3c3a_0
-+conda-forge/linux-64::libzlib-1.2.13-h4ab18f5_6
-+conda-forge/linux-64::ncurses-6.5-h59595ed_0
-+conda-forge/linux-64::openssl-1.1.1w-hd590300_0
-+conda-forge/linux-64::python-3.8.0-h357f687_5
++conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7
++conda-forge/linux-64::ca-certificates-2024.8.30-hbcca054_0
++conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_1
++conda-forge/linux-64::libffi-3.4.2-h7f98852_5
++conda-forge/linux-64::libgcc-14.1.0-h77fa898_1
++conda-forge/linux-64::libgcc-ng-14.1.0-h69a702a_1
++conda-forge/linux-64::libgomp-14.1.0-h77fa898_1
++conda-forge/linux-64::libnsl-2.0.1-hd590300_0
++conda-forge/linux-64::libsqlite-3.46.1-hadc24fc_0
++conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
++conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1
++conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2
++conda-forge/linux-64::ncurses-6.5-he02047a_1
++conda-forge/linux-64::openssl-3.3.2-hb9d3cd8_0
++conda-forge/linux-64::python-3.9.20-h13acc7a_1_cpython
 +conda-forge/linux-64::readline-8.2-h8228510_1
-+conda-forge/linux-64::sqlite-3.46.0-h6d4b2fc_0
 +conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101
 +conda-forge/linux-64::xz-5.2.6-h166bdaf_0
-+conda-forge/linux-64::zlib-1.2.13-h4ab18f5_6
-+conda-forge/noarch::pip-24.0-pyhd8ed1ab_0
-+conda-forge/noarch::setuptools-70.2.0-pyhd8ed1ab_0
-+conda-forge/noarch::wheel-0.43.0-pyhd8ed1ab_1
-# update specs: ['python==3.8']
-==> 2024-07-10 14:43:25 <==
-# cmd: /apps/software/standard/core/anaconda/2023.07-py3.11/bin/conda install python==3.9
++conda-forge/noarch::pip-24.2-pyh8b19718_1
++conda-forge/noarch::setuptools-75.1.0-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2024b-hc8b5060_0
++conda-forge/noarch::wheel-0.44.0-pyhd8ed1ab_0
+# update specs: ['python=3.9']
+==> 2024-10-13 22:58:05 <==
+# cmd: /apps/software/standard/core/anaconda/2023.07-py3.11/bin/conda install bilby
 # conda version: 23.5.2
--conda-forge/linux-64::python-3.8.0-h357f687_5
-+conda-forge/linux-64::python-3.9.0-h2a148a8_4_cpython
-+conda-forge/noarch::tzdata-2024a-h0c530f3_0
-# update specs: ['python==3.9']
++conda-forge/linux-64::astropy-6.0.1-py39h44dd56e_0
++conda-forge/linux-64::bilby.cython-0.5.2-py39h988be6c_0
++conda-forge/linux-64::blosc-1.21.6-hef167b5_0
++conda-forge/linux-64::brotli-1.1.0-hb9d3cd8_2
++conda-forge/linux-64::brotli-bin-1.1.0-hb9d3cd8_2
++conda-forge/linux-64::c-ares-1.34.1-heb4867d_0
++conda-forge/linux-64::c-blosc2-2.15.1-hc57e6cf_0
++conda-forge/linux-64::contourpy-1.3.0-py39h74842e3_2
++conda-forge/linux-64::fonttools-4.54.1-py39h8cd3c5a_0
++conda-forge/linux-64::freetype-2.12.1-h267a509_2
++conda-forge/linux-64::h5py-3.11.0-nompi_py39h24b94d4_102
++conda-forge/linux-64::hdf5-1.14.3-nompi_hdf9ad27_105
++conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0
++conda-forge/linux-64::kiwisolver-1.4.7-py39h74842e3_0
++conda-forge/linux-64::krb5-1.21.3-h659f571_0
++conda-forge/linux-64::lcms2-2.16-hb7c19ff_0
++conda-forge/linux-64::lerc-4.0.0-h27087fc_0
++conda-forge/linux-64::libaec-1.1.3-h59595ed_0
++conda-forge/linux-64::libblas-3.9.0-24_linux64_openblas
++conda-forge/linux-64::libbrotlicommon-1.1.0-hb9d3cd8_2
++conda-forge/linux-64::libbrotlidec-1.1.0-hb9d3cd8_2
++conda-forge/linux-64::libbrotlienc-1.1.0-hb9d3cd8_2
++conda-forge/linux-64::libcblas-3.9.0-24_linux64_openblas
++conda-forge/linux-64::libcurl-8.10.1-hbbe4b11_0
++conda-forge/linux-64::libdeflate-1.22-hb9d3cd8_0
++conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
++conda-forge/linux-64::libev-4.33-hd590300_2
++conda-forge/linux-64::libgfortran-14.1.0-h69a702a_1
++conda-forge/linux-64::libgfortran-ng-14.1.0-h69a702a_1
++conda-forge/linux-64::libgfortran5-14.1.0-hc5f4f2c_1
++conda-forge/linux-64::libjpeg-turbo-3.0.0-hd590300_1
++conda-forge/linux-64::liblapack-3.9.0-24_linux64_openblas
++conda-forge/linux-64::libnghttp2-1.58.0-h47da74e_1
++conda-forge/linux-64::libopenblas-0.3.27-pthreads_hac2b453_1
++conda-forge/linux-64::libpng-1.6.44-hadc24fc_0
++conda-forge/linux-64::libssh2-1.11.0-h0841786_0
++conda-forge/linux-64::libstdcxx-14.1.0-hc0a3c3a_1
++conda-forge/linux-64::libstdcxx-ng-14.1.0-h4852527_1
++conda-forge/linux-64::libtiff-4.7.0-he137b08_1
++conda-forge/linux-64::libwebp-base-1.4.0-hd590300_0
++conda-forge/linux-64::libxcb-1.17.0-h8a09558_0
++conda-forge/linux-64::lz4-c-1.9.4-hcb278e6_0
++conda-forge/linux-64::lzo-2.10-hd590300_1001
++conda-forge/linux-64::matplotlib-base-3.9.2-py39h16632d1_1
++conda-forge/linux-64::numexpr-2.10.1-py39h2eb9cd8_101
++conda-forge/linux-64::numpy-1.26.4-py39h474f0d3_0
++conda-forge/linux-64::openjpeg-2.5.2-h488ebb8_0
++conda-forge/linux-64::pandas-2.2.3-py39h3b40f6f_1
++conda-forge/linux-64::pillow-10.4.0-py39h648eaa6_1
++conda-forge/linux-64::pthread-stubs-0.4-hb9d3cd8_1002
++conda-forge/linux-64::pyerfa-2.0.1.4-py39hf3d9206_2
++conda-forge/linux-64::pytables-3.9.2-py39hd89fbf8_3
++conda-forge/linux-64::python_abi-3.9-5_cp39
++conda-forge/linux-64::pyyaml-6.0.2-py39h8cd3c5a_1
++conda-forge/linux-64::qhull-2020.2-h434a139_5
++conda-forge/linux-64::scipy-1.13.1-py39haf93ffa_0
++conda-forge/linux-64::snappy-1.2.1-ha2e4443_0
++conda-forge/linux-64::unicodedata2-15.1.0-py39hd1e30aa_0
++conda-forge/linux-64::xorg-libxau-1.0.11-hb9d3cd8_1
++conda-forge/linux-64::xorg-libxdmcp-1.1.5-hb9d3cd8_0
++conda-forge/linux-64::yaml-0.2.5-h7f98852_2
++conda-forge/linux-64::zlib-ng-2.2.2-h5888daf_0
++conda-forge/linux-64::zstd-1.5.6-ha6fb4c9_0
++conda-forge/noarch::astropy-iers-data-0.2024.10.7.0.32.46-pyhd8ed1ab_0
++conda-forge/noarch::attrs-24.2.0-pyh71513ae_0
++conda-forge/noarch::bilby-2.3.0-pyhd8ed1ab_0
++conda-forge/noarch::cached-property-1.5.2-hd8ed1ab_1
++conda-forge/noarch::cached_property-1.5.2-pyha770c72_1
++conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0
++conda-forge/noarch::corner-2.2.2-pyhd8ed1ab_0
++conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_0
++conda-forge/noarch::dill-0.3.9-pyhd8ed1ab_0
++conda-forge/noarch::dynesty-2.1.4-pyhd8ed1ab_0
++conda-forge/noarch::emcee-3.1.6-pyhd8ed1ab_0
++conda-forge/noarch::h5netcdf-1.4.0-pyhd8ed1ab_0
++conda-forge/noarch::importlib-metadata-8.5.0-pyha770c72_0
++conda-forge/noarch::importlib-resources-6.4.5-pyhd8ed1ab_0
++conda-forge/noarch::importlib_resources-6.4.5-pyhd8ed1ab_0
++conda-forge/noarch::munkres-1.1.4-pyh9f0ad1d_0
++conda-forge/noarch::nomkl-1.0-h5ca1d4c_0
++conda-forge/noarch::packaging-24.1-pyhd8ed1ab_0
++conda-forge/noarch::py-cpuinfo-9.0.0-pyhd8ed1ab_0
++conda-forge/noarch::pyparsing-3.2.0-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.9.0-pyhd8ed1ab_0
++conda-forge/noarch::python-tzdata-2024.2-pyhd8ed1ab_0
++conda-forge/noarch::pytz-2024.1-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::tqdm-4.66.5-pyhd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.12.2-pyha770c72_0
++conda-forge/noarch::xarray-2024.7.0-pyhd8ed1ab_0
++conda-forge/noarch::xarray-einstats-0.7.0-pyhd8ed1ab_0
++conda-forge/noarch::zipp-3.20.2-pyhd8ed1ab_0
++defaults/linux-64::arviz-0.17.1-py39h06a4308_0
+# update specs: ['bilby']
+==> 2024-10-13 23:00:22 <==
+# cmd: /apps/software/standard/core/anaconda/2023.07-py3.11/bin/conda install bilby_tgr
+# conda version: 23.5.2
++conda-forge/linux-64::brotli-python-1.1.0-py39hf88036b_2
++conda-forge/linux-64::cffi-1.17.1-py39h15c3d72_0
++conda-forge/linux-64::cryptography-43.0.1-py39h7170ec2_0
++conda-forge/linux-64::fftw-3.3.10-nompi_hf1063bd_110
++conda-forge/linux-64::gsl-2.7-he838d99_0
++conda-forge/linux-64::lalsimulation-data-6.0.0-ha770c72_0
++conda-forge/linux-64::liblal-7.6.0-fftw_hcbe9c14_100
++conda-forge/linux-64::liblalsimulation-6.0.0-py39h53b55ab_0
++conda-forge/linux-64::ligo-segments-1.4.0-py39hd1e30aa_5
++conda-forge/linux-64::python-lal-7.6.0-fftw_py39h3a094d0_100
++conda-forge/linux-64::python-lalsimulation-6.0.0-py39h53b55ab_0
++conda-forge/linux-64::regex-2024.9.11-py39h8cd3c5a_0
++conda-forge/linux-64::tzlocal-5.2-py39hf3d152e_1
++conda-forge/linux-64::zstandard-0.23.0-py39h08a7858_1
++conda-forge/noarch::bilby_tgr-0.1a1-pyhd8ed1ab_1
++conda-forge/noarch::charset-normalizer-3.4.0-pyhd8ed1ab_0
++conda-forge/noarch::dateparser-1.2.0-pyhd8ed1ab_0
++conda-forge/noarch::dqsegdb2-1.2.1-pyhd8ed1ab_0
++conda-forge/noarch::gwdatafind-1.2.0-pyhd8ed1ab_0
++conda-forge/noarch::gwosc-0.7.1-pyhd8ed1ab_0
++conda-forge/noarch::gwpy-3.0.10-pyhd8ed1ab_0
++conda-forge/noarch::h2-4.1.0-pyhd8ed1ab_0
++conda-forge/noarch::hpack-4.0.0-pyh9f0ad1d_0
++conda-forge/noarch::hyperframe-6.0.1-pyhd8ed1ab_0
++conda-forge/noarch::idna-3.10-pyhd8ed1ab_0
++conda-forge/noarch::igwn-auth-utils-1.1.1-pyhd8ed1ab_0
++conda-forge/noarch::ligotimegps-2.0.1-py_0
++conda-forge/noarch::mpmath-1.3.0-pyhd8ed1ab_0
++conda-forge/noarch::pycparser-2.22-pyhd8ed1ab_0
++conda-forge/noarch::pyjwt-2.9.0-pyhd8ed1ab_1
++conda-forge/noarch::pysocks-1.7.1-pyha2e5f31_6
++conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_0
++conda-forge/noarch::safe-netrc-1.0.1-pyhd8ed1ab_0
++conda-forge/noarch::scitokens-1.8.1-pyhd8ed1ab_0
++conda-forge/noarch::urllib3-2.2.3-pyhd8ed1ab_0
+# update specs: ['bilby_tgr']

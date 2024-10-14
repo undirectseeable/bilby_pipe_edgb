@@ -350,7 +350,7 @@ class MSVCCompiler(CCompiler) :
             # relocatable:
             # https://developercommunity.visualstudio.com/comments/623156/view.html
             d1trimfile_opts = []
-            if 'SRC_DIR' in os.environ:
+            if 'SRC_DIR' in os.environ and os.path.basename(self.cc) == "cl.exe":
                 d1trimfile_opts.append("/d1trimfile:" + os.environ['SRC_DIR'])
 
             if ext in self._c_extensions:

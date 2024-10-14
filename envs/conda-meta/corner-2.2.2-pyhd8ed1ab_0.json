@@ -1,0 +1,165 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "arviz >=0.9",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/corner-2.2.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/corner-2.2.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/corner/__init__.py",
+    "lib/python3.9/site-packages/corner/arviz_corner.py",
+    "lib/python3.9/site-packages/corner/core.py",
+    "lib/python3.9/site-packages/corner/corner.py",
+    "lib/python3.9/site-packages/corner/version.py",
+    "lib/python3.9/site-packages/corner/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/corner/__pycache__/arviz_corner.cpython-39.pyc",
+    "lib/python3.9/site-packages/corner/__pycache__/core.cpython-39.pyc",
+    "lib/python3.9/site-packages/corner/__pycache__/corner.cpython-39.pyc",
+    "lib/python3.9/site-packages/corner/__pycache__/version.cpython-39.pyc"
+  ],
+  "fn": "corner-2.2.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/corner-2.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3b36015e85285ea8ec05a8dc04e69ede",
+  "name": "corner",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/corner-2.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4241119e10c1f0a8a552c6a93aeca612ec55dcbb28797e817007a866c1c82721",
+        "sha256_in_prefix": "4241119e10c1f0a8a552c6a93aeca612ec55dcbb28797e817007a866c1c82721",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a134ddb75a16a9f584272c1d344d159bc99abcbdabbd12ccf0fa4d06dd16756a",
+        "sha256_in_prefix": "a134ddb75a16a9f584272c1d344d159bc99abcbdabbd12ccf0fa4d06dd16756a",
+        "size_in_bytes": 2223
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca0ae6424aa0c9882e1ea116e502cc09eb6b8efa6812ccb0d64aabe005437aa6",
+        "sha256_in_prefix": "ca0ae6424aa0c9882e1ea116e502cc09eb6b8efa6812ccb0d64aabe005437aa6",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "sha256_in_prefix": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1f1d6dfa01ef6e0ac82bbdc389eb2262cbf6da8c4aae1bd53dea3994168d0eed",
+        "sha256_in_prefix": "1f1d6dfa01ef6e0ac82bbdc389eb2262cbf6da8c4aae1bd53dea3994168d0eed",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/corner-2.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d86b888da603876c862764a23a6effc68597d8b9716712e89c19f0e655e62465",
+        "sha256_in_prefix": "d86b888da603876c862764a23a6effc68597d8b9716712e89c19f0e655e62465",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/corner/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1b4c6e31148a45fd741239926ba85c1dbf29a42ac44cce64f8f445c39d98d460",
+        "sha256_in_prefix": "1b4c6e31148a45fd741239926ba85c1dbf29a42ac44cce64f8f445c39d98d460",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "site-packages/corner/arviz_corner.py",
+        "path_type": "hardlink",
+        "sha256": "ba28b1717e66895784a185ee0ce901b472a2007fd429e64cbcf63a8a9658f46d",
+        "sha256_in_prefix": "ba28b1717e66895784a185ee0ce901b472a2007fd429e64cbcf63a8a9658f46d",
+        "size_in_bytes": 5091
+      },
+      {
+        "_path": "site-packages/corner/core.py",
+        "path_type": "hardlink",
+        "sha256": "3490747f3c23f5018596e9ad6b74af291d140047d952f3365832faa07bfa4562",
+        "sha256_in_prefix": "3490747f3c23f5018596e9ad6b74af291d140047d952f3365832faa07bfa4562",
+        "size_in_bytes": 29684
+      },
+      {
+        "_path": "site-packages/corner/corner.py",
+        "path_type": "hardlink",
+        "sha256": "e0b74d3782c3a625524508b8334c781bbf59b17e715d0a7e6a5191975371ebf6",
+        "sha256_in_prefix": "e0b74d3782c3a625524508b8334c781bbf59b17e715d0a7e6a5191975371ebf6",
+        "size_in_bytes": 10202
+      },
+      {
+        "_path": "site-packages/corner/version.py",
+        "path_type": "hardlink",
+        "sha256": "0761f826bac4b30533c7ab179119341c15e6d5a9701835fadd686a2ce8ce23c3",
+        "sha256_in_prefix": "0761f826bac4b30533c7ab179119341c15e6d5a9701835fadd686a2ce8ce23c3",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/python3.9/site-packages/corner/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/corner/__pycache__/arviz_corner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/corner/__pycache__/core.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/corner/__pycache__/corner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/corner/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "31fb2f3dad845512416763fd53ae4bbb67da71c611e37be4ea8f65fed4063289",
+  "size": 20153,
+  "subdir": "noarch",
+  "timestamp": 1680889849000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/corner-2.2.2-pyhd8ed1ab_0.conda",
+  "version": "2.2.2"
+}

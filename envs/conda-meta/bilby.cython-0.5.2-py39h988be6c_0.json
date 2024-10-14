@@ -1,0 +1,329 @@
+{
+  "build": "py39h988be6c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=12",
+    "numpy >=1.19,<3",
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/bilby.cython-0.5.2-py39h988be6c_0",
+  "files": [
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/LICENSE",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/METADATA",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/RECORD",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/WHEEL",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/bilby_cython/__init__.py",
+    "lib/python3.9/site-packages/bilby_cython/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/__pycache__/_version.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/__pycache__/conftest.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/_version.py",
+    "lib/python3.9/site-packages/bilby_cython/conftest.py",
+    "lib/python3.9/site-packages/bilby_cython/geometry.c",
+    "lib/python3.9/site-packages/bilby_cython/geometry.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/bilby_cython/geometry.pyx",
+    "lib/python3.9/site-packages/bilby_cython/test/__init__.py",
+    "lib/python3.9/site-packages/bilby_cython/test/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/test/__pycache__/old_code.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/test/__pycache__/test_geometry.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/test/__pycache__/test_time.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/test/__pycache__/timing.cpython-39.pyc",
+    "lib/python3.9/site-packages/bilby_cython/test/old_code.py",
+    "lib/python3.9/site-packages/bilby_cython/test/test_geometry.py",
+    "lib/python3.9/site-packages/bilby_cython/test/test_time.py",
+    "lib/python3.9/site-packages/bilby_cython/test/timing.py",
+    "lib/python3.9/site-packages/bilby_cython/time.c",
+    "lib/python3.9/site-packages/bilby_cython/time.cpython-39-x86_64-linux-gnu.so",
+    "lib/python3.9/site-packages/bilby_cython/time.pyx",
+    "lib/python3.9/site-packages/docs/Makefile",
+    "lib/python3.9/site-packages/docs/__pycache__/conf.cpython-39.pyc",
+    "lib/python3.9/site-packages/docs/conf.py",
+    "lib/python3.9/site-packages/docs/geometry.rst",
+    "lib/python3.9/site-packages/docs/index.rst",
+    "lib/python3.9/site-packages/docs/time.rst"
+  ],
+  "fn": "bilby.cython-0.5.2-py39h988be6c_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/bilby.cython-0.5.2-py39h988be6c_0",
+    "type": 1
+  },
+  "md5": "9302e04360ed64a35a9ae1f70d9b4133",
+  "name": "bilby.cython",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/bilby.cython-0.5.2-py39h988be6c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b6ca84aa5701b4befa65476496fc2eec628aad93f82b9680fd51fa206b2fa76c",
+        "sha256_in_prefix": "b6ca84aa5701b4befa65476496fc2eec628aad93f82b9680fd51fa206b2fa76c",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "32ed64fe106447ae47309b0e67d3648d027c8e401b05651cf34157658c7851e4",
+        "sha256_in_prefix": "32ed64fe106447ae47309b0e67d3648d027c8e401b05651cf34157658c7851e4",
+        "size_in_bytes": 4517
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d1c7451395917a39cf40c707d912d6ff684565bf83effcc24e88c4d6707e2094",
+        "sha256_in_prefix": "d1c7451395917a39cf40c707d912d6ff684565bf83effcc24e88c4d6707e2094",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "69f66b0307fa228501f243579074a0c7ce65d2b95cb078e19f0dc13b35a0cd92",
+        "sha256_in_prefix": "69f66b0307fa228501f243579074a0c7ce65d2b95cb078e19f0dc13b35a0cd92",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f60c000027c0be4b02f5d7a2480af816efd45093e6a612ec7ee3d8cc4e0ebb9d",
+        "sha256_in_prefix": "f60c000027c0be4b02f5d7a2480af816efd45093e6a612ec7ee3d8cc4e0ebb9d",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby.cython-0.5.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "22ebd941add1aed3961d59c840181f98559574604332f0ad5841a6077af95a03",
+        "sha256_in_prefix": "22ebd941add1aed3961d59c840181f98559574604332f0ad5841a6077af95a03",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4aa0517a755366aafa46378b2925be49d1895145fc9e5746c8258d694462cef",
+        "sha256_in_prefix": "e4aa0517a755366aafa46378b2925be49d1895145fc9e5746c8258d694462cef",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9911f5173fe6af38e3eab994c87158dd9077b1e895e9834ca3dc01a298124e70",
+        "sha256_in_prefix": "9911f5173fe6af38e3eab994c87158dd9077b1e895e9834ca3dc01a298124e70",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/__pycache__/_version.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdfdc3bd5690677f199417f6d980bcd35234b94485529123f18b5cd360cbc633",
+        "sha256_in_prefix": "fdfdc3bd5690677f199417f6d980bcd35234b94485529123f18b5cd360cbc633",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "26eaeec7cd63292452c835318d26dd34a584d3763ed8565f88f3e79cebd4e885",
+        "sha256_in_prefix": "26eaeec7cd63292452c835318d26dd34a584d3763ed8565f88f3e79cebd4e885",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/_version.py",
+        "path_type": "hardlink",
+        "sha256": "f701f63c3b13924c5da9253d6338848c34c760b11c28f498afa4687cd4846899",
+        "sha256_in_prefix": "f701f63c3b13924c5da9253d6338848c34c760b11c28f498afa4687cd4846899",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "147260b6a3898a8413390bd96a98887b336f9ca63bfd9c6e5c9ae7cf89b02dab",
+        "sha256_in_prefix": "147260b6a3898a8413390bd96a98887b336f9ca63bfd9c6e5c9ae7cf89b02dab",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/geometry.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bilby.cython_1723724747746/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "6e9b712bf4d0ce5cd9be43da786ec694d536577003636ce3ad0bb1278334f8bd",
+        "sha256_in_prefix": "63dccddcbbbb276cdfad844d948e124f63f24d56df084012975024c75e5f4166",
+        "size_in_bytes": 1364817
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/geometry.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "acfe7ee9da60a9e62638f0bcdee2a066b1de223adefa9583184b806ab14abf42",
+        "sha256_in_prefix": "acfe7ee9da60a9e62638f0bcdee2a066b1de223adefa9583184b806ab14abf42",
+        "size_in_bytes": 257504
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/geometry.pyx",
+        "path_type": "hardlink",
+        "sha256": "16fef70e3e77d121248ac44052e605d3f1eb0ace1afb7ef63fc9c34a16370af1",
+        "sha256_in_prefix": "16fef70e3e77d121248ac44052e605d3f1eb0ace1afb7ef63fc9c34a16370af1",
+        "size_in_bytes": 15187
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbe78c5aeb28fa95e86806690903e89727926379faf4abad0c01ea19425bc4eb",
+        "sha256_in_prefix": "fbe78c5aeb28fa95e86806690903e89727926379faf4abad0c01ea19425bc4eb",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__pycache__/old_code.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd0ccd1d1a3a132da8a3613238ab6800a9fb1f4f2b321e74e54a435afe262005",
+        "sha256_in_prefix": "bd0ccd1d1a3a132da8a3613238ab6800a9fb1f4f2b321e74e54a435afe262005",
+        "size_in_bytes": 6465
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__pycache__/test_geometry.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cade2bcf6d9210471c2e369b06f97834ec679acf7e195da206556031aa87c86c",
+        "sha256_in_prefix": "cade2bcf6d9210471c2e369b06f97834ec679acf7e195da206556031aa87c86c",
+        "size_in_bytes": 6288
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__pycache__/test_time.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5eaceb0da8bec2de0acdefb8e048a3e92615527685972b928a923d448e66e96",
+        "sha256_in_prefix": "c5eaceb0da8bec2de0acdefb8e048a3e92615527685972b928a923d448e66e96",
+        "size_in_bytes": 2434
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/__pycache__/timing.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "96407bc82d02958e8c8c8ee453130933f378a335807e3983a90f37a8cc05ad30",
+        "sha256_in_prefix": "96407bc82d02958e8c8c8ee453130933f378a335807e3983a90f37a8cc05ad30",
+        "size_in_bytes": 3331
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/old_code.py",
+        "path_type": "hardlink",
+        "sha256": "63727f9c5098d4b53f1cab9332f3e05d71847a86ef685f1098aab93512dfb98e",
+        "sha256_in_prefix": "63727f9c5098d4b53f1cab9332f3e05d71847a86ef685f1098aab93512dfb98e",
+        "size_in_bytes": 6963
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/test_geometry.py",
+        "path_type": "hardlink",
+        "sha256": "6c79e8fd11b81708a1d9de04519c3869cff80154e846fffd804fa7a4c7861b62",
+        "sha256_in_prefix": "6c79e8fd11b81708a1d9de04519c3869cff80154e846fffd804fa7a4c7861b62",
+        "size_in_bytes": 6004
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/test_time.py",
+        "path_type": "hardlink",
+        "sha256": "4cb94070db92c6622b32d56cd3a4027490c0a8d90c87eabcaf2ca5d895423c89",
+        "sha256_in_prefix": "4cb94070db92c6622b32d56cd3a4027490c0a8d90c87eabcaf2ca5d895423c89",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/test/timing.py",
+        "path_type": "hardlink",
+        "sha256": "526a9cfd767cfedec099eb39a63026c6648d4e71c094c2a361aeb0ae132c13ef",
+        "sha256_in_prefix": "526a9cfd767cfedec099eb39a63026c6648d4e71c094c2a361aeb0ae132c13ef",
+        "size_in_bytes": 4874
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/time.c",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bilby.cython_1723724747746/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "1804c65977ac2ace231354fa6a3b352d677f5d94b18cb7c1fca59ff8a7b2a56c",
+        "sha256_in_prefix": "ecb2b5f50b9b3e9e4015d3b1f7a7323b723acd9cd7c0bfe3860dc5be1d5cbd1d",
+        "size_in_bytes": 1307393
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/time.cpython-39-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "17b09195b8315f671e7d0c44039d249be5a60f99d4e03521d3d5eac4561a5ec8",
+        "sha256_in_prefix": "17b09195b8315f671e7d0c44039d249be5a60f99d4e03521d3d5eac4561a5ec8",
+        "size_in_bytes": 228192
+      },
+      {
+        "_path": "lib/python3.9/site-packages/bilby_cython/time.pyx",
+        "path_type": "hardlink",
+        "sha256": "0231e33b7dcea55b687ca141509090cdd292f0a7811ff1aa975239d63b9a5f9d",
+        "sha256_in_prefix": "0231e33b7dcea55b687ca141509090cdd292f0a7811ff1aa975239d63b9a5f9d",
+        "size_in_bytes": 3516
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/Makefile",
+        "path_type": "hardlink",
+        "sha256": "e376a4aada768a8cb6215d3ed3bcce2c33723e92eb6885b2191c09d4f2c82148",
+        "sha256_in_prefix": "e376a4aada768a8cb6215d3ed3bcce2c33723e92eb6885b2191c09d4f2c82148",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/__pycache__/conf.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a6bf2181751ff0fa2625b73aeca9b92505ee7e1fb5057ed9f96746d9c2eecfe",
+        "sha256_in_prefix": "9a6bf2181751ff0fa2625b73aeca9b92505ee7e1fb5057ed9f96746d9c2eecfe",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/conf.py",
+        "path_type": "hardlink",
+        "sha256": "4b2e2e423fc6686ca973cd548a1025c1ed291cca192ea1b24dec9d731d568bbf",
+        "sha256_in_prefix": "4b2e2e423fc6686ca973cd548a1025c1ed291cca192ea1b24dec9d731d568bbf",
+        "size_in_bytes": 5606
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/geometry.rst",
+        "path_type": "hardlink",
+        "sha256": "43c90746fa9a426cde1f47be2f920d544f79e9a106149b9043ec5025bd4f92ab",
+        "sha256_in_prefix": "43c90746fa9a426cde1f47be2f920d544f79e9a106149b9043ec5025bd4f92ab",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/index.rst",
+        "path_type": "hardlink",
+        "sha256": "c74dde266e64a27b85df9dc342bfc26a188cedd63899ddbbed3b58c9d1929f75",
+        "sha256_in_prefix": "c74dde266e64a27b85df9dc342bfc26a188cedd63899ddbbed3b58c9d1929f75",
+        "size_in_bytes": 730
+      },
+      {
+        "_path": "lib/python3.9/site-packages/docs/time.rst",
+        "path_type": "hardlink",
+        "sha256": "72c9b257b90cc099b955698f1e0f1bf69015a1871de62c47cf14d681002f9b62",
+        "sha256_in_prefix": "72c9b257b90cc099b955698f1e0f1bf69015a1871de62c47cf14d681002f9b62",
+        "size_in_bytes": 136
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "286289d17afce12f2b35e0caaeb12ce8389baf6784735690262db6e3510dd9ae",
+  "size": 294988,
+  "subdir": "linux-64",
+  "timestamp": 1723724896000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/bilby.cython-0.5.2-py39h988be6c_0.conda",
+  "version": "0.5.2"
+}

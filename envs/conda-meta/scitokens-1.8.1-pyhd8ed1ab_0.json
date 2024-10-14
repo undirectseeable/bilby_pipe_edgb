@@ -1,0 +1,294 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cryptography",
+    "pyjwt >=1.6.1",
+    "python >=3.5",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/scitokens-1.8.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/LICENSE",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/METADATA",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/RECORD",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/WHEEL",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/scitokens-1.8.1.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/scitokens/__init__.py",
+    "lib/python3.9/site-packages/scitokens/scitokens.py",
+    "lib/python3.9/site-packages/scitokens/tools/__init__.py",
+    "lib/python3.9/site-packages/scitokens/tools/admin_create_key.py",
+    "lib/python3.9/site-packages/scitokens/tools/admin_create_token.py",
+    "lib/python3.9/site-packages/scitokens/tools/verify_token.py",
+    "lib/python3.9/site-packages/scitokens/urltools.py",
+    "lib/python3.9/site-packages/scitokens/utils/__init__.py",
+    "lib/python3.9/site-packages/scitokens/utils/config.py",
+    "lib/python3.9/site-packages/scitokens/utils/demo.py",
+    "lib/python3.9/site-packages/scitokens/utils/errors.py",
+    "lib/python3.9/site-packages/scitokens/utils/keycache.py",
+    "lib/python3.9/site-packages/scitokens/utils/scitokens_protect.py",
+    "lib/python3.9/site-packages/scitokens/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/__pycache__/scitokens.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/tools/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/tools/__pycache__/admin_create_key.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/tools/__pycache__/admin_create_token.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/tools/__pycache__/verify_token.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/__pycache__/urltools.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/demo.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/errors.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/keycache.cpython-39.pyc",
+    "lib/python3.9/site-packages/scitokens/utils/__pycache__/scitokens_protect.cpython-39.pyc",
+    "bin/scitokens-admin-create-key",
+    "bin/scitokens-admin-create-token",
+    "bin/scitokens-verify-token"
+  ],
+  "fn": "scitokens-1.8.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/scitokens-1.8.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f81000dea6af15d76c08db2898185e82",
+  "name": "scitokens",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/scitokens-1.8.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "sha256_in_prefix": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b9875b91a0589e610b0b694e9cfe0658df95891dfeab0dd311c7548a75aa92f2",
+        "sha256_in_prefix": "b9875b91a0589e610b0b694e9cfe0658df95891dfeab0dd311c7548a75aa92f2",
+        "size_in_bytes": 12576
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d0c4c99203fbe1d741a60e1f341bd8d9de95b558a1897afedb127247953b2f6",
+        "sha256_in_prefix": "2d0c4c99203fbe1d741a60e1f341bd8d9de95b558a1897afedb127247953b2f6",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ad6c6606da7b84452a54b3a74da0ce3e947e719a420e4ce185c05c7be6727799",
+        "sha256_in_prefix": "ad6c6606da7b84452a54b3a74da0ce3e947e719a420e4ce185c05c7be6727799",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "cf584d3a5c38e11deecbee91181fb6021efffaf297793d90c17e619abd27a188",
+        "sha256_in_prefix": "cf584d3a5c38e11deecbee91181fb6021efffaf297793d90c17e619abd27a188",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c4ae58dbcec91f5951999ec992875a296462b8712728f81bbc76c673eb4b5c5f",
+        "sha256_in_prefix": "c4ae58dbcec91f5951999ec992875a296462b8712728f81bbc76c673eb4b5c5f",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "site-packages/scitokens-1.8.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e94b55c697fe7b661199e54633c4e5a8a601d1d9d76b49094a2e7b56248d9fc0",
+        "sha256_in_prefix": "e94b55c697fe7b661199e54633c4e5a8a601d1d9d76b49094a2e7b56248d9fc0",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/scitokens/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3def165fb99678b342b3c55240609f0bcc07032dc39d954dec2a8bb6d0c96b4",
+        "sha256_in_prefix": "b3def165fb99678b342b3c55240609f0bcc07032dc39d954dec2a8bb6d0c96b4",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/scitokens/scitokens.py",
+        "path_type": "hardlink",
+        "sha256": "2cccbbe72a0579a625da9b9c8d1463219878d2bfb04a0840bfffca661526c853",
+        "sha256_in_prefix": "2cccbbe72a0579a625da9b9c8d1463219878d2bfb04a0840bfffca661526c853",
+        "size_in_bytes": 26088
+      },
+      {
+        "_path": "site-packages/scitokens/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3492ee63ba2dc5991c5d25339caef1194f7b8ec83c2577aeda953397364d0a0",
+        "sha256_in_prefix": "b3492ee63ba2dc5991c5d25339caef1194f7b8ec83c2577aeda953397364d0a0",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/scitokens/tools/admin_create_key.py",
+        "path_type": "hardlink",
+        "sha256": "cd756d3057adb34baa3eaaec24ac84c78739c4452f04bee13278e76c03dd683c",
+        "sha256_in_prefix": "cd756d3057adb34baa3eaaec24ac84c78739c4452f04bee13278e76c03dd683c",
+        "size_in_bytes": 7318
+      },
+      {
+        "_path": "site-packages/scitokens/tools/admin_create_token.py",
+        "path_type": "hardlink",
+        "sha256": "eaad40f7d90ccf97af928305275b72d3680c0d695424cb55efcbaa5befdcf5b4",
+        "sha256_in_prefix": "eaad40f7d90ccf97af928305275b72d3680c0d695424cb55efcbaa5befdcf5b4",
+        "size_in_bytes": 2204
+      },
+      {
+        "_path": "site-packages/scitokens/tools/verify_token.py",
+        "path_type": "hardlink",
+        "sha256": "f9badf8c6ac53f03830d2d4d729c77352a45fa285fbab91b336bfcaca98d52b6",
+        "sha256_in_prefix": "f9badf8c6ac53f03830d2d4d729c77352a45fa285fbab91b336bfcaca98d52b6",
+        "size_in_bytes": 2129
+      },
+      {
+        "_path": "site-packages/scitokens/urltools.py",
+        "path_type": "hardlink",
+        "sha256": "9592b274fde3ea731b3ccb53629053a8deee31e2a35e68a4ebf9ab45a56e95b5",
+        "sha256_in_prefix": "9592b274fde3ea731b3ccb53629053a8deee31e2a35e68a4ebf9ab45a56e95b5",
+        "size_in_bytes": 1791
+      },
+      {
+        "_path": "site-packages/scitokens/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2b3d8fab6ded8457ff85193fb2bf0849aac188fc850e329fa0592de7b0abe567",
+        "sha256_in_prefix": "2b3d8fab6ded8457ff85193fb2bf0849aac188fc850e329fa0592de7b0abe567",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "site-packages/scitokens/utils/config.py",
+        "path_type": "hardlink",
+        "sha256": "1748522720fd59833fd05a5445a95008e71c59a076d0c15456c3532d6c20f5cb",
+        "sha256_in_prefix": "1748522720fd59833fd05a5445a95008e71c59a076d0c15456c3532d6c20f5cb",
+        "size_in_bytes": 2878
+      },
+      {
+        "_path": "site-packages/scitokens/utils/demo.py",
+        "path_type": "hardlink",
+        "sha256": "5821186820b346e3528ba0f78f00ecbd489b3bbeabc15f1c04c9904c06627c76",
+        "sha256_in_prefix": "5821186820b346e3528ba0f78f00ecbd489b3bbeabc15f1c04c9904c06627c76",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "site-packages/scitokens/utils/errors.py",
+        "path_type": "hardlink",
+        "sha256": "c47cf290eadafbac69672bc901c2e62f465fef99e7251b5a637c1fc95579b864",
+        "sha256_in_prefix": "c47cf290eadafbac69672bc901c2e62f465fef99e7251b5a637c1fc95579b864",
+        "size_in_bytes": 1162
+      },
+      {
+        "_path": "site-packages/scitokens/utils/keycache.py",
+        "path_type": "hardlink",
+        "sha256": "8bb56f1a5da6578e5d61d950c1cfd7de63c734359e3e12becb5d25078a9e0473",
+        "sha256_in_prefix": "8bb56f1a5da6578e5d61d950c1cfd7de63c734359e3e12becb5d25078a9e0473",
+        "size_in_bytes": 14306
+      },
+      {
+        "_path": "site-packages/scitokens/utils/scitokens_protect.py",
+        "path_type": "hardlink",
+        "sha256": "93490cb7ddc93c90a8bd6bfed73398f173321a0ad0f62c19110b07484772f34c",
+        "sha256_in_prefix": "93490cb7ddc93c90a8bd6bfed73398f173321a0ad0f62c19110b07484772f34c",
+        "size_in_bytes": 2933
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/__pycache__/scitokens.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/tools/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/tools/__pycache__/admin_create_key.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/tools/__pycache__/admin_create_token.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/tools/__pycache__/verify_token.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/__pycache__/urltools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/demo.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/keycache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/scitokens/utils/__pycache__/scitokens_protect.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/scitokens-admin-create-key",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/scitokens-admin-create-token",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/scitokens-verify-token",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7b4c346542114724d21232e5d70eda6550247cc92d002534b316f916bed30c8",
+  "size": 45431,
+  "subdir": "noarch",
+  "timestamp": 1721639146000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/scitokens-1.8.1-pyhd8ed1ab_0.conda",
+  "version": "1.8.1"
+}

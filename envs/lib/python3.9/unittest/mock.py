@@ -406,7 +406,7 @@ class NonCallableMock(Base):
             # Check if spec is an async object or function
             bound_args = _MOCK_SIG.bind_partial(cls, *args, **kw).arguments
             spec_arg = bound_args.get('spec_set', bound_args.get('spec'))
-            if spec_arg and _is_async_obj(spec_arg):
+            if spec_arg is not None and _is_async_obj(spec_arg):
                 bases = (AsyncMockMixin, cls)
         new = type(cls.__name__, bases, {'__doc__': cls.__doc__})
         instance = _safe_super(NonCallableMock, cls).__new__(new)
@@ -992,6 +992,11 @@ class NonCallableMock(Base):
         if _new_name in self.__dict__['_spec_asyncs']:
             return AsyncMock(**kw)
 
+        if self._mock_sealed:
+            attribute = f".{kw['name']}" if "name" in kw else "()"
+            mock_name = self._extract_mock_name() + attribute
+            raise AttributeError(mock_name)
+
         _type = type(self)
         if issubclass(_type, MagicMock) and _new_name in _async_method_magics:
             # Any asynchronous magic becomes an AsyncMock
@@ -1010,12 +1015,6 @@ class NonCallableMock(Base):
                 klass = Mock
         else:
             klass = _type.__mro__[1]
-
-        if self._mock_sealed:
-            attribute = "." + kw["name"] if "name" in kw else "()"
-            mock_name = self._extract_mock_name() + attribute
-            raise AttributeError(mock_name)
-
         return klass(**kw)
 
 
@@ -1558,9 +1557,9 @@ class _patch(object):
 def _get_target(target):
     try:
         target, attribute = target.rsplit('.', 1)
-    except (TypeError, ValueError):
-        raise TypeError("Need a valid target to patch. You supplied: %r" %
-                        (target,))
+    except (TypeError, ValueError, AttributeError):
+        raise TypeError(
+            f"Need a valid target to patch. You supplied: {target!r}")
     getter = lambda: _importer(target)
     return getter, attribute
 
@@ -2868,6 +2867,8 @@ def seal(mock):
         except AttributeError:
             continue
         if not isinstance(m, NonCallableMock):
+            continue
+        if isinstance(m._mock_children.get(attr), _SpecState):
             continue
         if m._mock_new_parent is mock:
             seal(m)

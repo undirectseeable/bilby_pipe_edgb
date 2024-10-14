@@ -1,0 +1,933 @@
+{
+  "build": "fftw_hcbe9c14_100",
+  "build_number": 100,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "python-lal >=7.1.1",
+    "lal >=7.1.1"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "fftw >=3.3.10,<4.0a0",
+    "gsl >=2.7,<2.8.0a0",
+    "hdf5 >=1.14.3,<1.14.4.0a0",
+    "libgcc-ng >=13",
+    "libzlib >=1.3.1,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/nj2nu/.conda/pkgs/liblal-7.6.0-fftw_hcbe9c14_100",
+  "files": [
+    "include/lal/AVFactories.h",
+    "include/lal/Audio.h",
+    "include/lal/BandPassTimeSeries.h",
+    "include/lal/Calibration.h",
+    "include/lal/CoherentEstimation.h",
+    "include/lal/ComplexFFT.h",
+    "include/lal/ComputeDataQualityVector.h",
+    "include/lal/ConfigFile.h",
+    "include/lal/Date.h",
+    "include/lal/DetResponse.h",
+    "include/lal/DetectorSite.h",
+    "include/lal/EllipsoidOverlapTools.h",
+    "include/lal/FFTWMutex.h",
+    "include/lal/Factorial.h",
+    "include/lal/FileIO.h",
+    "include/lal/FindRoot.h",
+    "include/lal/FrequencySeries.h",
+    "include/lal/H5FileIO.h",
+    "include/lal/IIRFilter.h",
+    "include/lal/Integrate.h",
+    "include/lal/Interpolate.h",
+    "include/lal/LALAdaptiveRungeKuttaIntegrator.h",
+    "include/lal/LALAtomicDatatypes.h",
+    "include/lal/LALBitset.h",
+    "include/lal/LALCache.h",
+    "include/lal/LALChisq.h",
+    "include/lal/LALConfig.h",
+    "include/lal/LALConstants.h",
+    "include/lal/LALCosmologyCalculator.h",
+    "include/lal/LALDatatypes.h",
+    "include/lal/LALDebugLevel.h",
+    "include/lal/LALDetectors.h",
+    "include/lal/LALDict.h",
+    "include/lal/LALDictSequence.h",
+    "include/lal/LALError.h",
+    "include/lal/LALGSL.h",
+    "include/lal/LALHashFunc.h",
+    "include/lal/LALHashTbl.h",
+    "include/lal/LALHeap.h",
+    "include/lal/LALList.h",
+    "include/lal/LALMalloc.h",
+    "include/lal/LALMarcumQ.h",
+    "include/lal/LALMathematica.h",
+    "include/lal/LALNoiseModels.h",
+    "include/lal/LALRunningMedian.h",
+    "include/lal/LALSIMD.h",
+    "include/lal/LALStatusMacros.h",
+    "include/lal/LALStddef.h",
+    "include/lal/LALStdio.h",
+    "include/lal/LALStdlib.h",
+    "include/lal/LALString.h",
+    "include/lal/LALVCSInfo.h",
+    "include/lal/LALVCSInfoHeader.h",
+    "include/lal/LALVCSInfoType.h",
+    "include/lal/LALValue.h",
+    "include/lal/LALgetopt.h",
+    "include/lal/LogPrintf.h",
+    "include/lal/MatrixUtils.h",
+    "include/lal/PrintFTSeries.h",
+    "include/lal/PrintVector.h",
+    "include/lal/Random.h",
+    "include/lal/ReadFTSeries.h",
+    "include/lal/ReadNoiseSpectrum.h",
+    "include/lal/RealFFT.h",
+    "include/lal/ResampleTimeSeries.h",
+    "include/lal/RngMedBias.h",
+    "include/lal/SWIGCommon.i",
+    "include/lal/SWIGLALAlpha.i",
+    "include/lal/SWIGLALOmega.i",
+    "include/lal/SWIGLALTest.h",
+    "include/lal/SWIGOctave.i",
+    "include/lal/SWIGPython.i",
+    "include/lal/Segments.h",
+    "include/lal/SeqFactories.h",
+    "include/lal/Sequence.h",
+    "include/lal/SimulateCoherentGW.h",
+    "include/lal/SkyCoordinates.h",
+    "include/lal/Skymap.h",
+    "include/lal/Sort.h",
+    "include/lal/SphericalHarmonics.h",
+    "include/lal/StreamInput.h",
+    "include/lal/StreamOutput.h",
+    "include/lal/StringInput.h",
+    "include/lal/StringVector.h",
+    "include/lal/TimeDelay.h",
+    "include/lal/TimeFreqFFT.h",
+    "include/lal/TimeSeries.h",
+    "include/lal/TimeSeriesInterp.h",
+    "include/lal/TranslateAngles.h",
+    "include/lal/TranslateMJD.h",
+    "include/lal/TriggerInterpolation.h",
+    "include/lal/Units.h",
+    "include/lal/UserInput.h",
+    "include/lal/UserInputParse.h",
+    "include/lal/UserInputPrint.h",
+    "include/lal/VectorMath.h",
+    "include/lal/VectorOps.h",
+    "include/lal/Window.h",
+    "include/lal/XLALError.h",
+    "include/lal/XLALGSL.h",
+    "include/lal/ZPGFilter.h",
+    "include/lal/swiglal.i",
+    "lib/liblal.so",
+    "lib/liblal.so.20",
+    "lib/liblal.so.20.4.0",
+    "lib/liblalsupport.so",
+    "lib/liblalsupport.so.14",
+    "lib/liblalsupport.so.14.3.0",
+    "lib/pkgconfig/lal.pc",
+    "lib/pkgconfig/lalsupport.pc",
+    "share/man/man7/LAL_DEBUG_LEVEL.7"
+  ],
+  "fn": "liblal-7.6.0-fftw_hcbe9c14_100.conda",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/nj2nu/.conda/pkgs/liblal-7.6.0-fftw_hcbe9c14_100",
+    "type": 1
+  },
+  "md5": "fdd197c20bf21a252c19316ed088fc83",
+  "name": "liblal",
+  "package_tarball_full_path": "/home/nj2nu/.conda/pkgs/liblal-7.6.0-fftw_hcbe9c14_100.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/lal/AVFactories.h",
+        "path_type": "hardlink",
+        "sha256": "f2b6a232bf56578c4ad8d93f9849c91973df3b867f2f2d4790b5ffb549ccda00",
+        "sha256_in_prefix": "f2b6a232bf56578c4ad8d93f9849c91973df3b867f2f2d4790b5ffb549ccda00",
+        "size_in_bytes": 21211
+      },
+      {
+        "_path": "include/lal/Audio.h",
+        "path_type": "hardlink",
+        "sha256": "f0701a43ab379263b1dc8516077ccce048ada54bd4ba198cc22b3732d67cb375",
+        "sha256_in_prefix": "f0701a43ab379263b1dc8516077ccce048ada54bd4ba198cc22b3732d67cb375",
+        "size_in_bytes": 2132
+      },
+      {
+        "_path": "include/lal/BandPassTimeSeries.h",
+        "path_type": "hardlink",
+        "sha256": "d9047d647fe718a7ca0da6d63fbd0b361b55086c6ce7db5a4d0d95b8c28345e6",
+        "sha256_in_prefix": "d9047d647fe718a7ca0da6d63fbd0b361b55086c6ce7db5a4d0d95b8c28345e6",
+        "size_in_bytes": 5141
+      },
+      {
+        "_path": "include/lal/Calibration.h",
+        "path_type": "hardlink",
+        "sha256": "a25f5b504b00caa96ba41671ebced13eaba3539ee6e8a32eb05b06e0544c39b0",
+        "sha256_in_prefix": "a25f5b504b00caa96ba41671ebced13eaba3539ee6e8a32eb05b06e0544c39b0",
+        "size_in_bytes": 9901
+      },
+      {
+        "_path": "include/lal/CoherentEstimation.h",
+        "path_type": "hardlink",
+        "sha256": "3d6791e43e78d2bd7558d2c4c102d84fc23dda31aab44598c6e62fd26d62437b",
+        "sha256_in_prefix": "3d6791e43e78d2bd7558d2c4c102d84fc23dda31aab44598c6e62fd26d62437b",
+        "size_in_bytes": 3325
+      },
+      {
+        "_path": "include/lal/ComplexFFT.h",
+        "path_type": "hardlink",
+        "sha256": "a11a788b2c8365e483dccace17262825f681d74e5fbe728412e848c2677193a8",
+        "sha256_in_prefix": "a11a788b2c8365e483dccace17262825f681d74e5fbe728412e848c2677193a8",
+        "size_in_bytes": 15029
+      },
+      {
+        "_path": "include/lal/ComputeDataQualityVector.h",
+        "path_type": "hardlink",
+        "sha256": "8eb9ecccdc66ea3578a52c9b076c03ef2b3e2d4c60de763bff1ddd40d8df0a67",
+        "sha256_in_prefix": "8eb9ecccdc66ea3578a52c9b076c03ef2b3e2d4c60de763bff1ddd40d8df0a67",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "include/lal/ConfigFile.h",
+        "path_type": "hardlink",
+        "sha256": "f3016b0f4e3725b1d9df1ecba705ae8b28267d22bf240a1b2e5ef996364d3238",
+        "sha256_in_prefix": "f3016b0f4e3725b1d9df1ecba705ae8b28267d22bf240a1b2e5ef996364d3238",
+        "size_in_bytes": 5954
+      },
+      {
+        "_path": "include/lal/Date.h",
+        "path_type": "hardlink",
+        "sha256": "aec79d793de46d470233ed083facd00efc898a4976f5b83ba662d84d4be5ab9e",
+        "sha256_in_prefix": "aec79d793de46d470233ed083facd00efc898a4976f5b83ba662d84d4be5ab9e",
+        "size_in_bytes": 9255
+      },
+      {
+        "_path": "include/lal/DetResponse.h",
+        "path_type": "hardlink",
+        "sha256": "53d87f8f93a0f666c730c55a2266a0c73960b02e7f28ac75bc583040109369eb",
+        "sha256_in_prefix": "53d87f8f93a0f666c730c55a2266a0c73960b02e7f28ac75bc583040109369eb",
+        "size_in_bytes": 8680
+      },
+      {
+        "_path": "include/lal/DetectorSite.h",
+        "path_type": "hardlink",
+        "sha256": "6273811c8864078b9dd5ff77fe2050c44e151e418e03451eba466323fb9e71db",
+        "sha256_in_prefix": "6273811c8864078b9dd5ff77fe2050c44e151e418e03451eba466323fb9e71db",
+        "size_in_bytes": 1784
+      },
+      {
+        "_path": "include/lal/EllipsoidOverlapTools.h",
+        "path_type": "hardlink",
+        "sha256": "21a7348572770b4be17ebee9c83812a08e106296e585e09f47e335d9e27e5038",
+        "sha256_in_prefix": "21a7348572770b4be17ebee9c83812a08e106296e585e09f47e335d9e27e5038",
+        "size_in_bytes": 3000
+      },
+      {
+        "_path": "include/lal/FFTWMutex.h",
+        "path_type": "hardlink",
+        "sha256": "6c301d0c9cda339627879385d0b928f4012046b1c35b64015e0ed39e2cbc4720",
+        "sha256_in_prefix": "6c301d0c9cda339627879385d0b928f4012046b1c35b64015e0ed39e2cbc4720",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "include/lal/Factorial.h",
+        "path_type": "hardlink",
+        "sha256": "ba5a335130cd5677da197f07482e092436d89377332909e0a71c62c897219278",
+        "sha256_in_prefix": "ba5a335130cd5677da197f07482e092436d89377332909e0a71c62c897219278",
+        "size_in_bytes": 7639
+      },
+      {
+        "_path": "include/lal/FileIO.h",
+        "path_type": "hardlink",
+        "sha256": "5a1e18a3b5795c07b25168eaaba65b0d717a25d75471a7ef29dbada4814803a4",
+        "sha256_in_prefix": "5a1e18a3b5795c07b25168eaaba65b0d717a25d75471a7ef29dbada4814803a4",
+        "size_in_bytes": 4510
+      },
+      {
+        "_path": "include/lal/FindRoot.h",
+        "path_type": "hardlink",
+        "sha256": "47c723bf6db86ed7edc1150b7110ad0f492579da06f19bba761a352ce3cbc0b6",
+        "sha256_in_prefix": "47c723bf6db86ed7edc1150b7110ad0f492579da06f19bba761a352ce3cbc0b6",
+        "size_in_bytes": 5005
+      },
+      {
+        "_path": "include/lal/FrequencySeries.h",
+        "path_type": "hardlink",
+        "sha256": "a14caaedc6b859b1657cb8d830932e81ab99e5e5faf00cd82940a7c4dcde506f",
+        "sha256_in_prefix": "a14caaedc6b859b1657cb8d830932e81ab99e5e5faf00cd82940a7c4dcde506f",
+        "size_in_bytes": 13928
+      },
+      {
+        "_path": "include/lal/H5FileIO.h",
+        "path_type": "hardlink",
+        "sha256": "16dddd2fa543115251fba6f7fd72b579e8cfc654597f5e5d8d41bb37cb697db4",
+        "sha256_in_prefix": "16dddd2fa543115251fba6f7fd72b579e8cfc654597f5e5d8d41bb37cb697db4",
+        "size_in_bytes": 21308
+      },
+      {
+        "_path": "include/lal/IIRFilter.h",
+        "path_type": "hardlink",
+        "sha256": "ff8e34a29d2ae88f89b2854279595b564a0d8fae6e0fff43cd0e5548b91a5e9e",
+        "sha256_in_prefix": "ff8e34a29d2ae88f89b2854279595b564a0d8fae6e0fff43cd0e5548b91a5e9e",
+        "size_in_bytes": 11415
+      },
+      {
+        "_path": "include/lal/Integrate.h",
+        "path_type": "hardlink",
+        "sha256": "263d0e86f3b35b27e285414f9a16e0fcd1c0570183d3a3b7a42395dae774475b",
+        "sha256_in_prefix": "263d0e86f3b35b27e285414f9a16e0fcd1c0570183d3a3b7a42395dae774475b",
+        "size_in_bytes": 4805
+      },
+      {
+        "_path": "include/lal/Interpolate.h",
+        "path_type": "hardlink",
+        "sha256": "3d324f4ab4e797ec80613ea28c2b9d35828b77f2b92687dbdf428c20d8143312",
+        "sha256_in_prefix": "3d324f4ab4e797ec80613ea28c2b9d35828b77f2b92687dbdf428c20d8143312",
+        "size_in_bytes": 5586
+      },
+      {
+        "_path": "include/lal/LALAdaptiveRungeKuttaIntegrator.h",
+        "path_type": "hardlink",
+        "sha256": "a57edf2b3ccc063317356406d40f9c73a3d760522db8a4d85db0d77b3b50ff25",
+        "sha256_in_prefix": "a57edf2b3ccc063317356406d40f9c73a3d760522db8a4d85db0d77b3b50ff25",
+        "size_in_bytes": 6508
+      },
+      {
+        "_path": "include/lal/LALAtomicDatatypes.h",
+        "path_type": "hardlink",
+        "sha256": "b95ed06ba0d59423b15a6e63099d20b1bc1356624bf00846c7dede253b1370ec",
+        "sha256_in_prefix": "b95ed06ba0d59423b15a6e63099d20b1bc1356624bf00846c7dede253b1370ec",
+        "size_in_bytes": 6899
+      },
+      {
+        "_path": "include/lal/LALBitset.h",
+        "path_type": "hardlink",
+        "sha256": "4d11517d64a23fe247332103213736bdd279122cfc27b4ead0b8a08ba0a944af",
+        "sha256_in_prefix": "4d11517d64a23fe247332103213736bdd279122cfc27b4ead0b8a08ba0a944af",
+        "size_in_bytes": 2076
+      },
+      {
+        "_path": "include/lal/LALCache.h",
+        "path_type": "hardlink",
+        "sha256": "a9bbcddd764befe8524c10bae964fc482c2de515589f7275729967368da80cd7",
+        "sha256_in_prefix": "a9bbcddd764befe8524c10bae964fc482c2de515589f7275729967368da80cd7",
+        "size_in_bytes": 4554
+      },
+      {
+        "_path": "include/lal/LALChisq.h",
+        "path_type": "hardlink",
+        "sha256": "04a9872e7600b52d8beae782ad9c24d8786436a744c6dade3a5905f28407b0e0",
+        "sha256_in_prefix": "04a9872e7600b52d8beae782ad9c24d8786436a744c6dade3a5905f28407b0e0",
+        "size_in_bytes": 1180
+      },
+      {
+        "_path": "include/lal/LALConfig.h",
+        "path_type": "hardlink",
+        "sha256": "39267539cfd658159f75c1fbda6eaa405398d00f37cc14f9aa8a84a4ab25fe7c",
+        "sha256_in_prefix": "39267539cfd658159f75c1fbda6eaa405398d00f37cc14f9aa8a84a4ab25fe7c",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "include/lal/LALConstants.h",
+        "path_type": "hardlink",
+        "sha256": "df631a66e5fa01fdec4898be79c168a8f2a4d45759eabda77e38a52111a61950",
+        "sha256_in_prefix": "df631a66e5fa01fdec4898be79c168a8f2a4d45759eabda77e38a52111a61950",
+        "size_in_bytes": 22617
+      },
+      {
+        "_path": "include/lal/LALCosmologyCalculator.h",
+        "path_type": "hardlink",
+        "sha256": "2b0a59904687b7238149ffdf274c5103ba4919278274726e23c4460def90ecad",
+        "sha256_in_prefix": "2b0a59904687b7238149ffdf274c5103ba4919278274726e23c4460def90ecad",
+        "size_in_bytes": 5059
+      },
+      {
+        "_path": "include/lal/LALDatatypes.h",
+        "path_type": "hardlink",
+        "sha256": "34c3cbd9c692f524ab806d586398341a9c3af0cc7b453446914a1e89118f843b",
+        "sha256_in_prefix": "34c3cbd9c692f524ab806d586398341a9c3af0cc7b453446914a1e89118f843b",
+        "size_in_bytes": 44873
+      },
+      {
+        "_path": "include/lal/LALDebugLevel.h",
+        "path_type": "hardlink",
+        "sha256": "63c5f31b7708e2c62789429c4c97265402dc26a5769c89e2683c93ccb8d98b8d",
+        "sha256_in_prefix": "63c5f31b7708e2c62789429c4c97265402dc26a5769c89e2683c93ccb8d98b8d",
+        "size_in_bytes": 2685
+      },
+      {
+        "_path": "include/lal/LALDetectors.h",
+        "path_type": "hardlink",
+        "sha256": "af31b603dafe5f528a892987a766cdfb0cdb439c95469d44fe5ba70e18a325f6",
+        "sha256_in_prefix": "af31b603dafe5f528a892987a766cdfb0cdb439c95469d44fe5ba70e18a325f6",
+        "size_in_bytes": 64454
+      },
+      {
+        "_path": "include/lal/LALDict.h",
+        "path_type": "hardlink",
+        "sha256": "cdbbf7a66655133e5df414ed519459172706421219316b5a3a01e0e59e2a0679",
+        "sha256_in_prefix": "cdbbf7a66655133e5df414ed519459172706421219316b5a3a01e0e59e2a0679",
+        "size_in_bytes": 6430
+      },
+      {
+        "_path": "include/lal/LALDictSequence.h",
+        "path_type": "hardlink",
+        "sha256": "014978f3e4b7445cb8b6811d742bcef9dfef6efd100dd3d15d62adfd394233fa",
+        "sha256_in_prefix": "014978f3e4b7445cb8b6811d742bcef9dfef6efd100dd3d15d62adfd394233fa",
+        "size_in_bytes": 2004
+      },
+      {
+        "_path": "include/lal/LALError.h",
+        "path_type": "hardlink",
+        "sha256": "094c6fa644eb6e1a097e9457666fab722c3b57946b7372ba91955d5a0233316e",
+        "sha256_in_prefix": "094c6fa644eb6e1a097e9457666fab722c3b57946b7372ba91955d5a0233316e",
+        "size_in_bytes": 5792
+      },
+      {
+        "_path": "include/lal/LALGSL.h",
+        "path_type": "hardlink",
+        "sha256": "6fc1268ead51f83b4f4c02561735a92c81aca2d388d89de4cdde7052014cca9b",
+        "sha256_in_prefix": "6fc1268ead51f83b4f4c02561735a92c81aca2d388d89de4cdde7052014cca9b",
+        "size_in_bytes": 7678
+      },
+      {
+        "_path": "include/lal/LALHashFunc.h",
+        "path_type": "hardlink",
+        "sha256": "e71653bfb55c33bf49a42774e902e099971affbc542afbb75437b11491d328e9",
+        "sha256_in_prefix": "e71653bfb55c33bf49a42774e902e099971affbc542afbb75437b11491d328e9",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "include/lal/LALHashTbl.h",
+        "path_type": "hardlink",
+        "sha256": "d9452b8f8c54f310541e1be93a16ac400ef6b8cda8af91fcb0e167191fdf7c1f",
+        "sha256_in_prefix": "d9452b8f8c54f310541e1be93a16ac400ef6b8cda8af91fcb0e167191fdf7c1f",
+        "size_in_bytes": 4686
+      },
+      {
+        "_path": "include/lal/LALHeap.h",
+        "path_type": "hardlink",
+        "sha256": "5ccb5b03c86af7418fe95a5408d4dcf33524dbcb8cb9ba8c8900f09c384cffcf",
+        "sha256_in_prefix": "5ccb5b03c86af7418fe95a5408d4dcf33524dbcb8cb9ba8c8900f09c384cffcf",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "include/lal/LALList.h",
+        "path_type": "hardlink",
+        "sha256": "a43de0b0ca4fd484f91ab3f4911a156076995b51474159d9bed1ab99e672226b",
+        "sha256_in_prefix": "a43de0b0ca4fd484f91ab3f4911a156076995b51474159d9bed1ab99e672226b",
+        "size_in_bytes": 5380
+      },
+      {
+        "_path": "include/lal/LALMalloc.h",
+        "path_type": "hardlink",
+        "sha256": "919caa40afe1361056db1071e1b07928a406821d4005e0ff77de3a91eee1532b",
+        "sha256_in_prefix": "919caa40afe1361056db1071e1b07928a406821d4005e0ff77de3a91eee1532b",
+        "size_in_bytes": 5537
+      },
+      {
+        "_path": "include/lal/LALMarcumQ.h",
+        "path_type": "hardlink",
+        "sha256": "4398c35be11bbc393ac93af60a5dd2ece9b8f731149de36523103f42a41dc4e7",
+        "sha256_in_prefix": "4398c35be11bbc393ac93af60a5dd2ece9b8f731149de36523103f42a41dc4e7",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "include/lal/LALMathematica.h",
+        "path_type": "hardlink",
+        "sha256": "80d8b11b7ebae8960bfe792631e9cea4ee3a9433f5d367a71e0772faa17fb0dc",
+        "sha256_in_prefix": "80d8b11b7ebae8960bfe792631e9cea4ee3a9433f5d367a71e0772faa17fb0dc",
+        "size_in_bytes": 7959
+      },
+      {
+        "_path": "include/lal/LALNoiseModels.h",
+        "path_type": "hardlink",
+        "sha256": "a64ffc56070e65f4aac914eede05c8fad260df76d14be495d48ca813d80b7b87",
+        "sha256_in_prefix": "a64ffc56070e65f4aac914eede05c8fad260df76d14be495d48ca813d80b7b87",
+        "size_in_bytes": 4746
+      },
+      {
+        "_path": "include/lal/LALRunningMedian.h",
+        "path_type": "hardlink",
+        "sha256": "e8db3286d85cbb8216316bffb375b7f3f60ce4357b99e56430fd8a6684de274c",
+        "sha256_in_prefix": "e8db3286d85cbb8216316bffb375b7f3f60ce4357b99e56430fd8a6684de274c",
+        "size_in_bytes": 5376
+      },
+      {
+        "_path": "include/lal/LALSIMD.h",
+        "path_type": "hardlink",
+        "sha256": "0372b0d11298907c40759eb4060b55e4b5cf9c467d8b46ff3b2034bf2d25168b",
+        "sha256_in_prefix": "0372b0d11298907c40759eb4060b55e4b5cf9c467d8b46ff3b2034bf2d25168b",
+        "size_in_bytes": 2899
+      },
+      {
+        "_path": "include/lal/LALStatusMacros.h",
+        "path_type": "hardlink",
+        "sha256": "5ecb2a264dc2530e0a29b877312c34c9f62d2dbf91661a3fb464e3b52a20ea8f",
+        "sha256_in_prefix": "5ecb2a264dc2530e0a29b877312c34c9f62d2dbf91661a3fb464e3b52a20ea8f",
+        "size_in_bytes": 14649
+      },
+      {
+        "_path": "include/lal/LALStddef.h",
+        "path_type": "hardlink",
+        "sha256": "fb9ba83bfab3d3d0357a85c7f8809de61424759fc550cfe81ebe23cc8d029054",
+        "sha256_in_prefix": "fb9ba83bfab3d3d0357a85c7f8809de61424759fc550cfe81ebe23cc8d029054",
+        "size_in_bytes": 1778
+      },
+      {
+        "_path": "include/lal/LALStdio.h",
+        "path_type": "hardlink",
+        "sha256": "492256d2e437e26b248196687ed2652e6f0c177afcbc541fbb84d8260c9d3cff",
+        "sha256_in_prefix": "492256d2e437e26b248196687ed2652e6f0c177afcbc541fbb84d8260c9d3cff",
+        "size_in_bytes": 3289
+      },
+      {
+        "_path": "include/lal/LALStdlib.h",
+        "path_type": "hardlink",
+        "sha256": "9d16d2b1cfea0199d00d2d8347129462f3f5f0306c1955f7c042a37046576f92",
+        "sha256_in_prefix": "9d16d2b1cfea0199d00d2d8347129462f3f5f0306c1955f7c042a37046576f92",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "include/lal/LALString.h",
+        "path_type": "hardlink",
+        "sha256": "427dae3aeff2b317cdda5ab4551076d32b4c58d0ae6b6868500cf9141454562d",
+        "sha256_in_prefix": "427dae3aeff2b317cdda5ab4551076d32b4c58d0ae6b6868500cf9141454562d",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "include/lal/LALVCSInfo.h",
+        "path_type": "hardlink",
+        "sha256": "1095e3f6a0012cd5b4bd4a7352901311d6e43d4457537559c9351e4f10563856",
+        "sha256_in_prefix": "1095e3f6a0012cd5b4bd4a7352901311d6e43d4457537559c9351e4f10563856",
+        "size_in_bytes": 1452
+      },
+      {
+        "_path": "include/lal/LALVCSInfoHeader.h",
+        "path_type": "hardlink",
+        "sha256": "214fdaf8260929857697f661babef9a01daeec65c5d209df55cbbea6b87f4fd5",
+        "sha256_in_prefix": "214fdaf8260929857697f661babef9a01daeec65c5d209df55cbbea6b87f4fd5",
+        "size_in_bytes": 1809
+      },
+      {
+        "_path": "include/lal/LALVCSInfoType.h",
+        "path_type": "hardlink",
+        "sha256": "d190777351e72d46989a516a4c20ee36621eecacf021d88fe94fe652e4684c18",
+        "sha256_in_prefix": "d190777351e72d46989a516a4c20ee36621eecacf021d88fe94fe652e4684c18",
+        "size_in_bytes": 2908
+      },
+      {
+        "_path": "include/lal/LALValue.h",
+        "path_type": "hardlink",
+        "sha256": "c664238c0db9e430b91b6624a846cf90c6f9ed24c502c4dc7fa36a99f189d42a",
+        "sha256_in_prefix": "c664238c0db9e430b91b6624a846cf90c6f9ed24c502c4dc7fa36a99f189d42a",
+        "size_in_bytes": 3511
+      },
+      {
+        "_path": "include/lal/LALgetopt.h",
+        "path_type": "hardlink",
+        "sha256": "ce6ed9effc215ed7d6f551813bccefcf6a97a004073bb0b4ab69dbaf5fc9c729",
+        "sha256_in_prefix": "ce6ed9effc215ed7d6f551813bccefcf6a97a004073bb0b4ab69dbaf5fc9c729",
+        "size_in_bytes": 4030
+      },
+      {
+        "_path": "include/lal/LogPrintf.h",
+        "path_type": "hardlink",
+        "sha256": "c440f43a8ba53d7bc2d23c635c772ff3881f503742e853a8d386fdf846778b53",
+        "sha256_in_prefix": "c440f43a8ba53d7bc2d23c635c772ff3881f503742e853a8d386fdf846778b53",
+        "size_in_bytes": 3067
+      },
+      {
+        "_path": "include/lal/MatrixUtils.h",
+        "path_type": "hardlink",
+        "sha256": "99d3c04e7cdde51fe3fb9fe64195426246f8d808b85bce1916761a9934eedf0d",
+        "sha256_in_prefix": "99d3c04e7cdde51fe3fb9fe64195426246f8d808b85bce1916761a9934eedf0d",
+        "size_in_bytes": 6593
+      },
+      {
+        "_path": "include/lal/PrintFTSeries.h",
+        "path_type": "hardlink",
+        "sha256": "8f206c349de956078dd13ce46d593be69a6ccbb69cb9f774c01204d02281b012",
+        "sha256_in_prefix": "8f206c349de956078dd13ce46d593be69a6ccbb69cb9f774c01204d02281b012",
+        "size_in_bytes": 7456
+      },
+      {
+        "_path": "include/lal/PrintVector.h",
+        "path_type": "hardlink",
+        "sha256": "1ea334fc0c6dacd3244a7fe792a123cb260a5368598564d8be86f05e9d831ef0",
+        "sha256_in_prefix": "1ea334fc0c6dacd3244a7fe792a123cb260a5368598564d8be86f05e9d831ef0",
+        "size_in_bytes": 3424
+      },
+      {
+        "_path": "include/lal/Random.h",
+        "path_type": "hardlink",
+        "sha256": "4956937afaa76fd11c728f40303fba97913befe60317cebaf4a09eed33bbc1f9",
+        "sha256_in_prefix": "4956937afaa76fd11c728f40303fba97913befe60317cebaf4a09eed33bbc1f9",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "include/lal/ReadFTSeries.h",
+        "path_type": "hardlink",
+        "sha256": "138f28bcc4fe31513d1d3e62fa432cac67aa7c97dff9e6ce1677b7f522b34bb6",
+        "sha256_in_prefix": "138f28bcc4fe31513d1d3e62fa432cac67aa7c97dff9e6ce1677b7f522b34bb6",
+        "size_in_bytes": 4272
+      },
+      {
+        "_path": "include/lal/ReadNoiseSpectrum.h",
+        "path_type": "hardlink",
+        "sha256": "d58cab5c56df869d9c1132de93509d1c3318d1a9ba995e9cabfae388734bf3d3",
+        "sha256_in_prefix": "d58cab5c56df869d9c1132de93509d1c3318d1a9ba995e9cabfae388734bf3d3",
+        "size_in_bytes": 2776
+      },
+      {
+        "_path": "include/lal/RealFFT.h",
+        "path_type": "hardlink",
+        "sha256": "d26c6f930621a89e460c256c1041e1b6eb667ca306719e62c31200026de5ef87",
+        "sha256_in_prefix": "d26c6f930621a89e460c256c1041e1b6eb667ca306719e62c31200026de5ef87",
+        "size_in_bytes": 28723
+      },
+      {
+        "_path": "include/lal/ResampleTimeSeries.h",
+        "path_type": "hardlink",
+        "sha256": "6a8ce1b400af66e815b65fe063eba11c988eb8f73bf0690a63598cce66fb55ed",
+        "sha256_in_prefix": "6a8ce1b400af66e815b65fe063eba11c988eb8f73bf0690a63598cce66fb55ed",
+        "size_in_bytes": 5877
+      },
+      {
+        "_path": "include/lal/RngMedBias.h",
+        "path_type": "hardlink",
+        "sha256": "436a257c67dea626a6f9fa87fb0c43b4c141c0fae8be867506dd3121ece84527",
+        "sha256_in_prefix": "436a257c67dea626a6f9fa87fb0c43b4c141c0fae8be867506dd3121ece84527",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "include/lal/SWIGCommon.i",
+        "path_type": "hardlink",
+        "sha256": "5c86c24e4d9f686362ad7ca7bb10811dff79adf850220429a409021df0d1d96e",
+        "sha256_in_prefix": "5c86c24e4d9f686362ad7ca7bb10811dff79adf850220429a409021df0d1d96e",
+        "size_in_bytes": 100685
+      },
+      {
+        "_path": "include/lal/SWIGLALAlpha.i",
+        "path_type": "hardlink",
+        "sha256": "70e834a848baa99d6c0225232ccebb00f1daa99c95f47d00205810b9f7a1549f",
+        "sha256_in_prefix": "70e834a848baa99d6c0225232ccebb00f1daa99c95f47d00205810b9f7a1549f",
+        "size_in_bytes": 26012
+      },
+      {
+        "_path": "include/lal/SWIGLALOmega.i",
+        "path_type": "hardlink",
+        "sha256": "0265691c6c596a062c0d0c0c0c34c77eea7fa9cb3ca276bdaa5d7cbcefb00458",
+        "sha256_in_prefix": "0265691c6c596a062c0d0c0c0c34c77eea7fa9cb3ca276bdaa5d7cbcefb00458",
+        "size_in_bytes": 18089
+      },
+      {
+        "_path": "include/lal/SWIGLALTest.h",
+        "path_type": "hardlink",
+        "sha256": "c3d676ff6e62fbab6d798822f539402a46227ec8ab46307bb8a816a99feacd32",
+        "sha256_in_prefix": "c3d676ff6e62fbab6d798822f539402a46227ec8ab46307bb8a816a99feacd32",
+        "size_in_bytes": 15953
+      },
+      {
+        "_path": "include/lal/SWIGOctave.i",
+        "path_type": "hardlink",
+        "sha256": "8c3bc0c1f13a84d3562f36ef88d598edbbd520e7f2f960eaa98b06d2960037b5",
+        "sha256_in_prefix": "8c3bc0c1f13a84d3562f36ef88d598edbbd520e7f2f960eaa98b06d2960037b5",
+        "size_in_bytes": 52328
+      },
+      {
+        "_path": "include/lal/SWIGPython.i",
+        "path_type": "hardlink",
+        "sha256": "dc560178657357d992d34e7951d487c9ce353a0be52083c50204d66b22c81422",
+        "sha256_in_prefix": "dc560178657357d992d34e7951d487c9ce353a0be52083c50204d66b22c81422",
+        "size_in_bytes": 46088
+      },
+      {
+        "_path": "include/lal/Segments.h",
+        "path_type": "hardlink",
+        "sha256": "0e36d612de352792eae7c398a9404680a153ee3894b8a5d9cee591ed578c92b0",
+        "sha256_in_prefix": "0e36d612de352792eae7c398a9404680a153ee3894b8a5d9cee591ed578c92b0",
+        "size_in_bytes": 9212
+      },
+      {
+        "_path": "include/lal/SeqFactories.h",
+        "path_type": "hardlink",
+        "sha256": "2b6570fd31749430b3881cd9ac9b251d7f8f3566e62f9716a14b0a594d8708d8",
+        "sha256_in_prefix": "2b6570fd31749430b3881cd9ac9b251d7f8f3566e62f9716a14b0a594d8708d8",
+        "size_in_bytes": 14112
+      },
+      {
+        "_path": "include/lal/Sequence.h",
+        "path_type": "hardlink",
+        "sha256": "293f028d8d5e4304297b1d353e8ee8e1a5a2fc8728b68d0c8d5a1a21656e8d9b",
+        "sha256_in_prefix": "293f028d8d5e4304297b1d353e8ee8e1a5a2fc8728b68d0c8d5a1a21656e8d9b",
+        "size_in_bytes": 14142
+      },
+      {
+        "_path": "include/lal/SimulateCoherentGW.h",
+        "path_type": "hardlink",
+        "sha256": "a81eb4074f85ad62edc7989f1a78ac16aa785f4e5bff056c0f6edab624cec0a3",
+        "sha256_in_prefix": "a81eb4074f85ad62edc7989f1a78ac16aa785f4e5bff056c0f6edab624cec0a3",
+        "size_in_bytes": 17336
+      },
+      {
+        "_path": "include/lal/SkyCoordinates.h",
+        "path_type": "hardlink",
+        "sha256": "f1f530724ce62c710b6dcbe30bd12adaf06b8ed8ef2b1654ad8a592c8fcd8c7e",
+        "sha256_in_prefix": "f1f530724ce62c710b6dcbe30bd12adaf06b8ed8ef2b1654ad8a592c8fcd8c7e",
+        "size_in_bytes": 6182
+      },
+      {
+        "_path": "include/lal/Skymap.h",
+        "path_type": "hardlink",
+        "sha256": "7ae027eb2026370e4dd9a23d2c906237c322d8c72e79d8061fa609d124f200f6",
+        "sha256_in_prefix": "7ae027eb2026370e4dd9a23d2c906237c322d8c72e79d8061fa609d124f200f6",
+        "size_in_bytes": 3429
+      },
+      {
+        "_path": "include/lal/Sort.h",
+        "path_type": "hardlink",
+        "sha256": "a989d92d380eb55df2a57ccd7f63067b15d69de82fdddd351659175f9da246f6",
+        "sha256_in_prefix": "a989d92d380eb55df2a57ccd7f63067b15d69de82fdddd351659175f9da246f6",
+        "size_in_bytes": 7339
+      },
+      {
+        "_path": "include/lal/SphericalHarmonics.h",
+        "path_type": "hardlink",
+        "sha256": "1c151e7c9ec57f7735d6fc8dfe1692412a607bee45fe60e9ed6b94e21d106b81",
+        "sha256_in_prefix": "1c151e7c9ec57f7735d6fc8dfe1692412a607bee45fe60e9ed6b94e21d106b81",
+        "size_in_bytes": 2047
+      },
+      {
+        "_path": "include/lal/StreamInput.h",
+        "path_type": "hardlink",
+        "sha256": "9bcdae50a1c67764128ef7c19f0da2c22f5921f9e8ac7cc59fcd200c13764afd",
+        "sha256_in_prefix": "9bcdae50a1c67764128ef7c19f0da2c22f5921f9e8ac7cc59fcd200c13764afd",
+        "size_in_bytes": 19461
+      },
+      {
+        "_path": "include/lal/StreamOutput.h",
+        "path_type": "hardlink",
+        "sha256": "520bd7e037d2a81defbfc6cf38d71824460336814fe70d3722726651e7bdcdf1",
+        "sha256_in_prefix": "520bd7e037d2a81defbfc6cf38d71824460336814fe70d3722726651e7bdcdf1",
+        "size_in_bytes": 5827
+      },
+      {
+        "_path": "include/lal/StringInput.h",
+        "path_type": "hardlink",
+        "sha256": "5c949393da9b548f489b94b298180ef8512b28c8ddbf6bd5bb219d64c2e65ca5",
+        "sha256_in_prefix": "5c949393da9b548f489b94b298180ef8512b28c8ddbf6bd5bb219d64c2e65ca5",
+        "size_in_bytes": 7854
+      },
+      {
+        "_path": "include/lal/StringVector.h",
+        "path_type": "hardlink",
+        "sha256": "af9820aafc304808beb28ae0f97d1c8cdca02654733377d3f0e0e9cc6f89a56c",
+        "sha256_in_prefix": "af9820aafc304808beb28ae0f97d1c8cdca02654733377d3f0e0e9cc6f89a56c",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "include/lal/TimeDelay.h",
+        "path_type": "hardlink",
+        "sha256": "8832794e2a5d6cd64010c1d1b82a29503b1d62d43a0a108f13e06d260fdac8ab",
+        "sha256_in_prefix": "8832794e2a5d6cd64010c1d1b82a29503b1d62d43a0a108f13e06d260fdac8ab",
+        "size_in_bytes": 3371
+      },
+      {
+        "_path": "include/lal/TimeFreqFFT.h",
+        "path_type": "hardlink",
+        "sha256": "5b851aa2be3914d4f295a1c591b31dc87c06c4335f6fe2dfcaabe37156c0ede2",
+        "sha256_in_prefix": "5b851aa2be3914d4f295a1c591b31dc87c06c4335f6fe2dfcaabe37156c0ede2",
+        "size_in_bytes": 12426
+      },
+      {
+        "_path": "include/lal/TimeSeries.h",
+        "path_type": "hardlink",
+        "sha256": "e470be5e0d52888c6fa8229311987777801a4af9731ab3c56c39eb56036c115e",
+        "sha256_in_prefix": "e470be5e0d52888c6fa8229311987777801a4af9731ab3c56c39eb56036c115e",
+        "size_in_bytes": 11158
+      },
+      {
+        "_path": "include/lal/TimeSeriesInterp.h",
+        "path_type": "hardlink",
+        "sha256": "1b9a3847479d8fd03910da9c273430cef4117f3e2226f22b34bc6b388e51e199",
+        "sha256_in_prefix": "1b9a3847479d8fd03910da9c273430cef4117f3e2226f22b34bc6b388e51e199",
+        "size_in_bytes": 1930
+      },
+      {
+        "_path": "include/lal/TranslateAngles.h",
+        "path_type": "hardlink",
+        "sha256": "6e0c9119aaeff94c7a7d85cf6bec391eee5335089aeb31d643ae5e4114ae6284",
+        "sha256_in_prefix": "6e0c9119aaeff94c7a7d85cf6bec391eee5335089aeb31d643ae5e4114ae6284",
+        "size_in_bytes": 1582
+      },
+      {
+        "_path": "include/lal/TranslateMJD.h",
+        "path_type": "hardlink",
+        "sha256": "9c8eba451935b3d5d134e6fa16c8e40709ea79b2822d019f5b41a370a821edfa",
+        "sha256_in_prefix": "9c8eba451935b3d5d134e6fa16c8e40709ea79b2822d019f5b41a370a821edfa",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "include/lal/TriggerInterpolation.h",
+        "path_type": "hardlink",
+        "sha256": "ca20cccc154ddb9596141c55fa33dc03def1e56fa8a757965e15527274adf88e",
+        "sha256_in_prefix": "ca20cccc154ddb9596141c55fa33dc03def1e56fa8a757965e15527274adf88e",
+        "size_in_bytes": 11004
+      },
+      {
+        "_path": "include/lal/Units.h",
+        "path_type": "hardlink",
+        "sha256": "d43a5df0f6f8f6d66f38bd6ff05d6d98e256a41707383f9e9ac7828c9c132a35",
+        "sha256_in_prefix": "d43a5df0f6f8f6d66f38bd6ff05d6d98e256a41707383f9e9ac7828c9c132a35",
+        "size_in_bytes": 10047
+      },
+      {
+        "_path": "include/lal/UserInput.h",
+        "path_type": "hardlink",
+        "sha256": "08cddc58789e9f3ad0af4cc65bfbc7a858e226588131d9b08cc9dd0c426ccc0b",
+        "sha256_in_prefix": "08cddc58789e9f3ad0af4cc65bfbc7a858e226588131d9b08cc9dd0c426ccc0b",
+        "size_in_bytes": 15011
+      },
+      {
+        "_path": "include/lal/UserInputParse.h",
+        "path_type": "hardlink",
+        "sha256": "4f4eaaf2c82a34ddd1fb968bd502f967f0caddf9d7cb7aa8c979771d34759542",
+        "sha256_in_prefix": "4f4eaaf2c82a34ddd1fb968bd502f967f0caddf9d7cb7aa8c979771d34759542",
+        "size_in_bytes": 5230
+      },
+      {
+        "_path": "include/lal/UserInputPrint.h",
+        "path_type": "hardlink",
+        "sha256": "90489850af683b22630b62d83a05f1e03b4ae2aec82b82248b4cf963ca353bbf",
+        "sha256_in_prefix": "90489850af683b22630b62d83a05f1e03b4ae2aec82b82248b4cf963ca353bbf",
+        "size_in_bytes": 3445
+      },
+      {
+        "_path": "include/lal/VectorMath.h",
+        "path_type": "hardlink",
+        "sha256": "4471a7a605ce0481228fc3e0177a84d0517ec9c58750e8637e5cf332f32c4e23",
+        "sha256_in_prefix": "4471a7a605ce0481228fc3e0177a84d0517ec9c58750e8637e5cf332f32c4e23",
+        "size_in_bytes": 13012
+      },
+      {
+        "_path": "include/lal/VectorOps.h",
+        "path_type": "hardlink",
+        "sha256": "78b1e6e6ef8400ccd5752059eb57bc1121d0bf4cfcbbf84c5996d69be11b82b3",
+        "sha256_in_prefix": "78b1e6e6ef8400ccd5752059eb57bc1121d0bf4cfcbbf84c5996d69be11b82b3",
+        "size_in_bytes": 5954
+      },
+      {
+        "_path": "include/lal/Window.h",
+        "path_type": "hardlink",
+        "sha256": "5d310bf95bd969a5b92e9cda10b203a64ffbb5c2251b2a0f174f9ccf20369a53",
+        "sha256_in_prefix": "5d310bf95bd969a5b92e9cda10b203a64ffbb5c2251b2a0f174f9ccf20369a53",
+        "size_in_bytes": 12486
+      },
+      {
+        "_path": "include/lal/XLALError.h",
+        "path_type": "hardlink",
+        "sha256": "fcbbb02e15b76703cfdd2eca4823f3da352dbacbe91e0cb0f61b4c8831bbb01e",
+        "sha256_in_prefix": "fcbbb02e15b76703cfdd2eca4823f3da352dbacbe91e0cb0f61b4c8831bbb01e",
+        "size_in_bytes": 34731
+      },
+      {
+        "_path": "include/lal/XLALGSL.h",
+        "path_type": "hardlink",
+        "sha256": "eddcbe9c4a034cdccc60415f1d3f74660c24cd4a50a93290fbb035942d542801",
+        "sha256_in_prefix": "eddcbe9c4a034cdccc60415f1d3f74660c24cd4a50a93290fbb035942d542801",
+        "size_in_bytes": 1384
+      },
+      {
+        "_path": "include/lal/ZPGFilter.h",
+        "path_type": "hardlink",
+        "sha256": "f7f0c6a6567372f954cb799e82ca63c83f693b36d095b2596f3fc2cdf02dd67f",
+        "sha256_in_prefix": "f7f0c6a6567372f954cb799e82ca63c83f693b36d095b2596f3fc2cdf02dd67f",
+        "size_in_bytes": 5877
+      },
+      {
+        "_path": "include/lal/swiglal.i",
+        "path_type": "hardlink",
+        "sha256": "12a1b6dad1863888d7d20e0e9314173997a4a489ff1d397471212417b665ab96",
+        "sha256_in_prefix": "12a1b6dad1863888d7d20e0e9314173997a4a489ff1d397471212417b665ab96",
+        "size_in_bytes": 275358
+      },
+      {
+        "_path": "lib/liblal.so",
+        "path_type": "softlink",
+        "sha256": "920735ca7f2eac418ee8fa4c7ffdcb58211d4091b265ae308aa0629e706e83c7",
+        "size_in_bytes": 4823256
+      },
+      {
+        "_path": "lib/liblal.so.20",
+        "path_type": "softlink",
+        "sha256": "920735ca7f2eac418ee8fa4c7ffdcb58211d4091b265ae308aa0629e706e83c7",
+        "size_in_bytes": 4823256
+      },
+      {
+        "_path": "lib/liblal.so.20.4.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lal-split_1724321295398/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "920735ca7f2eac418ee8fa4c7ffdcb58211d4091b265ae308aa0629e706e83c7",
+        "sha256_in_prefix": "43abbfa104d5886136588f2367f66f7aa87effe5ffcb976e4b0cbaa8ec8b0cb6",
+        "size_in_bytes": 4823256
+      },
+      {
+        "_path": "lib/liblalsupport.so",
+        "path_type": "softlink",
+        "sha256": "a48472281bb3bd7234e30f7a664a15235e74bdc2068d80817856e3e4adea3db7",
+        "size_in_bytes": 4688000
+      },
+      {
+        "_path": "lib/liblalsupport.so.14",
+        "path_type": "softlink",
+        "sha256": "a48472281bb3bd7234e30f7a664a15235e74bdc2068d80817856e3e4adea3db7",
+        "size_in_bytes": 4688000
+      },
+      {
+        "_path": "lib/liblalsupport.so.14.3.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lal-split_1724321295398/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "a48472281bb3bd7234e30f7a664a15235e74bdc2068d80817856e3e4adea3db7",
+        "sha256_in_prefix": "26f98801f29c3ad3d982c0ff2c320026536bc97ff61690661662c0deb9bc0b5a",
+        "size_in_bytes": 4688000
+      },
+      {
+        "_path": "lib/pkgconfig/lal.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lal-split_1724321295398/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "0d67f94bd26c99b385aa210ac28268985b4d5dbee76b5471f8457391e524ff3c",
+        "sha256_in_prefix": "447efa0938987566d60842d1b7d8c71eee2ff4dc99ebb446baf9e903eba2ffca",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/pkgconfig/lalsupport.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/lal-split_1724321295398/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "a43536742ab4063cb4f244baf27e96e9d3f966fa52b461a0cd80fce6f25f3cf5",
+        "sha256_in_prefix": "e757c434df80e52b01fc93409afd32282d7955d57da38877d0953619b2741943",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "share/man/man7/LAL_DEBUG_LEVEL.7",
+        "path_type": "hardlink",
+        "sha256": "e915067a2b1ff0892bb1e9f68136721d6b07ea60283438847f73602f2a352ca0",
+        "sha256_in_prefix": "e915067a2b1ff0892bb1e9f68136721d6b07ea60283438847f73602f2a352ca0",
+        "size_in_bytes": 1969
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ba084eedfd388f106b560d632944ac0a9b4fd8a8a629c29409ff4e861c9a8f4f",
+  "size": 2296568,
+  "subdir": "linux-64",
+  "timestamp": 1724321726000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/liblal-7.6.0-fftw_hcbe9c14_100.conda",
+  "version": "7.6.0"
+}
