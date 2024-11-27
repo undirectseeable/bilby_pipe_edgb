@@ -1,0 +1,6 @@
+#!/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/python3.9
+import os
+import sys
+from importlib.resources import files, as_file
+with as_file(files('lalapps') / 'bin' / 'lalapps_cache') as path:
+    os.execv(path, sys.argv)
