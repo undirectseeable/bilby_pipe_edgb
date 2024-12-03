@@ -9,7 +9,7 @@
 
 
 module load anaconda
-source activate /scratch/nj2nu/dynesty_inf//bilby_pipe_edgb/envs
+source activate /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs
 
 bash ./outdir_GW200224/submit/bash_GW200224.sh analysis
 

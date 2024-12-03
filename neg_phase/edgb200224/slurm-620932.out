@@ -1,0 +1,313 @@
+Loaded Miniforge which replaces Anaconda. 
+- The conda/mamba executables are included.
+- The default channel is conda-forge.
+
+For details see https://www.rc.virginia.edu/2024/10/transition-from-anaconda-to-miniforge-october-15-2024/
+Running: /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/bilby_pipe_analysis outdir_GW200224/GW200224_config_complete.ini --outdir outdir_GW200224 --detectors H1 --detectors L1 --label GW200224_data0_1266618172-4_analysis_H1L1_par0 --data-dump-file outdir_GW200224/data/GW200224_data0_1266618172-4_generation_data_dump.pickle --sampler dynesty
+13:57 bilby_pipe INFO    : Running bilby_pipe version: 1.4.2
+13:57 bilby_pipe INFO    : Running bilby version: 2.3.0
+13:57 bilby_pipe INFO    : Command line arguments: Namespace(ini='outdir_GW200224/GW200224_config_complete.ini', verbose=False, calibration_model=None, spline_calibration_envelope_dict=None, spline_calibration_nodes=10, spline_calibration_amplitude_uncertainty_dict=None, spline_calibration_phase_uncertainty_dict=None, calibration_prior_boundary='reflective', idx=0, data_dump_file='outdir_GW200224/data/GW200224_data0_1266618172-4_generation_data_dump.pickle', ignore_gwpy_data_quality_check=True, gps_tuple=None, gps_file=None, timeslide_file=None, timeslide_dict=None, trigger_time='1266618172.4', n_simulation=0, data_dict=None, data_format=None, allow_tape=True, channel_dict='{H1:GWOSC, L1:GWOSC}', frame_type_dict=None, data_find_url='https://datafind.igwn.org', data_find_urltype='osdf', gaussian_noise=False, zero_noise=False, coherence_test=False, detectors=['H1', 'L1'], duration=4.0, generation_seed=None, psd_dict=None, psd_fractional_overlap=0.5, post_trigger_duration=2.0, sampling_frequency=1024.0, psd_length=32, psd_maximum_duration=1024, psd_method='median', psd_start_time=None, maximum_frequency='1024.', minimum_frequency='20.', tukey_roll_off=0.4, resampling_method='lal', injection=False, injection_dict=None, injection_file=None, injection_numbers=[None], injection_waveform_approximant=None, injection_frequency_domain_source_model=None, injection_waveform_arguments=None, accounting='ligo.dev.o3.cbc.pe.lalinference', accounting_user=None, label='GW200224_data0_1266618172-4_analysis_H1L1_par0', local=False, local_generation=False, generation_pool='local-pool', local_plot=False, outdir='outdir_GW200224', overwrite_outdir=False, periodic_restart_time=259200, request_disk=5.0, request_memory=8.0, request_memory_generation=None, request_cpus=1, conda_env=None, scheduler='condor', scheduler_args=None, scheduler_module=[None], scheduler_env=None, scheduler_analysis_time='7-00:00:00', submit=False, condor_job_priority=0, transfer_files=True, additional_transfer_paths=[None], environment_variables=None, getenv=[None], disable_hdf5_locking=False, log_directory=None, osg=False, desired_sites=None, analysis_executable=None, analysis_executable_parser=None, scitoken_issuer=None, calibration_marginalization=False, distance_marginalization=False, distance_marginalization_lookup_table=None, phase_marginalization=False, time_marginalization=False, jitter_time=True, reference_frame='sky', time_reference='geocent', likelihood_type='GravitationalWaveTransient', calibration_lookup_table=None, number_of_response_curves=1000, roq_folder=None, roq_linear_matrix=None, roq_quadratic_matrix=None, roq_weights=None, roq_weight_format='hdf5', roq_scale_factor=1.0, fiducial_parameters=None, update_fiducial_parameters=False, epsilon=0.025, extra_likelihood_kwargs=None, plot_trace=False, plot_data=False, plot_injection=False, plot_spectrogram=False, plot_calibration=False, plot_corner=False, plot_marginal=False, plot_skymap=False, plot_waveform=False, plot_format='png', create_summary=False, email=None, notification='Never', queue=None, existing_dir=None, webdir=None, summarypages_arguments=None, result_format='hdf5', final_result=True, final_result_nsamples=20000, default_prior='BBHPriorDict', deltaT=0.2, prior_file=None, prior_dict='{mass-1: Constraint(name=\'mass_1\', minimum=10, maximum=80), mass_2 = Constraint(name=\'mass_2\', minimum=10, maximum=80), mass_ratio =  Uniform(name=\'mass_ratio\', minimum=0.125, maximum=1, latex_label="$q$"), chirp_mass =  Uniform(name=\'chirp_mass\', minimum=25, maximum=35, latex_label="$M_{c}$"), chi_1 = bilby.gw.prior.AlignedSpin(name=\'chi_1\', a_prior=Uniform(minimum=0, maximum=0.99)), chi_2 = bilby.gw.prior.AlignedSpin(name=\'chi_2\', a_prior=Uniform(minimum=0, maximum=0.99)), luminosity_distance = PowerLaw(alpha=2, name=\'luminosity_distance\', minimum=50, maximum=2000, unit=\'Mpc\', latex_label=\'$d_L$\'), dec = Cosine(name=\'dec\'), ra = Uniform(name=\'ra\', minimum=0, maximum=2 * np.pi, boundary=\'periodic\'), theta_jn = Sine(name=\'theta_jn\'), psi =  Uniform(name=\'psi\', minimum=0, maximum=np.pi, boundary=\'periodic\'), phase =  Uniform(name=\'phase\', minimum=0, maximum=2 * np.pi, boundary=\'periodic\'), alpha = Uniform(name=\'alpha\', minimum=0, maximum=20.0), }', enforce_signal_duration=True, postprocessing_executable=None, postprocessing_arguments=None, single_postprocessing_executable=None, single_postprocessing_arguments=None, sampler='dynesty', sampling_seed=None, n_parallel=2, sampler_kwargs="{'nlive': 2000, 'naccept': 60, 'check_point_plot': True, 'check_point_delta_t': 1800, 'print_method': 'interval-60', 'sample': 'acceptance-walk', 'nact': 10}", reweighting_configuration=None, reweight_nested_samples=True, waveform_generator='bilby.gw.waveform_generator.WaveformGenerator', reference_frequency=20.0, waveform_approximant='IMRPhenomXAS', catch_waveform_errors=True, pn_spin_order=-1, pn_tidal_order=-1, pn_phase_order=-1, pn_amplitude_order=0, numerical_relativity_file=None, waveform_arguments_dict=None, mode_array=[None], frequency_domain_source_model='bilby_tgr.edgb.source.edgb_waveform_generator', conversion_function=None, generation_function=None)
+13:57 bilby_pipe INFO    : Unknown command line arguments: []
+13:57 bilby_pipe INFO    : Sampling seed set to 23848
+13:57 bilby_pipe INFO    : Found data for detectors = ['H1', 'L1']
+13:57 bilby_pipe INFO    : Using data for detectors = ['H1', 'L1']
+13:57 bilby_pipe INFO    : H1: sampling-frequency=1024.0, segment-start-time=1266618170.3999023, duration=4.0
+13:57 bilby_pipe INFO    : L1: sampling-frequency=1024.0, segment-start-time=1266618170.3999023, duration=4.0
+13:57 bilby_pipe INFO    : No conversion function
+13:57 bilby INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby_tgr.edgb.source.edgb_waveform_generator
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+13:57 bilby_pipe INFO    : No conversion function
+13:57 bilby INFO    : Running for label 'GW200224_data0_1266618172-4_analysis_H1L1_par0', output will be saved to 'outdir_GW200224/result'
+13:57 bilby INFO    : Using lal version 7.6.0
+13:57 bilby INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.24;Id: 66b61e11399a21c5dd2ec3af5f8bb4f4698d367a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+13:57 bilby INFO    : Using lalsimulation version 6.0.0
+13:57 bilby INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.24;Id: 66b61e11399a21c5dd2ec3af5f8bb4f4698d367a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/python3.9/site-packages/bilby/core/utils/log.py:73: UserWarning: The '__version__' attribute is deprecated and will be removed in MarkupSafe 3.1. Use feature detection, or `importlib.metadata.version("markupsafe")`, instead.
+  vdict[key] = str(getattr(sys.modules[key], "__version__", "N/A"))
+13:57 bilby INFO    : Analysis priors:
+13:57 bilby INFO    : mass_ratio=Uniform(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+13:57 bilby INFO    : chirp_mass=Uniform(minimum=25, maximum=35, name='chirp_mass', latex_label='$M_{c}$', unit=None, boundary=None)
+13:57 bilby INFO    : chi_1=bilby.gw.prior.AlignedSpin(a_prior=Uniform(minimum=0, maximum=0.99, name=None, latex_label=None, unit=None, boundary=None), z_prior=Uniform(minimum=-1, maximum=1, name=None, latex_label=None, unit=None, boundary=None), name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None, minimum=-0.99, maximum=0.99)
+13:57 bilby INFO    : chi_2=bilby.gw.prior.AlignedSpin(a_prior=Uniform(minimum=0, maximum=0.99, name=None, latex_label=None, unit=None, boundary=None), z_prior=Uniform(minimum=-1, maximum=1, name=None, latex_label=None, unit=None, boundary=None), name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None, minimum=-0.99, maximum=0.99)
+13:57 bilby INFO    : luminosity_distance=PowerLaw(alpha=2, minimum=50, maximum=2000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)
+13:57 bilby INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+13:57 bilby INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+13:57 bilby INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+13:57 bilby INFO    : psi=Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\psi$', unit=None, boundary='periodic')
+13:57 bilby INFO    : phase=Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\phi$', unit=None, boundary='periodic')
+13:57 bilby INFO    : alpha=Uniform(minimum=0, maximum=20.0, name='alpha', latex_label='alpha', unit=None, boundary=None)
+13:57 bilby INFO    : geocent_time=Uniform(minimum=1266618172.3000002, maximum=1266618172.5, name='geocent_time', latex_label='$t_c$', unit='$s$', boundary=None)
+13:57 bilby INFO    : mass_1=Constraint(minimum=10, maximum=80, name='mass_1', latex_label='$m_1$', unit=None)
+13:57 bilby INFO    : mass_2=Constraint(minimum=10, maximum=80, name='mass_2', latex_label='$m_2$', unit=None)
+13:57 bilby INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+13:57 bilby INFO    : Analysis likelihood noise evidence: -4228.942593424659
+13:57 bilby INFO    : Single likelihood evaluation took nan s
+13:57 bilby WARNING : Kwargs contain both 'rstate' and 'seed', ignoring 'seed'.
+13:57 bilby INFO    : Using sampler Dynesty with kwargs {'nlive': 2000, 'bound': 'live', 'sample': 'acceptance-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': Generator(PCG64) at 0x14D903DF34A0, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.1, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x14d90643e3d0>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False, 'seed': 23848}
+13:57 bilby INFO    : Checkpoint every check_point_delta_t = 1800s
+13:57 bilby INFO    : Using dynesty version 2.1.4
+13:57 bilby INFO    : Using the bilby-implemented acceptance-walk sampling with an average of 60 accepted steps per MCMC and maximum length 5000
+13:57 bilby INFO    : Reading resume file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par0_resume.pickle
+13:57 bilby INFO    : Resume file successfully loaded.
+13:57 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par0_resume.pickle
+13:58 bilby INFO    : Rejection sampling nested samples to obtain 10708 posterior samples
+13:58 bilby INFO    : Sampling time: 1 day, 14:34:16.931124
+13:58 bilby INFO    : Summary of results:
+nsamples: 10708
+ln_noise_evidence: -4228.943
+ln_evidence: -4067.861 +/-  0.121
+ln_bayes_factor: 161.081 +/-  0.121
+
+13:58 bilby_pipe INFO    : Run completed
+Running: /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/bilby_pipe_analysis outdir_GW200224/GW200224_config_complete.ini --outdir outdir_GW200224 --detectors H1 --detectors L1 --label GW200224_data0_1266618172-4_analysis_H1L1_par1 --data-dump-file outdir_GW200224/data/GW200224_data0_1266618172-4_generation_data_dump.pickle --sampler dynesty
+13:58 bilby_pipe INFO    : Running bilby_pipe version: 1.4.2
+13:58 bilby_pipe INFO    : Running bilby version: 2.3.0
+13:58 bilby_pipe INFO    : Command line arguments: Namespace(ini='outdir_GW200224/GW200224_config_complete.ini', verbose=False, calibration_model=None, spline_calibration_envelope_dict=None, spline_calibration_nodes=10, spline_calibration_amplitude_uncertainty_dict=None, spline_calibration_phase_uncertainty_dict=None, calibration_prior_boundary='reflective', idx=0, data_dump_file='outdir_GW200224/data/GW200224_data0_1266618172-4_generation_data_dump.pickle', ignore_gwpy_data_quality_check=True, gps_tuple=None, gps_file=None, timeslide_file=None, timeslide_dict=None, trigger_time='1266618172.4', n_simulation=0, data_dict=None, data_format=None, allow_tape=True, channel_dict='{H1:GWOSC, L1:GWOSC}', frame_type_dict=None, data_find_url='https://datafind.igwn.org', data_find_urltype='osdf', gaussian_noise=False, zero_noise=False, coherence_test=False, detectors=['H1', 'L1'], duration=4.0, generation_seed=None, psd_dict=None, psd_fractional_overlap=0.5, post_trigger_duration=2.0, sampling_frequency=1024.0, psd_length=32, psd_maximum_duration=1024, psd_method='median', psd_start_time=None, maximum_frequency='1024.', minimum_frequency='20.', tukey_roll_off=0.4, resampling_method='lal', injection=False, injection_dict=None, injection_file=None, injection_numbers=[None], injection_waveform_approximant=None, injection_frequency_domain_source_model=None, injection_waveform_arguments=None, accounting='ligo.dev.o3.cbc.pe.lalinference', accounting_user=None, label='GW200224_data0_1266618172-4_analysis_H1L1_par1', local=False, local_generation=False, generation_pool='local-pool', local_plot=False, outdir='outdir_GW200224', overwrite_outdir=False, periodic_restart_time=259200, request_disk=5.0, request_memory=8.0, request_memory_generation=None, request_cpus=1, conda_env=None, scheduler='condor', scheduler_args=None, scheduler_module=[None], scheduler_env=None, scheduler_analysis_time='7-00:00:00', submit=False, condor_job_priority=0, transfer_files=True, additional_transfer_paths=[None], environment_variables=None, getenv=[None], disable_hdf5_locking=False, log_directory=None, osg=False, desired_sites=None, analysis_executable=None, analysis_executable_parser=None, scitoken_issuer=None, calibration_marginalization=False, distance_marginalization=False, distance_marginalization_lookup_table=None, phase_marginalization=False, time_marginalization=False, jitter_time=True, reference_frame='sky', time_reference='geocent', likelihood_type='GravitationalWaveTransient', calibration_lookup_table=None, number_of_response_curves=1000, roq_folder=None, roq_linear_matrix=None, roq_quadratic_matrix=None, roq_weights=None, roq_weight_format='hdf5', roq_scale_factor=1.0, fiducial_parameters=None, update_fiducial_parameters=False, epsilon=0.025, extra_likelihood_kwargs=None, plot_trace=False, plot_data=False, plot_injection=False, plot_spectrogram=False, plot_calibration=False, plot_corner=False, plot_marginal=False, plot_skymap=False, plot_waveform=False, plot_format='png', create_summary=False, email=None, notification='Never', queue=None, existing_dir=None, webdir=None, summarypages_arguments=None, result_format='hdf5', final_result=True, final_result_nsamples=20000, default_prior='BBHPriorDict', deltaT=0.2, prior_file=None, prior_dict='{mass-1: Constraint(name=\'mass_1\', minimum=10, maximum=80), mass_2 = Constraint(name=\'mass_2\', minimum=10, maximum=80), mass_ratio =  Uniform(name=\'mass_ratio\', minimum=0.125, maximum=1, latex_label="$q$"), chirp_mass =  Uniform(name=\'chirp_mass\', minimum=25, maximum=35, latex_label="$M_{c}$"), chi_1 = bilby.gw.prior.AlignedSpin(name=\'chi_1\', a_prior=Uniform(minimum=0, maximum=0.99)), chi_2 = bilby.gw.prior.AlignedSpin(name=\'chi_2\', a_prior=Uniform(minimum=0, maximum=0.99)), luminosity_distance = PowerLaw(alpha=2, name=\'luminosity_distance\', minimum=50, maximum=2000, unit=\'Mpc\', latex_label=\'$d_L$\'), dec = Cosine(name=\'dec\'), ra = Uniform(name=\'ra\', minimum=0, maximum=2 * np.pi, boundary=\'periodic\'), theta_jn = Sine(name=\'theta_jn\'), psi =  Uniform(name=\'psi\', minimum=0, maximum=np.pi, boundary=\'periodic\'), phase =  Uniform(name=\'phase\', minimum=0, maximum=2 * np.pi, boundary=\'periodic\'), alpha = Uniform(name=\'alpha\', minimum=0, maximum=20.0), }', enforce_signal_duration=True, postprocessing_executable=None, postprocessing_arguments=None, single_postprocessing_executable=None, single_postprocessing_arguments=None, sampler='dynesty', sampling_seed=None, n_parallel=2, sampler_kwargs="{'nlive': 2000, 'naccept': 60, 'check_point_plot': True, 'check_point_delta_t': 1800, 'print_method': 'interval-60', 'sample': 'acceptance-walk', 'nact': 10}", reweighting_configuration=None, reweight_nested_samples=True, waveform_generator='bilby.gw.waveform_generator.WaveformGenerator', reference_frequency=20.0, waveform_approximant='IMRPhenomXAS', catch_waveform_errors=True, pn_spin_order=-1, pn_tidal_order=-1, pn_phase_order=-1, pn_amplitude_order=0, numerical_relativity_file=None, waveform_arguments_dict=None, mode_array=[None], frequency_domain_source_model='bilby_tgr.edgb.source.edgb_waveform_generator', conversion_function=None, generation_function=None)
+13:58 bilby_pipe INFO    : Unknown command line arguments: []
+13:58 bilby_pipe INFO    : Sampling seed set to 34961
+13:58 bilby_pipe INFO    : Found data for detectors = ['H1', 'L1']
+13:58 bilby_pipe INFO    : Using data for detectors = ['H1', 'L1']
+13:58 bilby_pipe INFO    : H1: sampling-frequency=1024.0, segment-start-time=1266618170.3999023, duration=4.0
+13:58 bilby_pipe INFO    : L1: sampling-frequency=1024.0, segment-start-time=1266618170.3999023, duration=4.0
+13:58 bilby_pipe INFO    : No conversion function
+13:58 bilby INFO    : Waveform generator initiated with
+  frequency_domain_source_model: bilby_tgr.edgb.source.edgb_waveform_generator
+  time_domain_source_model: None
+  parameter_conversion: bilby.gw.conversion.convert_to_lal_binary_black_hole_parameters
+13:58 bilby_pipe INFO    : No conversion function
+13:58 bilby INFO    : Running for label 'GW200224_data0_1266618172-4_analysis_H1L1_par1', output will be saved to 'outdir_GW200224/result'
+13:58 bilby INFO    : Using lal version 7.6.0
+13:58 bilby INFO    : Using lal git version Branch: None;Tag: lalsuite-v7.24;Id: 66b61e11399a21c5dd2ec3af5f8bb4f4698d367a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+13:58 bilby INFO    : Using lalsimulation version 6.0.0
+13:58 bilby INFO    : Using lalsimulation git version Branch: None;Tag: lalsuite-v7.24;Id: 66b61e11399a21c5dd2ec3af5f8bb4f4698d367a;;Builder: Unknown User <>;Repository status: CLEAN: All modifications committed
+/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/lib/python3.9/site-packages/bilby/core/utils/log.py:73: UserWarning: The '__version__' attribute is deprecated and will be removed in MarkupSafe 3.1. Use feature detection, or `importlib.metadata.version("markupsafe")`, instead.
+  vdict[key] = str(getattr(sys.modules[key], "__version__", "N/A"))
+13:58 bilby INFO    : Analysis priors:
+13:58 bilby INFO    : mass_ratio=Uniform(minimum=0.125, maximum=1, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)
+13:58 bilby INFO    : chirp_mass=Uniform(minimum=25, maximum=35, name='chirp_mass', latex_label='$M_{c}$', unit=None, boundary=None)
+13:58 bilby INFO    : chi_1=bilby.gw.prior.AlignedSpin(a_prior=Uniform(minimum=0, maximum=0.99, name=None, latex_label=None, unit=None, boundary=None), z_prior=Uniform(minimum=-1, maximum=1, name=None, latex_label=None, unit=None, boundary=None), name='chi_1', latex_label='$\\chi_1$', unit=None, boundary=None, minimum=-0.99, maximum=0.99)
+13:58 bilby INFO    : chi_2=bilby.gw.prior.AlignedSpin(a_prior=Uniform(minimum=0, maximum=0.99, name=None, latex_label=None, unit=None, boundary=None), z_prior=Uniform(minimum=-1, maximum=1, name=None, latex_label=None, unit=None, boundary=None), name='chi_2', latex_label='$\\chi_2$', unit=None, boundary=None, minimum=-0.99, maximum=0.99)
+13:58 bilby INFO    : luminosity_distance=PowerLaw(alpha=2, minimum=50, maximum=2000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)
+13:58 bilby INFO    : dec=Cosine(minimum=-1.5707963267948966, maximum=1.5707963267948966, name='dec', latex_label='$\\mathrm{DEC}$', unit=None, boundary=None)
+13:58 bilby INFO    : ra=Uniform(minimum=0, maximum=6.283185307179586, name='ra', latex_label='$\\mathrm{RA}$', unit=None, boundary='periodic')
+13:58 bilby INFO    : theta_jn=Sine(minimum=0, maximum=3.141592653589793, name='theta_jn', latex_label='$\\theta_{JN}$', unit=None, boundary=None)
+13:58 bilby INFO    : psi=Uniform(minimum=0, maximum=3.141592653589793, name='psi', latex_label='$\\psi$', unit=None, boundary='periodic')
+13:58 bilby INFO    : phase=Uniform(minimum=0, maximum=6.283185307179586, name='phase', latex_label='$\\phi$', unit=None, boundary='periodic')
+13:58 bilby INFO    : alpha=Uniform(minimum=0, maximum=20.0, name='alpha', latex_label='alpha', unit=None, boundary=None)
+13:58 bilby INFO    : geocent_time=Uniform(minimum=1266618172.3000002, maximum=1266618172.5, name='geocent_time', latex_label='$t_c$', unit='$s$', boundary=None)
+13:58 bilby INFO    : mass_1=Constraint(minimum=10, maximum=80, name='mass_1', latex_label='$m_1$', unit=None)
+13:58 bilby INFO    : mass_2=Constraint(minimum=10, maximum=80, name='mass_2', latex_label='$m_2$', unit=None)
+13:58 bilby INFO    : Analysis likelihood class: <class 'bilby.gw.likelihood.base.GravitationalWaveTransient'>
+13:58 bilby INFO    : Analysis likelihood noise evidence: -4228.942593424659
+13:58 bilby INFO    : Single likelihood evaluation took nan s
+13:58 bilby WARNING : Kwargs contain both 'rstate' and 'seed', ignoring 'seed'.
+13:58 bilby INFO    : Using sampler Dynesty with kwargs {'nlive': 2000, 'bound': 'live', 'sample': 'acceptance-walk', 'periodic': None, 'reflective': None, 'update_interval': 600, 'first_update': None, 'npdim': None, 'rstate': Generator(PCG64) at 0x14987122B4A0, 'queue_size': 1, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'gradient': None, 'grad_args': None, 'grad_kwargs': None, 'compute_jac': False, 'enlarge': None, 'bootstrap': None, 'walks': 100, 'facc': 0.2, 'slices': None, 'fmove': 0.9, 'max_move': 100, 'update_func': None, 'ncdim': None, 'blob': False, 'save_history': False, 'history_filename': None, 'maxiter': None, 'maxcall': None, 'dlogz': 0.1, 'logl_max': inf, 'n_effective': None, 'add_live': True, 'print_progress': True, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x149873875730>>, 'save_bounds': False, 'checkpoint_file': None, 'checkpoint_every': 60, 'resume': False, 'seed': 34961}
+13:58 bilby INFO    : Checkpoint every check_point_delta_t = 1800s
+13:58 bilby INFO    : Using dynesty version 2.1.4
+13:58 bilby INFO    : Using the bilby-implemented acceptance-walk sampling with an average of 60 accepted steps per MCMC and maximum length 5000
+13:58 bilby INFO    : Reading resume file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+13:58 bilby INFO    : Resume file successfully loaded.
+54093it [1 day, 9:24:01 bound:46398 nc:1994 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.389>0.1]
+54111it [1 day, 9:25:01 bound:46417 nc:4193 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.386>0.1]
+14:01 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+54124it [1 day, 9:26:30 bound:46431 nc:2726 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.384>0.1]
+54142it [1 day, 9:27:30 bound:46449 nc:2248 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.381>0.1]
+54161it [1 day, 9:28:34 bound:46468 nc:2300 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.378>0.1]
+54181it [1 day, 9:29:37 bound:46488 nc:1881 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.375>0.1]
+54202it [1 day, 9:30:38 bound:46509 nc:1419 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.372>0.1]
+54223it [1 day, 9:31:41 bound:46529 nc:1993 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.368>0.1]
+54241it [1 day, 9:32:42 bound:46547 nc:1513 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.365>0.1]
+54260it [1 day, 9:33:43 bound:46566 nc:1961 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.362>0.1]
+54279it [1 day, 9:34:43 bound:46585 nc:1210 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.360>0.1]
+54295it [1 day, 9:35:46 bound:46602 nc:2754 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.357>0.1]
+54314it [1 day, 9:36:46 bound:46621 nc:1937 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.391>0.1]
+54333it [1 day, 9:37:48 bound:46640 nc:1623 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.387>0.1]
+54352it [1 day, 9:38:48 bound:46660 nc:1823 ncall:5.8e+07 eff:0.1% logz-ratio=160.78+/-0.10 dlogz:0.384>0.1]
+54372it [1 day, 9:39:56 bound:46682 nc:4237 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.381>0.1]
+54392it [1 day, 9:40:59 bound:46702 nc:2518 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.378>0.1]
+54411it [1 day, 9:41:59 bound:46722 nc:3670 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.375>0.1]
+54429it [1 day, 9:42:59 bound:46740 nc:  1 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.285>0.1]
+54448it [1 day, 9:44:01 bound:46759 nc:2355 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.369>0.1]
+54467it [1 day, 9:45:02 bound:46779 nc:2083 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.366>0.1]
+54488it [1 day, 9:46:04 bound:46800 nc:2035 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.363>0.1]
+54507it [1 day, 9:47:04 bound:46819 nc:2097 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.360>0.1]
+54527it [1 day, 9:48:08 bound:46839 nc:2394 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.357>0.1]
+54547it [1 day, 9:49:10 bound:46859 nc:1537 ncall:5.8e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.353>0.1]
+54565it [1 day, 9:50:12 bound:46877 nc:2416 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.351>0.1]
+54585it [1 day, 9:51:15 bound:46899 nc:3470 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.348>0.1]
+54604it [1 day, 9:52:15 bound:46919 nc:1422 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.345>0.1]
+54625it [1 day, 9:53:17 bound:46940 nc:1430 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.342>0.1]
+54646it [1 day, 9:54:20 bound:46961 nc:2037 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.339>0.1]
+54667it [1 day, 9:55:21 bound:46982 nc:1224 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.335>0.1]
+54686it [1 day, 9:56:22 bound:47001 nc:1121 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.333>0.1]
+14:32 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+54693it [1 day, 9:57:26 bound:47008 nc:1705 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.332>0.1]
+54712it [1 day, 9:58:26 bound:47027 nc:2265 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.329>0.1]
+54733it [1 day, 9:59:27 bound:47048 nc:1686 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.326>0.1]
+54751it [1 day, 10:00:28 bound:47066 nc:2493 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.323>0.1]
+54771it [1 day, 10:01:28 bound:47086 nc:1430 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.321>0.1]
+54793it [1 day, 10:02:28 bound:47108 nc:1813 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.318>0.1]
+54812it [1 day, 10:03:31 bound:47128 nc:2022 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.315>0.1]
+54831it [1 day, 10:04:31 bound:47147 nc:1440 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.312>0.1]
+54851it [1 day, 10:05:32 bound:47167 nc:1360 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.310>0.1]
+54872it [1 day, 10:06:35 bound:47188 nc:2427 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.307>0.1]
+54891it [1 day, 10:07:36 bound:47207 nc:2143 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.304>0.1]
+54913it [1 day, 10:08:38 bound:47229 nc:1898 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.301>0.1]
+54931it [1 day, 10:09:40 bound:47247 nc:2311 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.299>0.1]
+54952it [1 day, 10:10:42 bound:47268 nc:1878 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.296>0.1]
+54972it [1 day, 10:11:43 bound:47288 nc:1293 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.293>0.1]
+54991it [1 day, 10:12:43 bound:47307 nc:1892 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.291>0.1]
+55010it [1 day, 10:13:47 bound:47327 nc:2121 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.288>0.1]
+55030it [1 day, 10:14:52 bound:47347 nc:3059 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.286>0.1]
+55051it [1 day, 10:15:55 bound:47368 nc:1978 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.283>0.1]
+55069it [1 day, 10:16:56 bound:47386 nc:1244 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.281>0.1]
+55091it [1 day, 10:17:58 bound:47409 nc:1856 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.278>0.1]
+55110it [1 day, 10:18:59 bound:47430 nc:1617 ncall:5.9e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.276>0.1]
+55130it [1 day, 10:20:02 bound:47450 nc:1791 ncall:6.0e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.273>0.1]
+55149it [1 day, 10:21:04 bound:47470 nc:1770 ncall:6.0e+07 eff:0.1% logz-ratio=160.79+/-0.10 dlogz:0.271>0.1]
+55168it [1 day, 10:22:05 bound:47489 nc:1242 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.269>0.1]
+55189it [1 day, 10:23:06 bound:47510 nc:1620 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.266>0.1]
+55208it [1 day, 10:24:06 bound:47529 nc:1453 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.264>0.1]
+55229it [1 day, 10:25:07 bound:47550 nc:2083 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.262>0.1]
+55249it [1 day, 10:26:09 bound:47570 nc:1469 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.259>0.1]
+55268it [1 day, 10:27:09 bound:47589 nc:3065 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.257>0.1]
+15:03 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+55275it [1 day, 10:28:11 bound:47596 nc:1842 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.256>0.1]
+55296it [1 day, 10:29:14 bound:47617 nc:2086 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.254>0.1]
+55314it [1 day, 10:30:15 bound:47635 nc:2021 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.252>0.1]
+55332it [1 day, 10:31:16 bound:47653 nc:2917 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.250>0.1]
+55350it [1 day, 10:32:17 bound:47673 nc:1423 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.248>0.1]
+55369it [1 day, 10:33:19 bound:47692 nc:1888 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.246>0.1]
+55383it [1 day, 10:34:20 bound:47706 nc:1534 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.244>0.1]
+55399it [1 day, 10:35:23 bound:47723 nc:2347 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.242>0.1]
+55414it [1 day, 10:36:24 bound:47739 nc:2801 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.241>0.1]
+55430it [1 day, 10:37:25 bound:47755 nc:1337 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.239>0.1]
+55444it [1 day, 10:38:28 bound:47769 nc:1710 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.237>0.1]
+55459it [1 day, 10:39:31 bound:47784 nc:2260 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.236>0.1]
+55475it [1 day, 10:40:32 bound:47800 nc:1222 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.234>0.1]
+55490it [1 day, 10:41:33 bound:47815 nc:1358 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.232>0.1]
+55505it [1 day, 10:42:35 bound:47830 nc:1971 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.231>0.1]
+55522it [1 day, 10:43:37 bound:47847 nc:1631 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.229>0.1]
+55536it [1 day, 10:44:39 bound:47862 nc:2120 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.228>0.1]
+55550it [1 day, 10:45:43 bound:47877 nc:3064 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.226>0.1]
+55565it [1 day, 10:46:43 bound:47892 nc:2140 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.225>0.1]
+55580it [1 day, 10:47:46 bound:47907 nc:2589 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.223>0.1]
+55595it [1 day, 10:48:50 bound:47923 nc:2065 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.222>0.1]
+55611it [1 day, 10:49:54 bound:47939 nc:2402 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.220>0.1]
+55628it [1 day, 10:50:58 bound:47956 nc:1941 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.218>0.1]
+55644it [1 day, 10:51:59 bound:47972 nc:1768 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.217>0.1]
+55659it [1 day, 10:53:00 bound:47987 nc:1971 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.215>0.1]
+55677it [1 day, 10:54:03 bound:48005 nc:1688 ncall:6.0e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.213>0.1]
+55692it [1 day, 10:55:04 bound:48020 nc:2617 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.212>0.1]
+55707it [1 day, 10:56:07 bound:48035 nc:1441 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.211>0.1]
+55722it [1 day, 10:57:09 bound:48050 nc:2088 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.209>0.1]
+55738it [1 day, 10:58:12 bound:48066 nc:1552 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.208>0.1]
+15:34 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+55748it [1 day, 10:59:36 bound:48076 nc:1379 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.207>0.1]
+55767it [1 day, 11:00:38 bound:48095 nc:1739 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.205>0.1]
+55784it [1 day, 11:01:39 bound:48113 nc:1377 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.203>0.1]
+55801it [1 day, 11:02:40 bound:48130 nc:2204 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.202>0.1]
+55816it [1 day, 11:03:43 bound:48146 nc:1821 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.200>0.1]
+55835it [1 day, 11:04:44 bound:48165 nc:1262 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.198>0.1]
+55854it [1 day, 11:05:47 bound:48184 nc:1807 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.197>0.1]
+55872it [1 day, 11:06:47 bound:48202 nc:2496 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.195>0.1]
+55890it [1 day, 11:07:48 bound:48220 nc:1937 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.193>0.1]
+55907it [1 day, 11:08:52 bound:48237 nc:2164 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.192>0.1]
+55925it [1 day, 11:09:53 bound:48255 nc:1862 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.190>0.1]
+55942it [1 day, 11:10:53 bound:48272 nc:1915 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.189>0.1]
+55960it [1 day, 11:11:53 bound:48290 nc:1584 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.187>0.1]
+55979it [1 day, 11:12:56 bound:48309 nc:2095 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.186>0.1]
+55998it [1 day, 11:13:58 bound:48328 nc:1840 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.184>0.1]
+56018it [1 day, 11:14:59 bound:48348 nc:1147 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.182>0.1]
+56036it [1 day, 11:16:00 bound:48367 nc:1692 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.181>0.1]
+56056it [1 day, 11:17:03 bound:48387 nc:1966 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.179>0.1]
+56076it [1 day, 11:18:03 bound:48407 nc:2272 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.177>0.1]
+56093it [1 day, 11:19:07 bound:48425 nc:2715 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.176>0.1]
+56110it [1 day, 11:20:08 bound:48442 nc:3187 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.175>0.1]
+56128it [1 day, 11:21:12 bound:48461 nc:1989 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.173>0.1]
+56147it [1 day, 11:22:15 bound:48480 nc:2677 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.172>0.1]
+56167it [1 day, 11:23:18 bound:48500 nc:1750 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.170>0.1]
+56185it [1 day, 11:24:19 bound:48518 nc:1272 ncall:6.1e+07 eff:0.1% logz-ratio=160.80+/-0.10 dlogz:0.169>0.1]
+56201it [1 day, 11:25:19 bound:48535 nc:1715 ncall:6.1e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.167>0.1]
+56218it [1 day, 11:26:20 bound:48552 nc:1906 ncall:6.1e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.166>0.1]
+56237it [1 day, 11:27:23 bound:48571 nc:2076 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.165>0.1]
+56252it [1 day, 11:28:24 bound:48588 nc:2003 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.163>0.1]
+56271it [1 day, 11:29:27 bound:48607 nc:2576 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.162>0.1]
+56289it [1 day, 11:30:29 bound:48625 nc:2811 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.161>0.1]
+56306it [1 day, 11:31:33 bound:48642 nc:2535 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.159>0.1]
+16:07 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+56312it [1 day, 11:32:35 bound:48648 nc:1659 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.159>0.1]
+56332it [1 day, 11:33:38 bound:48668 nc:2057 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.157>0.1]
+56351it [1 day, 11:34:39 bound:48687 nc:2164 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.156>0.1]
+56369it [1 day, 11:35:40 bound:48705 nc:2813 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.155>0.1]
+56387it [1 day, 11:36:41 bound:48723 nc:1821 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.153>0.1]
+56407it [1 day, 11:37:41 bound:48743 nc:1691 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.152>0.1]
+56425it [1 day, 11:38:45 bound:48762 nc:2292 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.151>0.1]
+56444it [1 day, 11:39:47 bound:48781 nc:1193 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.149>0.1]
+56465it [1 day, 11:40:51 bound:48802 nc:2273 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.148>0.1]
+56485it [1 day, 11:41:53 bound:48822 nc:1378 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.147>0.1]
+56503it [1 day, 11:42:54 bound:48839 nc:1764 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.145>0.1]
+56521it [1 day, 11:43:56 bound:48857 nc:1774 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.144>0.1]
+56541it [1 day, 11:44:58 bound:48877 nc:1561 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.143>0.1]
+56560it [1 day, 11:46:00 bound:48896 nc:1743 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.141>0.1]
+56579it [1 day, 11:47:02 bound:48915 nc:1162 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.140>0.1]
+56598it [1 day, 11:48:05 bound:48934 nc:1966 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.139>0.1]
+56619it [1 day, 11:49:07 bound:48955 nc:2758 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.138>0.1]
+56637it [1 day, 11:50:07 bound:48973 nc:1584 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.136>0.1]
+56656it [1 day, 11:51:08 bound:48992 nc:1265 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.135>0.1]
+56674it [1 day, 11:52:09 bound:49011 nc:1460 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.134>0.1]
+56695it [1 day, 11:53:10 bound:49032 nc:1601 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.133>0.1]
+56716it [1 day, 11:54:13 bound:49053 nc:1918 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.131>0.1]
+56733it [1 day, 11:55:15 bound:49070 nc:1831 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.130>0.1]
+56748it [1 day, 11:56:15 bound:49085 nc:2272 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.129>0.1]
+56765it [1 day, 11:57:18 bound:49102 nc:1381 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.128>0.1]
+56781it [1 day, 11:58:19 bound:49118 nc:2040 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.127>0.1]
+56796it [1 day, 11:59:20 bound:49134 nc:1280 ncall:6.2e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.126>0.1]
+56810it [1 day, 12:00:21 bound:49148 nc:2062 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.126>0.1]
+56827it [1 day, 12:01:27 bound:49165 nc:2885 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.125>0.1]
+56844it [1 day, 12:02:30 bound:49182 nc:1960 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.124>0.1]
+16:38 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+56853it [1 day, 12:03:53 bound:49191 nc:1685 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.123>0.1]
+56868it [1 day, 12:04:57 bound:49206 nc:1997 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.122>0.1]
+56883it [1 day, 12:05:58 bound:49222 nc:1500 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.121>0.1]
+56897it [1 day, 12:06:59 bound:49236 nc:2322 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.120>0.1]
+56913it [1 day, 12:08:02 bound:49252 nc:1516 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.120>0.1]
+56929it [1 day, 12:09:03 bound:49269 nc:1538 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.119>0.1]
+56943it [1 day, 12:10:06 bound:49283 nc:1670 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.118>0.1]
+56958it [1 day, 12:11:09 bound:49298 nc:1941 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.117>0.1]
+56973it [1 day, 12:12:09 bound:49313 nc:1611 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.116>0.1]
+56988it [1 day, 12:13:13 bound:49329 nc:1521 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.115>0.1]
+57003it [1 day, 12:14:15 bound:49344 nc:2003 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.115>0.1]
+57019it [1 day, 12:15:19 bound:49360 nc:1924 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.114>0.1]
+57032it [1 day, 12:16:20 bound:49373 nc:2261 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.113>0.1]
+57048it [1 day, 12:17:23 bound:49389 nc:2798 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.112>0.1]
+57065it [1 day, 12:18:26 bound:49406 nc:1762 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.111>0.1]
+57082it [1 day, 12:19:29 bound:49423 nc:1468 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.110>0.1]
+57099it [1 day, 12:20:30 bound:49440 nc:1870 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.109>0.1]
+57115it [1 day, 12:21:33 bound:49456 nc:2277 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.109>0.1]
+57130it [1 day, 12:22:37 bound:49471 nc:1747 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.108>0.1]
+57145it [1 day, 12:23:38 bound:49486 nc:2272 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.107>0.1]
+57161it [1 day, 12:24:41 bound:49502 nc:1959 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.106>0.1]
+57176it [1 day, 12:25:43 bound:49517 nc:2210 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.105>0.1]
+57190it [1 day, 12:26:47 bound:49532 nc:1918 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.105>0.1]
+57206it [1 day, 12:27:49 bound:49548 nc:1926 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.104>0.1]
+57221it [1 day, 12:28:51 bound:49563 nc:1262 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.103>0.1]
+57237it [1 day, 12:29:56 bound:49579 nc:2152 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.102>0.1]
+57251it [1 day, 12:30:57 bound:49593 nc:2001 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.102>0.1]
+57267it [1 day, 12:32:00 bound:49609 nc:2679 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.101>0.1]
+57282it [1 day, 12:33:01 bound:49624 nc:1758 ncall:6.3e+07 eff:0.1% logz-ratio=160.81+/-0.10 dlogz:0.100>0.1]
+17:09 bilby INFO    : Written checkpoint file outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_resume.pickle
+17:09 bilby INFO    : Rejection sampling nested samples to obtain 10505 posterior samples
+17:09 bilby INFO    : Sampling time: 1 day, 12:34:06.503609
+17:09 bilby INFO    : Summary of results:
+nsamples: 10505
+ln_noise_evidence: -4228.943
+ln_evidence: -4068.110 +/-  0.125
+ln_bayes_factor: 160.833 +/-  0.125
+
+17:09 bilby_pipe INFO    : Run completed
+Running: /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/bilby_result --result outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par0_result.hdf5 outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_par1_result.hdf5 --outdir outdir_GW200224/result --label GW200224_data0_1266618172-4_analysis_H1L1_merge --extension hdf5 --merge
+17:09 bilby INFO    : Combined results have 18923 samples
+Running: /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/bilby_result --result outdir_GW200224/result/GW200224_data0_1266618172-4_analysis_H1L1_merge_result.hdf5 --outdir outdir_GW200224/final_result --extension hdf5 --max-samples 20000 --lightweight --save

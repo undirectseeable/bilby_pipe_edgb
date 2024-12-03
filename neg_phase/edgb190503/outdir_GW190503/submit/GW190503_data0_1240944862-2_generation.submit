@@ -1,0 +1,23 @@
+universe = vanilla
+executable = /scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/envs/bin/bilby_pipe_generation
+request_memory = 8GB
+request_disk = 5GB
+request_cpus = 1
+initialdir = /sfs/weka/scratch/nj2nu/non_GR/BBH_dataset/gw150914_xas/github_repo/bilby_pipe_edgb/neg_phase/edgb190503
+notification = Never
+requirements = 
+should_transfer_files = YES
+transfer_input_files = outdir_GW190503/GW190503_config_complete.ini
+transfer_output_files = outdir_GW190503
+when_to_transfer_output = ON_EXIT_OR_EVICT
+preserve_relative_paths = True
+stream_error = True
+stream_output = True
+log = outdir_GW190503/log_data_generation/GW190503_data0_1240944862-2_generation.log
+output = outdir_GW190503/log_data_generation/GW190503_data0_1240944862-2_generation.out
+error = outdir_GW190503/log_data_generation/GW190503_data0_1240944862-2_generation.err
+accounting_group = ligo.dev.o3.cbc.pe.lalinference
+priority = 0
+environment = "HDF5_USE_FILE_LOCKING=FAlSE OMP_NUM_THREADS=1 OMP_PROC_BIND=false GWDATAFIND_SERVER=https://datafind.igwn.org"
+arguments = $(ARGS)
+queue
